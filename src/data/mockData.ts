@@ -1,0 +1,232 @@
+import type { Tip, Prediction, TrendingTopic, CategoryInfo } from '../types'
+
+export const CATEGORIES: CategoryInfo[] = [
+  {
+    id: 'weather',
+    label: 'Weather',
+    labelTl: 'Panahon',
+    emoji: '🌧️',
+    color: '#1d6fa4',
+    bgColor: '#eff6ff',
+    borderColor: '#bfdbfe',
+  },
+  {
+    id: 'fuel',
+    label: 'Fuel',
+    labelTl: 'Gasolina',
+    emoji: '⛽',
+    color: '#b45309',
+    bgColor: '#fffbeb',
+    borderColor: '#fde68a',
+  },
+  {
+    id: 'food',
+    label: 'Food',
+    labelTl: 'Pagkain',
+    emoji: '🥘',
+    color: '#2d6a4f',
+    bgColor: '#f0fdf4',
+    borderColor: '#bbf7d0',
+  },
+  {
+    id: 'transport',
+    label: 'Transport',
+    labelTl: 'Sasakyan',
+    emoji: '🚌',
+    color: '#6d28d9',
+    bgColor: '#f5f3ff',
+    borderColor: '#ddd6fe',
+  },
+  {
+    id: 'electricity',
+    label: 'Electricity',
+    labelTl: 'Kuryente',
+    emoji: '💡',
+    color: '#d97706',
+    bgColor: '#fefce8',
+    borderColor: '#fef08a',
+  },
+  {
+    id: 'payday',
+    label: 'Payday',
+    labelTl: 'Sahod',
+    emoji: '💰',
+    color: '#0369a1',
+    bgColor: '#f0f9ff',
+    borderColor: '#bae6fd',
+  },
+  {
+    id: 'emergency',
+    label: 'Emergency',
+    labelTl: 'Emergency',
+    emoji: '🆘',
+    color: '#e85d4a',
+    bgColor: '#fff1f0',
+    borderColor: '#fecaca',
+  },
+  {
+    id: 'general',
+    label: 'General',
+    labelTl: 'Pangkalahatan',
+    emoji: '💡',
+    color: '#6b5e52',
+    bgColor: '#faf6f0',
+    borderColor: '#e8ddd0',
+  },
+]
+
+export const MOCK_TIPS: Tip[] = [
+  {
+    id: '1',
+    title: 'Magbaon na! Malakas ang ulan bukas',
+    body: 'Base sa weather forecast, malakas ang ulan bukas lalo na sa Metro Manila at Calabarzon. Mas mahal ang pamasahe pag ulan — Grab at tricycle lumalaki ang bayad. I-prepare na ang baon mo ngayon para makatipid ng ₱80–₱150 bukas.',
+    category: 'weather',
+    tags: ['ulan', 'pamasahe', 'baon', 'metro manila'],
+    sourceTrigger: 'rain_probability > 70%',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+    isFeatured: true,
+  },
+  {
+    id: '2',
+    title: 'Mag-refuel na bago pa tumaas',
+    body: 'May 3 na fuel-related na balita ngayong linggo. Posibleng may price adjustment sa susunod na Martes. Kung mababa na ang gasolina ng sasakyan mo, mag-refuel na ngayon para makatipid ng ₱2–₱5 bawat litro.',
+    category: 'fuel',
+    tags: ['gasolina', 'diesel', 'price adjustment', 'tipid'],
+    sourceTrigger: 'fuel_news_count >= 3',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+    isFeatured: true,
+  },
+  {
+    id: '3',
+    title: 'I-set ang aircon sa 25°C — init na init ngayon',
+    body: 'Heat index ngayon ay umabot sa 38°C sa maraming lugar sa Pilipinas. Ang aircon sa 18–20°C ay kumukuha ng 40% mas maraming kuryente kaysa sa 25°C. I-set sa 25°C at gamitin ang electric fan para makatipid ng hanggang ₱500 sa monthly bill mo.',
+    category: 'electricity',
+    tags: ['aircon', 'init', 'heat index', 'kuryente', 'bill'],
+    sourceTrigger: 'temperature > 35',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+  },
+  {
+    id: '4',
+    title: 'Payday tip: 50-30-20 rule ngayon na!',
+    body: 'Sweldo na! Bago ka gumastos, i-separate agad: 50% para sa necessities (pagkain, bayarin), 30% para sa wants (lakad, shopping), at 20% para sa savings o utang. Kahit maliit ang sahod, malaki ang epekto ng disiplinang ito sa loob ng 6 na buwan.',
+    category: 'payday',
+    tags: ['payday', 'budget', 'savings', '50-30-20'],
+    sourceTrigger: 'date_is_payday',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+    isFeatured: true,
+  },
+  {
+    id: '5',
+    title: 'Weekend grocery hack: pumunta ng umaga',
+    body: 'Sa supermarket at palengke, mas mababang presyo ang pagkain tuwing umaga (bago mag-10am) lalo na tuwing Sabado. Mas sariwang gulay at karne, at minsan may mga markdown items pa. Makatitipid ka ng 15–25% sa grocery bill mo.',
+    category: 'food',
+    tags: ['grocery', 'palengke', 'weekend', 'pagkain'],
+    sourceTrigger: 'day_is_weekend',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+  },
+  {
+    id: '6',
+    title: 'Iwasan ang ibang bangko ATM — ₱50 bawat withdrawal',
+    body: 'Ang mag-withdraw sa ibang bangko ay nagcocosting ng ₱15–₱50 bawat transaksyon. Sa isang buwan, kung 8 beses kang mag-withdraw sa maling ATM, mawawalan ka ng ₱400. Hanapin muna ang ATM ng sarili mong bangko o gamitin ang GCash/Maya para sa transfers.',
+    category: 'general',
+    tags: ['ATM', 'bangko', 'fees', 'GCash', 'Maya'],
+    sourceTrigger: 'general_tip',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+  },
+  {
+    id: '7',
+    title: 'MRT/LRT muna, Grab nalang sa huling parte',
+    body: 'Ang full Grab ride sa Makati papuntang Quezon City ay ₱180–₱300. Pero kung MRT ka muna hanggang Cubao (₱28) tapos Grab nalang yung huling 2km (₱60–₱80), makatitipid ka ng ₱100+ bawat biyahe. Times 2 para roundtrip = ₱200 matitipid sa isang araw.',
+    category: 'transport',
+    tags: ['MRT', 'LRT', 'Grab', 'commute', 'byahe'],
+    sourceTrigger: 'general_tip',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+  },
+  {
+    id: '8',
+    title: 'Bumili ng 3-day supply bago mag-bagyo',
+    body: 'May bagyo na paparating sa susunod na 48 oras base sa PAGASA bulletin. Kapag nag-signal na, tumaas ang presyo ng pagkain at tubig sa mga tindahan. Bumili na ngayon ng instant noodles, de lata, tubig, at kandila para sa 3 araw. Budget: ₱300–₱500.',
+    category: 'emergency',
+    tags: ['bagyo', 'typhoon', 'emergency', 'supply', 'PAGASA'],
+    sourceTrigger: 'typhoon_signal >= 1',
+    createdAt: new Date().toISOString(),
+    publishedAt: new Date().toISOString(),
+    isPublished: true,
+  },
+]
+
+export const MOCK_PREDICTIONS: Prediction[] = [
+  {
+    id: 'p1',
+    type: 'fuel',
+    summary: 'Posibleng tumaas ang presyo ng gasolina',
+    detail: 'Base sa 4 na fuel-related na balita ngayong linggo at pagtaas ng crude oil globally, posibleng may price increase ng ₱2–₱5 per liter sa susunod na Martes.',
+    confidenceLevel: 'high',
+    validUntil: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString(),
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: 'p2',
+    type: 'weather',
+    summary: 'Malakas na ulan sa susunod na 2 araw',
+    detail: 'Ang LPA sa Visayas ay nagdudulot ng malakas na ulan sa buong Luzon. Mas mahal ang pamasahe at mas mabagal ang trapik. I-prepare ang umbrella at baon.',
+    confidenceLevel: 'high',
+    validUntil: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString(),
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: 'p3',
+    type: 'electricity',
+    summary: 'Mas mataas na electric bill ngayong buwan',
+    detail: 'Ang average temperature nitong buwan ay 34–38°C. Mas mataas na paggamit ng aircon = mas mataas na Meralco bill. Simulan na ang energy-saving habits ngayon.',
+    confidenceLevel: 'medium',
+    validUntil: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(),
+    createdAt: new Date().toISOString(),
+  },
+]
+
+export const MOCK_TRENDING: TrendingTopic[] = [
+  { id: 't1', keyword: 'presyo ng gasolina', trendScore: 98, region: 'PH', fetchedAt: new Date().toISOString() },
+  { id: 't2', keyword: 'Meralco bill', trendScore: 91, region: 'PH', fetchedAt: new Date().toISOString() },
+  { id: 't3', keyword: 'bagyo update', trendScore: 87, region: 'PH', fetchedAt: new Date().toISOString() },
+  { id: 't4', keyword: 'LPG price increase', trendScore: 82, region: 'PH', fetchedAt: new Date().toISOString() },
+  { id: 't5', keyword: 'grocery mura', trendScore: 76, region: 'PH', fetchedAt: new Date().toISOString() },
+  { id: 't6', keyword: 'pamasahe jeep', trendScore: 71, region: 'PH', fetchedAt: new Date().toISOString() },
+  { id: 't7', keyword: 'inflation Philippines', trendScore: 68, region: 'PH', fetchedAt: new Date().toISOString() },
+  { id: 't8', keyword: 'rice price 2025', trendScore: 64, region: 'PH', fetchedAt: new Date().toISOString() },
+]
+
+export function getCategoryInfo(id: string): CategoryInfo {
+  return CATEGORIES.find(c => c.id === id) ?? CATEGORIES[CATEGORIES.length - 1]
+}
+
+export function formatDate(iso: string): string {
+  return new Intl.DateTimeFormat('fil-PH', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  }).format(new Date(iso))
+}
+
+export function formatTimeAgo(iso: string): string {
+  const diff = Date.now() - new Date(iso).getTime()
+  const hours = Math.floor(diff / 3600000)
+  if (hours < 1) return 'Kakapost lang'
+  if (hours < 24) return `${hours} oras na ang nakalipas`
+  const days = Math.floor(hours / 24)
+  return `${days} araw na ang nakalipas`
+}
