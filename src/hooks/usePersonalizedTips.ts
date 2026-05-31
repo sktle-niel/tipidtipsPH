@@ -7,11 +7,24 @@ import type { CostLevel, Tip } from '../types'
 interface CacheEntry { generatedAt: string; tips: Tip[] }
 const locationCache = (rawLocationCache as { generatedDate: string; regions: Record<string, CacheEntry> })
 
+function dailySeed(): number {
+  const d = new Date()
+  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate()
+}
+
+function rotateTips(tips: Tip[]): Tip[] {
+  if (tips.length === 0) return tips
+  const seed   = dailySeed()
+  const offset = seed % tips.length
+  return [...tips.slice(offset), ...tips.slice(0, offset)]
+}
+
 function getLocationTips(regionId: string | null | undefined): Tip[] {
   if (!regionId) return []
   const prefix = regionId.substring(0, 2)
   const entry  = locationCache.regions[prefix] ?? locationCache.regions['00']
-  return entry?.tips ?? []
+  const tips   = (entry?.tips ?? []) as Tip[]
+  return rotateTips(tips)
 }
 
 export function usePersonalizedTips() {

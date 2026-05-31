@@ -1,0 +1,42 @@
+name: Daily Tips Refresh
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # 6:00 AM PHT (UTC+8) = 10:00 PM UTC
+  workflow_dispatch:        # pwede ring i-trigger manually sa GitHub
+
+jobs:
+  refresh-tips:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate location tips
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: npm run generate-tips
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/data/locationTipsCache.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated tips
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "Tipid Tips Bot"
+          git config user.email "bot@tipidtips.ph"
+          git add src/data/locationTipsCache.json
+          git commit -m "chore: refresh daily location tips [skip ci]"
+          git push

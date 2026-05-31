@@ -9,7 +9,6 @@
  * Cache TTL: 24 oras — regenerates daily
  */
 
-import { GoogleGenerativeAI } from '@google/generative-ai'
 import { readFileSync, writeFileSync } from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
@@ -21,15 +20,18 @@ dotenv.config({ path: '.env.local', override: true })
 const __dirname  = dirname(fileURLToPath(import.meta.url))
 const CACHE_PATH = resolve(__dirname, '../src/data/locationTipsCache.json')
 
+const GROQ_KEY     = process.env.GROQ_API_KEY
 const GEMINI_KEY   = process.env.GEMINI_API_KEY
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000
 
-if (!GEMINI_KEY) {
-  console.log('\n⚠️  Walang GEMINI_API_KEY — nilaktawan ang location tip generation.\n')
+const AI_MODE = GROQ_KEY ? 'groq' : GEMINI_KEY ? 'gemini' : null
+
+if (!AI_MODE) {
+  console.log('\n⚠️  Walang GROQ_API_KEY o GEMINI_API_KEY — nilaktawan ang tip generation.\n')
   process.exit(0)
 }
 
-const genAI = new GoogleGenerativeAI(GEMINI_KEY)
+console.log(`   AI: ${AI_MODE === 'groq' ? '⚡ Groq (Llama 3.3 — libre)' : '✨ Gemini'}`)
 
 // ── Region definitions ─────────────────────────────────────────────────────
 
@@ -111,14 +113,40 @@ function getTodayContext(): string {
   return `Ngayon ay ${day}, ${date} ng ${mon} 2025. ${extras.join('. ')}`
 }
 
-// ── Gemini call ────────────────────────────────────────────────────────────
+// ── AI call (Groq or Gemini) ───────────────────────────────────────────────
+
+async function callAI(prompt: string): Promise<string> {
+  if (AI_MODE === 'groq') {
+    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${GROQ_KEY}`,
+      },
+      body: JSON.stringify({
+        model: 'llama-3.3-70b-versatile',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 2048,
+        temperature: 0.7,
+      }),
+    })
+    if (!res.ok) throw new Error(`Groq ${res.status}: ${await res.text()}`)
+    const data = await res.json() as { choices: Array<{ message: { content: string } }> }
+    return data.choices?.[0]?.message?.content ?? ''
+  }
+
+  // Gemini fallback
+  const { GoogleGenerativeAI } = await import('@google/generative-ai')
+  const genAI = new GoogleGenerativeAI(GEMINI_KEY!)
+  const model  = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' })
+  const result = await model.generateContent(prompt)
+  return result.response.text()
+}
 
 async function generateTipsForRegion(
   prefix: string,
   region: typeof REGIONS[string],
 ): Promise<object[]> {
-  const models = ['gemini-2.0-flash', 'gemini-1.5-flash-latest'] as const
-
   const prompt = `Ikaw ay isang Filipino personal finance advisor na nagbibigay ng praktikal na payo.
 
 Gumawa ng 5 money-saving tips para sa isang taong nakatira sa ${region.name}, Pilipinas.
@@ -144,39 +172,30 @@ Rules:
 - May presyo o numero kung posible (e.g., "₱50", "30%", "₱15 lang")
 - Actionable — may konkretong hakbang`
 
-  for (const modelName of models) {
-    try {
-      const model  = genAI.getGenerativeModel({ model: modelName })
-      const result = await model.generateContent(prompt)
-      const text   = result.response.text().trim()
+  try {
+    const text = await callAI(prompt)
+    const jsonMatch = text.match(/\[[\s\S]*\]/)
+    if (!jsonMatch) { console.warn('  ⚠️  Walang JSON sa response'); return [] }
 
-      const jsonMatch = text.match(/\[[\s\S]*\]/)
-      if (!jsonMatch) {
-        console.warn(`  ⚠️  ${modelName}: walang JSON sa response`)
-        continue
-      }
-
-      const raw = JSON.parse(jsonMatch[0]) as Array<Record<string, unknown>>
-      return raw.map((tip, i) => ({
-        id:               `loc-${prefix}-${i + 1}`,
-        title:            tip.title ?? '',
-        body:             tip.body ?? '',
-        category:         tip.category ?? 'general',
-        tags:             tip.tags ?? [],
-        sourceTrigger:    'ai-location',
-        targetCostLevels: region.costLevel === 'high' ? ['high'] : region.costLevel === 'low' ? ['low', 'medium'] : ['medium', 'high', 'low'],
-        createdAt:        new Date().toISOString(),
-        publishedAt:      new Date().toISOString(),
-        isPublished:      true,
-        isFeatured:       i === 0,
-      }))
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : String(err)
-      console.warn(`  ⚠️  ${modelName}: ${msg.slice(0, 80)}`)
-    }
+    const raw = JSON.parse(jsonMatch[0]) as Array<Record<string, unknown>>
+    return raw.map((tip, i) => ({
+      id:               `loc-${prefix}-${i + 1}`,
+      title:            tip.title ?? '',
+      body:             tip.body ?? '',
+      category:         tip.category ?? 'general',
+      tags:             tip.tags ?? [],
+      sourceTrigger:    'ai-location',
+      targetCostLevels: region.costLevel === 'high' ? ['high'] : region.costLevel === 'low' ? ['low', 'medium'] : ['medium', 'high', 'low'],
+      createdAt:        new Date().toISOString(),
+      publishedAt:      new Date().toISOString(),
+      isPublished:      true,
+      isFeatured:       i === 0,
+    }))
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : String(err)
+    console.warn(`  ⚠️  ${msg.slice(0, 100)}`)
+    return []
   }
-
-  return []
 }
 
 // ── Main ───────────────────────────────────────────────────────────────────
