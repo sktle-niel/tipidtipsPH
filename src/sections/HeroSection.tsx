@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Sparkles, CloudRain, TrendingUp, Zap } from 'lucide-react'
-import { MOCK_TIPS } from '../data/mockData'
+import { ArrowRight, Sparkles, CloudRain, TrendingUp, Zap, MapPin } from 'lucide-react'
 import CategoryBadge from '../components/CategoryBadge'
+import { usePersonalizedTips } from '../hooks/usePersonalizedTips'
+import { MOCK_TIPS } from '../data/mockData'
 
 export default function HeroSection() {
-  const featuredTip = MOCK_TIPS.find(t => t.isFeatured) ?? MOCK_TIPS[0]
+  const { featuredTip, hasLocation, locationLabel, personalizedTips } = usePersonalizedTips()
+  const previewTips = (hasLocation ? personalizedTips : MOCK_TIPS).slice(1, 3)
 
   return (
     <section className="relative overflow-hidden bg-[#faf6f0] pt-16 pb-20 md:pt-24 md:pb-28">
@@ -29,10 +31,21 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-12 lg:gap-16">
           <div className="flex-1 max-w-xl">
             <div className="inline-flex items-center gap-2 bg-[#f5a623]/10 border border-[#f5a623]/30 rounded-full px-3.5 py-1.5 mb-6 animate-float-up">
-              <Sparkles size={13} className="text-[#f5a623]" />
-              <span className="text-[#b45309] text-xs font-semibold tracking-wide">
-                Tips na fresh — updated daily
-              </span>
+              {hasLocation && locationLabel ? (
+                <>
+                  <MapPin size={13} className="text-[#f5a623]" />
+                  <span className="text-[#b45309] text-xs font-semibold tracking-wide">
+                    Tips para sa {locationLabel}
+                  </span>
+                </>
+              ) : (
+                <>
+                  <Sparkles size={13} className="text-[#f5a623]" />
+                  <span className="text-[#b45309] text-xs font-semibold tracking-wide">
+                    Tips na fresh — updated daily
+                  </span>
+                </>
+              )}
             </div>
 
             <h1
@@ -114,7 +127,7 @@ export default function HeroSection() {
               </Link>
 
               <div className="mt-3 grid grid-cols-2 gap-2">
-                {MOCK_TIPS.slice(1, 3).map(tip => (
+                {previewTips.map(tip => (
                   <Link
                     key={tip.id}
                     to={`/tips/${tip.id}`}

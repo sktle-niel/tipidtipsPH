@@ -32,7 +32,8 @@ export function isAlreadySubscribed(email: string): boolean {
 }
 
 function emailToDocId(email: string): string {
-  return email.replace(/[@.#$/[\]]/g, '_')
+  // Replace ALL non-alphanumeric characters with underscore
+  return email.replace(/[^a-zA-Z0-9]/g, '_')
 }
 
 export function emailToToken(email: string): string {
@@ -78,7 +79,7 @@ export async function unsubscribeEmail(token: string): Promise<'success' | 'inva
 
   try {
     const docId = emailToDocId(email)
-    // setDoc with merge:true works even if the document doesn't exist yet
+    console.log('[unsubscribe] docId:', docId, 'email:', email)
     await setDoc(doc(db, 'subscribers', docId), {
       email,
       unsubscribed: true,
@@ -86,7 +87,8 @@ export async function unsubscribeEmail(token: string): Promise<'success' | 'inva
     }, { merge: true })
     removeLocalSubscribed(email)
     return 'success'
-  } catch {
+  } catch (err) {
+    console.error('[unsubscribe] Firestore error:', err)
     return 'error'
   }
 }

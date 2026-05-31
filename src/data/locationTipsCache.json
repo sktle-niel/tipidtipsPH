@@ -1,0 +1,700 @@
+{
+  "generatedDate": "2026-05-31",
+  "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
+  "regions": {
+    "11": {
+      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "tips": [
+        {
+          "id": "loc-11-1",
+          "title": "Roxas Night Market: Isda at seafood ng ₱50–₱150 lang",
+          "body": "Ang Roxas Night Market sa Davao City ay isa sa pinakasikat at pinakasulit na food destination sa Mindanao. Ang tuna panga, sugpo, at pusit ay ₱50–₱150 lang at kasama pa ang libre na kanin sa ilang stalls. Pumunta ng 7–10 PM para sa pinaka-maraming pagpipilian. Mas masarap at mas mura ito kaysa anumang restaurant sa lungsod.",
+          "category": "food",
+          "tags": [
+            "Roxas Night Market",
+            "Davao",
+            "seafood",
+            "mura",
+            "gabi"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-11-2",
+          "title": "Dragon fruit sa Davao: Direkta sa farm, mas mura ng 50%",
+          "body": "Ang Davao ay kilala bilang dragon fruit capital ng Pilipinas. Sa mga talipapa at farm stalls sa labas ng lungsod, ang dragon fruit ay ₱30–₱50 lang kumpara sa ₱80–₱100 sa supermarket. Ang Magsaysay Park area ay puno ng fruit vendors na may mababang presyo. Bilhin ang season (Abril–Agosto) para sa pinaka-mura at pinakamasarap.",
+          "category": "food",
+          "tags": [
+            "dragon fruit",
+            "Davao",
+            "prutas",
+            "farm",
+            "mura"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-11-3",
+          "title": "Habal-habal vs Grab sa Davao: Malaking pagkakaiba",
+          "body": "Sa maraming lugar sa Davao lalo na sa labas ng sentro, ang habal-habal ay ₱15–₱30 lang bawat sakay kumpara sa ₱80–₱150 na Grab. Para sa maikli hanggang katamtamang distansya, mas matipid ang habal-habal. Ang Grab ay mas komportable at mas ligtas para sa gabi o mahabang byahe. Gumamit ng tamang sasakyan para sa tamang okasyon.",
+          "category": "transport",
+          "tags": [
+            "habal-habal",
+            "Grab",
+            "Davao",
+            "commute",
+            "tipid"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-11-4",
+          "title": "Davao City: Mas mura ang buhay kaysa Cebu at Manila",
+          "body": "Ang cost of living sa Davao ay 20–30% mas mababa kaysa Metro Manila at 10–15% mas mababa kaysa Cebu. Ang renta ng apartment sa Davao ay ₱4,000–₱8,000 kumpara sa ₱10,000–₱25,000 sa Manila. Ang mga bilihin sa palengke at tindahan ay mas mura rin. Kung may pagpipilian, ang Davao ay isa sa pinaka-abot-kayang lungsod sa Pilipinas para manirahan.",
+          "category": "general",
+          "tags": [
+            "Davao",
+            "cost of living",
+            "renta",
+            "mura",
+            "pamumuhay"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-11-5",
+          "title": "DLPC rate sa Davao: Paano mabawasan ang bill",
+          "body": "Ang Davao Light and Power Company (DLPC) ay may katamtamang rate na ₱8–₱10 per kWh. Ang paggamit ng aircon sa gabi (pagkatapos ng 10 PM) ay mas matipid dahil mas malamig na ang hangin — babawas ng runtime ng aircon. I-unplug ang mga gadget na hindi ginagamit — ang standby mode ay kumokonsumo pa rin ng kuryente. Makakamit mo ng 15–20% na savings bawat buwan.",
+          "category": "electricity",
+          "tags": [
+            "DLPC",
+            "Davao",
+            "kuryente",
+            "bill",
+            "aircon"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "13": {
+      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "tips": [
+        {
+          "id": "loc-13-1",
+          "title": "MRT + Grab combo — makatipid ng ₱80/araw",
+          "body": "Sa Metro Manila, ang pinaka-matipid na commute ay MRT/LRT muna hanggang pinaka-malapit na istasyon, Grab nalang para sa huling parte. Halimbawa: MRT Cubao hanggang Makati ay ₱28 lang, kaysa ₱150+ Grab buong layo. Sa isang buwan, makatitipid ka ng ₱1,500–₱2,000. I-load ang Beep card sa 7-Eleven para hindi ka mahuli sa pila.",
+          "category": "transport",
+          "tags": [
+            "MRT",
+            "Grab",
+            "commute",
+            "Metro Manila",
+            "transpo"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-13-2",
+          "title": "Divisoria at Quiapo: Pumunta ng umaga para sa murang pagkain",
+          "body": "Ang mga palengke sa Divisoria, Quiapo, at Blumentritt ay may mas mababang presyo kaysa mga supermarket sa Metro Manila — minsan 30–40% mas mura. Pumunta ng Martes o Miyerkules ng 6–9 AM para sa pinaka-sariwang prutas at gulay. Ang isang kilong kamatis sa palengke ay ₱30–₱40, sa supermarket ay ₱70–₱90. Mag-dala ng eco bag at exact change.",
+          "category": "food",
+          "tags": [
+            "palengke",
+            "Divisoria",
+            "Quiapo",
+            "mura",
+            "pagkain"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-13-3",
+          "title": "Meralco bill: I-set ang aircon sa 26°C, hindi 18°C",
+          "body": "Ang Metro Manila ay may pinakamataas na kuryente rate sa Pilipinas — ₱10–₱12 per kWh sa Meralco. Ang pagbabago ng aircon mula 18°C patungong 26°C ay makakatipid ng 30–40% sa electricity. Gamitin ang electric fan kasabay ng aircon para mas mabilis lumamig ang kwarto. Sa isang buwan, makatitipid ka ng ₱500–₱1,000 sa bill.",
+          "category": "electricity",
+          "tags": [
+            "Meralco",
+            "aircon",
+            "kuryente",
+            "bill",
+            "NCR"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-13-4",
+          "title": "Huwag mag-ATM sa ibang bangko — ₱18–₱50 per transaction",
+          "body": "Sa Metro Manila, laging may ATM ng lahat ng bangko kaya wala nang dahilan para mag-withdraw sa ibang bangko. Ang BDO sa BDO ATM ay libre; BDO sa Metrobank ATM ay ₱18–₱50 bayad. Mag-plan ng pag-withdraw — kumuha ng sapat para sa buwan, huwag araw-araw. Sa 10 transactions/buwan sa ibang bangko, ₱180–₱500 ang nasasayang fees.",
+          "category": "general",
+          "tags": [
+            "ATM",
+            "bayad",
+            "bangko",
+            "fees",
+            "withdrawal"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-13-5",
+          "title": "Turo-turo malapit sa opisina — ₱60–₱80 vs ₱200 sa mall",
+          "body": "Ang tanghalian sa mall food court sa Metro Manila ay ₱180–₱250 bawat pagkain. Ang turo-turo o carinderia malapit sa trabaho ay ₱60–₱80 lang — may ulam, kanin, at sabaw pa. Sa 20 araw ng trabaho, makatitipid ka ng ₱2,400–₱3,400 bawat buwan sa tanghalian lang. I-explore ang mga kainan sa loob ng 500 metro mula sa opisina.",
+          "category": "food",
+          "tags": [
+            "turo-turo",
+            "carinderia",
+            "tanghalian",
+            "tipid",
+            "opisina"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "07": {
+      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "tips": [
+        {
+          "id": "loc-07-1",
+          "title": "Carbon Market: Mas mura ng 40% kaysa SM Supermarket",
+          "body": "Ang Carbon Market sa Cebu City ay ang pinaka-abot-kayang lugar para sa pagkain sa buong Central Visayas. Ang isda, gulay, at prutas dito ay 30–40% mas mura kaysa SM o Ayala Supermarket. Pumunta ng 6–9 AM para sa pinaka-sariwang produkto at best deals. Para sa mga taga-Lapu-Lapu, ang Mactan Public Market ay mas malapit at katulad ang presyo.",
+          "category": "food",
+          "tags": [
+            "Carbon Market",
+            "Cebu",
+            "palengke",
+            "mura",
+            "Lapu-Lapu"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-07-2",
+          "title": "V-hire kaysa Grab — makatipid ng ₱80–₱150 bawat byahe",
+          "body": "Sa Cebu, ang V-hire (van hire) ay ang pinaka-matipid na paraan ng commute — ₱10–₱25 lang bawat sakay kumpara sa ₱100–₱200 na Grab. Ang mga ruta gaya ng Lapu-Lapu papuntang Cebu City ay may regular na V-hire sa Mandaue. Mas matagal pero malaking tipid. Para sa mga emergency o gabi, doon na gumamit ng Grab.",
+          "category": "transport",
+          "tags": [
+            "V-hire",
+            "Grab",
+            "Cebu",
+            "commute",
+            "Lapu-Lapu"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-07-3",
+          "title": "Sugbo Mercado ng Sabado — sulit na food at entertainment",
+          "body": "Ang Sugbo Mercado sa IT Park, Cebu ay bukas tuwing Sabado at Linggo. Dito makakakita ng iba't ibang pagkain mula ₱50–₱150 lang, mas mura kaysa regular na restaurant. Para sa mga pamilya, ito ay mas matipid na gabi kaysa pumunta ng mall. Ang entrance ay libre at maraming pagpipilian ng pagkain para sa bawat panlasa at budget.",
+          "category": "food",
+          "tags": [
+            "Sugbo Mercado",
+            "weekend",
+            "Cebu",
+            "pamilya",
+            "sulit"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-07-4",
+          "title": "VECO bill: Solar panel rebate program sa Cebu",
+          "body": "Ang VECO (Visayan Electric) ay may mas mababang rate kaysa Meralco sa NCR — ₱9–₱11 per kWh. Para sa mga may bahay sa Cebu, may solar panel incentive program na pwedeng mag-reduce ng bill ng 50–70%. I-check ang net metering program ng VECO. Sa maikling panahon, sulit ang investment sa solar panels lalo na sa init ng Cebu.",
+          "category": "electricity",
+          "tags": [
+            "VECO",
+            "kuryente",
+            "Cebu",
+            "solar",
+            "bill"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-07-5",
+          "title": "Fresh seafood sa Lapu-Lapu: Direkta sa mangingisda",
+          "body": "Ang mga taga-Lapu-Lapu City ay may kalamangan — malapit sa dagat at sa mga mangingisda. Sa Mactan Public Market o sa mga fish landing areas sa baybay, ang presyo ng isda ay 20–30% mas mura kaysa supermarket. Bumili ng dami para sa isang linggo at i-freeze ang hindi mauubos. Ang bangus, tilapia, at alimango ay espesyal na mura sa Lapu-Lapu.",
+          "category": "food",
+          "tags": [
+            "seafood",
+            "Lapu-Lapu",
+            "isda",
+            "mura",
+            "mangingisda"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "06": {
+      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "tips": [
+        {
+          "id": "loc-06-1",
+          "title": "Manokan Country sa Bacolod: Inasal ng ₱95 + unlimited rice",
+          "body": "Ang Manokan Country sa Bacolod ay kilala sa tunay na Chicken Inasal na ₱95 lang ang paa o pakpak — kasama ang unlimited na kanin at pula oil. Mas masarap at mas mura ito kaysa mga chain restaurant. Para sa buong pamilya ng 4, kaya ninyong kumain ng ₱500 lang. Ito ay isang halimbawa ng kung bakit mas abot-kaya ang pamumuhay sa Western Visayas.",
+          "category": "food",
+          "tags": [
+            "Manokan Country",
+            "Bacolod",
+            "inasal",
+            "sulit",
+            "pamilya"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-06-2",
+          "title": "Iloilo City Public Market: Pinakamurang seafood sa Visayas",
+          "body": "Ang Iloilo City Public Market ay may isa sa pinakamurang fresh seafood sa buong Visayas. Ang hipon, isda, at talaba ay direkta galing sa mga mangingisda sa Guimaras at Iloilo Strait. Bumili ng malaking dami at i-freeze para sa isang linggo — mas matipid kaysa araw-araw na pagbili. Ang La Paz Batchoy sa merkado ay ₱70–₱90 lang at mas authentic kaysa sa mga restaurant.",
+          "category": "food",
+          "tags": [
+            "Iloilo",
+            "palengke",
+            "seafood",
+            "mura",
+            "La Paz"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-06-3",
+          "title": "Jeepney sa Iloilo at Bacolod: ₱10–₱15 lang bawat sakay",
+          "body": "Ang jeepney sa Iloilo at Bacolod ay ₱10–₱15 lang bawat sakay kumpara sa ₱80–₱200 na Grab o taxi. Para sa regular na commute, makatitipid ka ng ₱100–₱200 bawat araw. I-memorize ang mga ruta na kailangan mo — may app na rin ngayon para sa jeepney routes sa Iloilo. Gamitin ang Grab para lang sa ulan o gabi para sa kaligtasan.",
+          "category": "transport",
+          "tags": [
+            "jeepney",
+            "Iloilo",
+            "Bacolod",
+            "commute",
+            "mura"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-06-4",
+          "title": "Western Visayas: Cost of living 25% mas mura kaysa Manila",
+          "body": "Ang pamumuhay sa Iloilo o Bacolod ay 20–25% mas mura kaysa Metro Manila. Ang renta ay ₱3,500–₱7,000 para sa isang kwarto kumpara sa ₱10,000–₱20,000 sa Manila. Ang mga bilihin sa palengke ay mas mura rin. Kung WFH worker ka o may online business, ang Iloilo ay isa sa pinakamainam na lugar na tirahan sa Pilipinas — mababa ang gastos, mataas ang kalidad ng buhay.",
+          "category": "general",
+          "tags": [
+            "Iloilo",
+            "Bacolod",
+            "cost of living",
+            "WFH",
+            "mura"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-06-5",
+          "title": "Guimaras mangga season: Bilhin ng dami, mas mura",
+          "body": "Tuwing Abril hanggang Hunyo, ang Guimaras mango season ay nagbibigay ng pinaka-mura at pinaka-matamis na mangga sa Pilipinas. Sa Iloilo port, ang Guimaras mangga ay ₱50–₱80 per kilo kumpara sa ₱120–₱180 sa supermarket. Bilhin ng 5–10 kilos at gawing jam, dried mango, o i-freeze. Malaking savings para sa buong pamilya.",
+          "category": "food",
+          "tags": [
+            "Guimaras",
+            "mangga",
+            "season",
+            "Iloilo",
+            "sulit"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "04": {
+      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "tips": [
+        {
+          "id": "loc-04-1",
+          "title": "P2P bus kaysa Grab papuntang Manila — ₱200 vs ₱600",
+          "body": "Para sa mga taga-CALABARZON (Cavite, Laguna, Batangas, Rizal) na nagtatrabaho sa Manila, ang P2P (Point-to-Point) bus ay ₱100–₱250 lang kumpara sa ₱400–₱700 na Grab o taxi. Ang mga P2P routes ay may aircon at mas komportable kaysa regular na bus. Mag-book ng ticket online para maiwasan ang pila. Sa isang buwan, makatitipid ka ng ₱5,000–₱8,000.",
+          "category": "transport",
+          "tags": [
+            "P2P",
+            "bus",
+            "CALABARZON",
+            "Manila",
+            "commute"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-04-2",
+          "title": "Mga palengke sa Batangas at Laguna: 30% mas mura kaysa Manila",
+          "body": "Ang isa sa mga kalamangan ng CALABARZON ay ang mas mababang presyo ng mga pagkain lalo na sa mga probinsyal na palengke. Sa Lipa, Batangas o Santa Rosa, Laguna, ang mga gulay, isda, at karne ay 20–30% mas mura kaysa Metro Manila. Kung mag-grocery ka sa Sabado sa probinsyal na palengke kaysa SM, malaki ang matitipid ng pamilya.",
+          "category": "food",
+          "tags": [
+            "palengke",
+            "Batangas",
+            "Laguna",
+            "mura",
+            "CALABARZON"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-04-3",
+          "title": "Buko pie at pasalubong ng Los Baños: Mas mura sa source",
+          "body": "Para sa mga taga-Laguna, ang Buko pie, espasol, at iba pang pasalubong ay mas mura kung bibilhin direkta sa mga local bakeshop kaysa sa malls o sa Manila. Ang Orient o Collete's Buko Pie sa Los Baños ay ₱180–₱250 kumpara sa ₱350+ sa mga pasalubong shops sa lungsod. Mas sariwa pa at suportahan natin ang mga lokal na negosyo.",
+          "category": "food",
+          "tags": [
+            "buko pie",
+            "Los Baños",
+            "Laguna",
+            "pasalubong",
+            "mura"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-04-4",
+          "title": "Kuryente sa CALABARZON: MERALCO parin pero may paraan",
+          "body": "Ang CALABARZON ay nasa ilalim pa rin ng Meralco kaya katulad ang rate ng Metro Manila. Ang pinakamabisang paraan para makatipid: i-shift ang mga malalaking appliance (washing machine, oven) sa off-peak hours (10 PM–6 AM). Gumamit ng inverter aircon — mas mahal ang binibili pero mas matipid ng 30–40% sa kuryente sa matagal na panahon.",
+          "category": "electricity",
+          "tags": [
+            "Meralco",
+            "CALABARZON",
+            "kuryente",
+            "inverter",
+            "savings"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-04-5",
+          "title": "Cavite at Rizal: Mas mura ang renta kaysa Maynila, WFH friendly",
+          "body": "Ang mga bayan sa Cavite (Imus, Bacoor) at Rizal (Cainta, Antipolo) ay 40–50% mas mura ang renta kaysa comparable na lugar sa Metro Manila. Ang isang 2-bedroom unit sa Imus ay ₱7,000–₱12,000 kumpara sa ₱18,000–₱30,000 sa Makati o BGC. Para sa mga WFH workers, malaking savings ang manirahan sa CALABARZON kaysa Metro Manila.",
+          "category": "general",
+          "tags": [
+            "Cavite",
+            "Rizal",
+            "renta",
+            "WFH",
+            "CALABARZON"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "00": {
+      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "tips": [
+        {
+          "id": "loc-00-1",
+          "title": "Turo-turo vs fastfood: ₱60 vs ₱200 — malaking pagkakaiba",
+          "body": "Sa kahit saang lugar sa Pilipinas, ang turo-turo o carinderia ay laging mas mura kaysa fastfood. Ang isang turo-turo meal (ulam + kanin + sabaw) ay ₱60–₱80 lang kumpara sa ₱150–₱250 sa Jollibee o McDonald's. Sa isang buwan ng tanghalian, ang turo-turo ay makakatipid ka ng ₱1,800–₱3,600. Hanapin ang pinaka-malinis at pinaka-maraming customers — sign ng masarap at ligtas.",
+          "category": "food",
+          "tags": [
+            "turo-turo",
+            "carinderia",
+            "fastfood",
+            "tipid",
+            "tanghalian"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-00-2",
+          "title": "Refilling station: ₱8–₱12 lang ang tubig, huwag bilhin ng bote",
+          "body": "Sa buong Pilipinas, ang mga water refilling stations ay nagbebenta ng purong tubig sa ₱8–₱12 per liter kumpara sa ₱25–₱50 sa mga bottled water. Bumili ng malaking container (5 gallon/19 liter) para sa ₱40–₱60 lang — ito ay katumbas ng 10–15 na bottled water. Sa isang buwan, makatitipid ang isang pamilya ng ₱500–₱1,200 sa tubig lang.",
+          "category": "general",
+          "tags": [
+            "tubig",
+            "refilling station",
+            "bottled water",
+            "tipid",
+            "pamilya"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-00-3",
+          "title": "Palengke ng Martes at Huwebes: Mas maraming benta, mas mura",
+          "body": "Sa karamihan ng palengke sa Pilipinas, ang Martes at Huwebes ay ang mga araw na may pinakamaraming vendors at pinakamurang presyo — ito ang mga araw ng delivery ng mga produkto. Huwag pumunta ng Lunes (takot sa gastos mula weekend) o Sabado (maraming tao, ibinibigay ang presyo). Pumunta ng umaga para sa pinaka-sariwang pagkain.",
+          "category": "food",
+          "tags": [
+            "palengke",
+            "araw",
+            "mura",
+            "pagkain",
+            "timing"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-00-4",
+          "title": "Lutong bahay 3x sa isang linggo: Makatipid ng ₱2,000/buwan",
+          "body": "Kahit magluto lang ng tatlong beses sa isang linggo (halimbawa Lunes, Miyerkules, Biyernes), malaki na ang matitipid. Ang isang lutong bahay na hapunan para sa pamilya ng 4 ay ₱150–₱250, kumpara sa ₱600–₱1,000 kung labas ka. Sa isang buwan, ang 12 lutong hapunan vs restaurant ay makatitipid ng ₱2,000–₱4,000. Subukan ang simple at mura: tinola, sinigang, monggo.",
+          "category": "food",
+          "tags": [
+            "lutong bahay",
+            "pamilya",
+            "tipid",
+            "ulam",
+            "gastos"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-00-5",
+          "title": "Payday budgeting: I-separate agad bago gumastos",
+          "body": "Sa araw ng sweldo (ika-15 o ika-30), i-transfer agad ang naka-set na savings bago pa man gumastos ng kahit ano. Gamitin ang formula: 50% para sa pangangailangan, 30% para sa gusto, 20% para sa savings o utang. Ang sikreto ay ang pag-alis ng savings muna — ang natitira lang ang gastusin. Kahit ₱500 lang bawat sweldo, mahalaga ang gawi ng pag-iimpok.",
+          "category": "payday",
+          "tags": [
+            "payday",
+            "savings",
+            "budget",
+            "sweldo",
+            "50-30-20"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "createdAt": "2026-05-31T00:00:00.000Z",
+          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    }
+  }
+}
