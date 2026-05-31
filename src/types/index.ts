@@ -8,6 +8,8 @@ export type TipCategory =
   | 'general'
   | 'emergency'
 
+export type CostLevel = 'high' | 'medium' | 'low'
+
 export interface Tip {
   id: string
   title: string
@@ -19,6 +21,8 @@ export interface Tip {
   publishedAt: string
   isPublished: boolean
   isFeatured?: boolean
+  targetCostLevels: CostLevel[]  // which cost levels this tip is relevant for
+  locationNote?: string           // optional note like "Para sa Metro Manila"
 }
 
 export interface Prediction {
@@ -37,6 +41,37 @@ export interface TrendingTopic {
   trendScore: number
   region: string
   fetchedAt: string
+}
+
+export type Platform = 'tiktok' | 'youtube' | 'facebook' | 'instagram'
+
+export interface VlogContent {
+  type: 'recipe' | 'food-spot'
+  summary: string
+  ingredients?: string[]
+  steps?: string[]
+  tips?: string[]
+}
+
+export interface FoodVlog {
+  id: string
+  creatorName: string
+  creatorHandle: string
+  platform: Platform
+  foodName: string
+  restaurantName: string
+  price: number
+  priceLabel: string
+  location: string
+  regionIds: string[]
+  costLevels: CostLevel[]
+  description: string
+  tags: string[]
+  thumbnailEmoji: string
+  isVerified: boolean
+  viewCount?: string
+  postedAt: string
+  content: VlogContent
 }
 
 export interface CategoryInfo {
