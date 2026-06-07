@@ -85,7 +85,6 @@ function extractVideoUrl(text: string, platform: string): string | null {
 async function findWithGemini(vlog: VlogInfo): Promise<string | null> {
   const { GoogleGenerativeAI } = await import('@google/generative-ai')
   const genAI = new GoogleGenerativeAI(GEMINI_KEY!)
-  const domain = PLATFORM_DOMAIN[vlog.platform] ?? vlog.platform
 
   const prompt = `Search and find the exact ${vlog.platform} video URL for this food content creator post:
 Creator: ${vlog.creatorName} (${vlog.creatorHandle})
