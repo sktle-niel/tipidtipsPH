@@ -1,0 +1,41 @@
+name: CI
+
+# Builds every push and PR to main/development so broken code can't merge
+# silently the way the PR #3 build break did.
+on:
+  push:
+    branches: [main, development]
+  pull_request:
+    branches: [main, development]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Blocking gates — these are what would have caught the PR #3 break.
+      # Run vite directly (not `npm run build`) to skip the AI prebuild hook,
+      # which needs API keys and shouldn't run on every CI build.
+      - name: Type check
+        run: npx tsc -b
+
+      - name: Build
+        run: npx vite build
+
+      # Non-blocking for now: the repo has pre-existing react-hooks lint debt.
+      # Surfaces issues as annotations without blocking merges.
+      - name: Lint
+        run: npm run lint
+        continue-on-error: true
