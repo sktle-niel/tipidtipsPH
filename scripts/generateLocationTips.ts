@@ -199,6 +199,61 @@ Rules:
   }
 }
 
+// ── Prediction generation ──────────────────────────────────────────────────
+
+const PRED_CACHE_PATH = resolve(__dirname, '../src/data/locationPredictionsCache.json')
+
+async function generatePredictionsForRegion(
+  prefix: string,
+  region: typeof REGIONS[string],
+): Promise<object[]> {
+  const prompt = `Ikaw ay isang Filipino economic at weather analyst.
+
+Gumawa ng 3 predictions (hula) para sa isang taong nakatira sa ${region.name}, Pilipinas.
+
+${getTodayContext()}
+Cost of living ng lugar: ${region.costLevel}
+Konteksto ng lugar: ${region.context}
+
+I-return ang PURE JSON ARRAY lamang — walang markdown, walang explanation:
+[
+  {
+    "type": "isa sa: fuel|weather|food|electricity|transport",
+    "summary": "Maikling Taglish na hula (max 60 characters)",
+    "detail": "2-3 sentences ng detalye sa Taglish. SPECIFIC sa ${region.name} — banggitin ang lokal na epekto, presyo, o lugar. May konkretong numero o timeframe.",
+    "confidenceLevel": "isa sa: low|medium|high",
+    "validDays": 2
+  }
+]
+
+Rules:
+- 3 predictions total, iba-ibang type
+- Specific sa ${region.name} — ang weather, presyo, o sitwasyon sa lugar na ito
+- Actionable — may konkretong payo kung paano maghanda
+- Natural na Taglish`
+
+  try {
+    const text = await callAI(prompt)
+    const jsonMatch = text.match(/\[[\s\S]*\]/)
+    if (!jsonMatch) { console.warn('  ⚠️  Walang JSON sa prediction response'); return [] }
+
+    const raw = JSON.parse(jsonMatch[0]) as Array<Record<string, unknown>>
+    return raw.map((p, i) => ({
+      id:              `pred-${prefix}-${i + 1}`,
+      type:            p.type ?? 'general',
+      summary:         p.summary ?? '',
+      detail:          p.detail ?? '',
+      confidenceLevel: p.confidenceLevel ?? 'medium',
+      validUntil:      new Date(Date.now() + Number(p.validDays ?? 2) * 24 * 60 * 60 * 1000).toISOString(),
+      createdAt:       new Date().toISOString(),
+    }))
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : String(err)
+    console.warn(`  ⚠️  Prediction error: ${msg.slice(0, 80)}`)
+    return []
+  }
+}
+
 // ── Main ───────────────────────────────────────────────────────────────────
 
 async function main() {
