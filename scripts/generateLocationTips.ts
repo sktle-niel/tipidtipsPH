@@ -100,6 +100,7 @@ function getTodayContext(): string {
   const day  = now.toLocaleDateString('en-PH', { weekday: 'long' })
   const date = now.getDate()
   const mon  = now.toLocaleDateString('en-PH', { month: 'long' })
+  const year = now.getFullYear()
   const dow  = now.getDay()
 
   const extras: string[] = []
@@ -110,7 +111,7 @@ function getTodayContext(): string {
     extras.push('Weekend ngayon — isama ang isang weekend grocery o leisure savings tip')
   }
 
-  return `Ngayon ay ${day}, ${date} ng ${mon} 2025. ${extras.join('. ')}`
+  return `Ngayon ay ${day}, ${date} ng ${mon} ${year}. ${extras.join('. ')}`
 }
 
 // ── AI call (Groq or Gemini) ───────────────────────────────────────────────

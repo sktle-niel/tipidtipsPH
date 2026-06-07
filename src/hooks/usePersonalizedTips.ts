@@ -30,7 +30,7 @@ function getLocationTips(regionId: string | null | undefined): Tip[] {
 export function usePersonalizedTips() {
   const { profile } = useUserProfile()
 
-  const costLevel: CostLevel  = (profile?.costLevel as CostLevel) ?? null
+  const costLevel: CostLevel | null = (profile?.costLevel as CostLevel) ?? null
   // hasLocation is true as long as a regionId is saved — even if setup isn't "completed"
   const hasLocation            = !!(profile?.regionId)
   const locationLabel          = profile?.cityName || profile?.regionName || null

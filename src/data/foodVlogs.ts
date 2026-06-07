@@ -1,6 +1,7 @@
 import type { FoodVlog } from '../types'
+import vlogLinks from './vlogLinksCache.json'
 
-export const FOOD_VLOGS: FoodVlog[] = [
+const RAW_FOOD_VLOGS: FoodVlog[] = [
 
   // ── METRO MANILA (NCR) ─────────────────────────────────────────
   {
@@ -788,6 +789,14 @@ export const FOOD_VLOGS: FoodVlog[] = [
     },
   },
 ]
+
+// Merge in real source-post URLs discovered by `npm run enrich-vlogs`
+// (keyed by vlog id in vlogLinksCache.json). Empty cache = no-op.
+const VLOG_LINKS = vlogLinks as Record<string, string>
+export const FOOD_VLOGS: FoodVlog[] = RAW_FOOD_VLOGS.map(v => {
+  const url = VLOG_LINKS[v.id]
+  return url ? { ...v, videoUrl: url } : v
+})
 
 const PLATFORM_CONFIG = {
   tiktok:    { label: 'TikTok',    color: '#fff', bg: '#010101', icon: '🎵' },

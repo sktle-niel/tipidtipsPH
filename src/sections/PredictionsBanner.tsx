@@ -1,27 +1,10 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Brain, MapPin } from 'lucide-react'
-import { MOCK_PREDICTIONS } from '../data/mockData'
 import PredictionCard from '../components/PredictionCard'
-import { useUserProfile } from '../context/UserProfileContext'
-import rawPredCache from '../data/locationPredictionsCache.json'
-import type { Prediction } from '../types'
-
-interface PredCacheEntry { generatedAt: string; predictions: Prediction[] }
-const predCache = (rawPredCache as { generatedDate: string; regions: Record<string, PredCacheEntry> })
-
-function getLocationPredictions(regionId: string | null | undefined): Prediction[] {
-  if (!regionId) return MOCK_PREDICTIONS
-  const prefix = regionId.substring(0, 2)
-  const entry  = predCache.regions[prefix] ?? predCache.regions['00']
-  return (entry?.predictions ?? []).length > 0
-    ? (entry.predictions as Prediction[])
-    : MOCK_PREDICTIONS
-}
+import { usePredictions } from '../hooks/usePredictions'
 
 export default function PredictionsBanner() {
-  const { profile } = useUserProfile()
-  const locationLabel = profile?.cityName || profile?.regionName
-  const predictions   = getLocationPredictions(profile?.regionId)
+  const { predictions, locationLabel } = usePredictions()
 
   return (
     <section className="py-16 md:py-20">

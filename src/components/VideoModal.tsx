@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { X, MapPin, Eye, CheckCircle, ChefHat, ShoppingBasket, Lightbulb } from 'lucide-react'
+import { X, MapPin, Eye, CheckCircle, ChefHat, ShoppingBasket, Lightbulb, ExternalLink } from 'lucide-react'
 import type { FoodVlog } from '../types'
 import { getPlatformConfig } from '../data/foodVlogs'
 
@@ -80,6 +80,20 @@ export default function VideoModal({ vlog, onClose }: Props) {
 
           {/* Body */}
           <div className="p-5 space-y-5">
+
+            {/* Watch CTA — only when a real source link was found by enrich-vlogs */}
+            {vlog.videoUrl && (
+              <a
+                href={vlog.videoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 w-full rounded-xl py-3 font-bold text-sm transition-opacity hover:opacity-90"
+                style={{ background: platform.bg, color: platform.color }}
+              >
+                <ExternalLink size={14} />
+                Panoorin sa {platform.label}
+              </a>
+            )}
 
             {/* Summary */}
             <p className="text-[#a89880] text-sm leading-relaxed">{content.summary}</p>

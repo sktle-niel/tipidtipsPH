@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, Share2, Bookmark, BookmarkCheck } from 'lucide-react'
-import { getCategoryInfo, formatDate } from '../data/mockData'
+import { getCategoryInfo, formatDate, MOCK_TIPS } from '../data/mockData'
 import CategoryBadge from '../components/CategoryBadge'
 import TipCard from '../components/TipCard'
 import ShareModal from '../components/ShareModal'
@@ -30,8 +30,13 @@ export default function TipDetailPage() {
     )
   }
 
-  const related = MOCK_TIPS.filter(t => t.id !== id && t.category === tip.category).slice(0, 3)
   const tipId = tip.id
+  // Related tips come from the same pool the tip itself can live in: AI-cached
+  // location tips first, then the curated mock tips — deduped by id.
+  const related = [...ALL_CACHED_TIPS, ...MOCK_TIPS]
+    .filter(t => t.id !== tipId && t.category === tip.category)
+    .filter((t, i, arr) => arr.findIndex(x => x.id === t.id) === i)
+    .slice(0, 3)
   const saved = isSaved(tipId)
   const pageUrl = window.location.href
 

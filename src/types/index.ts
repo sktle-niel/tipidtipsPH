@@ -72,6 +72,7 @@ export interface FoodVlog {
   viewCount?: string
   postedAt: string
   content: VlogContent
+  videoUrl?: string  // direct link to the source post — filled by enrichVlogLinks.ts
 }
 
 export interface CategoryInfo {
