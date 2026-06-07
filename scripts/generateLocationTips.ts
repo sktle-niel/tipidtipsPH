@@ -198,45 +198,113 @@ Rules:
   }
 }
 
+// ── Prediction generation ──────────────────────────────────────────────────
+
+const PRED_CACHE_PATH = resolve(__dirname, '../src/data/locationPredictionsCache.json')
+
+async function generatePredictionsForRegion(
+  prefix: string,
+  region: typeof REGIONS[string],
+): Promise<object[]> {
+  const prompt = `Ikaw ay isang Filipino economic at weather analyst.
+
+Gumawa ng 3 predictions (hula) para sa isang taong nakatira sa ${region.name}, Pilipinas.
+
+${getTodayContext()}
+Cost of living ng lugar: ${region.costLevel}
+Konteksto ng lugar: ${region.context}
+
+I-return ang PURE JSON ARRAY lamang — walang markdown, walang explanation:
+[
+  {
+    "type": "isa sa: fuel|weather|food|electricity|transport",
+    "summary": "Maikling Taglish na hula (max 60 characters)",
+    "detail": "2-3 sentences ng detalye sa Taglish. SPECIFIC sa ${region.name} — banggitin ang lokal na epekto, presyo, o lugar. May konkretong numero o timeframe.",
+    "confidenceLevel": "isa sa: low|medium|high",
+    "validDays": 2
+  }
+]
+
+Rules:
+- 3 predictions total, iba-ibang type
+- Specific sa ${region.name} — ang weather, presyo, o sitwasyon sa lugar na ito
+- Actionable — may konkretong payo kung paano maghanda
+- Natural na Taglish`
+
+  try {
+    const text = await callAI(prompt)
+    const jsonMatch = text.match(/\[[\s\S]*\]/)
+    if (!jsonMatch) { console.warn('  ⚠️  Walang JSON sa prediction response'); return [] }
+
+    const raw = JSON.parse(jsonMatch[0]) as Array<Record<string, unknown>>
+    return raw.map((p, i) => ({
+      id:              `pred-${prefix}-${i + 1}`,
+      type:            p.type ?? 'general',
+      summary:         p.summary ?? '',
+      detail:          p.detail ?? '',
+      confidenceLevel: p.confidenceLevel ?? 'medium',
+      validUntil:      new Date(Date.now() + Number(p.validDays ?? 2) * 24 * 60 * 60 * 1000).toISOString(),
+      createdAt:       new Date().toISOString(),
+    }))
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : String(err)
+    console.warn(`  ⚠️  Prediction error: ${msg.slice(0, 80)}`)
+    return []
+  }
+}
+
 // ── Main ───────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log('\n🤖 Tipid Tips — Location Tips Generator')
+  console.log('\n🤖 Tipid Tips — Location Tips + Predictions Generator')
 
-  const raw   = readFileSync(CACHE_PATH, 'utf-8')
-  const cache = JSON.parse(raw) as {
-    generatedDate: string
-    regions: Record<string, { generatedAt: string; tips: object[] }>
-  }
+  const raw      = readFileSync(CACHE_PATH, 'utf-8')
+  const cache    = JSON.parse(raw) as { generatedDate: string; regions: Record<string, { generatedAt: string; tips: object[] }> }
+  const predRaw  = readFileSync(PRED_CACHE_PATH, 'utf-8')
+  const predCache = JSON.parse(predRaw) as { generatedDate: string; regions: Record<string, { generatedAt: string; predictions: object[] }> }
 
   let generated = 0
 
   for (const [prefix, region] of Object.entries(REGIONS)) {
-    if (isFresh(cache.regions[prefix])) {
+    const tipsFresh  = isFresh(cache.regions[prefix])
+    const predsFresh = isFresh(predCache.regions[prefix])
+
+    if (tipsFresh && predsFresh) {
       console.log(`✓  ${region.name} (fresh)`)
       continue
     }
 
     console.log(`\n📍 ${region.name}...`)
 
-    const tips = await generateTipsForRegion(prefix, region)
-
-    if (tips.length > 0) {
-      cache.regions[prefix] = { generatedAt: new Date().toISOString(), tips }
-      generated++
-      console.log(`  ✅ ${tips.length} tips`)
-    } else {
-      console.log(`  ⚠️  Walang na-generate`)
+    if (!tipsFresh) {
+      const tips = await generateTipsForRegion(prefix, region)
+      if (tips.length > 0) {
+        cache.regions[prefix] = { generatedAt: new Date().toISOString(), tips }
+        console.log(`  ✅ ${tips.length} tips`)
+      }
+      writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2))
+      await new Promise(r => setTimeout(r, 1500))
     }
 
-    writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2))
-    await new Promise(r => setTimeout(r, 2000))
+    if (!predsFresh) {
+      const predictions = await generatePredictionsForRegion(prefix, region)
+      if (predictions.length > 0) {
+        predCache.regions[prefix] = { generatedAt: new Date().toISOString(), predictions }
+        console.log(`  ✅ ${predictions.length} predictions`)
+        generated++
+      }
+      writeFileSync(PRED_CACHE_PATH, JSON.stringify(predCache, null, 2))
+      await new Promise(r => setTimeout(r, 1500))
+    }
   }
 
-  cache.generatedDate = new Date().toISOString().split('T')[0]
+  const today = new Date().toISOString().split('T')[0]
+  cache.generatedDate    = today
+  predCache.generatedDate = today
   writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2))
+  writeFileSync(PRED_CACHE_PATH, JSON.stringify(predCache, null, 2))
 
-  console.log(`\n✨ Done! ${generated} bagong region tips.\n`)
+  console.log(`\n✨ Done! ${generated} bagong region predictions.\n`)
 }
 
 main().catch(err => { console.error(err); process.exit(1) })

@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, Share2, Bookmark, BookmarkCheck } from 'lucide-react'
-import { MOCK_TIPS, getCategoryInfo, formatDate } from '../data/mockData'
+import { getCategoryInfo, formatDate } from '../data/mockData'
 import CategoryBadge from '../components/CategoryBadge'
 import TipCard from '../components/TipCard'
 import ShareModal from '../components/ShareModal'
 import { useSavedTips } from '../hooks/useSavedTips'
+import { findTipById, ALL_CACHED_TIPS } from '../hooks/usePersonalizedTips'
 
 export default function TipDetailPage() {
   const { id } = useParams<{ id: string }>()
@@ -13,7 +14,7 @@ export default function TipDetailPage() {
   const [justSaved, setJustSaved] = useState(false)
   const { isSaved, toggle } = useSavedTips()
 
-  const tip = MOCK_TIPS.find(t => t.id === id)
+  const tip = findTipById(id ?? '')
   const catInfo = tip ? getCategoryInfo(tip.category) : null
   if (!tip || !catInfo) {
     return (
