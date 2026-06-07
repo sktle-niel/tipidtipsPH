@@ -1,18 +1,21 @@
 import { useState, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { Search, SlidersHorizontal } from 'lucide-react'
-import { MOCK_TIPS, CATEGORIES } from '../data/mockData'
+import { Search, SlidersHorizontal, MapPin } from 'lucide-react'
+import { CATEGORIES } from '../data/mockData'
 import type { TipCategory } from '../types'
 import TipCard from '../components/TipCard'
 import CategoryBadge from '../components/CategoryBadge'
+import { usePersonalizedTips } from '../hooks/usePersonalizedTips'
 
 export default function TipsPage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const [search, setSearch] = useState('')
   const activeCategory = searchParams.get('category') as TipCategory | null
 
+  const { allTips, hasLocation, locationLabel } = usePersonalizedTips()
+
   const filtered = useMemo(() => {
-    let result = MOCK_TIPS
+    let result = allTips
     if (activeCategory) result = result.filter(t => t.category === activeCategory)
     if (search.trim()) {
       const q = search.toLowerCase()
@@ -21,7 +24,7 @@ export default function TipsPage() {
       )
     }
     return result
-  }, [activeCategory, search])
+  }, [allTips, activeCategory, search])
 
   function setCategory(id: TipCategory | null) {
     if (id) setSearchParams({ category: id })
@@ -36,11 +39,18 @@ export default function TipsPage() {
             Mga Tipid Tips
           </p>
           <h1 className="font-extrabold text-[#1a1a1a] tracking-tight mb-2" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)' }}>
-            Lahat ng Tipid Tips
+            {hasLocation && locationLabel ? `Tips para sa ${locationLabel}` : 'Lahat ng Tipid Tips'}
           </h1>
-          <p className="text-[#6b5e52] text-base">
-            {MOCK_TIPS.length} tips — para sa mga Pilipinong gusto mag-ipon.
-          </p>
+          <div className="flex items-center gap-2 text-[#6b5e52] text-base">
+            {hasLocation && locationLabel && (
+              <>
+                <MapPin size={14} className="text-[#f5a623]" />
+                <span className="text-[#f5a623] font-medium text-sm">{locationLabel}</span>
+                <span className="text-[#a89880] text-sm">·</span>
+              </>
+            )}
+            <span>{allTips.length} tips para sa mga Pilipinong gusto mag-ipon.</span>
+          </div>
         </div>
       </div>
 
