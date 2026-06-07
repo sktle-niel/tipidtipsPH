@@ -323,115 +323,110 @@
       ]
     },
     "07": {
-      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "generatedAt": "2026-06-07T23:10:22.203Z",
       "tips": [
         {
           "id": "loc-07-1",
-          "title": "Carbon Market: Mas mura ng 40% kaysa SM Supermarket",
-          "body": "Ang Carbon Market sa Cebu City ay ang pinaka-abot-kayang lugar para sa pagkain sa buong Central Visayas. Ang isda, gulay, at prutas dito ay 30–40% mas mura kaysa SM o Ayala Supermarket. Pumunta ng 6–9 AM para sa pinaka-sariwang produkto at best deals. Para sa mga taga-Lapu-Lapu, ang Mactan Public Market ay mas malapit at katulad ang presyo.",
+          "title": "Sulit na Seafood",
+          "body": "Pumunta sa Carbon Market sa Cebu City para makabili ng freskong isda sa murang presyo, mga ₱150-₱250 lang per kilo. Magluto ng sariling ulam sa bahay para mas tipid. Pwede ring mag-avail ng ₱50-₱100 na seafood dish sa mga karinderya sa Lapu-Lapu. Ito ay mas mura kaysa kumain sa mga restaurant.",
           "category": "food",
           "tags": [
+            "seafood",
             "Carbon Market",
-            "Cebu",
-            "palengke",
-            "mura",
-            "Lapu-Lapu"
+            "Cebu City"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "medium",
-            "high"
+            "high",
+            "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:22.203Z",
+          "publishedAt": "2026-06-07T23:10:22.203Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-07-2",
-          "title": "V-hire kaysa Grab — makatipid ng ₱80–₱150 bawat byahe",
-          "body": "Sa Cebu, ang V-hire (van hire) ay ang pinaka-matipid na paraan ng commute — ₱10–₱25 lang bawat sakay kumpara sa ₱100–₱200 na Grab. Ang mga ruta gaya ng Lapu-Lapu papuntang Cebu City ay may regular na V-hire sa Mandaue. Mas matagal pero malaking tipid. Para sa mga emergency o gabi, doon na gumamit ng Grab.",
+          "title": "V-Hire Savings",
+          "body": "Gumamit ng V-hire o jeepney para sa pang-araw-araw na byahe, mga ₱15-₱25 lang ang pamasahe. Ito ay mas mura kaysa mag-drive ng sariling sasakyan at magbayad ng ₱50-₱100 na gasolina. Pwede ring mag-walk o mag-bike sa mga malapit na destinasyon.",
           "category": "transport",
           "tags": [
             "V-hire",
-            "Grab",
-            "Cebu",
-            "commute",
-            "Lapu-Lapu"
+            "jeepney",
+            "pamasahe"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "medium",
+            "high",
             "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:22.203Z",
+          "publishedAt": "2026-06-07T23:10:22.203Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-07-3",
-          "title": "Sugbo Mercado ng Sabado — sulit na food at entertainment",
-          "body": "Ang Sugbo Mercado sa IT Park, Cebu ay bukas tuwing Sabado at Linggo. Dito makakakita ng iba't ibang pagkain mula ₱50–₱150 lang, mas mura kaysa regular na restaurant. Para sa mga pamilya, ito ay mas matipid na gabi kaysa pumunta ng mall. Ang entrance ay libre at maraming pagpipilian ng pagkain para sa bawat panlasa at budget.",
+          "title": "Weekend Grocery Tip",
+          "body": "Mag-grocery shopping sa mga palengke o market sa Mandaue o Cebu City tuwing weekends, mga ₱500-₱1,000 lang ang budget para sa isang linggong pagkain. Pwede ring mag-avail ng mga promo at discount sa mga grocery store. Huwag kalimutan na bumili ng mga murang gulay at prutas sa mga talipapa.",
           "category": "food",
           "tags": [
-            "Sugbo Mercado",
+            "grocery",
             "weekend",
-            "Cebu",
-            "pamilya",
-            "sulit"
+            "Mandaue"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "medium",
-            "high"
+            "high",
+            "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:22.203Z",
+          "publishedAt": "2026-06-07T23:10:22.203Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-07-4",
-          "title": "VECO bill: Solar panel rebate program sa Cebu",
-          "body": "Ang VECO (Visayan Electric) ay may mas mababang rate kaysa Meralco sa NCR — ₱9–₱11 per kWh. Para sa mga may bahay sa Cebu, may solar panel incentive program na pwedeng mag-reduce ng bill ng 50–70%. I-check ang net metering program ng VECO. Sa maikling panahon, sulit ang investment sa solar panels lalo na sa init ng Cebu.",
+          "title": "Kuryente Tipid",
+          "body": "Magpatay ng mga appliances at ilaw sa bahay kapag hindi ginagamit, mga 10-20% ang maaaring i-save sa kuryente. Pwede ring mag-avail ng mga energy-efficient na appliances sa mga mall sa Cebu City. Magbayad ng ₱1,500-₱3,000 lang ang monthly bill sa kuryente.",
           "category": "electricity",
           "tags": [
-            "VECO",
             "kuryente",
-            "Cebu",
-            "solar",
-            "bill"
+            "tipid",
+            "appliance"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "medium",
-            "high"
+            "high",
+            "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:22.203Z",
+          "publishedAt": "2026-06-07T23:10:22.203Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-07-5",
-          "title": "Fresh seafood sa Lapu-Lapu: Direkta sa mangingisda",
-          "body": "Ang mga taga-Lapu-Lapu City ay may kalamangan — malapit sa dagat at sa mga mangingisda. Sa Mactan Public Market o sa mga fish landing areas sa baybay, ang presyo ng isda ay 20–30% mas mura kaysa supermarket. Bumili ng dami para sa isang linggo at i-freeze ang hindi mauubos. Ang bangus, tilapia, at alimango ay espesyal na mura sa Lapu-Lapu.",
-          "category": "food",
+          "title": "Payday Budget",
+          "body": "Gumawa ng budget plan tuwing payday, mga 50-70% ang ibudget para sa mga pangunahing gastusin tulad ng pagkain, renta, at kuryente. Pwede ring mag-avail ng mga savings account sa mga banko sa Cebu City na may mga interes na 2-5% per annum. Mag-ipon ng ₱5,000-₱10,000 lang ang monthly savings.",
+          "category": "payday",
           "tags": [
-            "seafood",
-            "Lapu-Lapu",
-            "isda",
-            "mura",
-            "mangingisda"
+            "payday",
+            "budget",
+            "savings"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "medium",
+            "high",
             "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:22.203Z",
+          "publishedAt": "2026-06-07T23:10:22.203Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -658,137 +653,127 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-05-31T00:00:00.000Z",
+      "generatedAt": "2026-06-07T23:10:36.270Z",
       "tips": [
         {
           "id": "loc-00-1",
-          "title": "Turo-turo vs fastfood: ₱60 vs ₱200 — malaking pagkakaiba",
-          "body": "Sa kahit saang lugar sa Pilipinas, ang turo-turo o carinderia ay laging mas mura kaysa fastfood. Ang isang turo-turo meal (ulam + kanin + sabaw) ay ₱60–₱80 lang kumpara sa ₱150–₱250 sa Jollibee o McDonald's. Sa isang buwan ng tanghalian, ang turo-turo ay makakatipid ka ng ₱1,800–₱3,600. Hanapin ang pinaka-malinis at pinaka-maraming customers — sign ng masarap at ligtas.",
+          "title": "Sulit na Groceries",
+          "body": "Kung weekend ngayon, mag-plan ng grocery shopping na may budget na ₱1,500 para sa isang linggo. Pumunta sa mga palengke o merkado sa umaga para makakuha ng mga fresong gulay at prutas na may presyo na ₱50 hanggang ₱100. Mag-stock din ng mga non-perishable items like bigas at noodles na may presyo na ₱20 hanggang ₱50 para sa isang pack.",
           "category": "food",
           "tags": [
-            "turo-turo",
-            "carinderia",
-            "fastfood",
-            "tipid",
-            "tanghalian"
+            "grocery",
+            "sulit",
+            "weekend"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
-            "high",
             "medium",
+            "high",
             "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:36.270Z",
+          "publishedAt": "2026-06-07T23:10:36.270Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-00-2",
-          "title": "Refilling station: ₱8–₱12 lang ang tubig, huwag bilhin ng bote",
-          "body": "Sa buong Pilipinas, ang mga water refilling stations ay nagbebenta ng purong tubig sa ₱8–₱12 per liter kumpara sa ₱25–₱50 sa mga bottled water. Bumili ng malaking container (5 gallon/19 liter) para sa ₱40–₱60 lang — ito ay katumbas ng 10–15 na bottled water. Sa isang buwan, makatitipid ang isang pamilya ng ₱500–₱1,200 sa tubig lang.",
-          "category": "general",
+          "title": "Tipid sa Kuryente",
+          "body": "Matuto ng mga paraan para makatipid sa kuryente sa bahay. Turn off ang mga ilaw at appliances na hindi ginagamit, at mag-shift sa mga LED bulbs na may presyo na ₱100 hanggang ₱200. Mag-monitor din ng iyong electricity consumption at targetin ang isang average na ₱1,500 hanggang ₱2,000 sa isang buwan.",
+          "category": "electricity",
           "tags": [
-            "tubig",
-            "refilling station",
-            "bottled water",
+            "kuryente",
             "tipid",
-            "pamilya"
+            "LED"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
-            "high",
             "medium",
+            "high",
             "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:36.270Z",
+          "publishedAt": "2026-06-07T23:10:36.270Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-3",
-          "title": "Palengke ng Martes at Huwebes: Mas maraming benta, mas mura",
-          "body": "Sa karamihan ng palengke sa Pilipinas, ang Martes at Huwebes ay ang mga araw na may pinakamaraming vendors at pinakamurang presyo — ito ang mga araw ng delivery ng mga produkto. Huwag pumunta ng Lunes (takot sa gastos mula weekend) o Sabado (maraming tao, ibinibigay ang presyo). Pumunta ng umaga para sa pinaka-sariwang pagkain.",
-          "category": "food",
+          "title": "Komportable na Transport",
+          "body": "Kung nagko-commute ka, mag-consider ng paggamit ng mga pampublikong transportasyon tulad ng jeepney o bus na may presyo na ₱15 hanggang ₱30. Mag-plan din ng iyong ruta at oras para makaiwas sa mga traffic at makatipid sa gas o pamasahe.",
+          "category": "transport",
           "tags": [
-            "palengke",
-            "araw",
-            "mura",
-            "pagkain",
-            "timing"
+            "transport",
+            "komportable",
+            "pampubliko"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
-            "high",
             "medium",
+            "high",
             "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:36.270Z",
+          "publishedAt": "2026-06-07T23:10:36.270Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-4",
-          "title": "Lutong bahay 3x sa isang linggo: Makatipid ng ₱2,000/buwan",
-          "body": "Kahit magluto lang ng tatlong beses sa isang linggo (halimbawa Lunes, Miyerkules, Biyernes), malaki na ang matitipid. Ang isang lutong bahay na hapunan para sa pamilya ng 4 ay ₱150–₱250, kumpara sa ₱600–₱1,000 kung labas ka. Sa isang buwan, ang 12 lutong hapunan vs restaurant ay makatitipid ng ₱2,000–₱4,000. Subukan ang simple at mura: tinola, sinigang, monggo.",
-          "category": "food",
+          "title": "Payday Savings",
+          "body": "Mag-set ng goal na mag-ipon ng 20% ng iyong sahod tuwing payday. Mag-open ng isang separate na savings account na may interes na 2% hanggang 3% para sa iyong long-term goals. At mag-consider din ng pag-invest sa mga stocks o mutual funds na may potential na kumita ng 5% hanggang 10% sa isang taon.",
+          "category": "payday",
           "tags": [
-            "lutong bahay",
-            "pamilya",
-            "tipid",
-            "ulam",
-            "gastos"
+            "payday",
+            "savings",
+            "invest"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
-            "high",
             "medium",
+            "high",
             "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:36.270Z",
+          "publishedAt": "2026-06-07T23:10:36.270Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-5",
-          "title": "Payday budgeting: I-separate agad bago gumastos",
-          "body": "Sa araw ng sweldo (ika-15 o ika-30), i-transfer agad ang naka-set na savings bago pa man gumastos ng kahit ano. Gamitin ang formula: 50% para sa pangangailangan, 30% para sa gusto, 20% para sa savings o utang. Ang sikreto ay ang pag-alis ng savings muna — ang natitira lang ang gastusin. Kahit ₱500 lang bawat sweldo, mahalaga ang gawi ng pag-iimpok.",
-          "category": "payday",
+          "title": "Emergency Fund",
+          "body": "Mag-create ng isang emergency fund na may halaga na 3 hanggang 6 buwan ng iyong mga gastusin. Mag-allocate ng ₱5,000 hanggang ₱10,000 para sa mga unexpected na expenses tulad ng hospital bills o car repairs. At mag-review din ng iyong insurance coverage para sa mga accidents o illnesses.",
+          "category": "emergency",
           "tags": [
-            "payday",
-            "savings",
-            "budget",
-            "sweldo",
-            "50-30-20"
+            "emergency",
+            "fund",
+            "gastusin"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
-            "high",
             "medium",
+            "high",
             "low"
           ],
-          "createdAt": "2026-05-31T00:00:00.000Z",
-          "publishedAt": "2026-05-31T00:00:00.000Z",
+          "createdAt": "2026-06-07T23:10:36.270Z",
+          "publishedAt": "2026-06-07T23:10:36.270Z",
           "isPublished": true,
           "isFeatured": false
         }
       ]
     },
     "03": {
-      "generatedAt": "2026-05-31T14:25:29.017Z",
+      "generatedAt": "2026-06-07T23:10:18.132Z",
       "tips": [
         {
           "id": "loc-03-1",
-          "title": "Payday Budget",
-          "body": "Ngayong payday, siguraduhin mong mag-budget ka ng maayos. Alamin kung magkano ang iyong kinikita at gawin ang isang lista ng mga gastusin mo, tulad ng ₱5,000 para sa renta, ₱3,000 para sa pagkain, at ₱1,000 para sa transpo. Huwag kalimutan ang mga savings mo, at itabi ang 20% ng iyong kinikita para sa future mo.",
-          "category": "payday",
+          "title": "Sulit na Groceries",
+          "body": "Kung Sunday ngayon, mag-plan ng grocery shopping sa mga palengke sa Pampanga o Bulacan. Mura ang bigas dito, ₱18 lang ang isang kilo ng regular na bigas. Pumunta sa mga talipapa para makabili ng murang gulay at prutas, tulad ng ₱20 na kamatis at ₱15 na sitaw.",
+          "category": "food",
           "tags": [
-            "budget",
-            "savings",
-            "payday"
+            "grocery",
+            "palengke",
+            "sulit"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -796,20 +781,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-05-31T14:25:29.017Z",
-          "publishedAt": "2026-05-31T14:25:29.017Z",
+          "createdAt": "2026-06-07T23:10:18.132Z",
+          "publishedAt": "2026-06-07T23:10:18.132Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-03-2",
-          "title": "Weekend Grocery",
-          "body": "Ngayong weekend, punta ka sa palengke at bumili ng mga gulay at prutas na mas mura dito sa Central Luzon, tulad ng ₱15 lang ang isang kilo ng kamote. Mag-stock ka rin ng bigas na mas mura dito, ₱30 ang isang kilo. Huwag kalimutan ang mga coupons at discounts sa mga tindahan.",
-          "category": "food",
+          "title": "Tipid sa Transport",
+          "body": "Gamitin ang jeepney o tricycle para sa pang-araw-araw na transportasyon, ₱15 lang ang pamasahe mula Pampanga hanggang Clark. Kung magtatrabaho ka sa Subic, mag-commute ka sa umaga para makaiwas sa traffic at matipid sa gas.",
+          "category": "transport",
           "tags": [
-            "grocery",
-            "palengke",
-            "savings"
+            "jeepney",
+            "tricycle",
+            "commute"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -817,20 +802,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-05-31T14:25:29.017Z",
-          "publishedAt": "2026-05-31T14:25:29.017Z",
+          "createdAt": "2026-06-07T23:10:18.132Z",
+          "publishedAt": "2026-06-07T23:10:18.132Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-03-3",
-          "title": "Jeepney Fare",
-          "body": "Kung commute ka papuntang trabaho, siguraduhin mong magbaon ng ₱20 para sa jeepney fare. Huwag kalimutan ang mga ruta ng jeepney at tricycle dito sa Central Luzon, tulad ng Pampanga-Tarlac route. Mag-plano ka rin ng mga oras ng biyahe mo para maiwasan ang traffic.",
-          "category": "transport",
+          "title": "Lechon sa Weekend",
+          "body": "Kung gusto mo ng lechon para sa weekend gathering, mag-order ka sa mga kilalang lechonan sa Pampanga, ₱2,500 ang isang kilo ng lechon. Pwede mo ring magluto ng sarili mong lechon sa bahay, ₱1,500 lang ang gastos sa ingredients.",
+          "category": "food",
           "tags": [
-            "jeepney",
-            "commute",
-            "fare"
+            "lechon",
+            "weekend",
+            "gathering"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -838,20 +823,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-05-31T14:25:29.017Z",
-          "publishedAt": "2026-05-31T14:25:29.017Z",
+          "createdAt": "2026-06-07T23:10:18.132Z",
+          "publishedAt": "2026-06-07T23:10:18.132Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-03-4",
-          "title": "Lechon Savings",
-          "body": "Kung mahilig ka sa lechon, siguraduhin mong mag-budget ka ng maayos para dito. Alamin kung magkano ang presyo ng isang kilo ng lechon dito sa Pampanga, ₱400 ang isang kilo. Huwag kalimutan ang mga specials at discounts sa mga lechonan dito.",
-          "category": "food",
+          "title": "Kuryente sa Bahay",
+          "body": "Mag-switch sa mga energy-efficient na appliance sa bahay, tulad ng LED bulbs at inverter refrigerators, para makatipid sa kuryente. Ang Meralco ay may promo na 10% discount sa mga energy-efficient na appliance, pwede kang makatipid ng ₱500 sa isang buwan.",
+          "category": "electricity",
           "tags": [
-            "lechon",
-            "savings",
-            "Pampanga"
+            "kuryente",
+            "energy-efficient",
+            "tipid"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -859,20 +844,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-05-31T14:25:29.017Z",
-          "publishedAt": "2026-05-31T14:25:29.017Z",
+          "createdAt": "2026-06-07T23:10:18.132Z",
+          "publishedAt": "2026-06-07T23:10:18.132Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-03-5",
-          "title": "Electricity Bill",
-          "body": "Siguraduhin mong mag-monitor ka ng iyong electricity bill dito sa Central Luzon. Alamin kung magkano ang iyong average consumption, at gawin ang isang plano para maiwasan ang mga unnecessary na gastusin. Huwag kalimutan ang mga energy-saving tips, tulad ng pag-turn off ng mga appliances na hindi ginagamit.",
-          "category": "electricity",
+          "title": "Payday Savings",
+          "body": "Kung payday ngayon, mag-alok ka ng 30% ng sweldo mo para sa savings at investments. Pwede kang mag-invest sa mga mutual funds o stocks, o mag-open ka ng time deposit sa bangko, 2% ang interest rate sa isang taon.",
+          "category": "payday",
           "tags": [
-            "electricity",
-            "bill",
-            "savings"
+            "payday",
+            "savings",
+            "investments"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -880,8 +865,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-05-31T14:25:29.017Z",
-          "publishedAt": "2026-05-31T14:25:29.017Z",
+          "createdAt": "2026-06-07T23:10:18.132Z",
+          "publishedAt": "2026-06-07T23:10:18.132Z",
           "isPublished": true,
           "isFeatured": false
         }

@@ -98,34 +98,34 @@
       ]
     },
     "04": {
-      "generatedAt": "2026-05-31T14:48:40.865Z",
+      "generatedAt": "2026-06-07T23:10:14.273Z",
       "predictions": [
         {
           "id": "pred-04-1",
           "type": "weather",
-          "summary": "Uulan sa Laguna",
-          "detail": "Sa mga susunod na araw, inaasahan nating uulan sa Laguna dahil sa habagat. Magdala ng payong o raincoat sa pag-commute. Maghanda rin sa posibleng baha sa mga lugar na madalas lumubog.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-03T14:48:40.865Z",
-          "createdAt": "2026-05-31T14:48:40.865Z"
+          "summary": "Uulan sa Cavite",
+          "detail": "Inaasahang uulan sa Cavite sa mga susunod na araw, lalo na sa mga bayan ng Imus at Bacoor, kaya magdala ng payong o jacket kapag lumalabas. Ang temperatura ay inaasahang magiging 25-28 degrees Celsius. Maghanda sa posibleng mga baha sa mga lugar na malapit sa mga ilog.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-09T23:10:14.273Z",
+          "createdAt": "2026-06-07T23:10:14.273Z"
         },
         {
           "id": "pred-04-2",
           "type": "food",
-          "summary": "Bumaba presyo ng buko",
-          "detail": "Sa mga palengke sa CALABARZON, bumaba ang presyo ng buko dahil sa maraming supply. Magandang pagkakataon ito para bumili ng buko pie at iba pang produktong may buko. Pwede ring mag- stock ng buko para sa mga susunod na araw.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-07T14:48:40.865Z",
-          "createdAt": "2026-05-31T14:48:40.865Z"
+          "summary": "Buko pie sale",
+          "detail": "May sale sa mga palengke sa Laguna sa mga susunod na araw, lalo na sa mga produkto tulad ng buko pie, na magiging 10-15% mas mura kaysa sa regular na presyo. Mag-avail ng oportunidad na bumili ng mga ito sa mga palengke sa San Pablo o Calamba. Mag-stock ng mga ito para sa mga susunod na araw.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-06-09T23:10:14.273Z",
+          "createdAt": "2026-06-07T23:10:14.273Z"
         },
         {
           "id": "pred-04-3",
           "type": "transport",
-          "summary": "Taas presyo ng gas",
-          "detail": "Sa mga susunod na linggo, inaasahan nating tataas ang presyo ng gasolina sa mga gas station sa CALABARZON. Mag-budget ng P500-P700 para sa gasolina sa mga susunod na linggo. Magandang mag-plano ng biyahe at mag-commute na may gas-saving tips.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-14T14:48:40.865Z",
-          "createdAt": "2026-05-31T14:48:40.865Z"
+          "summary": "Jeepney fare increase",
+          "detail": "Inaasahang tataas ang pamasahe ng mga jeepney sa Batangas sa mga susunod na linggo, posibleng sa mga bandang July, kaya maghanda na sa pagtaas ng mga gastos sa transportasyon. Mag-isip ng mga paraan para makatipid, tulad ng mag-carpool o mag-walk sa mga malapit na destinasyon.",
+          "confidenceLevel": "low",
+          "validUntil": "2026-06-14T23:10:14.273Z",
+          "createdAt": "2026-06-07T23:10:14.273Z"
         }
       ]
     },
@@ -162,98 +162,98 @@
       ]
     },
     "07": {
-      "generatedAt": "2026-05-31T14:48:47.915Z",
+      "generatedAt": "2026-06-07T23:10:25.574Z",
       "predictions": [
         {
           "id": "pred-07-1",
           "type": "weather",
           "summary": "Ulan sa June",
-          "detail": "Inaasahan ang mga pag-ulan sa mga susunod na linggo sa Cebu City, Lapu-Lapu, at Mandaue, kaya maghanda ng mga waterproof na gamit at itabi ang mga outdoor na gawain. Ang ulan ay inaasahan sa mga huling linggo ng Mayo at unang linggo ng Hunyo, kaya mag-stock ng mga emergency kit at pagkain. Magkakaroon ng 2-3 araw ng ulan sa isang linggo.",
+          "detail": "Inaasahan ng mga taga-Cebu City at Lapu-Lapu na magkakaroon ng ulan sa mga susunod na linggo ng June, kaya't mainam na mag-dala ng payong o raincoat. Ang mga residente ng Mandaue ay dapat maghanda rin para sa posibleng baha sa mga lugar na malapit sa dagat. Sa susunod na 2 linggo, asahan ang ulan na aabot sa 2-3 araw.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-14T14:48:47.915Z",
-          "createdAt": "2026-05-31T14:48:47.915Z"
+          "validUntil": "2026-06-21T23:10:25.574Z",
+          "createdAt": "2026-06-07T23:10:25.574Z"
         },
         {
           "id": "pred-07-2",
           "type": "food",
           "summary": "Mura na isda",
-          "detail": "Ang mga presyo ng fresh fish sa Carbon Market ay inaasahan na bumaba sa susunod na linggo, kaya mag-stock ng mga isda para sa mga sumunod na araw. Ang presyo ng tilapia ay aabot sa P80-P100 kada kilo, habang ang presyo ng galunggong ay aabot sa P120-P150 kada kilo. Maghanda ng P500-P700 para sa isang linggong supply ng isda.",
+          "detail": "Ang mga taga-Cebu ay mag-eenjoy sa mura na presyo ng fresh fish sa Carbon Market, na aabot sa P150-P200 kada kilo. Mainam na bumili ng isda sa mga linggong ito at i-store sa freezer para sa mga susunod na linggo. Sa weekend na ito, mag-stock na ng isda at iba pang pagkain para sa linggong ito.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-07T14:48:47.915Z",
-          "createdAt": "2026-05-31T14:48:47.915Z"
+          "validUntil": "2026-06-14T23:10:25.574Z",
+          "createdAt": "2026-06-07T23:10:25.574Z"
         },
         {
           "id": "pred-07-3",
           "type": "transport",
-          "summary": "Taas ng pamasahe",
-          "detail": "Inaasahan ang pagtaas ng pamasahe sa mga V-hire at jeepney sa Cebu City, Lapu-Lapu, at Mandaue dahil sa pagtaas ng presyo ng krudo. Ang pamasahe ay inaasahan na tataas ng P5-P10 sa susunod na linggo, kaya maghanda ng mga alternatibong mode ng transportasyon o mag-budget ng P100-P200 para sa mga araw na may taas ng pamasahe. Ang mga payday budgeting tip ay magagamit sa mga ganitong sitwasyon, tulad ng paghihiwalay ng mga gastos at pagtatabi ng mga pondo para sa mga emergency.",
+          "summary": "Tumaas na pamasahe",
+          "detail": "Inaasahan ng mga taga-Cebu na tumaas ang pamasahe ng V-hire at jeepney sa mga susunod na linggo, na aabot sa P20-P30. Mainam na mag-plano ng mga biyahe at mag-budget ng maayos para sa mga gastos sa transportasyon. Sa weekend na ito, mag-save na rin ng pamasahe para sa linggong ito.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-10T14:48:47.915Z",
-          "createdAt": "2026-05-31T14:48:47.915Z"
+          "validUntil": "2026-06-14T23:10:25.574Z",
+          "createdAt": "2026-06-07T23:10:25.574Z"
         }
       ]
     },
     "06": {
-      "generatedAt": "2026-05-31T14:48:51.610Z",
+      "generatedAt": "2026-06-07T23:10:28.649Z",
       "predictions": [
         {
           "id": "pred-06-1",
-          "type": "fuel",
-          "summary": "Bumaba gas price",
-          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Iloilo at Bacolod dahil sa pagbaba ng global oil price. Ang presyo ng gasolina sa mga gas station ay maaaring bumaba ng P2-P3 kada litro. Ito ay magandang pagkakataon para mag-stock up ng gas para sa mga biyahe sa weekend.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-07T14:48:51.610Z",
-          "createdAt": "2026-05-31T14:48:51.610Z"
+          "type": "weather",
+          "summary": "Uulan sa Iloilo",
+          "detail": "Sa mga susunod na araw, inaasahan ang pag-ulan sa Iloilo dahil sa habagat. Magdala ng payong o raincoat kapag lumalabas, at asahan ang traffic sa mga daanan. Maghanda rin sa posibleng pagkawala ng kuryente sa ilang lugar.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-06-09T23:10:28.649Z",
+          "createdAt": "2026-06-07T23:10:28.649Z"
         },
         {
           "id": "pred-06-2",
-          "type": "weather",
-          "summary": "Ulan sa darating na linggo",
-          "detail": "Sa mga susunod na araw, asahan ang mga ulan sa mga lugar ng Antique at Capiz dahil sa habagat. Ito ay magiging sanhi ng pagtaas ng presyo ng mga gulay at prutas, kaya't magandang mag-stock up ng mga ito ngayon pa lang. Ang mga residente ay inaadvise na magdala ng payong at damit na pang-ulan.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-05T14:48:51.610Z",
-          "createdAt": "2026-05-31T14:48:51.610Z"
+          "type": "food",
+          "summary": "Mura na La Paz Batchoy",
+          "detail": "Sa weekend na ito, magandang bumili ng La Paz Batchoy sa mga lokal na restawran sa Iloilo at Bacolod. Ang presyo nito ay mura, na nagkakahalaga ng around P50-P70 per serving. Maghanda rin sa mga promo at discount sa mga fast food chain tulad ng Chicken Inasal.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-09T23:10:28.649Z",
+          "createdAt": "2026-06-07T23:10:28.649Z"
         },
         {
           "id": "pred-06-3",
-          "type": "food",
-          "summary": "Sulit na batchoy",
-          "detail": "Ngayong payday, magandang mag-budget ng P500 para sa isang linggong supply ng pagkain. Sa Iloilo, ang La Paz Batchoy ay maaaring bilhin sa P50-P70 kada tasa, kaya't magandang mag-try ng mga sulit na combo meals. Para sa mga weekend grocery, magandang bumili ng mga murang gulay at prutas sa mga palengke sa Bacolod.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-03T14:48:51.610Z",
-          "createdAt": "2026-05-31T14:48:51.610Z"
+          "type": "transport",
+          "summary": "Jeepney fare increase",
+          "detail": "Sa mga susunod na linggo, inaasahan ang pagtaas ng pamasahe sa mga jeepney sa Western Visayas, partikular sa Iloilo at Bacolod. Maghanda sa pagtaas ng P1-P2 sa kasalukuyang pamasahe, at mag-isip ng mga paraan upang makatipid sa transportasyon, tulad ng paggamit ng mga siklistang ruta o pag-walk sa mga malapit na destinasyon.",
+          "confidenceLevel": "low",
+          "validUntil": "2026-06-09T23:10:28.649Z",
+          "createdAt": "2026-06-07T23:10:28.649Z"
         }
       ]
     },
     "05": {
-      "generatedAt": "2026-05-31T14:48:55.292Z",
+      "generatedAt": "2026-06-07T23:10:32.099Z",
       "predictions": [
         {
           "id": "pred-05-1",
           "type": "weather",
-          "summary": "Ulan sa Sorsogon",
-          "detail": "May ulan sa Sorsogon sa mga susunod na araw dahil sa habagat, magdala ng payong o jacket sa paglabas. Inaasahan ang 2-3 inches ng ulan sa loob ng 2 araw, maghanda sa pagbaha sa mga mababang lugar. Magkakahalaga ito ng P500 sa paggamit ng trapal o sandbags.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-02T14:48:55.292Z",
-          "createdAt": "2026-05-31T14:48:55.292Z"
+          "summary": "Ulan sa Linggo",
+          "detail": "May posibilidad ng ulan sa mga susunod na araw sa Bicol Region, lalo na sa Naga at Legazpi, dahil sa habagat. Inaasahan ang 2-3 araw na may ulan, kaya maghanda ng mga gamit pang-ulan. Magdadala ng lamang loob at payong kapag lumalabas.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-10T23:10:32.098Z",
+          "createdAt": "2026-06-07T23:10:32.099Z"
         },
         {
           "id": "pred-05-2",
           "type": "food",
-          "summary": "Mura ang laing",
-          "detail": "Ang presyo ng laing sa Naga ay magiging mura sa susunod na linggo, P20 ang presyo sa merkado. Mag-stock ng laing para sa mga susunod na araw, maghanda sa pagluto ng Bicol Express. Magkakahalaga ito ng P100 sa isang linggong supply.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-02T14:48:55.292Z",
-          "createdAt": "2026-05-31T14:48:55.292Z"
+          "summary": "Mura na Laing",
+          "detail": "Sa darating na linggo, asahan ang mababang presyo ng laing sa mga palengke sa Sorsogon, dahil sa pagtatapos ng mga ani ng gulay. Magandang pagkakataon ito para mag-stock ng laing at iba pang mga gulay sa presyong P20-P30 kada kilo. Maghanda ng P500 para sa isang linggong supply ng laing.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-06-14T23:10:32.099Z",
+          "createdAt": "2026-06-07T23:10:32.099Z"
         },
         {
           "id": "pred-05-3",
           "type": "transport",
-          "summary": "Jeepney fare increase",
-          "detail": "May inaasahang pagtaas ng pamasahe sa jeepney sa Legazpi sa susunod na buwan, magiging P15 ang bagong pamasahe. Maghanda sa pagbabayad ng dagdag na P5, mag-isip ng paraan para makatipid sa paggamit ng tricycle sa halip. Magkakahalaga ito ng P50 sa isang linggong paggamit ng jeepney.",
+          "summary": "Jeepney Fare Increase",
+          "detail": "Sa susunod na buwan, asahan ang pagtaas ng pamasahe ng jeepney sa Bicol Region, lalo na sa Naga at Legazpi, dahil sa pagtaas ng presyo ng krudo. Maghanda ng karagdagang P5-P10 para sa pamasahe, at isang linggong budget ng P500 para sa transportasyon. Mag-isip ng mga paraan para makatipid sa pamasahe, tulad ng mag-walk o mag-bike.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-02T14:48:55.292Z",
-          "createdAt": "2026-05-31T14:48:55.292Z"
+          "validUntil": "2026-07-07T23:10:32.099Z",
+          "createdAt": "2026-06-07T23:10:32.099Z"
         }
       ]
     },
