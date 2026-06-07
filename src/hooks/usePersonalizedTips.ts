@@ -7,14 +7,6 @@ import type { CostLevel, Tip } from '../types'
 interface CacheEntry { generatedAt: string; tips: Tip[] }
 const locationCache = (rawLocationCache as { generatedDate: string; regions: Record<string, CacheEntry> })
 
-// All tips across all cached regions — for tip detail page lookup
-export const ALL_CACHED_TIPS: Tip[] = Object.values(locationCache.regions).flatMap(r => r.tips as Tip[])
-
-// Find a tip by ID — checks location cache first, then mock tips
-export function findTipById(id: string): Tip | undefined {
-  return ALL_CACHED_TIPS.find(t => t.id === id) ?? MOCK_TIPS.find(t => t.id === id)
-}
-
 function dailySeed(): number {
   const d = new Date()
   return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate()
