@@ -44,5 +44,7 @@ jobs:
           git config user.name "Tipid Tips Bot"
           git config user.email "bot@tipidtips.ph"
           git add src/data/locationTipsCache.json src/data/locationPredictionsCache.json
-          git commit -m "chore: refresh daily location tips + predictions [skip ci]"
+          # No [skip ci]: a GITHUB_TOKEN push can't trigger GitHub Actions anyway,
+          # and we want Vercel to pick up this push and redeploy with the fresh tips.
+          git commit -m "chore: refresh daily location tips + predictions"
           git push

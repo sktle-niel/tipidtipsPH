@@ -1,0 +1,38 @@
+rules_version = '2';
+
+// TipidTips.ph Firestore security rules.
+// Deploy: firebase deploy --only firestore:rules
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ── User profiles ──────────────────────────────────────────────
+    // Each signed-in user can read and write ONLY their own document.
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.uid == uid;
+      allow delete: if false;
+    }
+
+    // ── Newsletter subscribers ─────────────────────────────────────
+    // Public signup / unsubscribe (no auth). Reads + listing are blocked
+    // so the email list can't be enumerated from the client.
+    match /subscribers/{docId} {
+      allow read, list, delete: if false;
+
+      // New subscription: must carry a plausible email and start active.
+      allow create: if request.resource.data.email is string
+        && request.resource.data.email.size() > 3
+        && request.resource.data.unsubscribed == false;
+
+      // Unsubscribe is a merge write that may only flip the flag to true.
+      allow update: if request.resource.data.unsubscribed == true;
+    }
+
+    // ── Default deny ───────────────────────────────────────────────
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

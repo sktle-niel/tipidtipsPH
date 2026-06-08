@@ -31,6 +31,9 @@ jobs:
       - name: Type check
         run: npx tsc -b
 
+      - name: Test
+        run: npm test
+
       - name: Build
         run: npx vite build
 

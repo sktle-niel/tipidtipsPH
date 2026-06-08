@@ -1,5 +1,9 @@
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore'
 import { db } from '../config/firebase'
+import { emailToDocId, emailToToken, tokenToEmail } from '../lib/email'
+
+// Re-exported for backwards compatibility (UnsubscribePage imports from here).
+export { emailToToken, tokenToEmail }
 
 export type SubscribeResult =
   | { success: true }
@@ -29,23 +33,6 @@ function removeLocalSubscribed(email: string) {
 
 export function isAlreadySubscribed(email: string): boolean {
   return getLocalSubscribed().includes(email.trim().toLowerCase())
-}
-
-function emailToDocId(email: string): string {
-  // Replace ALL non-alphanumeric characters with underscore
-  return email.replace(/[^a-zA-Z0-9]/g, '_')
-}
-
-export function emailToToken(email: string): string {
-  return btoa(email.trim().toLowerCase())
-}
-
-export function tokenToEmail(token: string): string | null {
-  try {
-    return atob(token)
-  } catch {
-    return null
-  }
 }
 
 export async function subscribeEmail(email: string): Promise<SubscribeResult> {

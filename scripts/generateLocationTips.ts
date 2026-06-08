@@ -1,11 +1,12 @@
 /**
  * AI-powered location-specific tip generator
  *
- * Gumagawa ng 5 personalized na money-saving tips para sa bawat rehiyon ng Pilipinas.
- * Ginagamit ang Gemini AI para gumawa ng content na specific sa lugar.
+ * Gumagawa ng 5 personalized na money-saving tips + 3 predictions para sa
+ * bawat rehiyon ng Pilipinas. AI ang gumagawa ng content na specific sa lugar.
  *
- * Requires: GEMINI_API_KEY sa .env.local
- * Auto-runs: bago mag build (prebuild hook)
+ * Requires: GROQ_API_KEY (primary) o GEMINI_API_KEY (fallback) sa .env.local
+ *           — kung wala alinman, gracefully ni-skip ang generation.
+ * Auto-runs: bago mag build (prebuild hook) + araw-araw via GitHub Actions cron
  * Cache TTL: 24 oras — regenerates daily
  */
 
