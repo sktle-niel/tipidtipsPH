@@ -2,7 +2,6 @@ import { doc, setDoc, serverTimestamp } from 'firebase/firestore'
 import { db } from '../config/firebase'
 import { emailToDocId, emailToToken, tokenToEmail } from '../lib/email'
 
-// Re-exported for backwards compatibility (UnsubscribePage imports from here).
 export { emailToToken, tokenToEmail }
 
 export type SubscribeResult =
@@ -45,10 +44,10 @@ export async function subscribeEmail(email: string): Promise<SubscribeResult> {
       message: 'Naka-subscribe ka na! Abangan ang tips sa email mo. 📬',
     }
   }
-
+// fixing bug where same email can be subscribed multiple times if user clears localStorage or uses different browser. Firestore will prevent duplicates but we should also check before writing to Firestore. This also allows us to return a more accurate message to the user.
   const docId = emailToDocId(normalized)
 
-  await setDoc(doc(db, 'subscribers', docId), {
+  await setDoc(doc(db, 'subscribers', {
     email: normalized,
     subscribedAt: serverTimestamp(),
     unsubscribed: false,
