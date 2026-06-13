@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-12",
+  "generatedDate": "2026-06-13",
   "regions": {
     "10": {
       "generatedAt": "2026-06-12T23:21:49.198Z",
@@ -98,34 +98,34 @@
       ]
     },
     "04": {
-      "generatedAt": "2026-06-11T23:27:15.476Z",
+      "generatedAt": "2026-06-13T23:10:04.100Z",
       "predictions": [
         {
           "id": "pred-04-1",
           "type": "weather",
-          "summary": "Ulan sa weekend",
-          "detail": "May tsansang umulan sa mga susunod na araw sa CALABARZON, lalo na sa mga lugar na malapit sa Sierra Madre mountains sa Rizal at Quezon. Inaasahang aabot sa 50% ang tsansa ng ulan sa mga lugar na ito, kaya maghanda ng mga gamit pang-ulan. Sa mga susunod na 2 araw, asahan ang mahabang buhos ng ulan sa mga oras ng gabi.",
+          "summary": "Uulan sa Linggo",
+          "detail": "May 30% tsansa ng ulan sa CALABARZON sa Linggo, dahil sa low pressure area na nasa silangan ng Luzon. Inaasahan ang 1-2 inches ng ulan sa mga lugar tulad ng Laguna at Batangas. Magdala ng payong o raincoat para sa iyong weekend grocery o leisure activities.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-13T23:27:15.476Z",
-          "createdAt": "2026-06-11T23:27:15.476Z"
+          "validUntil": "2026-06-15T23:10:04.100Z",
+          "createdAt": "2026-06-13T23:10:04.100Z"
         },
         {
           "id": "pred-04-2",
-          "type": "fuel",
-          "summary": "P2 increase",
-          "detail": "Inaasahang tataas ang presyo ng gasolina at diesel sa mga susunod na linggo sa CALABARZON, lalo na sa mga lugar na malapit sa mga pantalan sa Batangas. Ang presyo ng gasolina ay inaasahang tataas ng P2 sa mga susunod na 2 linggo, kaya maghanda ng mga budget para sa pagbabago ng presyo. Sa mga lugar na ito, asahan ang mahal na presyo ng gasolina sa mga susunod na buwan.",
+          "type": "food",
+          "summary": "Buko pie sale",
+          "detail": "Sa mga palengke sa CALABARZON, inaasahan ang 10-15% discount sa buko pie at iba pang lokal na produkto sa weekend. Mag-shopping sa mga palengke sa Laguna o Quezon para makatipid. Mag-stock ng 2-3 buko pie para sa iyong pamilya sa halagang P150-P200 kada pie.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-13T23:27:15.476Z",
-          "createdAt": "2026-06-11T23:27:15.476Z"
+          "validUntil": "2026-06-15T23:10:04.100Z",
+          "createdAt": "2026-06-13T23:10:04.100Z"
         },
         {
           "id": "pred-04-3",
-          "type": "food",
-          "summary": "Buko pie sale",
-          "detail": "May sale sa mga suking tindahan ng buko pie sa Laguna at Cavite, kaya maghanda ng mga budget para sa pagbili ng mga ito. Ang presyo ng buko pie ay inaasahang bababa ng 10% sa mga susunod na araw, kaya ito ay magandang pagkakataon para bumili ng mga ito. Sa mga lugar na ito, asahan ang mas murang presyo ng buko pie sa mga susunod na linggo.",
+          "type": "transport",
+          "summary": "Jeepney fare increase",
+          "detail": "Inaasahan ang 1-2 peso increase sa jeepney fare sa CALABARZON sa loob ng 1-2 linggo, dahil sa pagtaas ng fuel price. Mag-ipon ng P50-P100 para sa iyong weekend transport expenses. Mag-plan ng iyong ruta at oras ng biyahe para makatipid sa fuel at oras.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-13T23:27:15.476Z",
-          "createdAt": "2026-06-11T23:27:15.476Z"
+          "validUntil": "2026-06-15T23:10:04.100Z",
+          "createdAt": "2026-06-13T23:10:04.100Z"
         }
       ]
     },
@@ -290,34 +290,34 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-06-11T23:27:27.524Z",
+      "generatedAt": "2026-06-13T23:10:14.919Z",
       "predictions": [
         {
           "id": "pred-00-1",
-          "type": "weather",
-          "summary": "Uulan sa June",
-          "detail": "Inaasahan ng mga eksperto na magkakaroon ng mga malakas na ulan sa mga susunod na linggo dahil sa habagat, kaya maghanda ng mga rain gear at itabi ang mga outdoor activity. Ang mga lugar sa Mindanao at Visayas ay posibleng mas malakas ang ulan. Magpaplanong umiwas sa mga flooded area at magdala ng mga emergency kit.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-18T23:27:27.524Z",
-          "createdAt": "2026-06-11T23:27:27.524Z"
+          "type": "fuel",
+          "summary": "Bumaba ang gas",
+          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa mga gas station sa buong Pilipinas, lalo na sa mga lungsod tulad ng Maynila at Cebu, dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasolina ay maaaring bumaba ng P1-P2 per liter. Ito ay magandang pagkakataon upang mag-refuel at mag-ipon ng pera para sa mga susunod na linggo.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-15T23:10:14.919Z",
+          "createdAt": "2026-06-13T23:10:14.919Z"
         },
         {
           "id": "pred-00-2",
-          "type": "food",
-          "summary": "Tumaas ang presyo ng bigas",
-          "detail": "Dahil sa mga problema sa pag-anod at pag-angkat ng bigas, inaasahan na tumaas ang presyo ng bigas sa mga susunod na linggo, posibleng umabot sa P40-P50 kada kilo. Maghanda ng mga alternatibong pagkain at mag-planong mag-stock ng bigas ngayon pa lang.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-25T23:27:27.524Z",
-          "createdAt": "2026-06-11T23:27:27.524Z"
+          "type": "weather",
+          "summary": "Ulan sa weekend",
+          "detail": "Sa mga susunod na araw, asahan ang pag-ulan sa mga probinsya sa Luzon at Visayas, lalo na sa mga lugar na malapit sa bundok. Ito ay magandang pagkakataon upang mag-ipon ng tubig at maghanda ng mga kagamitan sa panahon ng ulan. Ang mga residente ay inaanyayahan na magdala ng payong at sapatos na pang-ulan.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-06-15T23:10:14.919Z",
+          "createdAt": "2026-06-13T23:10:14.919Z"
         },
         {
           "id": "pred-00-3",
-          "type": "electricity",
-          "summary": "Tataas ang bill sa June",
-          "detail": "Dahil sa pagtaas ng temperatura at paggamit ng mga aircon at fan, inaasahan na tataas ang mga bill sa kuryente sa mga susunod na linggo, posibleng umabot sa 10-15% na pagtaas. Maghanda ng mga paraan para magtipid sa kuryente, tulad ng paggamit ng mga energy-efficient na appliance at pagpatay ng mga ilaw at appliance na hindi ginagamit.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-07-11T23:27:27.524Z",
-          "createdAt": "2026-06-11T23:27:27.524Z"
+          "type": "food",
+          "summary": "Sulit na groceries",
+          "detail": "Sa mga susunod na araw, maaaring makabili ng mga murang gulay at prutas sa mga palengke sa buong Pilipinas, lalo na sa mga lugar na malapit sa mga bukid. Ang mga residente ay inaanyayahan na mag-avail ng mga murang presyo ng gulay at prutas sa mga palengke at mag-ipon ng pera para sa mga susunod na linggo. Ito ay magandang pagkakataon upang magluto ng mga masasarap na pagkain sa bahay.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-15T23:10:14.919Z",
+          "createdAt": "2026-06-13T23:10:14.919Z"
         }
       ]
     }
