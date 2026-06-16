@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-15",
+  "generatedDate": "2026-06-16",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -873,56 +873,57 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-06-14T23:13:02.518Z",
+      "generatedAt": "2026-06-16T23:26:13.849Z",
       "tips": [
         {
           "id": "loc-05-1",
-          "title": "Sulit na Grocery",
-          "body": "Kung Sunday ngayon, mag-grocery ka na sa palengke ng Naga o Legazpi para sa mga murang gulay at prutas. Mura lang ang mga bilihin dito, tulad ng ₱50 lang ang isang kilo ng kamote. Mag-avail ka rin ng mga murang ulam sa mga carinderia sa Sorsogon, ₱50 lang ang isang serving. Ito ay makatitipid sa iyong budget para sa linggong ito.",
-          "category": "food",
+          "title": "Sulit na Jeepney Ride",
+          "body": "Kung ikaw ay nakatira sa Naga o Legazpi, mas sulit na sumakay ng jeepney sa halagang ₱8-10 kaysa mag-tricycle na ₱50-100. Ito ay makatitipid sa iyo ng ₱40-90 sa isang araw. Mag-plano ng ruta mo at gumamit ng jeepney para sa mahabang biyahe.",
+          "category": "transport",
           "tags": [
-            "grocery",
-            "palengke",
-            "murang bilihin"
+            "jeepney",
+            "tricycle",
+            "Naga",
+            "Legazpi"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-14T23:13:02.518Z",
-          "publishedAt": "2026-06-14T23:13:02.518Z",
+          "createdAt": "2026-06-16T23:26:13.849Z",
+          "publishedAt": "2026-06-16T23:26:13.849Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-05-2",
-          "title": "Fuel Efficiency",
-          "body": "Kung madalas kang mag-commute sa jeepney o tricycle sa Bicol Region, mag-isip ka ng paraan para makatipid sa fuel. Mag-plano ka ng maigi sa iyong ruta at mag-avail ka ng mga murang pamasahe, tulad ng ₱15 lang ang isang ride sa tricycle. Ito ay makatitipid sa iyong budget para sa fuel at makakaiwas ka sa trapiko.",
-          "category": "fuel",
+          "title": "Mura na Kuryente",
+          "body": "Sa Bicol Region, ang average na consumisyon ng kuryente ay 200-300 kWh kada buwan. Ito ay nagkakahalaga ng ₱2,500-₱3,500. Magpatayo ng mga energy-efficient na appliance at mag-turn off ng mga gadgets na hindi ginagamit para makatipid ng 10-20% sa iyong monthly bill.",
+          "category": "electricity",
           "tags": [
-            "fuel efficiency",
-            "jeepney",
-            "tricycle"
+            "kuryente",
+            "energy-efficient",
+            "Bicol Region"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-14T23:13:02.518Z",
-          "publishedAt": "2026-06-14T23:13:02.518Z",
+          "createdAt": "2026-06-16T23:26:13.849Z",
+          "publishedAt": "2026-06-16T23:26:13.849Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-3",
-          "title": "Laing na Ulam",
-          "body": "Kung mahilig ka sa laing, mag-luto ka na ng sarili mong laing sa bahay. Mura lang ang mga sangkap, tulad ng ₱20 lang ang isang pako ng gabi. Mag-avail ka rin ng mga murang bilihin sa palengke para sa iyong laing. Ito ay makatitipid sa iyong budget para sa ulam at mas masarap pa.",
+          "title": "Sorsogon Seafood",
+          "body": "Ang Sorsogon ay kilala sa mga fresh na seafood tulad ng isda at hipon. Ito ay maaaring bilin sa halagang ₱100-₱200 kada kilo. Magluto ng mga sariling dish sa bahay gamit ang mga nabiling seafood para makatipid ng 30-50% kaysa kumain sa labas.",
           "category": "food",
           "tags": [
-            "laing",
-            "ulam",
+            "seafood",
+            "Sorsogon",
             "mura"
           ],
           "sourceTrigger": "ai-location",
@@ -930,48 +931,48 @@
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-14T23:13:02.518Z",
-          "publishedAt": "2026-06-14T23:13:02.518Z",
+          "createdAt": "2026-06-16T23:26:13.849Z",
+          "publishedAt": "2026-06-16T23:26:13.849Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-4",
-          "title": "Rentang Mura",
-          "body": "Kung ikaw ay isang student o isang worker sa Bicol Region, mag-hanap ka ng mga murang renta sa Naga o Legazpi. Mura lang ang mga renta dito, tulad ng ₱3,000 lang ang isang buwan para sa isang malaking kwarto. Mag-avail ka rin ng mga murang kuryente at tubig para sa iyong mga gastusin.",
-          "category": "general",
+          "title": "Emergency Fund",
+          "body": "Ang pagkakaroon ng emergency fund ay importante lalo na sa mga ganap na pangyayari tulad ng bagyo. Mag-iwan ng 10-20% ng iyong monthly income para sa emergency fund. Ito ay makatitipid sa iyo ng ₱1,000-₱5,000 kada buwan.",
+          "category": "emergency",
           "tags": [
-            "renta",
-            "mura",
-            "kwarto"
+            "emergency fund",
+            "bagyo",
+            "Bicol Region"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-14T23:13:02.518Z",
-          "publishedAt": "2026-06-14T23:13:02.518Z",
+          "createdAt": "2026-06-16T23:26:13.849Z",
+          "publishedAt": "2026-06-16T23:26:13.849Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-5",
-          "title": "Weekend na Leisure",
-          "body": "Kung weekend ngayon, mag-plano ka ng mga leisure activities sa Bicol Region. Mag-avail ka ng mga murang outdoor activities, tulad ng pag-swimming sa dagat sa Sorsogon o pag-hike sa bundok sa Legazpi. Mura lang ang mga gastos dito, tulad ng ₱50 lang ang isang entrance fee sa isang beach. Ito ay makatitipid sa iyong budget para sa leisure at mas masaya pa.",
-          "category": "leisure",
+          "title": "Payday na Sulit",
+          "body": "Kada payday, mag-budget ka ng ₱5,000-₱10,000 para sa mga gastusin sa buwan. Ito ay makatitipid sa iyo ng ₱1,000-₱3,000 kada buwan. Mag-plano ng mga gastusin mo at gumamit ng 50/30/20 rule para sa mga pangangailangan, luho, at ipon.",
+          "category": "payday",
           "tags": [
-            "weekend",
-            "leisure",
-            "outdoor"
+            "payday",
+            "budget",
+            "Bicol Region"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-14T23:13:02.518Z",
-          "publishedAt": "2026-06-14T23:13:02.518Z",
+          "createdAt": "2026-06-16T23:26:13.849Z",
+          "publishedAt": "2026-06-16T23:26:13.849Z",
           "isPublished": true,
           "isFeatured": false
         }

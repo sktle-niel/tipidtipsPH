@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-15",
+  "generatedDate": "2026-06-16",
   "regions": {
     "10": {
       "generatedAt": "2026-06-15T23:49:29.747Z",
@@ -162,34 +162,34 @@
       ]
     },
     "07": {
-      "generatedAt": "2026-06-14T23:12:53.636Z",
+      "generatedAt": "2026-06-16T23:26:09.733Z",
       "predictions": [
         {
           "id": "pred-07-1",
           "type": "weather",
-          "summary": "Uulan sa Lunes",
-          "detail": "Inaasahan ng mga residente ng Cebu City, Lapu-Lapu, at Mandaue na magkaroon ng malakas na ulan sa Lunes, June 15, 2026, dahil sa low pressure area na nakita sa dagat. Magdala ng payong o raincoat para sa iyong paglalakad sa Carbon Market o sa pag-commute sa V-hire o jeepney. Ang ulan ay inaasahang tumatagal hanggang 2 oras sa umaga.",
+          "summary": "Ulan sa June 18",
+          "detail": "Inaasahan ang ulan sa Cebu City at mga kalapit na lungsod tulad ng Lapu-Lapu at Mandaue sa June 18, 2026. Magdala ng payong o raincoat para sa pagprotekta sa ulan. Pwedeng umabot ang presyo ng gulay sa Carbon Market ng 10-15% dahil sa epekto ng ulan sa pag-anod.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-16T23:12:53.636Z",
-          "createdAt": "2026-06-14T23:12:53.636Z"
+          "validUntil": "2026-06-18T23:26:09.733Z",
+          "createdAt": "2026-06-16T23:26:09.733Z"
         },
         {
           "id": "pred-07-2",
           "type": "food",
-          "summary": "Mura na seafood",
-          "detail": "Ang mga residente ng Cebu ay makakakuha ng mura na seafood, lalo na ang fresh fish, sa Carbon Market sa presyo na P150-P200 kada kilo. Mag-shopping ng maagang umaga para makakuha ng pinakamalulusog na isda. Ito ay magandang pagkakataon para mag-stock ng pagkain para sa linggong ito at mag-save ng P500 sa iyong weekend grocery budget.",
+          "summary": "Mura na isda",
+          "detail": "Dahil sa mainam na kondisyon ng panahanan sa dagat, inaasahan ang mura na presyo ng fresh fish sa mga palengke ng Cebu City, partikular sa Carbon Market, sa susunod na linggo. Pwedeng mag-avail ng 10-15% na discount sa mga seafood restaurant sa Lapu-Lapu. Mag-stock ng isda para sa linggong ito at mag-save ng 50-100 pesos.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-16T23:12:53.636Z",
-          "createdAt": "2026-06-14T23:12:53.636Z"
+          "validUntil": "2026-06-18T23:26:09.733Z",
+          "createdAt": "2026-06-16T23:26:09.733Z"
         },
         {
           "id": "pred-07-3",
           "type": "transport",
-          "summary": "V-hire fare increase",
-          "detail": "Inaasahan ng mga residente ng Cebu na magkaroon ng P5-P10 na pagtaas sa fare ng V-hire at jeepney simula sa susunod na linggo, June 21, 2026, dahil sa pagtaas ng presyo ng krudo. Mag-plan ng iyong ruta at oras ng pag-commute para makaiwas sa mga mabibigat na trapiko at mag-save ng P100-P200 sa iyong lingguhang transport budget.",
+          "summary": "Trafiko sa June 19",
+          "detail": "Inaasahan ang trapiko sa mga pangunahing kalsada ng Cebu City, partikular sa mga ruta ng V-hire at jeepney, sa June 19, 2026, dahil sa isang malaking kaganapan sa lungsod. Pwedeng umabot ang oras ng biyahe ng 30-45 minuto. Mag-alis ng maaga at mag-avail ng mga alternatibong ruta para sa pagiwas sa trapiko at mag-save ng 30-60 minutos.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-16T23:12:53.636Z",
-          "createdAt": "2026-06-14T23:12:53.636Z"
+          "validUntil": "2026-06-18T23:26:09.733Z",
+          "createdAt": "2026-06-16T23:26:09.733Z"
         }
       ]
     },
@@ -258,66 +258,66 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-06-14T23:13:08.853Z",
+      "generatedAt": "2026-06-16T23:26:17.140Z",
       "predictions": [
         {
           "id": "pred-01-1",
           "type": "weather",
-          "summary": "Ulan ngayong linggo",
-          "detail": "May tsansa ng ulan sa Ilocos Region ngayong linggo, lalo na sa mga bayan ng Ilocos Sur at La Union. Inaasahang magpapatuloy ito hanggang Martes, kaya maghanda ng mga rain gear at mag-ingat sa mga tricycle at jeepney ride. Presyo ng mga gulay at prutas posibleng tumaas ng 5-10% dahil sa epekto ng ulan sa mga taniman.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-16T23:13:08.853Z",
-          "createdAt": "2026-06-14T23:13:08.853Z"
+          "summary": "Ulan sa June",
+          "detail": "Magkakaroon ng malakas na ulan sa Ilocos Sur at La Union sa mga susunod na araw, dahil sa habagat. Inaasahan ang 2-3 inches ng ulan sa loob ng 2 araw, kaya maghanda ng mga gamit pang-ulan. Ang mga magsasaka sa Pangasinan ay mainam na maghanda para sa posibleng baha sa mga palayan.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-06-18T23:26:17.140Z",
+          "createdAt": "2026-06-16T23:26:17.140Z"
         },
         {
           "id": "pred-01-2",
           "type": "food",
-          "summary": "Bumaba ang presyo ng bagnet",
-          "detail": "Dahil sa maraming supply ng baboy sa Ilocos Region, asahan ang pagbaba ng presyo ng bagnet sa mga merkado ng Ilocos Norte at Pangasinan. Magandang bumili ngayon at i-store para sa mga susunod na araw, dahil ang presyo ng bagnet posibleng magpaalis ng 10-15% sa mga susunod na linggo. Mag-budget ng P500 para sa isang kilo ng bagnet.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-16T23:13:08.853Z",
-          "createdAt": "2026-06-14T23:13:08.853Z"
+          "summary": "Bumaba presyo ng bagnet",
+          "detail": "Dahil sa maraming supply ng baboy sa Ilocos Norte, inaasahan ang 10-15% na pagbaba ng presyo ng bagnet sa mga susunod na linggo. Ang presyo ng bagnet sa mga merkado sa Laoag at Vigan ay magiging mas mura kaysa sa Maynila, kaya mainam na bumili ng mga residente. Ang mga negosyante ng bagnet ay mainam na maghanda para sa posibleng tataas ng demand.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-18T23:26:17.140Z",
+          "createdAt": "2026-06-16T23:26:17.140Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Sikip sa mga tricycle",
-          "detail": "Ngayong linggo, asahan ang mga traffic sa mga bayan ng Ilocos Region, lalo na sa mga lugar na malapit sa mga palengke at beach. Maghanda ng mga P20-50 para sa mga tricycle ride at mag-ingat sa mga jeepney na posibleng magkaroon ng mga delay. Magandang mag-budget ng P100-200 para sa mga transportation cost ngayong linggo.",
+          "summary": "Tataas fare ng jeepney",
+          "detail": "Dahil sa tataas ng presyo ng krudo, inaasahan ang 5-10% na pagtaas ng fare ng jeepney sa Ilocos Region simula sa susunod na buwan. Ang mga commuter sa La Union at Pangasinan ay mainam na maghanda para sa posibleng pagtaas ng gastos sa transportasyon. Ang mga operator ng jeepney ay mainam na maghanda para sa posibleng pagbaba ng demand.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-16T23:13:08.853Z",
-          "createdAt": "2026-06-14T23:13:08.853Z"
+          "validUntil": "2026-06-18T23:26:17.140Z",
+          "createdAt": "2026-06-16T23:26:17.140Z"
         }
       ]
     },
     "00": {
-      "generatedAt": "2026-06-13T23:10:14.919Z",
+      "generatedAt": "2026-06-16T23:26:20.546Z",
       "predictions": [
         {
           "id": "pred-00-1",
           "type": "fuel",
-          "summary": "Bumaba ang gas",
-          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa mga gas station sa buong Pilipinas, lalo na sa mga lungsod tulad ng Maynila at Cebu, dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasolina ay maaaring bumaba ng P1-P2 per liter. Ito ay magandang pagkakataon upang mag-refuel at mag-ipon ng pera para sa mga susunod na linggo.",
+          "summary": "Bumaba presyo",
+          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa mga gas station sa Pilipinas, lalo na sa mga probinsya, dahil sa pagbaba ng presyo ng langis sa mundo. Ito ay makakatulong sa mga driver at kompanya ng transportasyon na makatipid sa gastos. Ang presyo ng gasolina ay posibleng bumaba ng P0.50 hanggang P1.00 kada litro sa loob ng 2 buwan.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-15T23:10:14.919Z",
-          "createdAt": "2026-06-13T23:10:14.919Z"
+          "validUntil": "2026-06-18T23:26:20.546Z",
+          "createdAt": "2026-06-16T23:26:20.546Z"
         },
         {
           "id": "pred-00-2",
           "type": "weather",
-          "summary": "Ulan sa weekend",
-          "detail": "Sa mga susunod na araw, asahan ang pag-ulan sa mga probinsya sa Luzon at Visayas, lalo na sa mga lugar na malapit sa bundok. Ito ay magandang pagkakataon upang mag-ipon ng tubig at maghanda ng mga kagamitan sa panahon ng ulan. Ang mga residente ay inaanyayahan na magdala ng payong at sapatos na pang-ulan.",
+          "summary": "Ulan sa July",
+          "detail": "Sa mga susunod na buwan, asahan ang pag-ulan sa mga lugar sa Pilipinas, lalo na sa mga buwan ng Hulyo at Agosto. Ito ay makakatulong sa mga magsasaka na magkaroon ng sapat na tubig para sa kanilang mga pananim. Ang mga residente ay inaanyayahan na maghanda sa mga posibleng baha at landslide sa mga lugar na prone sa pag-ulan.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-15T23:10:14.919Z",
-          "createdAt": "2026-06-13T23:10:14.919Z"
+          "validUntil": "2026-06-18T23:26:20.546Z",
+          "createdAt": "2026-06-16T23:26:20.546Z"
         },
         {
           "id": "pred-00-3",
           "type": "food",
-          "summary": "Sulit na groceries",
-          "detail": "Sa mga susunod na araw, maaaring makabili ng mga murang gulay at prutas sa mga palengke sa buong Pilipinas, lalo na sa mga lugar na malapit sa mga bukid. Ang mga residente ay inaanyayahan na mag-avail ng mga murang presyo ng gulay at prutas sa mga palengke at mag-ipon ng pera para sa mga susunod na linggo. Ito ay magandang pagkakataon upang magluto ng mga masasarap na pagkain sa bahay.",
+          "summary": "Tumaas presyo ng bigas",
+          "detail": "Sa mga susunod na linggo, asahan ang pagtaas ng presyo ng bigas sa mga merkado sa Pilipinas, lalo na sa mga lungsod. Ito ay dahil sa pagtaas ng presyo ng bigas sa mundo at sa mga problema sa supply chain. Ang mga konsumer ay inaanyayahan na magtipid sa pagkain at maghanap ng mga alternatibong pagkain sa bigas, tulad ng pagkain ng mga prutas at gulay, at mag-imbak ng bigas para sa mga darating na buwan.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-15T23:10:14.919Z",
-          "createdAt": "2026-06-13T23:10:14.919Z"
+          "validUntil": "2026-06-18T23:26:20.546Z",
+          "createdAt": "2026-06-16T23:26:20.546Z"
         }
       ]
     }
