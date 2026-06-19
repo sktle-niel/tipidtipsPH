@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-18",
+  "generatedDate": "2026-06-19",
   "regions": {
     "10": {
       "generatedAt": "2026-06-18T23:48:16.685Z",
@@ -194,98 +194,98 @@
       ]
     },
     "06": {
-      "generatedAt": "2026-06-15T23:50:13.416Z",
+      "generatedAt": "2026-06-19T23:02:00.291Z",
       "predictions": [
         {
           "id": "pred-06-1",
           "type": "weather",
-          "summary": "Ulan sa Iloilo",
-          "detail": "Magkakaroon ng malakas na ulan sa Iloilo sa mga susunod na araw dahil sa habagat, kaya magdala ng payong o raincoat sa pag-commute. Ang ulan ay inaasahang magtatagal ng 2-3 araw, kaya maghanda na rin sa mga posibleng baha. Iwasan ang mga lugar na madalas na binabaha tulad ng Lapaz at Jaro.",
+          "summary": "Uulan sa Iloilo",
+          "detail": "Sa mga susunod na araw, inaasahan ang malakas na ulan sa Iloilo at Bacolod, kaya't mainam na magdala ng payong o raincoat. Ang ulan ay posible na magdala ng baha sa mga mababang lugar, kaya't mag-ingat sa pagbiyahe. Ang mga residente ay pinayuhang maghanda para sa posibleng pagkawala ng kuryente sa loob ng 2-3 oras.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-17T23:50:13.416Z",
-          "createdAt": "2026-06-15T23:50:13.416Z"
+          "validUntil": "2026-06-21T23:02:00.291Z",
+          "createdAt": "2026-06-19T23:02:00.291Z"
         },
         {
           "id": "pred-06-2",
           "type": "food",
-          "summary": "P10 rollback sa La Paz Batchoy",
-          "detail": "Sa susunod na linggo, asahan ang P10 rollback sa presyo ng La Paz Batchoy sa mga lokal na restawran sa Iloilo at Bacolod. Ito ay dahil sa pagbaba ng presyo ng mga sangkap tulad ng karne at gulay. Kaya mag-treat ka na ng sarili mo sa isang masarap na La Paz Batchoy sa presyong P60-P70. Payday budgeting tip: itabi ang 10% ng iyong sahod para sa mga gastos sa pagkain at libangan.",
+          "summary": "Tumaas presyo ng isda",
+          "detail": "Sa mga susunod na linggo, inaasahan ang pagtaas ng presyo ng isda sa mga palengke ng Iloilo at Capiz dahil sa mahinang catch ng mga mangingisda. Ang presyo ng isda ay posible na tumaas ng 10-15 piso kada kilo, kaya't mainam na bumili ng mga alternatibong pagkain tulad ng karne o gulay. Ang mga residente ay pinayuhang magplano ng mga pagkain na may kaunting isda.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-17T23:50:13.416Z",
-          "createdAt": "2026-06-15T23:50:13.416Z"
+          "validUntil": "2026-06-21T23:02:00.291Z",
+          "createdAt": "2026-06-19T23:02:00.291Z"
         },
         {
           "id": "pred-06-3",
           "type": "transport",
-          "summary": "P1.50 fare hike sa jeepney",
-          "detail": "Sa mga susunod na linggo, asahan ang P1.50 fare hike sa mga jeepney sa Iloilo at Bacolod. Ito ay dahil sa pagtaas ng presyo ng krudo at mga operasyon. Kaya maghanda na rin sa mga posibleng pagtaas ng gastos sa transportasyon. Mag-isip ng mga paraan para makatipid sa gastos sa transportasyon, tulad ng mag-commute kasama ang mga kaibigan o mag-walk sa mga malapit na lugar.",
+          "summary": "Trafiko sa Bacolod",
+          "detail": "Sa mga susunod na araw, inaasahan ang pagdagsa ng mga tao sa Bacolod dahil sa pagdiriwang ng MassKara Festival, kaya't mainam na umalis ng maaga upang makaiwas sa trapiko. Ang mga jeepney at tricycle ay posible na magkaroon ng mahabang pila, kaya't mag-ingat sa pagbiyahe at magplano ng mga pagkakataon ng pagbiyahe. Ang mga residente ay pinayuhang gumamit ng mga alternatibong ruta upang makaiwas sa trafiko.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-17T23:50:13.416Z",
-          "createdAt": "2026-06-15T23:50:13.416Z"
+          "validUntil": "2026-06-21T23:02:00.291Z",
+          "createdAt": "2026-06-19T23:02:00.291Z"
         }
       ]
     },
     "05": {
-      "generatedAt": "2026-06-17T23:42:54.426Z",
+      "generatedAt": "2026-06-19T23:02:03.636Z",
       "predictions": [
         {
           "id": "pred-05-1",
           "type": "weather",
           "summary": "Ulan sa Sorsogon",
-          "detail": "May ulan sa Sorsogon dahil sa habagat, magdala ng payong at raincoat. Umiiral ito sa mga susunod na 2 araw, maghanda sa pagbaha sa mga mababang lugar. Inaasahan ang 2-3 inches ng ulan sa Sorsogon City.",
+          "detail": "Magkakaroon ng malakas na ulan sa Sorsogon sa loob ng 2 araw dahil sa low pressure area. Inaasahan ang 50mm ng ulan kada oras, kaya't mainam na magdala ng payong at gumamit ng waterproof na bag. Maghanda sa posibleng baha sa mga lugar na malapit sa dagat.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-19T23:42:54.426Z",
-          "createdAt": "2026-06-17T23:42:54.426Z"
+          "validUntil": "2026-06-21T23:02:03.636Z",
+          "createdAt": "2026-06-19T23:02:03.636Z"
         },
         {
           "id": "pred-05-2",
           "type": "food",
-          "summary": "Tumaas ang presyo ng laing",
-          "detail": "Tumaas ang presyo ng laing sa Naga City dahil sa kakulangan ng supply, maghanda ng P10-P20 sa karagdagang gastos. Inaasahan ang tumaas na presyo sa mga susunod na linggo, mag-imbak ng laing para sa mga darating na araw. P50-P60 na ang presyo ng isang kilo ng laing sa mga palengke.",
+          "summary": "Tataas ang presyo ng laing",
+          "detail": "Dahil sa inaasahang ulan, magkakaroon ng kakulangan sa supply ng laing sa mga palengke sa Naga at Legazpi. Inaasahan ang pagtaas ng presyo ng laing sa P50 hanggang P70 kada kilo sa loob ng 1 linggo. Mainam na bumili ng laing ngayon pa para makatipid.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-19T23:42:54.426Z",
-          "createdAt": "2026-06-17T23:42:54.426Z"
+          "validUntil": "2026-06-26T23:02:03.636Z",
+          "createdAt": "2026-06-19T23:02:03.636Z"
         },
         {
           "id": "pred-05-3",
           "type": "transport",
-          "summary": "Tumaas ang pasahe ng jeepney",
-          "detail": "Tumaas ang pasahe ng jeepney sa Legazpi City dahil sa tumaas na presyo ng krudo, maghanda ng P5-P10 sa karagdagang gastos. Inaasahan ang tumaas na pasahe sa mga susunod na araw, mag-isip ng ibang paraan ng transportasyon tulad ng tricycle o paglalakad. P20-P30 na ang pasahe ng isang ruta ng jeepney sa Legazpi City.",
+          "summary": "Trafiko sa jeepney",
+          "detail": "Dahil sa pagdami ng turista sa Bicol Region, inaasahan ang pagdami ng trafiko sa mga ruta ng jeepney sa Naga at Legazpi. Magkakaroon ng 30-minutong delay sa biyahe sa loob ng 2 araw, kaya't mainam na mag-leave ng maaga para makatungo sa iyong destinasyon on time.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-19T23:42:54.426Z",
-          "createdAt": "2026-06-17T23:42:54.426Z"
+          "validUntil": "2026-06-21T23:02:03.636Z",
+          "createdAt": "2026-06-19T23:02:03.636Z"
         }
       ]
     },
     "01": {
-      "generatedAt": "2026-06-17T23:42:59.084Z",
+      "generatedAt": "2026-06-19T23:02:06.712Z",
       "predictions": [
         {
           "id": "pred-01-1",
           "type": "weather",
-          "summary": "Ulan sa June",
-          "detail": "Darating ang ulan sa Ilocos Region sa mga susunod na araw dahil sa habagat, kaya maghanda ng mga gamit pang-ulan tulad ng payong at raincoat. Ang mga magsasaka sa Pangasinan ay dapat maghanda para sa posibleng baha sa mga palayan. Mag-uumapaw ang mga ilog sa loob ng 3 araw.",
+          "summary": "Ulan sa Lunes",
+          "detail": "Inaasahan ang ulan sa Ilocos Region sa susunod na Lunes, dahil sa hanging habagat. Magdala ng payong o jacket para sa proteksyon. Ang ulan ay makakatulong sa mga magsasaka sa Pangasinan na may mga palayan.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-19T23:42:59.084Z",
-          "createdAt": "2026-06-17T23:42:59.084Z"
+          "validUntil": "2026-06-21T23:02:06.712Z",
+          "createdAt": "2026-06-19T23:02:06.712Z"
         },
         {
           "id": "pred-01-2",
           "type": "food",
-          "summary": "Mura na bagnet",
-          "detail": "Ang presyo ng bagnet sa Ilocos Region ay bababa sa P150 per kilo dahil sa maraming supply ng baboy sa lugar. Ang mga taga-La Union ay pwedeng bumili ng murang bagnet sa mga palengke sa San Fernando. Magandang bumili ng bagnet sa mga susunod na linggo.",
+          "summary": "Bumaba ang presyo ng bagnet",
+          "detail": "Inaasahan ang pagbaba ng presyo ng bagnet sa Ilocos Region sa susunod na linggo, dahil sa dami ng supply. Magandang pagkakataon ito para bumili ng bagnet sa presyong P150 kada kilo. Ito ay makatutulong sa mga lokal na negosyo at mga mamimili.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-19T23:42:59.084Z",
-          "createdAt": "2026-06-17T23:42:59.084Z"
+          "validUntil": "2026-06-21T23:02:06.712Z",
+          "createdAt": "2026-06-19T23:02:06.712Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Taas ng pasahe",
-          "detail": "Ang pasahe ng tricycle at jeepney sa Ilocos Norte ay tataas ng P5 dahil sa pagtaas ng presyo ng gasolina. Ang mga komuter ay pwedeng maghanda ng karagdagang pondo para sa kanilang pang-araw-araw na biyahe. Mag-uuwi ng mga tricycle at jeepney ng mas maagang oras para makaiwas sa trapiko sa mga susunod na linggo.",
+          "summary": "Tumaas ang pasahe ng jeepney",
+          "detail": "Inaasahan ang pagtaas ng pasahe ng jeepney sa Ilocos Region sa susunod na buwan, dahil sa pagtaas ng presyo ng gasolina. Maghanda na sa pagtaas ng pasahe mula P10 hanggang P12. Ito ay makakaapekto sa mga commuter na gumagamit ng jeepney para sa pang-araw-araw na transportasyon.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-19T23:42:59.084Z",
-          "createdAt": "2026-06-17T23:42:59.084Z"
+          "validUntil": "2026-06-21T23:02:06.712Z",
+          "createdAt": "2026-06-19T23:02:06.712Z"
         }
       ]
     },
