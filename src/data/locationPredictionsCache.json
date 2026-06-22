@@ -1,131 +1,131 @@
 {
-  "generatedDate": "2026-06-21",
+  "generatedDate": "2026-06-22",
   "regions": {
     "10": {
-      "generatedAt": "2026-06-21T23:19:36.603Z",
+      "generatedAt": "2026-06-22T23:23:30.346Z",
       "predictions": [
         {
           "id": "pred-10-1",
-          "type": "fuel",
-          "summary": "Bumaba presyo",
-          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasoline sa Cagayan de Oro at Iligan, mula sa kasalukuyang P50 kada litro, bababa ito sa P48 kada litro. Ito ay dahil sa pagbaba ng presyo ng langis sa mundo. Magandang pagkakataon ito para mag-ipon ng mga driver ng jeepney at trisikad.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-28T23:19:36.603Z",
-          "createdAt": "2026-06-21T23:19:36.603Z"
+          "type": "weather",
+          "summary": "Ulan sa CDO",
+          "detail": "Magkaroon ng mga pag-ulan sa Cagayan de Oro sa susunod na linggo, dahil sa habagat. Inaasahan ang 2-3 araw na ulan, na may kasamang mga pagkidlat at kulog. Maghanda sa mga pagbabaha sa mga lugar na malapit sa Iponan River, at magdala ng payong o raincoat sa mga susunod na araw.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-29T23:23:30.346Z",
+          "createdAt": "2026-06-22T23:23:30.346Z"
         },
         {
           "id": "pred-10-2",
-          "type": "weather",
-          "summary": "Ulan sa darating na linggo",
-          "detail": "Sa mga susunod na araw, asahan ang ulan sa Butuan at Cagayan de Oro, dahil sa bagyo na papasok sa Mindanao. Maghanda ang mga residente sa mga posibleng baha at Landslide. Iwasan ang mga lugar na delikado at mag-stock ng pagkain at tubig.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-24T23:19:36.603Z",
-          "createdAt": "2026-06-21T23:19:36.603Z"
+          "type": "food",
+          "summary": "Mura ng seafood",
+          "detail": "Ang presyo ng seafood sa mga palengke ng Cagayan de Oro at Iligan ay inaasahang magpapatong sa P150-P200 kada kilo sa susunod na buwan, dahil sa mainit na panahon. Magandang bumili ng mga isda at iba pang seafood sa mga lugar na ito, at maghanda sa mga pagluluto ng mga masasarap na pagkaing-dagat.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-07-22T23:23:30.346Z",
+          "createdAt": "2026-06-22T23:23:30.346Z"
         },
         {
           "id": "pred-10-3",
-          "type": "food",
-          "summary": "Mura na seafood",
-          "detail": "Sa darating na weekend, magandang pagkakataon ito para bumili ng mga murang seafood sa Cagayan de Oro, dahil sa maraming supply ng mga isda at shellfish. Mag-ipon ng P500 at bumili ng mga kilo ng isda at gulay, at magluto ng masarap na sinuglaw para sa pamilya.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-23T23:19:36.603Z",
-          "createdAt": "2026-06-21T23:19:36.603Z"
+          "type": "transport",
+          "summary": "Trisikad fare up",
+          "detail": "Ang pamasahe ng trisikad sa Butuan ay inaasahang tataas sa P10-P15 sa susunod na linggo, dahil sa pagtaas ng presyo ng gasolina. Maghanda sa mga pagbabago sa mga ruta ng trisikad at mag-isip ng mga alternatibong paraan ng transportasyon, tulad ng paglalakad o paggamit ng bisikleta.",
+          "confidenceLevel": "low",
+          "validUntil": "2026-07-06T23:23:30.346Z",
+          "createdAt": "2026-06-22T23:23:30.346Z"
         }
       ]
     },
     "11": {
-      "generatedAt": "2026-06-21T23:19:43.517Z",
+      "generatedAt": "2026-06-22T23:23:37.354Z",
       "predictions": [
         {
           "id": "pred-11-1",
           "type": "weather",
           "summary": "Uulan sa Tagum",
-          "detail": "May tsansa ng mga pag-ulan sa Tagum sa susunod na 2 araw, kaya magdala ng payong o raincoat. Ang mga residente sa Davao City at Digos ay hindi apektado ng malakas na ulan. Maghanda sa mga posibleng baha sa mga lugar na malapit sa ilog.",
+          "detail": "Sa susunod na 2 araw, inaasahan ang malakas na ulan sa Tagum, Davao del Norte, dahil sa low pressure area. Magdala ng payong o raincoat sa paglabas, at asikasuhin ang mga flood-prone area. Mag-prepare rin para sa posibleng brownout sa Digos.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-23T23:19:43.517Z",
-          "createdAt": "2026-06-21T23:19:43.517Z"
+          "validUntil": "2026-06-24T23:23:37.354Z",
+          "createdAt": "2026-06-22T23:23:37.354Z"
         },
         {
           "id": "pred-11-2",
           "type": "food",
           "summary": "Mura na durian",
-          "detail": "Ang presyo ng durian sa Davao City ay bumaba sa P50 per kilo, kaya ito ay isang magandang pagkakataon upang bumili ng marami. Magtungo sa Roxas Night Market para sa murang seafood at iba pang mga lokal na produktong pagkain. Mag-ipon ng P500 para sa isang linggong supply ng pagkain.",
+          "detail": "Sa ngayon, ang presyo ng durian sa Roxas Night Market ay bumaba sa P50-P70 kada kilo, dahil sa mainit na panahon. Mag-avail ng murang presyo at bilhin ang mga durian para sa mga susunod na araw. Pwede ring mag-try ng dragon fruit na mura rin sa Davao City.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-23T23:19:43.517Z",
-          "createdAt": "2026-06-21T23:19:43.517Z"
+          "validUntil": "2026-06-24T23:23:37.354Z",
+          "createdAt": "2026-06-22T23:23:37.354Z"
         },
         {
           "id": "pred-11-3",
           "type": "transport",
-          "summary": "Habal-habal fare increase",
-          "detail": "Ang mga operador ng habal-habal sa Digos ay nagplano ng pagtaas ng pamasahe sa P20 hanggang P30 sa susunod na linggo, kaya maghanda sa mga pagbabago sa transpo budget. Mag-ipon ng P100 para sa isang linggong supply ng pamasahe. Mag-isip ng mga alternatibong ruta para sa mas mura na paglalakad.",
+          "summary": "Habal-habal fare tataas",
+          "detail": "Sa susunod na linggo, inaasahan ang pagtaas ng habal-habal fare sa Davao City, dahil sa pagtaas ng fuel price. Mag-prepare ng P10-P20 dagdag sa pamasahe, at mag-isip ng mga alternatibong transportasyon tulad ng jeepney o pag-walk. Pwede ring mag-plan ng mga itinerary para sa mga susunod na araw.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-23T23:19:43.517Z",
-          "createdAt": "2026-06-21T23:19:43.517Z"
+          "validUntil": "2026-06-24T23:23:37.354Z",
+          "createdAt": "2026-06-22T23:23:37.354Z"
         }
       ]
     },
     "13": {
-      "generatedAt": "2026-06-21T23:19:50.669Z",
+      "generatedAt": "2026-06-22T23:23:45.137Z",
       "predictions": [
         {
           "id": "pred-13-1",
-          "type": "transport",
-          "summary": "MRT/LRT mahaba ang pila",
-          "detail": "Simula sa Lunes, asahan ang mahabang pila sa MRT/LRT dahil sa maraming pasahero. Maghanda ng maaga at iwasan ang rush hour para makaiwas sa congested na mga estasyon. Sa mga susunod na 2 araw, aasahan ang 30-45 minuto na karagdagang oras sa byahe.",
+          "type": "fuel",
+          "summary": "P2.50/liter pagtaas",
+          "detail": "Sa susunod na linggo, asahan ang pagtaas ng presyo ng gasolina sa Metro Manila, lalo na sa mga gas station sa EDSA at Commonwealth Avenue, na aabot sa P2.50/liter. Ito ay dahil sa pagtaas ng global demand at mga hamon sa supply chain. Mag-ipon na ng budget para sa mga biyahe sa susunod na linggo.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-23T23:19:50.669Z",
-          "createdAt": "2026-06-21T23:19:50.669Z"
+          "validUntil": "2026-06-29T23:23:45.137Z",
+          "createdAt": "2026-06-22T23:23:45.137Z"
         },
         {
           "id": "pred-13-2",
-          "type": "food",
-          "summary": "Tataas ang presyo ng bigas",
-          "detail": "Sa mga susunod na linggo, asahan ang pagtaas ng presyo ng bigas sa Metro Manila dahil sa inflation. Mag-stock ng bigas para sa isang linggo at iwasan ang mga overpriced na tindahan. Ang presyo ng bigas ay aasahan na tumaas ng 5-10% sa mga susunod na 2 linggo.",
+          "type": "weather",
+          "summary": "Ulan sa hapon",
+          "detail": "Sa mga susunod na araw, asahan ang mga ulan sa hapon sa Metro Manila, lalo na sa mga lugar na malapit sa Marikina River at Pasig River. Ito ay dahil sa habagat na nagdudulot ng mga pag-ulan sa kalakhan ng Luzon. Magdala ng payong o raincoat para sa mga biyahe sa hapon.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-23T23:19:50.669Z",
-          "createdAt": "2026-06-21T23:19:50.669Z"
+          "validUntil": "2026-06-25T23:23:45.137Z",
+          "createdAt": "2026-06-22T23:23:45.137Z"
         },
         {
           "id": "pred-13-3",
-          "type": "fuel",
-          "summary": "Bumaba ang presyo ng gas",
-          "detail": "Sa mga susunod na araw, asahan ang pagbaba ng presyo ng gasolina sa mga gas station sa Metro Manila. Mag-gas up ngayong weekend para makatipid ng hanggang 5 pesos per liter. Ang presyo ng gas ay aasahan na bababa ng 2-3% sa mga susunod na 2 araw.",
-          "confidenceLevel": "low",
-          "validUntil": "2026-06-23T23:19:50.669Z",
-          "createdAt": "2026-06-21T23:19:50.669Z"
+          "type": "transport",
+          "summary": "P10/pasahero pagtaas",
+          "detail": "Sa susunod na buwan, asahan ang pagtaas ng pamasahe sa MRT at LRT sa Metro Manila, na aabot sa P10/pasahero. Ito ay dahil sa pagtaas ng operating costs at mga hamon sa maintenance. Mag-isip ng mga paraan para magtipid sa pamasahe, tulad ng mag-commute sa maagang umaga o gumamit ng mga alternatibong ruta.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-07-22T23:23:45.137Z",
+          "createdAt": "2026-06-22T23:23:45.137Z"
         }
       ]
     },
     "04": {
-      "generatedAt": "2026-06-21T23:19:58.547Z",
+      "generatedAt": "2026-06-22T23:23:53.519Z",
       "predictions": [
         {
           "id": "pred-04-1",
-          "type": "weather",
-          "summary": "Uulan sa Cavite",
-          "detail": "Sa mga susunod na 2 araw, inaasahan ang pag-ulan sa Cavite, lalo na sa mga bayan ng Imus at Bacoor. Magdala ng payong o raincoat sa pag-commute, at maghanda para sa posibleng pagbaha sa mga lugar na malapit sa mga ilog. Ang temperatura ay inaasahang magiging 25-30 degrees Celsius.",
+          "type": "fuel",
+          "summary": "Bumaba gas price",
+          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa mga gas station sa CALABARZON, partikular sa Laguna at Batangas, dahil sa pagbaba ng demand. Ang presyo ng gasolina ay posibleng bumaba ng P2-P3 kada litro sa loob ng 2-3 linggo. Ito ay magandang pagkakataon para mag-refuel at mag-stock ng gasolina para sa mga factory workers at OFW families.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-23T23:19:58.547Z",
-          "createdAt": "2026-06-21T23:19:58.547Z"
+          "validUntil": "2026-07-06T23:23:53.519Z",
+          "createdAt": "2026-06-22T23:23:53.519Z"
         },
         {
           "id": "pred-04-2",
-          "type": "food",
-          "summary": "Mura na buko pie",
-          "detail": "Sa mga palengke ng Laguna, inaasahang magkakaroon ng mura na presyo ng buko pie, na nagkakahalaga ng P50-P70 bawat pie. Mag-avail ng promo na ito sa mga weekend market, at mag-stock para sa mga espesyal na okasyon. Ang mga lokal na bakery ay nag-ooffer rin ng discounts sa bulk orders.",
+          "type": "weather",
+          "summary": "Ulan sa Cavite",
+          "detail": "Sa mga susunod na araw, asahan ang pag-ulan sa Cavite at Rizal, dahil sa pagpasok ng habagat. Ang mga residente ay pinayuhan na magdala ng payong o raincoat sa mga susunod na 2-3 araw, lalo na sa mga nagtatrabaho sa labas. Ang ulan ay posibleng magdala ng baha sa mga mababang lugar, kaya't ang mga residente ay pinayuhan na maghanda at mag-evacuate kung kinakailangan.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-23T23:19:58.547Z",
-          "createdAt": "2026-06-21T23:19:58.547Z"
+          "validUntil": "2026-06-25T23:23:53.519Z",
+          "createdAt": "2026-06-22T23:23:53.519Z"
         },
         {
           "id": "pred-04-3",
-          "type": "transport",
-          "summary": "FX fare increase",
-          "detail": "Sa mga susunod na linggo, inaasahang tataas ang pamasahe ng FX sa mga ruta ng Batangas at Quezon, na magkakahalaga ng P20-P30 ang karagdagang bayad. Maghanda para sa pagtaas ng gastos sa transportasyon, at mag-plano ng mga alternatibong ruta o mode ng transportasyon. Ang mga commuter ay inaanyayahan na mag-avail ng mga promo ng mga transport company.",
+          "type": "food",
+          "summary": "Buko pie sale",
+          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng buko pie sa mga palengke sa Quezon, partikular sa Lucban, dahil sa pagdami ng supply ng buko. Ang presyo ng buko pie ay posibleng bumaba ng P20-P30 kada pie sa loob ng 2-3 linggo. Ito ay magandang pagkakataon para bumili ng buko pie at iba pang espesyal na produkto ng Quezon para sa mga OFW families at factory workers.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-23T23:19:58.547Z",
-          "createdAt": "2026-06-21T23:19:58.547Z"
+          "validUntil": "2026-06-29T23:23:53.519Z",
+          "createdAt": "2026-06-22T23:23:53.519Z"
         }
       ]
     },
@@ -258,34 +258,34 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-06-19T23:02:06.712Z",
+      "generatedAt": "2026-06-22T23:24:16.134Z",
       "predictions": [
         {
           "id": "pred-01-1",
           "type": "weather",
-          "summary": "Ulan sa Lunes",
-          "detail": "Inaasahan ang ulan sa Ilocos Region sa susunod na Lunes, dahil sa hanging habagat. Magdala ng payong o jacket para sa proteksyon. Ang ulan ay makakatulong sa mga magsasaka sa Pangasinan na may mga palayan.",
+          "summary": "Ulan sa June",
+          "detail": "Inaasahan ang mga pag-ulan sa Ilocos Region sa mga susunod na linggo, lalo na sa mga bayan ng Ilocos Norte at Ilocos Sur. Maghanda sa mga pagbaha at landslides sa mga lugar na malapit sa mga ilog. Ang mga residente ay inaanyayahan na magdala ng mga payong at rain boots sa mga susunod na 2 linggo.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-21T23:02:06.712Z",
-          "createdAt": "2026-06-19T23:02:06.712Z"
+          "validUntil": "2026-07-06T23:24:16.134Z",
+          "createdAt": "2026-06-22T23:24:16.134Z"
         },
         {
           "id": "pred-01-2",
           "type": "food",
-          "summary": "Bumaba ang presyo ng bagnet",
-          "detail": "Inaasahan ang pagbaba ng presyo ng bagnet sa Ilocos Region sa susunod na linggo, dahil sa dami ng supply. Magandang pagkakataon ito para bumili ng bagnet sa presyong P150 kada kilo. Ito ay makatutulong sa mga lokal na negosyo at mga mamimili.",
+          "summary": "Mura na bagnet",
+          "detail": "Ang presyo ng bagnet sa Ilocos Region ay inaasahang magpapatuloy na mababa, lalo na sa mga susunod na buwan. Ang mga residente ay makakakuha ng bagnet sa presyong Php 150-200 kada kilo. Maghanda na bumili ng mga bagnet sa mga lokal na palengke sa Pangasinan at La Union.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-21T23:02:06.712Z",
-          "createdAt": "2026-06-19T23:02:06.712Z"
+          "validUntil": "2026-07-22T23:24:16.134Z",
+          "createdAt": "2026-06-22T23:24:16.134Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Tumaas ang pasahe ng jeepney",
-          "detail": "Inaasahan ang pagtaas ng pasahe ng jeepney sa Ilocos Region sa susunod na buwan, dahil sa pagtaas ng presyo ng gasolina. Maghanda na sa pagtaas ng pasahe mula P10 hanggang P12. Ito ay makakaapekto sa mga commuter na gumagamit ng jeepney para sa pang-araw-araw na transportasyon.",
+          "summary": "Tumaas na pamasahe",
+          "detail": "Ang pamasahe sa mga tricycle at jeepney sa Ilocos Region ay inaasahang tataas ng Php 1-2 sa mga susunod na linggo, dahil sa pagtaas ng presyo ng gasolina. Ang mga residente ay inaanyayahan na mag-plano ng mga ruta at oras ng biyahe upang makaiwas sa mga taas-presyo. Maghanda na magdala ng mga karagdagang pera para sa pamasahe.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-21T23:02:06.712Z",
-          "createdAt": "2026-06-19T23:02:06.712Z"
+          "validUntil": "2026-06-29T23:24:16.134Z",
+          "createdAt": "2026-06-22T23:24:16.134Z"
         }
       ]
     },
