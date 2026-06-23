@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-22",
+  "generatedDate": "2026-06-23",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -430,17 +430,17 @@
       ]
     },
     "06": {
-      "generatedAt": "2026-06-20T23:13:38.003Z",
+      "generatedAt": "2026-06-23T23:11:22.078Z",
       "tips": [
         {
           "id": "loc-06-1",
-          "title": "Sulit na Groceries",
-          "body": "Kung weekend ngayon, puntahan mo ang mga palengke sa Iloilo o Bacolod para makabili ng mga murang gulay at prutas, tulad ng ₱20 na kilo ng kamote o ₱50 na kilo ng mangga. Mag-plano ka ng mga dish na gawa sa mga murang ingredient na ito, tulad ng sinabawang gulay o ensaladang mangga. Ito ay makatitipid sa iyong budget at masusustansya pa. Pwede mo ring bumili ng mga murang seafood tulad ng ₱100 na kilo ng tilapia para sa isang masarap na tilapia fry.",
+          "title": "Sulit na Food Trip",
+          "body": "Kung gusto mo ng masarap na La Paz Batchoy sa Iloilo, try mo sa Netong's o Deco's sa ₱50 lang. Mag-jeepney ka papuntang La Paz Public Market at mag-lunch ka na. Mas mura kaysa sa mga restaurant sa Bacolod. Tip: bumili ka ng batchoy sa umaga para mas fresh.",
           "category": "food",
           "tags": [
-            "groceries",
-            "palengke",
-            "mura"
+            "Iloilo",
+            "La Paz Batchoy",
+            "affordable"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -448,20 +448,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-20T23:13:38.003Z",
-          "publishedAt": "2026-06-20T23:13:38.003Z",
+          "createdAt": "2026-06-23T23:11:22.078Z",
+          "publishedAt": "2026-06-23T23:11:22.078Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-06-2",
-          "title": "Tipid sa Transport",
-          "body": "Sa lugar ng Western Visayas, mas murang sumakay ng jeepney o tricycle kaysa mag-drive ng sariling sasakyan. Ang pamasahe ng jeepney ay ₱8 lang, habang ang tricycle ay ₱15. Ito ay makatitipid sa iyong budget sa gasolina at pagpapark. Pwede mo ring maglakad o mag-bisikleta kung malapit lang ang iyong destinasyon.",
-          "category": "transport",
+          "title": "Fuel Efficient",
+          "body": "Kung nagco-commute ka sa Bacolod, mag-jeepney ka na lang sa ₱10 per ride. Mas mura kaysa mag-gasolina ka ng ₱50 per day. Mag-plano ka ng route mo para mas less fuel consumption. Try mo rin mag-tricycle sa ₱20 per ride.",
+          "category": "fuel",
           "tags": [
+            "Bacolod",
             "jeepney",
-            "tricycle",
-            "tipid"
+            "fuel efficient"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -469,20 +469,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-20T23:13:38.003Z",
-          "publishedAt": "2026-06-20T23:13:38.003Z",
+          "createdAt": "2026-06-23T23:11:22.078Z",
+          "publishedAt": "2026-06-23T23:11:22.078Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-3",
-          "title": "La Paz Batchoy na Sulit",
-          "body": "Ang La Paz Batchoy ay isang sikat na dish sa Iloilo na masarap at sulit. Pwede mo itong bilin sa mga maliit na kainan sa La Paz Public Market sa presyo na ₱50 lang. Ito ay mas murang kaysa sa mga restaurant na may presyo na ₱100 o higit pa. Pwede mo ring mag-dine-in o take-out para sa isang masarap na merienda.",
-          "category": "food",
+          "title": "Payday Tips",
+          "body": "Kung sweldo mo ay every 15th and 30th of the month, mag-budget ka na agad. Allocate 30% sa rent at bills, 20% sa food, at 50% sa savings at leisure. Mag-open ka ng savings account sa bangko sa Iloilo o Bacolod para mas convenient.",
+          "category": "payday",
           "tags": [
-            "La Paz Batchoy",
-            "sulit",
-            "mura"
+            "budgeting",
+            "savings",
+            "payday"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -490,20 +490,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-20T23:13:38.003Z",
-          "publishedAt": "2026-06-20T23:13:38.003Z",
+          "createdAt": "2026-06-23T23:11:22.078Z",
+          "publishedAt": "2026-06-23T23:11:22.078Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-4",
-          "title": "Kuryente ng Mura",
-          "body": "Upang makatipid sa kuryente, pwede mong gumamit ng mga energy-efficient na appliance tulad ng LED TV o refrigerator. Ito ay makatitipid sa iyong budget sa kuryente ng hanggang 30%. Pwede mo ring magpatayo ng mga solar panel sa iyong bahay para sa isang masustansya at murang pagkuha ng kuryente.",
+          "title": "Electricity Savings",
+          "body": "Kung may sarili kang bahay sa Antique, try mo mag-switch sa LED bulbs na ₱50 lang. Mas matipid sa kuryente kaysa sa mga traditional bulbs. Mag-unplug ka rin ng appliances pag hindi ginagamit para mas less energy consumption.",
           "category": "electricity",
           "tags": [
-            "kuryente",
-            "mura",
-            "solar panel"
+            "Antique",
+            "LED bulbs",
+            "energy efficient"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -511,20 +511,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-20T23:13:38.003Z",
-          "publishedAt": "2026-06-20T23:13:38.003Z",
+          "createdAt": "2026-06-23T23:11:22.078Z",
+          "publishedAt": "2026-06-23T23:11:22.078Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-5",
-          "title": "Emergency Fund na 20%",
-          "body": "Mahalagang magkaroon ng emergency fund para sa mga di inaasahang gastos. Pwede mong i-allocate ang 20% ng iyong sweldo para sa emergency fund. Ito ay makatitipid sa iyong budget at makapagbigay ng katahimikan sa iyong isip. Pwede mo ring mag-open ng isang savings account sa bangko para sa isang mas ligtas na pag-iimpok.",
+          "title": "Emergency Fund",
+          "body": "Kung nagwo-work ka sa Capiz, mag-save ka ng 3-6 months worth of expenses para sa emergency fund. Mag-open ka ng separate savings account para dito at mag-deposit ka ng ₱1,000 per month. Mas secure ka pag may emergency fund ka.",
           "category": "emergency",
           "tags": [
+            "Capiz",
             "emergency fund",
-            "20%",
-            "savings account"
+            "savings"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -532,8 +532,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-20T23:13:38.003Z",
-          "publishedAt": "2026-06-20T23:13:38.003Z",
+          "createdAt": "2026-06-23T23:11:22.078Z",
+          "publishedAt": "2026-06-23T23:11:22.078Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -760,17 +760,17 @@
       ]
     },
     "03": {
-      "generatedAt": "2026-06-21T23:20:02.923Z",
+      "generatedAt": "2026-06-23T23:11:11.196Z",
       "tips": [
         {
           "id": "loc-03-1",
-          "title": "Sulit na Groceries",
-          "body": "Kung weekend ngayon, mag-grocery shopping ka na sa palengke ng Pampanga o Bulacan, kung saan mas mura ang gulay at prutas, halimbawa ₱20 lang ang isang kilo ng kamote. Pumili ng mga produkto na galing sa lokal na farmers, para mas makatipid ka sa presyo. Magdadala ka ng reusable bag para iwas sa ₱5 na charge sa plastic bag. Mag-budget ka ng ₱500 para sa isang linggong grocery.",
+          "title": "Sulit na Bigas",
+          "body": "Kumuha ng 5-kg na bigas sa Pampanga para ₱180 lang, mas mura kaysa sa ibang lugar. Pumunta sa palengke sa Apalit o San Fernando para makabili ng murang bigas. Magpalit ng bigas tuwing linggo para may stock sa bahay. Iwasan ang pagbili ng bigas sa mall para mas makatipid.",
           "category": "food",
           "tags": [
-            "grocery",
-            "palengke",
-            "sulit"
+            "bigas",
+            "Pampanga",
+            "palengke"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -778,20 +778,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-21T23:20:02.923Z",
-          "publishedAt": "2026-06-21T23:20:02.923Z",
+          "createdAt": "2026-06-23T23:11:11.196Z",
+          "publishedAt": "2026-06-23T23:11:11.196Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-03-2",
           "title": "Tipid sa Transport",
-          "body": "Kung mag-commute ka sa trabaho, mag-jeepney o tricycle ka na lang, kung saan ₱15 lang ang pamasahe sa isang beses. Mag-plano ka ng ruta mo para mas makatipid ka sa pamasahe. Pwede ka ring mag-walk o mag-bike kung malapit lang ang trabaho mo. Mag-budget ka ng ₱100 para sa isang linggong pamasahe.",
+          "body": "Sakay ng jeepney sa halagang ₱15 lang sa loob ng Pampanga, mas mura kaysa sa tricycle. Pumunta sa terminal sa Dau para sumakay ng bus papuntang Tarlac o Nueva Ecija. Maglakad o magbike sa loob ng barangay para iwasan ang gastos sa transpo. Huwag mag-angkas ng tricycle para sa maliliit na layo.",
           "category": "transport",
           "tags": [
             "jeepney",
-            "tricycle",
-            "commute"
+            "Pampanga",
+            "tricycle"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -799,20 +799,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-21T23:20:02.923Z",
-          "publishedAt": "2026-06-21T23:20:02.923Z",
+          "createdAt": "2026-06-23T23:11:11.196Z",
+          "publishedAt": "2026-06-23T23:11:11.196Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-03-3",
-          "title": "Lechon Savings",
-          "body": "Kung mahilig ka sa lechon, mag-plano ka ng isang linggong budget para sa mga special occasions. Mag-order ka ng lechon sa mga maliliit na tindahan sa Pampanga, kung saan mas mura ang presyo, halimbawa ₱2,500 lang ang isang kilo ng lechon. Mag-invite ka ng mga kaibigan o pamilya para mag-share sa gastos. Mag-budget ka ng ₱1,000 para sa isang lechon party.",
+          "title": "Murang Gulay",
+          "body": "Bumili ng gulay sa Zambales para mas murang presyo, ₱20 lang ang 1 kilo ng kamote. Pumunta sa palengke sa Olongapo para makabili ng murang prutas. Magtanim ng sariling gulay sa bakuran para wala nang gastos. Iwasan ang pagbili ng gulay sa supermarket para mas makatipid.",
           "category": "food",
           "tags": [
-            "lechon",
-            "Pampanga",
-            "special occasion"
+            "gulay",
+            "Zambales",
+            "palengke"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -820,20 +820,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-21T23:20:02.923Z",
-          "publishedAt": "2026-06-21T23:20:02.923Z",
+          "createdAt": "2026-06-23T23:11:11.196Z",
+          "publishedAt": "2026-06-23T23:11:11.196Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-03-4",
-          "title": "Kuryente Tipid",
-          "body": "Kung gusto mong makatipid sa kuryente, mag-turn off ka ng mga appliances na hindi ginagamit, tulad ng TV o refrigerator. Mag-plano ka ng isang linggong schedule para sa mga appliances mo. Mag-budget ka ng ₱500 para sa isang buwang kuryente. Pwede ka ring mag-avail ng mga promo ng Meralco sa mga selected areas sa Central Luzon.",
+          "title": "Kuryente sa Bahay",
+          "body": "Magpatayo ng solar panel sa bahay sa Nueva Ecija para makatipid sa kuryente, ₱10,000 lang ang gastos. Pumunta sa Meralco office sa Cabanatuan para mag-apply ng bagong connection. Iwasan ang paggamit ng mga appliance na may high wattage. Magpatayo ng ventilation sa bahay para makaiwas sa init at gastos sa kuryente.",
           "category": "electricity",
           "tags": [
             "kuryente",
-            "tipid",
-            "Meralco"
+            "Nueva Ecija",
+            "solar panel"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -841,20 +841,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-21T23:20:02.923Z",
-          "publishedAt": "2026-06-21T23:20:02.923Z",
+          "createdAt": "2026-06-23T23:11:11.196Z",
+          "publishedAt": "2026-06-23T23:11:11.196Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-03-5",
-          "title": "Weekend Getaway",
-          "body": "Kung gusto mong mag-relax sa weekend, mag-plano ka ng isang weekend getaway sa Subic o Clark, kung saan mas malapit at mas affordable ang mga activities, halimbawa ₱50 lang ang entrance fee sa isang beach resort. Mag-invite ka ng mga kaibigan o pamilya para mag-share sa gastos. Mag-budget ka ng ₱2,000 para sa isang weekend getaway.",
-          "category": "general",
+          "title": "Payday Tips",
+          "body": "Mag-budget ng maayos tuwing payday, 30% ng sweldo para sa gastusin, 20% para sa ipon, at 50% para sa utang. Pumunta sa bangko sa Clark para mag-deposit ng sweldo. Iwasan ang pag-utang sa mga kakilala. Mag-invest sa mga small business sa Tarlac para kumita ng extra.",
+          "category": "payday",
           "tags": [
-            "weekend getaway",
-            "Subic",
-            "Clark"
+            "payday",
+            "budget",
+            "ipon"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -862,8 +862,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-06-21T23:20:02.923Z",
-          "publishedAt": "2026-06-21T23:20:02.923Z",
+          "createdAt": "2026-06-23T23:11:11.196Z",
+          "publishedAt": "2026-06-23T23:11:11.196Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -975,104 +975,101 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-06-21T23:20:27.568Z",
+      "generatedAt": "2026-06-23T23:11:32.967Z",
       "tips": [
         {
           "id": "loc-01-1",
-          "title": "Sulit na Groceries",
-          "body": "Pumunta sa mga palengke sa Ilocos Sur at Ilocos Norte tuwing Linggo, kung saan mabibili mo ang mga prutas at gulay sa presyong ₱20-₱50 lang. Mag-avail ng mga murang bilihin tulad ng bagnet at empanada na sikat sa lugar. Mag-budget ng ₱500 para sa isang linggong supply ng pagkain. Iwasan ang mga overpriced na item sa mga mall.",
+          "title": "Sulit na Bilihin",
+          "body": "Kumusta ka na bumili ng mga prutas at gulay sa mga palengke sa Ilocos Norte, Ilocos Sur, La Union, o Pangasinan, kung saan mura lang ang mga ito, halimbawa ₱20 lang ang isang kilo ng kamote. Ito ay magandang paraan upang makatipid sa pagkain. Pwede ka ring bumili ng bagnet at empanada sa mga lokal na tindahan at ikain ito sa bahay, mas mura kaysa kainin sa labas.",
           "category": "food",
           "tags": [
-            "groceries",
-            "Ilocos Sur",
-            "Ilocos Norte"
+            "ilocos",
+            "prutas",
+            "gulay"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-21T23:20:27.568Z",
-          "publishedAt": "2026-06-21T23:20:27.568Z",
+          "createdAt": "2026-06-23T23:11:32.967Z",
+          "publishedAt": "2026-06-23T23:11:32.967Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-01-2",
-          "title": "Tipid sa Tricycle",
-          "body": "Gamitin ang tricycle bilang pangunahing mode ng transportation sa Ilocos Region, kung saan ang average fare ay ₱15-₱20 lang. Iwasan ang mga gas-guzzling na sasakyan at pumili ng mga eco-friendly na option. Mag-budget ng ₱100 para sa isang araw na pamasahe.",
+          "title": "Tricycle na Transpo",
+          "body": "Sa Ilocos Region, mas mura ang pamasahe sa tricycle, na ₱10-20 lang ang isang byahe. Kung kayo ay magkasama, mas makakatipid kayo kung mag-tricycle kayo sa halip na mag-jeepney, na ₱30-50 ang pamasahe. Ito ay magandang paraan upang makatipid sa transpo.",
           "category": "transport",
           "tags": [
             "tricycle",
-            "fuel-efficient"
+            "ilocos"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-21T23:20:27.568Z",
-          "publishedAt": "2026-06-21T23:20:27.568Z",
+          "createdAt": "2026-06-23T23:11:32.967Z",
+          "publishedAt": "2026-06-23T23:11:32.967Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-3",
-          "title": "Pangasinan Palayan",
-          "body": "Bumili ng bigas direktamente sa mga magsasaka sa Pangasinan, kung saan ang presyo ay mas mababa kumpara sa mga tindahan. Mag-budget ng ₱1,500 para sa isang buwan na supply ng bigas. Iwasan ang mga middlemen at suportahan ang lokal na industriya ng agrikultura.",
-          "category": "food",
+          "title": "Kuryente sa Bahay",
+          "body": "Kung kayo ay may sariling bahay sa Ilocos Region, siguraduhin na magpatay ng mga ilaw at appliances na hindi ginagamit, upang makatipid sa kuryente. Ito ay makakatipid ng ₱100-200 sa isang buwan, depende sa iyong konsumo ng kuryente.",
+          "category": "electricity",
           "tags": [
-            "Pangasinan",
-            "bigas",
-            "magsasaka"
+            "kuryente",
+            "bahay"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-21T23:20:27.568Z",
-          "publishedAt": "2026-06-21T23:20:27.568Z",
+          "createdAt": "2026-06-23T23:11:32.967Z",
+          "publishedAt": "2026-06-23T23:11:32.967Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-4",
-          "title": "La Union Leisure",
-          "body": "Pumunta sa mga beach sa La Union tuwing weekend, kung saan ang entrance fee ay ₱50-₱100 lang. Mag-avail ng mga murang accommodation at food option. Mag-budget ng ₱2,000 para sa isang weekend na Leisure trip. Iwasan ang mga overpriced na resort at pumili ng mga budget-friendly na option.",
-          "category": "leisure",
+          "title": "Bawas sa Gas",
+          "body": "Kung kayo ay may sariling sasakyan sa Ilocos Region, siguraduhin na mag-plano ng iyong biyahe, upang makatipid sa gas. Ito ay makakatipid ng ₱500-1000 sa isang buwan, depende sa iyong konsumo ng gas. Pwede ka ring mag-tricycle o mag-jeepney sa halip na mag-sasakyan.",
+          "category": "fuel",
           "tags": [
-            "La Union",
-            "beach",
-            "weekend getaway"
+            "gas",
+            "sasakyan"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-21T23:20:27.568Z",
-          "publishedAt": "2026-06-21T23:20:27.568Z",
+          "createdAt": "2026-06-23T23:11:32.967Z",
+          "publishedAt": "2026-06-23T23:11:32.967Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-5",
-          "title": "Ilocos Norte Emergency",
-          "body": "Mag-open ng isang emergency fund account sa isang bangko sa Ilocos Norte, kung saan ang interest rate ay 2-3% per annum. Mag-deposit ng ₱1,000-₱5,000 para sa isang emergency fund. Iwasan ang mga high-interest na loan at pumili ng mga low-risk na investment option.",
-          "category": "emergency",
+          "title": "Payday na Plano",
+          "body": "Kung kayo ay may trabaho sa Ilocos Region, siguraduhin na mag-plano ng iyong sweldo, upang makatipid sa mga gastusin. Ito ay makakatipid ng 20-30% sa isang buwan, depende sa iyong konsumo ng sweldo. Pwede ka ring mag-ipon ng pera para sa mga emergency fund.",
+          "category": "payday",
           "tags": [
-            "Ilocos Norte",
-            "emergency fund",
-            "bangko"
+            "sweldo",
+            "ilocos"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-21T23:20:27.568Z",
-          "publishedAt": "2026-06-21T23:20:27.568Z",
+          "createdAt": "2026-06-23T23:11:32.967Z",
+          "publishedAt": "2026-06-23T23:11:32.967Z",
           "isPublished": true,
           "isFeatured": false
         }
