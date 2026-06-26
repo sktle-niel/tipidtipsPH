@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-25",
+  "generatedDate": "2026-06-26",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -978,101 +978,105 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-06-23T23:11:32.967Z",
+      "generatedAt": "2026-06-26T23:12:01.269Z",
       "tips": [
         {
           "id": "loc-01-1",
-          "title": "Sulit na Bilihin",
-          "body": "Kumusta ka na bumili ng mga prutas at gulay sa mga palengke sa Ilocos Norte, Ilocos Sur, La Union, o Pangasinan, kung saan mura lang ang mga ito, halimbawa ₱20 lang ang isang kilo ng kamote. Ito ay magandang paraan upang makatipid sa pagkain. Pwede ka ring bumili ng bagnet at empanada sa mga lokal na tindahan at ikain ito sa bahay, mas mura kaysa kainin sa labas.",
+          "title": "Sulit na Bagnet",
+          "body": "Kung gusto mo ng masarap na bagnet, bumili ka sa mga lokal na market sa Ilocos Norte, Ilocos Sur, o La Union. Ang presyo ng bagnet ay mga ₱150-₱200 per kilo, depende sa lugar. Pwedeng magluto ka ng adobo o sinigang na may bagnet, at i-share mo sa pamilya o mga kaibigan. Mas makakatipid ka kaysa kumain sa restaurant na nagbebenta ng bagnet na ₱250-₱300 per serving.",
           "category": "food",
           "tags": [
-            "ilocos",
-            "prutas",
-            "gulay"
+            "bagnet",
+            "Ilocos",
+            "local market"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-23T23:11:32.967Z",
-          "publishedAt": "2026-06-23T23:11:32.967Z",
+          "createdAt": "2026-06-26T23:12:01.269Z",
+          "publishedAt": "2026-06-26T23:12:01.269Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-01-2",
           "title": "Tricycle na Transpo",
-          "body": "Sa Ilocos Region, mas mura ang pamasahe sa tricycle, na ₱10-20 lang ang isang byahe. Kung kayo ay magkasama, mas makakatipid kayo kung mag-tricycle kayo sa halip na mag-jeepney, na ₱30-50 ang pamasahe. Ito ay magandang paraan upang makatipid sa transpo.",
+          "body": "Sa Ilocos Region, mas mura ang mag-commute gamit ang tricycle kaysa sa mag-jeepney o mag-taxi. Ang pamasahe ng tricycle ay mga ₱10-₱20, depende sa layo ng destination. Pwedeng mag-walk ka papuntang tricycle terminal at doon ka na sumakay, para mas makatipid ka sa pamasahe. Magandang alternatibo ito sa mga araw na hindi ka gustong maglakad.",
           "category": "transport",
           "tags": [
             "tricycle",
-            "ilocos"
+            "commute",
+            "Ilocos"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-23T23:11:32.967Z",
-          "publishedAt": "2026-06-23T23:11:32.967Z",
+          "createdAt": "2026-06-26T23:12:01.269Z",
+          "publishedAt": "2026-06-26T23:12:01.269Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-3",
-          "title": "Kuryente sa Bahay",
-          "body": "Kung kayo ay may sariling bahay sa Ilocos Region, siguraduhin na magpatay ng mga ilaw at appliances na hindi ginagamit, upang makatipid sa kuryente. Ito ay makakatipid ng ₱100-200 sa isang buwan, depende sa iyong konsumo ng kuryente.",
-          "category": "electricity",
+          "title": "Empanada na Merienda",
+          "body": "Ang empanada ay isang sikat na merienda sa Ilocos Region, at mura lang ito. Ang presyo ng empanada ay mga ₱15-₱25, depende sa size at filling. Pwedeng bumili ka ng empanada sa mga street food vendor o sa mga lokal na bakery, at doon ka na mag-merienda. Mas masarap ito kaysa sa mga commercial na merienda na nagbebenta ng ₱50-₱100 per piece.",
+          "category": "food",
           "tags": [
-            "kuryente",
-            "bahay"
+            "empanada",
+            "merienda",
+            "Ilocos"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-23T23:11:32.967Z",
-          "publishedAt": "2026-06-23T23:11:32.967Z",
+          "createdAt": "2026-06-26T23:12:01.269Z",
+          "publishedAt": "2026-06-26T23:12:01.269Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-4",
-          "title": "Bawas sa Gas",
-          "body": "Kung kayo ay may sariling sasakyan sa Ilocos Region, siguraduhin na mag-plano ng iyong biyahe, upang makatipid sa gas. Ito ay makakatipid ng ₱500-1000 sa isang buwan, depende sa iyong konsumo ng gas. Pwede ka ring mag-tricycle o mag-jeepney sa halip na mag-sasakyan.",
-          "category": "fuel",
+          "title": "Pangasinan Palayan",
+          "body": "Kung ikaw ay may kaibigan o kamag-anak na may palayan sa Pangasinan, pwedeng bumili ka ng bigas sa kanila direktang mula sa bukid. Ang presyo ng bigas ay mga ₱20-₱30 per kilo, depende sa klase ng bigas. Mas makakatipid ka kaysa bumili sa mga supermarket o palengke, na nagbebenta ng bigas na ₱40-₱50 per kilo.",
+          "category": "food",
           "tags": [
-            "gas",
-            "sasakyan"
+            "bigas",
+            "Pangasinan",
+            "palayan"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-23T23:11:32.967Z",
-          "publishedAt": "2026-06-23T23:11:32.967Z",
+          "createdAt": "2026-06-26T23:12:01.269Z",
+          "publishedAt": "2026-06-26T23:12:01.269Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-5",
-          "title": "Payday na Plano",
-          "body": "Kung kayo ay may trabaho sa Ilocos Region, siguraduhin na mag-plano ng iyong sweldo, upang makatipid sa mga gastusin. Ito ay makakatipid ng 20-30% sa isang buwan, depende sa iyong konsumo ng sweldo. Pwede ka ring mag-ipon ng pera para sa mga emergency fund.",
-          "category": "payday",
+          "title": "Friday Market Day",
+          "body": "Tuwing Friday, may market day sa mga bayan sa Ilocos Region. Pwedeng bumili ka ng mga gulay, prutas, at iba pang mga produkto sa mga lokal na vendor. Ang presyo ng mga produkto ay mga 30% mas mura kaysa sa mga araw na hindi market day. Magandang oportunidad ito para mag-stock ng mga pagkain para sa linggong darating.",
+          "category": "general",
           "tags": [
-            "sweldo",
-            "ilocos"
+            "market day",
+            "Friday",
+            "Ilocos"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-23T23:11:32.967Z",
-          "publishedAt": "2026-06-23T23:11:32.967Z",
+          "createdAt": "2026-06-26T23:12:01.269Z",
+          "publishedAt": "2026-06-26T23:12:01.269Z",
           "isPublished": true,
           "isFeatured": false
         }

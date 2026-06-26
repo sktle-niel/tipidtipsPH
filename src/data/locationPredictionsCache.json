@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-25",
+  "generatedDate": "2026-06-26",
   "regions": {
     "10": {
       "generatedAt": "2026-06-25T23:22:11.483Z",
@@ -162,34 +162,34 @@
       ]
     },
     "07": {
-      "generatedAt": "2026-06-23T23:11:18.170Z",
+      "generatedAt": "2026-06-26T23:11:53.505Z",
       "predictions": [
         {
           "id": "pred-07-1",
           "type": "weather",
-          "summary": "Ulan sa June",
-          "detail": "Inaasahan ang ulan sa mga susunod na araw sa Cebu City, Lapu-Lapu, at Mandaue, dahil sa habagat. Magdala ng payong o raincoat sa paglabas, lalo na sa Carbon Market. Ulan ay inaasahang magtatagal hanggang sa katapusan ng June, kayang umabot ng 3-4 araw.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-30T23:11:18.170Z",
-          "createdAt": "2026-06-23T23:11:18.170Z"
+          "summary": "Uulan sa Sabado",
+          "detail": "Inaasahan ang malakas na ulan sa Cebu City at Lapu-Lapu sa Sabado, June 27, 2026, dahil sa low pressure area. Magdala ng payong o raincoat kapag lumalabas. Ang ulan ay inaasahang hihina sa gabi at magbabalik ang init sa Linggo.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-06-28T23:11:53.505Z",
+          "createdAt": "2026-06-26T23:11:53.505Z"
         },
         {
           "id": "pred-07-2",
           "type": "food",
           "summary": "Mura na isda",
-          "detail": "Ang presyo ng fresh fish sa Carbon Market ay inaasahang magpapatuloy na mababa, sa hanay ng P150-P200 kada kilo. Magandang bumili ng isda sa mga susunod na araw para sa mga sumusunod na linggo, dahil sa inaasahang mababang suplay ng isda sa mga susunod na buwan. Inaasahan ang pagtaas ng presyo ng isda sa mga susunod na buwan.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-07-07T23:11:18.170Z",
-          "createdAt": "2026-06-23T23:11:18.170Z"
+          "detail": "Ang presyo ng fresh fish sa Carbon Market ay inaasahang bababa sa P150-P200 kada kilo sa mga susunod na linggo dahil sa dagdag na supply mula sa mga mangingisda sa Cebu. Mag-plano na bumili ng isda para sa mga susunod na araw. Magandang pagkain ito para sa mga darating na handaan.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-06-28T23:11:53.505Z",
+          "createdAt": "2026-06-26T23:11:53.505Z"
         },
         {
           "id": "pred-07-3",
           "type": "transport",
-          "summary": "V-hire price up",
-          "detail": "Inaasahan ang pagtaas ng presyo ng v-hire at jeepney sa Cebu City, Lapu-Lapu, at Mandaue, dahil sa inaasahang pagtaas ng presyo ng krudo. Ang presyo ng v-hire ay inaasahang tataas ng P5-P10 sa mga susunod na linggo, habang ang presyo ng jeepney ay tataas ng P2-P5. Magandang magplano ng mas maagang para sa mga biyahe sa mga susunod na linggo.",
+          "summary": "V-hire rate tataas",
+          "detail": "Ang mga v-hire at jeepney driver sa Mandaue ay nagplano na magtaas ng pasahe sa July 1, 2026, dahil sa pagtaas ng presyo ng gasolina. Mag-plano na mag-agi sa ibang ruta o mag-commute ng maaga para maiwasan ang trapiko at mga taas ng pasahe.",
           "confidenceLevel": "low",
-          "validUntil": "2026-07-23T23:11:18.170Z",
-          "createdAt": "2026-06-23T23:11:18.170Z"
+          "validUntil": "2026-06-28T23:11:53.505Z",
+          "createdAt": "2026-06-26T23:11:53.505Z"
         }
       ]
     },
@@ -226,34 +226,34 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-06-23T23:11:28.640Z",
+      "generatedAt": "2026-06-26T23:11:56.953Z",
       "predictions": [
         {
           "id": "pred-05-1",
           "type": "weather",
-          "summary": "Ulan sa Sorsogon",
-          "detail": "Magkakaroon ng malakas na ulan sa Sorsogon dahil sa habagat, inaasahan na magtatagal ng 3 araw. Magdadala ng mga gamit panangga sa ulan at maghanda sa posibleng baha. Ang mga residente sa Naga at Legazpi ay hindi apektado ng malakas na ulan.",
+          "summary": "Uulan sa Sorsogon",
+          "detail": "May posibilidad ng malakas na ulan sa Sorsogon dahil sa habagat, kaya't maghanda ng mga gamit pang-ulan at itabi ang mga outdoor activity. Inaasahan na aabot sa 50mm ang pag-ulan sa loob ng 2 araw. Magdala ng payong o raincoat kapag lumalabas.",
           "confidenceLevel": "high",
-          "validUntil": "2026-06-25T23:11:28.640Z",
-          "createdAt": "2026-06-23T23:11:28.640Z"
+          "validUntil": "2026-06-28T23:11:56.953Z",
+          "createdAt": "2026-06-26T23:11:56.953Z"
         },
         {
           "id": "pred-05-2",
           "type": "food",
           "summary": "Presyo ng laing tataas",
-          "detail": "Dahil sa mahina ang ani ng laing sa mga nakalipas na buwan, inaasahan na tataas ang presyo nito sa mga palengke sa Bicol Region. Ang presyo ng laing ay inaasahan na tataas ng 10-15% sa loob ng 1 linggo. Mag-stock ng laing ngayon pa para makatipid.",
+          "detail": "Dahil sa inaasahang pag-ulan, may posibilidad na tumaas ang presyo ng laing sa mga merkado sa Naga at Legazpi. Inaasahan na aabot sa P50 ang presyo ng isang kilo ng laing, kaya't mag-stock na ng laing ngayon pa lang. Pwedeng umabot sa P10 ang pagtaas ng presyo sa loob ng isang linggo.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-06-25T23:11:28.640Z",
-          "createdAt": "2026-06-23T23:11:28.640Z"
+          "validUntil": "2026-06-28T23:11:56.953Z",
+          "createdAt": "2026-06-26T23:11:56.953Z"
         },
         {
           "id": "pred-05-3",
           "type": "transport",
-          "summary": "Tataas ang pasahe ng jeepney",
-          "detail": "Dahil sa pagtaas ng presyo ng krudo, inaasahan na tataas ang pasahe ng jeepney sa Bicol Region. Ang mga driver ng jeepney ay nagpetisyon para sa pagtaas ng pasahe ng 2-3 piso sa loob ng 1 buwan. Maghanda sa pagtaas ng gastos sa transportasyon at mag-isip ng mga paraan para makatipid.",
+          "summary": "Traffico sa Naga",
+          "detail": "Inaasahan na magkakaroon ng trapiko sa mga kalsada ng Naga dahil sa inaasahang pag-ulan at mga outdoor activity na gagawin sa mga susunod na araw. Maghanda ng mga oras sa pagbiyahe at mag-plan ng maigi ng ruta. Pwedeng umabot sa 30 minutes ang pagkaantala sa biyahe sa loob ng 2 araw.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-25T23:11:28.640Z",
-          "createdAt": "2026-06-23T23:11:28.640Z"
+          "validUntil": "2026-06-28T23:11:56.953Z",
+          "createdAt": "2026-06-26T23:11:56.953Z"
         }
       ]
     },
@@ -290,34 +290,34 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-06-23T23:11:36.397Z",
+      "generatedAt": "2026-06-26T23:12:04.873Z",
       "predictions": [
         {
           "id": "pred-00-1",
-          "type": "fuel",
-          "summary": "Bumaba presyo",
-          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng krudo sa Pilipinas dahil sa mga pagbabago sa global market. Ang presyo ng gasoline ay posibleng bumaba ng P0.50 hanggang P1.00 sa bawat litro, at ito ay makakatulong sa mga motorista na makatipid. Inaasahan itong mangyari sa loob ng 2-3 buwan.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-06-25T23:11:36.397Z",
-          "createdAt": "2026-06-23T23:11:36.397Z"
+          "type": "weather",
+          "summary": "Uulan sa July",
+          "detail": "Inaasahan ng mga eksperto na magkakaroon ng mga malakas na ulan sa buong Pilipinas sa buwan ng July, lalo na sa mga lugar na malapit sa mga bundok. Ito ay dahil sa habagat na nagdadala ng mainit at basang hangin mula sa timog. Kailangan maghanda ng mga residente sa mga posibleng baha at landslides, at magdala ng mga gamit na panlaban sa ulan, gaya ng payong at mga bota, sa loob ng 15-20 araw.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-07-26T23:12:04.873Z",
+          "createdAt": "2026-06-26T23:12:04.873Z"
         },
         {
           "id": "pred-00-2",
-          "type": "weather",
-          "summary": "Ulan magpapatuloy",
-          "detail": "Sa mga susunod na araw, asahan ang patuloy na pag-ulan sa mga lugar sa Pilipinas dahil sa hanging habagat. Ito ay magdudulot ng mga baha at Landslide sa mga lugar na malapit sa mga ilog at bundok. Ang mga residente ay inaanyayahang maghanda ng mga pangangailangan sa panahon ng ulan, gaya ng mga gamit sa paglilinis at pagkain na may matagal na shelf life.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-06-25T23:11:36.397Z",
-          "createdAt": "2026-06-23T23:11:36.397Z"
+          "type": "food",
+          "summary": "Tataas ang presyo ng bigas",
+          "detail": "Dahil sa mga problema sa pag-anod at pagkakarga ng bigas, inaasahan na tataas ang presyo ng bigas sa Pilipinas sa loob ng 2-3 buwan. Ito ay magiging epekto sa mga mamamayan, lalo na sa mga mahihirap na pamilya. Kailangan maghanda ng mga tao sa mga pagbabago sa presyo at mag-isip ng mga paraan upang magtipid, gaya ng pagbili ng mga local na bigas at pagkuha ng mga promosyon sa mga tindahan, sa loob ng 60-90 araw.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-09-24T23:12:04.873Z",
+          "createdAt": "2026-06-26T23:12:04.873Z"
         },
         {
           "id": "pred-00-3",
-          "type": "food",
-          "summary": "Pagtaas ng presyo",
-          "detail": "Sa mga susunod na buwan, asahan ang pagtaas ng presyo ng mga pagkain sa Pilipinas dahil sa mga pagbabago sa presyo ng mga produktong agrikultura. Ang presyo ng bigas ay posibleng tumaas ng P1.00 hanggang P2.00 sa bawat kilo, at ito ay makakaapekto sa mga pamilyang may mababang kita. Inaasahan itong mangyari sa loob ng 3-6 buwan, kaya ang mga mamamayan ay inaanyayahang magplano at magtipid.",
+          "type": "electricity",
+          "summary": "Mtaas ang singil sa kuryente",
+          "detail": "Dahil sa mga problema sa suplay ng kuryente at tataas ng demand, inaasahan na tataas ang singil sa kuryente sa Pilipinas sa loob ng 1-2 buwan. Ito ay magiging epekto sa mga mamamayan, lalo na sa mga negosyo at industriya. Kailangan maghanda ng mga tao sa mga pagbabago sa singil at mag-isip ng mga paraan upang magtipid, gaya ng paggamit ng mga energy-efficient na appliances at pagpatay ng mga ilaw at mga electronics nang hindi ginagamit, sa loob ng 30-60 araw.",
           "confidenceLevel": "low",
-          "validUntil": "2026-06-25T23:11:36.397Z",
-          "createdAt": "2026-06-23T23:11:36.397Z"
+          "validUntil": "2026-08-25T23:12:04.873Z",
+          "createdAt": "2026-06-26T23:12:04.873Z"
         }
       ]
     }
