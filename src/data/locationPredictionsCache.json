@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-28",
+  "generatedDate": "2026-06-29",
   "regions": {
     "10": {
       "generatedAt": "2026-06-28T23:07:40.182Z",
@@ -290,34 +290,34 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-06-26T23:12:04.873Z",
+      "generatedAt": "2026-06-29T23:01:57.224Z",
       "predictions": [
         {
           "id": "pred-00-1",
-          "type": "weather",
-          "summary": "Uulan sa July",
-          "detail": "Inaasahan ng mga eksperto na magkakaroon ng mga malakas na ulan sa buong Pilipinas sa buwan ng July, lalo na sa mga lugar na malapit sa mga bundok. Ito ay dahil sa habagat na nagdadala ng mainit at basang hangin mula sa timog. Kailangan maghanda ng mga residente sa mga posibleng baha at landslides, at magdala ng mga gamit na panlaban sa ulan, gaya ng payong at mga bota, sa loob ng 15-20 araw.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-07-26T23:12:04.873Z",
-          "createdAt": "2026-06-26T23:12:04.873Z"
+          "type": "fuel",
+          "summary": "Bumaba ang gas",
+          "detail": "Sa susunod na linggo, asahan natin na bababa ang presyo ng gasolina ng P0.50 hanggang P1.00 kada litro dahil sa pagbaba ng presyo ng langis sa mundo. Ito ay magandang pagkakataon para punuin ang tanke ng iyong sasakyan at magtipid sa gastusin sa pagmamaneho. Magandang umalis ng maaga para maiwasan ang trapik sa mga susunod na araw.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-07-06T23:01:57.224Z",
+          "createdAt": "2026-06-29T23:01:57.224Z"
         },
         {
           "id": "pred-00-2",
-          "type": "food",
-          "summary": "Tataas ang presyo ng bigas",
-          "detail": "Dahil sa mga problema sa pag-anod at pagkakarga ng bigas, inaasahan na tataas ang presyo ng bigas sa Pilipinas sa loob ng 2-3 buwan. Ito ay magiging epekto sa mga mamamayan, lalo na sa mga mahihirap na pamilya. Kailangan maghanda ng mga tao sa mga pagbabago sa presyo at mag-isip ng mga paraan upang magtipid, gaya ng pagbili ng mga local na bigas at pagkuha ng mga promosyon sa mga tindahan, sa loob ng 60-90 araw.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-09-24T23:12:04.873Z",
-          "createdAt": "2026-06-26T23:12:04.873Z"
+          "type": "weather",
+          "summary": "Ulan sa July",
+          "detail": "Sa buwan ng Hulyo, asahan natin na magkakaroon ng mga ulan sa mga probinsya ng Luzon at Visayas dahil sa habagat. Maghanda ng mga raincoat at payong para sa iyong pang-araw-araw na lakad at magpakonde sa mga baha sa mga lugar na madalas na binabaha. Inaasahan na magkakaroon ng 2-3 araw na ulan sa mga susunod na linggo.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-07-29T23:01:57.224Z",
+          "createdAt": "2026-06-29T23:01:57.224Z"
         },
         {
           "id": "pred-00-3",
-          "type": "electricity",
-          "summary": "Mtaas ang singil sa kuryente",
-          "detail": "Dahil sa mga problema sa suplay ng kuryente at tataas ng demand, inaasahan na tataas ang singil sa kuryente sa Pilipinas sa loob ng 1-2 buwan. Ito ay magiging epekto sa mga mamamayan, lalo na sa mga negosyo at industriya. Kailangan maghanda ng mga tao sa mga pagbabago sa singil at mag-isip ng mga paraan upang magtipid, gaya ng paggamit ng mga energy-efficient na appliances at pagpatay ng mga ilaw at mga electronics nang hindi ginagamit, sa loob ng 30-60 araw.",
+          "type": "food",
+          "summary": "Tumaas ang bigas",
+          "detail": "Sa mga susunod na linggo, asahan natin na tataas ang presyo ng bigas ng P1.00 hanggang P2.00 kada kilo dahil sa kakulangan ng supply sa mga probinsya. Maghanda ng mga pagkaing alternatibo tulad ng kanin na may gulay o prutas at magtipid sa pagkain ng bigas. Magandang bumili ng bigas sa mga palengke o merkado para sa mas mababang presyo.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-25T23:12:04.873Z",
-          "createdAt": "2026-06-26T23:12:04.873Z"
+          "validUntil": "2026-07-13T23:01:57.224Z",
+          "createdAt": "2026-06-29T23:01:57.224Z"
         }
       ]
     }
