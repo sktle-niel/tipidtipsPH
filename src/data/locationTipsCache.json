@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-01",
+  "generatedDate": "2026-07-02",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -983,105 +983,105 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-06-30T23:17:54.262Z",
+      "generatedAt": "2026-07-02T23:11:51.918Z",
       "tips": [
         {
           "id": "loc-01-1",
-          "title": "Sulit na Pagkain",
-          "body": "Kumusta na bumili ng mga prutas at gulay sa mga palengke sa Ilocos Sur na nagbebenta ng mga ito sa ₱20-₱50 lang. Pwede ring magluto ng bagnet at empanada sa bahay na mas mura kaysa sa mga restawran. Mag-budget ng ₱500 para sa isang linggong pagkain. Mag-impake ng baon sa trabaho para hindi magastos sa kainan.",
+          "title": "Sulit na Bagnet",
+          "body": "Kung gusto mo ng masarap na bagnet sa Ilocos Norte, try mo bumili sa mga lokal na market sa Laoag City, mas mura siya doon, ₱150 lang per kilo. Pwede mo ring magluto ng sarili mo para mas tipid, may mga recipe online. Mag-budget ka ng ₱50 para sa mga sangkap. Pwede mo ring ibenta sa mga kaibigan mo para kumita ka pa.",
           "category": "food",
           "tags": [
-            "ilocos",
-            "prutas",
-            "gulay"
+            "bagnet",
+            "Ilocos Norte",
+            "local market"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-30T23:17:54.262Z",
-          "publishedAt": "2026-06-30T23:17:54.262Z",
+          "createdAt": "2026-07-02T23:11:51.918Z",
+          "publishedAt": "2026-07-02T23:11:51.918Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-01-2",
-          "title": "Payday Budget",
-          "body": "Ngayong payday, mag-budget ng 30% ng sweldo para sa mga gastusin sa buwan, 20% para sa savings, at 50% para sa mga utang at iba pang mga pangangailangan. Mag-allocate ng ₱1,000 para sa mga unexpected expenses. Pwede ring mag-invest sa mga blue chip stocks o mga mutual funds.",
-          "category": "payday",
+          "title": "Tipid sa Tricycle",
+          "body": "Kung commmute ka sa La Union, magtipid ka sa pamamagitan ng pag-share ng tricycle ride sa mga kasama mo, ₱10 lang per head. Pwede mo ring maglakad o mag-bike kung malapit lang ang destination mo. Mag-budget ka ng ₱20 per day para sa transpo.",
+          "category": "transport",
           "tags": [
-            "payday",
-            "budget",
-            "ilocos"
+            "tricycle",
+            "La Union",
+            "commuting"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-30T23:17:54.262Z",
-          "publishedAt": "2026-06-30T23:17:54.262Z",
+          "createdAt": "2026-07-02T23:11:51.918Z",
+          "publishedAt": "2026-07-02T23:11:51.918Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-3",
-          "title": "Murang Transport",
-          "body": "Kumusta na mag-commute gamit ang tricycle o jeepney sa halagang ₱10-₱20 lang. Pwede ring mag-walk o mag-bike sa mga malapit na lugar para makatipid sa gas at para sa kalusugan. Mag-budget ng ₱500 para sa isang linggong transportasyon.",
-          "category": "transport",
+          "title": "Mura na Gulay",
+          "body": "Kung gusto mo ng masarap na gulay sa Ilocos Sur, bumili ka sa mga lokal na farmer sa Vigan City, mas mura siya doon, ₱20 lang per kilo. Pwede mo ring magtanim ng sarili mo para mas tipid, may mga seedlings online. Mag-budget ka ng ₱50 para sa mga tools.",
+          "category": "food",
           "tags": [
-            "transport",
-            "tricycle",
-            "jeepney"
+            "gulay",
+            "Ilocos Sur",
+            "local farmer"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-30T23:17:54.262Z",
-          "publishedAt": "2026-06-30T23:17:54.262Z",
+          "createdAt": "2026-07-02T23:11:51.918Z",
+          "publishedAt": "2026-07-02T23:11:51.918Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-4",
-          "title": "Tipid sa Kuryente",
-          "body": "Kumusta na magpatay ng mga ilaw at mga appliance na hindi ginagamit. Mag-install ng mga LED bulbs na mas matipid sa kuryente. Mag-budget ng ₱1,000 para sa isang buwang bayad sa kuryente.",
+          "title": "Kuryente ng Pangasinan",
+          "body": "Kung nakatira ka sa Pangasinan, magtipid ka sa pamamagitan ng paggamit ng mga energy-efficient appliances, 30% lang ang consumption mo. Pwede mo ring mag-install ng solar panels sa bahay mo para mas tipid, may mga promo online. Mag-budget ka ng ₱1,000 per month para sa kuryente.",
           "category": "electricity",
           "tags": [
-            "kuryente",
-            "tipid",
-            "ilocos"
+            "Pangasinan",
+            "energy-efficient",
+            "solar panels"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-30T23:17:54.262Z",
-          "publishedAt": "2026-06-30T23:17:54.262Z",
+          "createdAt": "2026-07-02T23:11:51.918Z",
+          "publishedAt": "2026-07-02T23:11:51.918Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-5",
-          "title": "Emergency Fund",
-          "body": "Kumusta na mag-save ng ₱5,000 para sa isang emergency fund. Pwede ring mag-invest sa mga liquid assets tulad ng mga savings account o mga time deposits. Mag-budget ng 10% ng sweldo para sa emergency fund.",
-          "category": "emergency",
+          "title": "Payday Tips",
+          "body": "Kung payday na sa Ilocos Region, mag-budget ka ng 50% para sa mga bills mo, 30% para sa savings mo, at 20% para sa mga wants mo. Pwede mo ring mag-invest sa mga small business sa lugar, may mga opportunities online. Mag-budget ka ng ₱5,000 per month para sa emergency fund.",
+          "category": "payday",
           "tags": [
-            "emergency",
-            "fund",
-            "ilocos"
+            "Ilocos Region",
+            "payday",
+            "budgeting"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-06-30T23:17:54.262Z",
-          "publishedAt": "2026-06-30T23:17:54.262Z",
+          "createdAt": "2026-07-02T23:11:51.918Z",
+          "publishedAt": "2026-07-02T23:11:51.918Z",
           "isPublished": true,
           "isFeatured": false
         }
