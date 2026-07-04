@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-03",
+  "generatedDate": "2026-07-04",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -433,18 +433,17 @@
       ]
     },
     "06": {
-      "generatedAt": "2026-07-01T23:20:13.622Z",
+      "generatedAt": "2026-07-04T23:00:49.227Z",
       "tips": [
         {
           "id": "loc-06-1",
-          "title": "Sulit na Pagkain",
-          "body": "Kung gusto mong makatipid sa pagkain, try mo ang mga stall na nagbebenta ng La Paz Batchoy sa Iloilo na nagkakahalaga lang ng ₱50-₱70 per serving. Pwede ka ring mag-try ng Chicken Inasal sa Bacolod na nagkakahalaga ng ₱120-₱150 per serving. Magpaplano ka rin ng mga meal mo para hindi ka mag-overspend sa mga fast food na mahal.",
+          "title": "Sulit na Sabado",
+          "body": "Kung weekend, mag-grocery shopping ka na sa mga palengke sa Iloilo o Bacolod, kung saan mas mura ang presyo ng mga gulay at prutas, halimbawa ₱20 lang ang isang kilo ng kamote. Pumunta sa La Paz Market sa Iloilo para makabili ng mga fresong seafood na ₱100 lang ang isang kilo. Mag-plano ng mga lutuin mo sa linggo para masulit ang mga binili mo. Huwag kalimutan na mag-dala ng reusable bag para mas makatipid ka sa pagbili ng plastic bags.",
           "category": "food",
           "tags": [
-            "La Paz Batchoy",
-            "Chicken Inasal",
-            "Iloilo",
-            "Bacolod"
+            "grocery",
+            "sabado",
+            "palengke"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -452,21 +451,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:13.622Z",
-          "publishedAt": "2026-07-01T23:20:13.622Z",
+          "createdAt": "2026-07-04T23:00:49.227Z",
+          "publishedAt": "2026-07-04T23:00:49.227Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-06-2",
-          "title": "Murang Pamasahe",
-          "body": "Kung gusto mong makatipid sa pamasahe, mag-jeepney o tricycle ka na sa Iloilo at Bacolod. Ang minimum fare ng jeepney ay ₱8-₱10, samantalang ang tricycle ay ₱15-₱20. Magpaplano ka rin ng ruta mo para hindi ka mag-overspend sa pamasahe.",
+          "title": "Tipid sa Transport",
+          "body": "Kung commmute ka sa trabaho, mag-jeepney o tricycle ka na lang, kung saan ₱8 lang ang pamasahe mula Iloilo hanggang Jaro. Mag-plano ng ruta mo para mas makatipid ka sa pamasahe. Kung may kakilala kang driver, pwede ka ring mag-carpool para mas makatipid ka sa gas at toll. Huwag kalimutan na mag-dala ng pocket change para sa pamasahe mo.",
           "category": "transport",
           "tags": [
             "jeepney",
             "tricycle",
-            "Iloilo",
-            "Bacolod"
+            "commmute"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -474,21 +472,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:13.622Z",
-          "publishedAt": "2026-07-01T23:20:13.622Z",
+          "createdAt": "2026-07-04T23:00:49.227Z",
+          "publishedAt": "2026-07-04T23:00:49.227Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-3",
-          "title": "Tipid sa Kuryente",
-          "body": "Kung gusto mong makatipid sa kuryente, try mo ang mga energy-efficient na appliances na available sa mga mall sa Iloilo at Bacolod. Magpaplano ka rin ng oras mo sa paggamit ng mga appliances para hindi ka mag-overspend sa kuryente. Ang average cost ng kuryente sa Western Visayas ay ₱10-₱15 per kilowatt-hour.",
+          "title": "Kuryente sa Tipid",
+          "body": "Magpatayo ng mga energy-efficient na appliances sa bahay mo, gaya ng LED bulbs na ₱50 lang ang presyo. Mag-turn off ng mga appliances na hindi ginagamit, tulad ng TV at computer, para mas makatipid ka sa kuryente. Mag-plano ng oras mo para mas makatipid ka sa kuryente, halimbawa sa gabi na mas mababa ang temperatura.",
           "category": "electricity",
           "tags": [
             "kuryente",
             "energy-efficient",
-            "Iloilo",
-            "Bacolod"
+            "LED"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -496,21 +493,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:13.622Z",
-          "publishedAt": "2026-07-01T23:20:13.622Z",
+          "createdAt": "2026-07-04T23:00:49.227Z",
+          "publishedAt": "2026-07-04T23:00:49.227Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-4",
-          "title": "Sagot sa Emergency",
-          "body": "Kung gusto mong magkaroon ng sagot sa emergency, magbukas ka ng savings account sa mga banko sa Iloilo at Bacolod. Magpaplano ka rin ng budget mo para may maiwanan ka sa mga emergency situation. Ang average interest rate ng savings account sa Western Visayas ay 0.5-1.5% per annum.",
-          "category": "emergency",
+          "title": "Payday na Sulit",
+          "body": "Kung payday, mag-budget ka na agad para sa mga gastusin mo sa linggo, gaya ng ₱1,500 para sa renta at ₱500 para sa pagkain. Mag-plano ng mga priorities mo, tulad ng pagbayad ng mga bills at pag-iipon ng pera para sa emergency fund. Huwag kalimutan na mag-dala ng atm card mo para mas makatipid ka sa transaksiyon.",
+          "category": "payday",
           "tags": [
-            "savings account",
-            "emergency fund",
-            "Iloilo",
-            "Bacolod"
+            "payday",
+            "budget",
+            "priorities"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -518,21 +514,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:13.622Z",
-          "publishedAt": "2026-07-01T23:20:13.622Z",
+          "createdAt": "2026-07-04T23:00:49.227Z",
+          "publishedAt": "2026-07-04T23:00:49.227Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-5",
-          "title": "Payday Tips",
-          "body": "Kung gusto mong magkaroon ng mas malaking sweldo, try mo ang mga part-time job na available sa Iloilo at Bacolod. Magpaplano ka rin ng budget mo para may maiwanan ka sa mga importanteng gastos. Ang average daily wage sa Western Visayas ay ₱500-₱800.",
-          "category": "payday",
+          "title": "Emergency Fund",
+          "body": "Mag-iipon ka ng pera para sa emergency fund, halimbawa ₱1,000 kada buwan, para sa mga di-inaasahang gastusin, tulad ng pagpapagamot o pagpapalit ng cellphone. Mag-plano ng mga paraan para makatipid ka, tulad ng pag-cutback sa mga unnecessary expenses. Huwag kalimutan na mag-dala ng pera para sa mga di-inaasahang gastusin.",
+          "category": "emergency",
           "tags": [
-            "part-time job",
-            "budgeting",
-            "Iloilo",
-            "Bacolod"
+            "emergency fund",
+            "ipon",
+            "gastusin"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -540,8 +535,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:13.622Z",
-          "publishedAt": "2026-07-01T23:20:13.622Z",
+          "createdAt": "2026-07-04T23:00:49.227Z",
+          "publishedAt": "2026-07-04T23:00:49.227Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -658,17 +653,17 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-07-01T23:20:30.918Z",
+      "generatedAt": "2026-07-04T23:01:07.877Z",
       "tips": [
         {
           "id": "loc-00-1",
-          "title": "Sulit na Kain",
-          "body": "Kung kumakain ka sa labas, pumili ng mga carinderia o food stall na may presyong ₱50-₱100 lang per meal. Puwede din mag-dine-in sa mga fast food chain na may promo, tulad ng ₱15 lang na burger. Magbaon ng baon sa trabaho o eskwela para hindi ka bumili ng mahal na kainan. Sa ganitong paraan, makatitipid ka ng ₱500-₱1000 sa isang linggo.",
+          "title": "Savvy Shopper",
+          "body": "Kung weekend ngayon, mag-plan ng grocery shopping sa merkado o palengke para makatipid ng hanggang 30% sa presyo ng gulay at prutas. Sa halagang ₱50, makakabili ka na ng isang kilo ng kanin at ₱20 lang ang presyo ng isang kilo ng galunggong. Magdagdag ka rin ng mga murang pagkain sa iyong listahan tulad ng monggo o tinola. Iwasan ang mga overpriced na restaurant at fastfood chains.",
           "category": "food",
           "tags": [
-            "kainan",
-            "carinderia",
-            "fast food"
+            "grocery",
+            "palengke",
+            "sunday market"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -676,20 +671,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:30.918Z",
-          "publishedAt": "2026-07-01T23:20:30.918Z",
+          "createdAt": "2026-07-04T23:01:07.877Z",
+          "publishedAt": "2026-07-04T23:01:07.877Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-00-2",
-          "title": "Tipid sa Kuryente",
-          "body": "Kapag mainit, gumamit ng electric fan na ₱10 lang ang consumpto sa isang oras. Iwasan ang paggamit ng aircon na ₱50-₱100 ang consumpto sa isang oras. Puwede din magpatubo ng mga halaman sa bahay para makabawas ng init at gastos sa kuryente. Sa ganitong paraan, makatitipid ka ng 30% sa iyong bill sa kuryente.",
-          "category": "electricity",
+          "title": "Fuel Efficiency",
+          "body": "Upang makatipid sa gasolina, mag-plano ng ruta bago mag-maneho at iwasan ang mga trapiko. Sa Pilipinas, ang average na presyo ng gasolina ay ₱60 per liter, kaya magkano ang makakatiis sa iyong gas tank? Magdagdag ka rin ng mga fuel-efficient driving tips tulad ng pagpapalit ng gear sa tamang oras at pag-iwas sa mga biglaang pag-accellerate.",
+          "category": "fuel",
           "tags": [
-            "kuryente",
-            "electric fan",
-            "aircon"
+            "gasolina",
+            "fuel efficiency",
+            "driving tips"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -697,61 +692,19 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:30.918Z",
-          "publishedAt": "2026-07-01T23:20:30.918Z",
+          "createdAt": "2026-07-04T23:01:07.877Z",
+          "publishedAt": "2026-07-04T23:01:07.877Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-3",
-          "title": "Sulit na Biyahe",
-          "body": "Kapag nagco-commute, pumili ng mga jeepney o bus na may presyong ₱10-₱20 lang per ride. Puwede din mag-walk o mag-bike sa mga malapit na destinasyon para hindi ka magastos sa gasolina o pamasahe. Mag-load din ng beep card o GCash para hindi ka na magdala ng maraming pera sa biyahe. Sa ganitong paraan, makatitipid ka ng ₱500-₱1000 sa isang buwan.",
-          "category": "transport",
-          "tags": [
-            "biyahe",
-            "jeepney",
-            "bus"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-01T23:20:30.918Z",
-          "publishedAt": "2026-07-01T23:20:30.918Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-00-4",
-          "title": "Emergency Fund",
-          "body": "Mag-open ka ng isang savings account na may interes na 2-3% per annum. Iwasan ang pag-withdraw ng pera sa iyong savings account para hindi ka magastos sa mga di-kinakailangan. Puwede din mag-invest sa mga investment products tulad ng time deposit o mutual fund. Sa ganitong paraan, makatitipid ka ng ₱10,000-₱50,000 sa isang taon para sa iyong emergency fund.",
-          "category": "emergency",
-          "tags": [
-            "savings",
-            "emergency fund",
-            "investment"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-01T23:20:30.918Z",
-          "publishedAt": "2026-07-01T23:20:30.918Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-00-5",
-          "title": "Payday Tips",
-          "body": "Kapag sweldo, mag-budget ka ng iyong pera para hindi ka magastos sa mga di-kinakailangan. Puwede din mag-automate ng iyong savings at bills payment para hindi ka na mag-alala sa mga ganitong bagay. Mag-load din ng iyong budgeting app para makatrack ka ng iyong gastos at kita. Sa ganitong paraan, makatitipid ka ng 20-30% sa iyong sweldo para sa iyong sariling kinabukasan.",
+          "title": "Payday Budget",
+          "body": "Kapag payday, mag-plan ng budget para sa buong linggo. Alisin ang 20% ng iyong sahod para sa pag-iipon at 30% para sa mga gastusin sa bahay. Magdagdag ka rin ng 10% para sa mga leisure activities tulad ng pag-sali sa mga outdoor activities o pag-kain sa mga murang restaurant. Huwag kalimutan ang mga bill payments tulad ng kuryente at tubig.",
           "category": "payday",
           "tags": [
-            "sweldo",
-            "budgeting",
+            "budget",
+            "payday",
             "savings"
           ],
           "sourceTrigger": "ai-location",
@@ -760,8 +713,50 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-01T23:20:30.918Z",
-          "publishedAt": "2026-07-01T23:20:30.918Z",
+          "createdAt": "2026-07-04T23:01:07.877Z",
+          "publishedAt": "2026-07-04T23:01:07.877Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-00-4",
+          "title": "Electricity Savings",
+          "body": "Upang makatipid sa kuryente, mag-turn off ng mga appliances na hindi ginagamit tulad ng TV at computer. Sa Pilipinas, ang average na presyo ng kuryente ay ₱10 per kilowatt-hour, kaya magkano ang makakatiis sa iyong monthly bill? Magdagdag ka rin ng mga energy-efficient tips tulad ng paggamit ng LED bulbs at pag-iwas sa mga standby modes.",
+          "category": "electricity",
+          "tags": [
+            "kuryente",
+            "energy efficiency",
+            "savings"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-04T23:01:07.877Z",
+          "publishedAt": "2026-07-04T23:01:07.877Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-00-5",
+          "title": "Weekend Leisure",
+          "body": "Kapag weekend, mag-plan ng mga murang leisure activities tulad ng pag-sali sa mga outdoor activities o pag-kain sa mga murang restaurant. Sa halagang ₱150, makakakain ka na ng isang masarap na lunch sa isang carinderia o food stall. Magdagdag ka rin ng mga tips tulad ng pag-iwas sa mga overpriced na tourist spots at pag-pili ng mga libreng mga aktibidad tulad ng pag-jog o pag-bisikleta.",
+          "category": "general",
+          "tags": [
+            "leisure",
+            "weekend",
+            "savings"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-04T23:01:07.877Z",
+          "publishedAt": "2026-07-04T23:01:07.877Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -983,105 +978,105 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-07-02T23:11:51.918Z",
+      "generatedAt": "2026-07-04T23:00:59.932Z",
       "tips": [
         {
           "id": "loc-01-1",
-          "title": "Sulit na Bagnet",
-          "body": "Kung gusto mo ng masarap na bagnet sa Ilocos Norte, try mo bumili sa mga lokal na market sa Laoag City, mas mura siya doon, ₱150 lang per kilo. Pwede mo ring magluto ng sarili mo para mas tipid, may mga recipe online. Mag-budget ka ng ₱50 para sa mga sangkap. Pwede mo ring ibenta sa mga kaibigan mo para kumita ka pa.",
+          "title": "Sulit na Grocery",
+          "body": "Kumusta ang weekend nyo? Pumunta ka sa palengke ng Ilocos Sur at bumili ng mga murang gulay na ₱10-15 lang, gaya ng kamote at pechay. Mag-stock din ng bagnet na ₱50-₱70 kada kilo sa mga local market. Iwasan ang mga imported na produkto para makatipid.",
           "category": "food",
           "tags": [
-            "bagnet",
-            "Ilocos Norte",
-            "local market"
+            "grocery",
+            "ilocos sur",
+            "bagnet"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-02T23:11:51.918Z",
-          "publishedAt": "2026-07-02T23:11:51.918Z",
+          "createdAt": "2026-07-04T23:00:59.932Z",
+          "publishedAt": "2026-07-04T23:00:59.932Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-01-2",
-          "title": "Tipid sa Tricycle",
-          "body": "Kung commmute ka sa La Union, magtipid ka sa pamamagitan ng pag-share ng tricycle ride sa mga kasama mo, ₱10 lang per head. Pwede mo ring maglakad o mag-bike kung malapit lang ang destination mo. Mag-budget ka ng ₱20 per day para sa transpo.",
+          "title": "Tricycle Savings",
+          "body": "Sa Ilocos Norte, gumamit ng tricycle sa loob ng bayan na ₱10-₱20 lang ang pamasahe. Iwasan ang mga gas-guzzling na sasakyan at piliin ang mga environmentally-friendly at cost-efficient na transportasyon. Mag-plano rin ng ruta para makaiwas sa traffic at matipid sa gas.",
           "category": "transport",
           "tags": [
             "tricycle",
-            "La Union",
-            "commuting"
+            "ilocos norte",
+            "transport"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-02T23:11:51.918Z",
-          "publishedAt": "2026-07-02T23:11:51.918Z",
+          "createdAt": "2026-07-04T23:00:59.932Z",
+          "publishedAt": "2026-07-04T23:00:59.932Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-3",
-          "title": "Mura na Gulay",
-          "body": "Kung gusto mo ng masarap na gulay sa Ilocos Sur, bumili ka sa mga lokal na farmer sa Vigan City, mas mura siya doon, ₱20 lang per kilo. Pwede mo ring magtanim ng sarili mo para mas tipid, may mga seedlings online. Mag-budget ka ng ₱50 para sa mga tools.",
+          "title": "Empanada Treat",
+          "body": "Pumunta ka sa La Union at bumili ng empanada na ₱20-₱30 lang. Ito ay masarap na merienda na hindi ka magugutom. Mag-tipid rin sa mga fancy restaurant at piliin ang mga local eatery na may mas mababang presyo.",
           "category": "food",
           "tags": [
-            "gulay",
-            "Ilocos Sur",
-            "local farmer"
+            "empanada",
+            "la union",
+            "merienda"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-02T23:11:51.918Z",
-          "publishedAt": "2026-07-02T23:11:51.918Z",
+          "createdAt": "2026-07-04T23:00:59.932Z",
+          "publishedAt": "2026-07-04T23:00:59.932Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-4",
-          "title": "Kuryente ng Pangasinan",
-          "body": "Kung nakatira ka sa Pangasinan, magtipid ka sa pamamagitan ng paggamit ng mga energy-efficient appliances, 30% lang ang consumption mo. Pwede mo ring mag-install ng solar panels sa bahay mo para mas tipid, may mga promo online. Mag-budget ka ng ₱1,000 per month para sa kuryente.",
+          "title": "Pangasinan Power",
+          "body": "Sa Pangasinan, mag-monitor ng electricity consumption at gumamit ng mga energy-efficient na appliance. Iwasan ang mga wastong paggamit ng kuryente at mag-tipid ng ₱500-₱1000 kada buwan sa electricity bill.",
           "category": "electricity",
           "tags": [
-            "Pangasinan",
-            "energy-efficient",
-            "solar panels"
+            "pangasinan",
+            "electricity",
+            "energy-efficient"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-02T23:11:51.918Z",
-          "publishedAt": "2026-07-02T23:11:51.918Z",
+          "createdAt": "2026-07-04T23:00:59.932Z",
+          "publishedAt": "2026-07-04T23:00:59.932Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-01-5",
-          "title": "Payday Tips",
-          "body": "Kung payday na sa Ilocos Region, mag-budget ka ng 50% para sa mga bills mo, 30% para sa savings mo, at 20% para sa mga wants mo. Pwede mo ring mag-invest sa mga small business sa lugar, may mga opportunities online. Mag-budget ka ng ₱5,000 per month para sa emergency fund.",
-          "category": "payday",
+          "title": "Weekend Leisure",
+          "body": "Gumamit ng weekend para mag-relax at mag-enjoy ng mga beach sa Pangasinan o Ilocos Sur. Mag-plano ng itinerary na hindi ka mag-aabot ng ₱1,000-₱2,000 para sa isang araw na leisure. Pumunta sa mga libreng pasyalan at gumamit ng mga public transport para makatipid.",
+          "category": "general",
           "tags": [
-            "Ilocos Region",
-            "payday",
-            "budgeting"
+            "weekend",
+            "leisure",
+            "pangasinan"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-02T23:11:51.918Z",
-          "publishedAt": "2026-07-02T23:11:51.918Z",
+          "createdAt": "2026-07-04T23:00:59.932Z",
+          "publishedAt": "2026-07-04T23:00:59.932Z",
           "isPublished": true,
           "isFeatured": false
         }
