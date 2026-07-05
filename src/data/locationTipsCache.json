@@ -1,19 +1,19 @@
 {
-  "generatedDate": "2026-07-04",
+  "generatedDate": "2026-07-05",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
-      "generatedAt": "2026-07-03T23:08:48.385Z",
+      "generatedAt": "2026-07-05T23:05:19.623Z",
       "tips": [
         {
           "id": "loc-10-1",
-          "title": "Sulit na Sinuglaw",
-          "body": "Kung kumakain ka sa CDO, subukan mo ang sinuglaw sa mga karinderya na nag-ooffer nito for ₱50 lang. Mas masarap at mas mura kaysa sa mga restaurant na may presyong ₱150. Pwede mo ring magluto ng sarili mo sa bahay gamit ang mga fresong seafood na mabibili sa mga palengke. Maghanda ka ng ₱100 para sa isang linggong supply ng sinuglaw ingredients.",
+          "title": "Sulit na Grocery",
+          "body": "Kung weekend ngayon, mag-grocery shopping ka na sa Cagayan de Oro para sa mga murang gulay at prutas. Pwedeng mag-jeepney papuntang marketplace para mas mura, around ₱15 lang ang pamasahe. Mag-stock din ng mga non-perishable items katulad ng bigas at noodles para sa linggong ito. Mag-budget ka ng ₱500 para sa isang linggong grocery.",
           "category": "food",
           "tags": [
-            "sinuglaw",
-            "CDO",
-            "foodie"
+            "grocery",
+            "sulit",
+            "CDO"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -21,20 +21,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:08:48.385Z",
-          "publishedAt": "2026-07-03T23:08:48.385Z",
+          "createdAt": "2026-07-05T23:05:19.623Z",
+          "publishedAt": "2026-07-05T23:05:19.623Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-10-2",
-          "title": "Jeepney Wisely",
-          "body": "Sa CDO, mas mura ang mag-jeepney kaysa mag-taksi. Ang minimum fare ng jeepney ay ₱8, samantalang ang taksi ay ₱40. Kung magkano ang budget mo, mag-jeepney ka na lang at i-save ang ₱32. Pwede mo ring maglakad o mag-trisikad kung malapit lang ang destination mo.",
-          "category": "transport",
+          "title": "Tipid sa Kuryente",
+          "body": "Mag-turn off ng mga appliances na hindi ginagamit sa bahay, lalo na ang mga gadget at lighting. Sa Butuan, ang average cost ng kuryente ay around ₱10 per kilowatt-hour, kaya pag-iingat sa konsumo ng kuryente ay makatitipid ng ₱100-200 sa isang buwan. Mag-invest ka din sa mga energy-efficient na appliances para sa huling mga buwan.",
+          "category": "electricity",
           "tags": [
-            "jeepney",
-            "CDO",
-            "transportation"
+            "kuryente",
+            "tipid",
+            "Butuan"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -42,20 +42,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:08:48.385Z",
-          "publishedAt": "2026-07-03T23:08:48.385Z",
+          "createdAt": "2026-07-05T23:05:19.623Z",
+          "publishedAt": "2026-07-05T23:05:19.623Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-10-3",
-          "title": "Butuan Payday Tips",
-          "body": "Kung nakatira ka sa Butuan, mag-plano ka ng maigi sa payday. I-set aside ang 30% ng sweldo mo para sa mga bills at savings. Pwede mo ring mag-avail ng mga promo sa mga mall at restaurant na nag-ooffer ng discount sa mga empleyado. Maghanda ka ng ₱1,000 para sa isang linggong supply ng groceries at pang-araw-araw na gastusin.",
-          "category": "payday",
+          "title": "Fuel Efficiency",
+          "body": "Kung may sariling vehicle ka sa Iligan, mag-drive smart para mas mka-tipid sa gas. Pwedeng mag-tank up sa mga gasoline station na may promo, katulad ng ₱1.50 per liter discount. Mag-maintain din ng sasakyan mo para mas matipid sa gas, at mag-iskedule ng regular tune-up para mas mabuti ang fuel efficiency.",
+          "category": "fuel",
           "tags": [
-            "Butuan",
-            "payday",
-            "budgeting"
+            "fuel",
+            "efficiency",
+            "Iligan"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -63,20 +63,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:08:48.385Z",
-          "publishedAt": "2026-07-03T23:08:48.385Z",
+          "createdAt": "2026-07-05T23:05:19.623Z",
+          "publishedAt": "2026-07-05T23:05:19.623Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-10-4",
-          "title": "Iligan Energy Tips",
-          "body": "Sa Iligan, mag-ingat ka sa paggamit ng kuryente lalo na sa tag-init. I-turn off ang mga appliance na hindi ginagamit at mag-replace ng mga LED bulb na mas matipid. Pwede mo ring mag-avail ng mga promo sa mga energy-efficient appliances na nag-ooffer ng discount. Maghanda ka ng ₱500 para sa isang buwang supply ng kuryente.",
-          "category": "electricity",
+          "title": "Seafood Sunday",
+          "body": "Kung gustong mag-celebrate ng weekend, mag-dine out sa mga seafood restaurant sa CDO. Pwedeng mag-order ng sinuglaw o grilled fish para mas mura, around ₱150-200 per person. Mag-avail din ng mga promo at discounts sa mga restaurant para mas sulit ang budget mo.",
+          "category": "food",
           "tags": [
-            "Iligan",
-            "energy",
-            "savings"
+            "seafood",
+            "sunday",
+            "CDO"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -84,20 +84,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:08:48.385Z",
-          "publishedAt": "2026-07-03T23:08:48.385Z",
+          "createdAt": "2026-07-05T23:05:19.623Z",
+          "publishedAt": "2026-07-05T23:05:19.623Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-10-5",
-          "title": "CDO Emergency Fund",
-          "body": "Kung nakatira ka sa CDO, mag-create ka ng emergency fund na may halagang ₱5,000. I-set aside ang 10% ng sweldo mo para sa emergency fund. Pwede mo ring mag-avail ng mga savings account na nag-ooffer ng high-interest rate. Maghanda ka ng ₱1,000 para sa isang linggong supply ng pang-emergency na gastusin.",
-          "category": "emergency",
+          "title": "Transport Tipid",
+          "body": "Kung commute papuntang trabaho sa CDO, mag-jeepney o trisikad para mas mura, around ₱10-15 lang ang pamasahe. Pwedeng mag-walk din ng mga 10-15 minutes para mas tipid at mas healthy. Mag-iskedule din ng byahe mo para mas maiwasan ang traffic at mas makatipid sa oras at pera.",
+          "category": "transport",
           "tags": [
-            "CDO",
-            "emergency fund",
-            "savings"
+            "transport",
+            "tipid",
+            "CDO"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -105,25 +105,25 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:08:48.385Z",
-          "publishedAt": "2026-07-03T23:08:48.385Z",
+          "createdAt": "2026-07-05T23:05:19.623Z",
+          "publishedAt": "2026-07-05T23:05:19.623Z",
           "isPublished": true,
           "isFeatured": false
         }
       ]
     },
     "11": {
-      "generatedAt": "2026-07-03T23:08:55.969Z",
+      "generatedAt": "2026-07-05T23:05:27.312Z",
       "tips": [
         {
           "id": "loc-11-1",
-          "title": "Sulit na Food Trip",
-          "body": "Kung gusto mo ng murang seafood, puntahan mo ang Roxas Night Market sa Davao City. Mabibili mo dito ang isda at hipon sa presyong ₱50 hanggang ₱100 lang. Mag-jjejepney ka papuntang Roxas Night Market, ₱15 lang ang pamasahe. Mas tipid kaysa kain sa restaurant.",
+          "title": "Sulit na Groceries",
+          "body": "Pumunta sa Roxas Night Market sa Davao City para makabili ng murang seafood, tulad ng ₱50 na kilo ng isda. Mag-jeepney o mag-habal-habal papunta roon, ₱15 lang ang pamasahe. Sa Tagum, may mga talipapa rin na nagbebenta ng murang gulay at prutas, katulad ng ₱20 na kilo ng dragon fruit. Mag-plan ng menu para sa linggong ito at bumili ng mga ingredients.",
           "category": "food",
           "tags": [
-            "Roxas Night Market",
-            "seafood",
-            "murang pagkain"
+            "groceries",
+            "night market",
+            "seafood"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -131,229 +131,19 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:08:55.969Z",
-          "publishedAt": "2026-07-03T23:08:55.969Z",
+          "createdAt": "2026-07-05T23:05:27.312Z",
+          "publishedAt": "2026-07-05T23:05:27.312Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-11-2",
-          "title": "Save on Transport",
-          "body": "Sa Davao City, mas mura ang mag-habal-habal kaysa mag-jjejepney. Ang pamasahe ng habal-habal ay ₱20 hanggang ₱50 lang, depende sa layo ng destination. Magandang option ito kung malapit lang ang pupuntahan mo. Magandang alternatibong transpo ito sa mga jeepney.",
-          "category": "transport",
-          "tags": [
-            "habal-habal",
-            "jeepney",
-            "transportasyon"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-03T23:08:55.969Z",
-          "publishedAt": "2026-07-03T23:08:55.969Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-11-3",
-          "title": "Affordable Fruits",
-          "body": "Kung gusto mo ng murang dragon fruit at durian, puntahan mo ang mga lokal na market sa Davao Region. Mabibili mo dito ang dragon fruit sa presyong ₱20 hanggang ₱30 lang, at ang durian sa presyong ₱50 hanggang ₱100 lang. Mas masaya kainin ang mga prutas na ito kaysa sa mga restaurant.",
-          "category": "food",
-          "tags": [
-            "dragon fruit",
-            "durian",
-            "mga prutas"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-03T23:08:55.969Z",
-          "publishedAt": "2026-07-03T23:08:55.969Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-11-4",
-          "title": "Low Electricity Bill",
-          "body": "Upang makatipid sa electricity bill, gumamit ka ng LED bulbs na mas matipid sa kuryente. Ang LED bulbs ay nagkakahalaga ng ₱50 hanggang ₱100 lang, pero nakakatipid ka ng 30% sa electricity bill mo. Magandang investment ito para sa iyong bahay.",
-          "category": "electricity",
-          "tags": [
-            "LED bulbs",
-            "electricity bill",
-            "tipid"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-03T23:08:55.969Z",
-          "publishedAt": "2026-07-03T23:08:55.969Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-11-5",
-          "title": "Emergency Fund",
-          "body": "Kung gusto mo ng seguridad sa pananalapi, mag-create ka ng emergency fund. Ipon mo ang 10% ng iyong sahod sa isang savings account. Magandang idea ito kung Biglang may mga gastusin ka. Pwede kang mag-open ng savings account sa mga banko sa Davao City, gaya ng BDO o BPI, at mag-start ng ipon ng ₱1,000 hanggang ₱5,000 lang.",
-          "category": "emergency",
-          "tags": [
-            "emergency fund",
-            "savings account",
-            "seguridad sa pananalapi"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-03T23:08:55.969Z",
-          "publishedAt": "2026-07-03T23:08:55.969Z",
-          "isPublished": true,
-          "isFeatured": false
-        }
-      ]
-    },
-    "13": {
-      "generatedAt": "2026-07-03T23:09:04.082Z",
-      "tips": [
-        {
-          "id": "loc-13-1",
-          "title": "Sulit na Commute",
-          "body": "Kung pupunta ka sa work sa Makati, gumamit ka ng MRT/LRT para makatipid ng ₱50-₱100 kada araw. Sa halip na mag-Grab na ₱150-₱200, maglakad ka na lang ng 10-15 minuto papuntang opisina. Mag-load ka rin ng beep card para hindi na mag-hassle sa pagbili ng ticket. Sa isang linggo, makatitipid ka na ng ₱1,000-₱2,000.",
-          "category": "transport",
-          "tags": [
-            "MRT",
-            "LRT",
-            "commute"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "high"
-          ],
-          "createdAt": "2026-07-03T23:09:04.082Z",
-          "publishedAt": "2026-07-03T23:09:04.082Z",
-          "isPublished": true,
-          "isFeatured": true
-        },
-        {
-          "id": "loc-13-2",
-          "title": "Affordable Lunch",
-          "body": "Hindi mo na kailangang gumastos ng ₱200-₱300 sa isang meal sa mga restaurant sa BGC. Magpakilo ka na lang ng ₱50-₱70 na adobo o sinigang sa mga carinderia sa may EDSA. O kaya, magdala ka ng baon na ₱30-₱50 lang para sa isang linggong tipid na lunch. May mga option din na ₱100-₱150 na meal sa mga food court sa mga mall.",
-          "category": "food",
-          "tags": [
-            "lunch",
-            "carinderia",
-            "food court"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "high"
-          ],
-          "createdAt": "2026-07-03T23:09:04.082Z",
-          "publishedAt": "2026-07-03T23:09:04.082Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-13-3",
-          "title": "Payday Tips",
-          "body": "Kapag payday, mag-budget ka agad ng 30% para sa renta at utilities. Mag-allocate ka rin ng 10%-20% para sa savings at emergency fund. Huwag mo na gastusin lahat ng sweldo mo sa isang linggo, para hindi ka mahirapan sa mga sumunod na araw. Mag-set ka rin ng automatic transfer sa iyong savings account para hindi mo ito makalimutan.",
-          "category": "payday",
-          "tags": [
-            "budget",
-            "savings",
-            "emergency fund"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "high"
-          ],
-          "createdAt": "2026-07-03T23:09:04.082Z",
-          "publishedAt": "2026-07-03T23:09:04.082Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-13-4",
-          "title": "Savvy Shopping",
-          "body": "Kapag nagsho-shop ka sa mga mall sa Metro Manila, maghanap ka ng mga discount at promo na 10%-50% off. Mag-check ka rin ng mga price comparison sa mga online store para makahanap ng mas mura. Huwag mo na bilin ang isang item na hindi mo kailangan, para hindi ka magastos ng ₱500-₱1,000.",
-          "category": "general",
-          "tags": [
-            "shopping",
-            "discount",
-            "promo"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "high"
-          ],
-          "createdAt": "2026-07-03T23:09:04.082Z",
-          "publishedAt": "2026-07-03T23:09:04.082Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-13-5",
-          "title": "Electricity Savings",
-          "body": "Kapag umuwi ka sa bahay sa gabi, patayin mo ang ilaw at aircon para makatipid ng ₱100-₱200 sa isang buwan. Magamit ka rin ng power strip para mai-plug out ang mga appliance na hindi ginagamit. Mag-check ka rin ng Meralco bill mo para makita kung may mga abnormal na consumption na nakikita mo.",
-          "category": "electricity",
-          "tags": [
-            "savings",
-            "Meralco",
-            "power strip"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "high"
-          ],
-          "createdAt": "2026-07-03T23:09:04.082Z",
-          "publishedAt": "2026-07-03T23:09:04.082Z",
-          "isPublished": true,
-          "isFeatured": false
-        }
-      ]
-    },
-    "07": {
-      "generatedAt": "2026-07-03T23:09:26.409Z",
-      "tips": [
-        {
-          "id": "loc-07-1",
-          "title": "Sulit na Seafood",
-          "body": "Kumuha ng fresh fish sa Carbon Market sa Cebu City para sa mas mura na ₱150 per kilo. Pwedeng magluto ng sinabawang isda na may gulay para sa ₱50 per serving. Mag-commute sa Carbon Market via V-hire na ₱15 lang ang pamasahe. Mas makakatipid ka kaysa sa mga restaurant na may ₱200 per meal.",
-          "category": "food",
-          "tags": [
-            "seafood",
-            "Cebu City",
-            "Carbon Market"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-03T23:09:26.409Z",
-          "publishedAt": "2026-07-03T23:09:26.409Z",
-          "isPublished": true,
-          "isFeatured": true
-        },
-        {
-          "id": "loc-07-2",
           "title": "Tipid sa Fuel",
-          "body": "Mag-plano ng byahe mo sa Lapu-Lapu City para maiwasan ang traffic sa Cebu City. Mag-commute sa jeepney na ₱10 lang ang pamasahe para sa mas mura. Pwedeng mag-walk o mag-bike sa mga malapit na lugar para mas makatipid ng ₱5 per day. Mag-check ng fuel efficiency ng sasakyan mo para maiwasan ang matinding gas consumption.",
+          "body": "Kung may sariling sasakyan, mag-gasoline sa mga gas station sa Digos na may promo, tulad ng ₱1.50 discount per liter. Iwasan ang traffic sa Davao City para hindi maubos ang gasolina. Mag-plano ng ruta at magpa-regular maintenance sa sasakyan para mas matipid sa fuel consumption.",
           "category": "fuel",
           "tags": [
-            "Lapu-Lapu City",
-            "jeepney",
+            "gasoline",
+            "promos",
             "fuel efficiency"
           ],
           "sourceTrigger": "ai-location",
@@ -362,20 +152,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:09:26.409Z",
-          "publishedAt": "2026-07-03T23:09:26.409Z",
+          "createdAt": "2026-07-05T23:05:27.312Z",
+          "publishedAt": "2026-07-05T23:05:27.312Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
-          "id": "loc-07-3",
-          "title": "Presyong Mura",
-          "body": "Pumunta sa mga palengke sa Mandaue para sa mas murang presyo ng gulay at prutas. Pwedeng makakuha ng ₱20 per kilo ng kamote at ₱30 per kilo ng mangga. Mag-commute sa V-hire na ₱20 lang ang pamasahe. Mag-plano ng grocery list mo para maiwasan ang impulse buying.",
-          "category": "food",
+          "id": "loc-11-3",
+          "title": "Libreng Leisure",
+          "body": "Pumunta sa People's Park sa Davao City para mag-relax at mag-enjoy ng mga libreng facilities, tulad ng playground at jogging path. Sa Tagum, may mga public beach na pwedeng puntahan, tulad ng La Union Beach, para mag-swim at mag-picnic. Mag-dala ng sariling food at drinks para mas tipid.",
+          "category": "leisure",
           "tags": [
-            "Mandaue",
-            "palengke",
-            "grocery"
+            "parks",
+            "beaches",
+            "free activities"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -383,19 +173,318 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:09:26.409Z",
-          "publishedAt": "2026-07-03T23:09:26.409Z",
+          "createdAt": "2026-07-05T23:05:27.312Z",
+          "publishedAt": "2026-07-05T23:05:27.312Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-11-4",
+          "title": "Kuryente Tips",
+          "body": "Mag-palit ng mga energy-efficient na light bulbs, tulad ng LED, para makatipid sa kuryente. Iwasan ang paggamit ng mga appliances na may high wattage, tulad ng electric fan, sa peak hours. Mag-monitor ng electricity consumption sa Davao City para makapag-adjust ng budget.",
+          "category": "electricity",
+          "tags": [
+            "energy efficiency",
+            "light bulbs",
+            "peak hours"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:27.312Z",
+          "publishedAt": "2026-07-05T23:05:27.312Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-11-5",
+          "title": "Payday Savings",
+          "body": "Mag-set aside ng 30% ng sweldo para sa savings at emergency fund. Mag-bukas ng savings account sa mga banko sa Davao Region, tulad ng BDO o BPI, para makapag-earn ng interes. Mag-automate ng savings para mas madali at consistent ang pag-iipon.",
+          "category": "payday",
+          "tags": [
+            "savings",
+            "emergency fund",
+            "banking"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:27.312Z",
+          "publishedAt": "2026-07-05T23:05:27.312Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "13": {
+      "generatedAt": "2026-07-05T23:05:35.018Z",
+      "tips": [
+        {
+          "id": "loc-13-1",
+          "title": "Sulit na Groceries",
+          "body": "Kung Sunday ngayon, mag-grocery shopping ka na sa mga mercado o palengke sa Metro Manila, tulad ng Divisoria o Baclaran, para makakuha ng mga murang gulay at prutas na ₱50 hanggang ₱100 lang. Iwasan ang mga mall dahil mas mahal ang mga produkto doon. Mag-plano rin sa mga pagkain mo sa linggong darating para hindi ka mag-overbuy.",
+          "category": "food",
+          "tags": [
+            "grocery",
+            "sulit",
+            "linggo"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high"
+          ],
+          "createdAt": "2026-07-05T23:05:35.018Z",
+          "publishedAt": "2026-07-05T23:05:35.018Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-13-2",
+          "title": "Tipid sa Transport",
+          "body": "Sa lugar na mataas ang traffic tulad ng Metro Manila, mas makakatipid ka kung mag-commute ka gamit ang MRT o LRT, na may pamasahe na ₱15 hanggang ₱30 lang. Iwasan ang pag-gamit ng Grab lalo na sa rush hour dahil mas mahal ito, at mag-plano sa mga biyahe mo para makaiwas sa traffic.",
+          "category": "transport",
+          "tags": [
+            "commute",
+            "MRT",
+            "LRT"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high"
+          ],
+          "createdAt": "2026-07-05T23:05:35.018Z",
+          "publishedAt": "2026-07-05T23:05:35.018Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-13-3",
+          "title": "Kuryente sa Bahay",
+          "body": "Upang makatipid sa kuryente, patayin mo ang mga appliance at ilaw sa bahay tuwing umalis ka, at mag-amortize ka ng mga energy-efficient na bulb na ₱100 hanggang ₱200 lang. Mag-monitor din sa mga consumption mo sa kuryente para hindi ka magulat sa bill mo.",
+          "category": "electricity",
+          "tags": [
+            "kuryente",
+            "tipid",
+            "bahay"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high"
+          ],
+          "createdAt": "2026-07-05T23:05:35.018Z",
+          "publishedAt": "2026-07-05T23:05:35.018Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-13-4",
+          "title": "Payday Budgeting",
+          "body": "Kapag payday, mag-budget ka agad para sa mga pangangailangan mo, tulad ng renta na ₱15,000 hanggang ₱30,000, at mga gastusin sa pagkain at transpo. Mag-allocate ka rin ng mga pondo para sa savings at emergency fund mo.",
+          "category": "payday",
+          "tags": [
+            "budget",
+            "payday",
+            "savings"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high"
+          ],
+          "createdAt": "2026-07-05T23:05:35.018Z",
+          "publishedAt": "2026-07-05T23:05:35.018Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-13-5",
+          "title": "Weekend Leisure",
+          "body": "Kapag weekend, maghanap ka ng mga libreng o murang leisure activities sa Metro Manila, tulad ng pag-walk sa mga park o pag-attend sa mga free concert. Iwasan ang mga mahal na restaurant o mall at mag-picnic ka na lang sa mga park, na ₱200 hanggang ₱500 lang ang mga gastusin mo.",
+          "category": "general",
+          "tags": [
+            "leisure",
+            "weekend",
+            "sulit"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "high"
+          ],
+          "createdAt": "2026-07-05T23:05:35.018Z",
+          "publishedAt": "2026-07-05T23:05:35.018Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "07": {
+      "generatedAt": "2026-07-05T23:05:50.525Z",
+      "tips": [
+        {
+          "id": "loc-07-1",
+          "title": "Sulit na Seafood",
+          "body": "Kung weekend, mag-grocery ka na sa Carbon Market para sa mas murang fresh fish, mga ₱150-₱200 lang ang isang kilo ng galunggong. Pwede mo ring bumili ng iba't ibang klase ng seafood para sa isang linggong pagkain. Iwasan ang mga overpriced na restaurant at magluto ka na lang ng mga sariling ulam. Sa mga ₱500, mayroon ka nang masarap na hapunan para sa buong pamilya.",
+          "category": "food",
+          "tags": [
+            "seafood",
+            "grocery",
+            "Carbon Market"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:50.525Z",
+          "publishedAt": "2026-07-05T23:05:50.525Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-07-2",
+          "title": "Tipid sa Transport",
+          "body": "Kung papuntang trabaho, mag-V-hire o mag-jeepney ka na lang, mga ₱15-₱20 lang ang pamasahe. Iwasan ang mga taxi o grab, sobra mahal. Pwede ka ring maglakad o mag-bisikleta kung malapit lang ang trabaho mo. Sa mga ₱100 a day, mayroon ka nang pamasahe para sa isang linggo.",
+          "category": "transport",
+          "tags": [
+            "V-hire",
+            "jeepney",
+            "pamasahe"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:50.525Z",
+          "publishedAt": "2026-07-05T23:05:50.525Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-07-3",
+          "title": "Kuryente sa Tipid",
+          "body": "Magpatayo ka ng mga energy-efficient na appliances, tulad ng LED TV at refrigerator, para makatipid sa kuryente. Iwasan ang mga appliances na may high-wattage, tulad ng mga lumang refrigerator. Sa mga ₱500 a month, mayroon ka nang makatipid sa kuryente.",
+          "category": "electricity",
+          "tags": [
+            "kuryente",
+            "energy-efficient",
+            "appliance"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:50.525Z",
+          "publishedAt": "2026-07-05T23:05:50.525Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-07-4",
-          "title": "Kuryente sa Tipid",
-          "body": "Magpatayo ng solar panel sa bahay mo sa Cebu City para sa mas murang kuryente. Pwedeng makatipid ng ₱500 per month sa kuryente. Mag-avail ng promo ng mga kompanya ng solar panel na may ₱10,000 discount. Mag-check ng wattage ng mga appliance mo para maiwasan ang overconsumption ng kuryente.",
+          "title": "Payday Savings",
+          "body": "Kada payday, alisin mo agad ang 20% ng sweldo mo para sa savings. Ilagay mo ito sa isang separate na account para hindi mo magamit. Pwede ka ring mag-invest sa mga stocks o mutual funds para lumaki ang pera mo. Sa mga 3-5 years, mayroon ka nang malaking savings para sa mga pangarap mo.",
+          "category": "payday",
+          "tags": [
+            "savings",
+            "payday",
+            "invest"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:50.525Z",
+          "publishedAt": "2026-07-05T23:05:50.525Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-07-5",
+          "title": "Weekend Leisure",
+          "body": "Kung weekend, mag-plano ka ng isang leisure activity na hindi masyadong mahal, tulad ng mag-swimming sa mga public pool sa Cebu City, mga ₱50 lang ang entrance fee. Pwede ka ring mag-park sa mga mga tabing dagat sa Lapu-Lapu, libre lang. Iwasan ang mga overpriced na resort at hotel, hindi sulit ang pera mo.",
+          "category": "general",
+          "tags": [
+            "leisure",
+            "weekend",
+            "swimming"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:50.525Z",
+          "publishedAt": "2026-07-05T23:05:50.525Z",
+          "isPublished": true,
+          "isFeatured": false
+        }
+      ]
+    },
+    "06": {
+      "generatedAt": "2026-07-05T23:05:57.425Z",
+      "tips": [
+        {
+          "id": "loc-06-1",
+          "title": "Sulit na Pamiliya",
+          "body": "Kung weekend, mag-grocery ka na sa mga palengke sa Iloilo o Bacolod, kung saan mas mura ang presyo ng pagkain at seafood, tulad ng ₱50/kg na isda. Mag-avail ka ng mga Murang Gulay at Prutas na nagkakahalaga lang ng ₱10-₱20. Huwag kalimutang magdala ng bayong o reusable bag para iwas sa ₱2-₱5 na pang-extra sa plastic bag. Mag-budget ka ng ₱500-₱1000 para sa isang linggong pagkain.",
+          "category": "food",
+          "tags": [
+            "grocery",
+            "palengke",
+            "mura"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:57.425Z",
+          "publishedAt": "2026-07-05T23:05:57.425Z",
+          "isPublished": true,
+          "isFeatured": true
+        },
+        {
+          "id": "loc-06-2",
+          "title": "Tipid sa Transport",
+          "body": "Sa Iloilo at Bacolod, mas murang mag-commute gamit ang jeepney na nagkakahalaga lang ng ₱8-₱10. Kung mag-iisa ka lang, mag-tricycle ka na lang para mas tipid, ₱15 lang ang minimum fare. Huwag mag-taksi kung hindi kinakailangan, dahil mas mahal ito, ₱40 ang flagdown rate. Mag-plano ka ng ruta bago umalis ng bahay para iwas sa traffic at mas tipid sa gas.",
+          "category": "transport",
+          "tags": [
+            "jeepney",
+            "tricycle",
+            "commute"
+          ],
+          "sourceTrigger": "ai-location",
+          "targetCostLevels": [
+            "medium",
+            "high",
+            "low"
+          ],
+          "createdAt": "2026-07-05T23:05:57.425Z",
+          "publishedAt": "2026-07-05T23:05:57.425Z",
+          "isPublished": true,
+          "isFeatured": false
+        },
+        {
+          "id": "loc-06-3",
+          "title": "Kuryente sa Bahay",
+          "body": "Magpatayo ka ng mga solar panel sa bahay para makatipid sa kuryente, lalo na sa mga buwan na mainit. Mag-avail ka ng mga appliance na energy-efficient, tulad ng LED TV at Refrigerator. Huwag kalimutang patayin ang mga ilaw at appliance pag hindi ginagamit, para makaiwas sa ₱500-₱1000 na dagdag sa kuryente. Mag-budget ka ng ₱1500-₱3000 para sa isang buwan ng kuryente.",
           "category": "electricity",
           "tags": [
             "solar panel",
-            "Cebu City",
+            "energy-efficient",
             "kuryente"
           ],
           "sourceTrigger": "ai-location",
@@ -404,109 +493,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-03T23:09:26.409Z",
-          "publishedAt": "2026-07-03T23:09:26.409Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-07-5",
-          "title": "Payday Tips",
-          "body": "Mag-budget ng sweldo mo para sa mas maayos na pamamahagi ng pera. Pwedeng mag-allocate ng 30% para sa savings at 20% para sa groceries. Mag-commute sa V-hire na ₱15 lang ang pamasahe para sa mas mura. Mag-avail ng cashback promo ng mga banko na may 5% cashback sa groceries.",
-          "category": "payday",
-          "tags": [
-            "payday",
-            "budget",
-            "savings"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-03T23:09:26.409Z",
-          "publishedAt": "2026-07-03T23:09:26.409Z",
-          "isPublished": true,
-          "isFeatured": false
-        }
-      ]
-    },
-    "06": {
-      "generatedAt": "2026-07-04T23:00:49.227Z",
-      "tips": [
-        {
-          "id": "loc-06-1",
-          "title": "Sulit na Sabado",
-          "body": "Kung weekend, mag-grocery shopping ka na sa mga palengke sa Iloilo o Bacolod, kung saan mas mura ang presyo ng mga gulay at prutas, halimbawa ₱20 lang ang isang kilo ng kamote. Pumunta sa La Paz Market sa Iloilo para makabili ng mga fresong seafood na ₱100 lang ang isang kilo. Mag-plano ng mga lutuin mo sa linggo para masulit ang mga binili mo. Huwag kalimutan na mag-dala ng reusable bag para mas makatipid ka sa pagbili ng plastic bags.",
-          "category": "food",
-          "tags": [
-            "grocery",
-            "sabado",
-            "palengke"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-04T23:00:49.227Z",
-          "publishedAt": "2026-07-04T23:00:49.227Z",
-          "isPublished": true,
-          "isFeatured": true
-        },
-        {
-          "id": "loc-06-2",
-          "title": "Tipid sa Transport",
-          "body": "Kung commmute ka sa trabaho, mag-jeepney o tricycle ka na lang, kung saan ₱8 lang ang pamasahe mula Iloilo hanggang Jaro. Mag-plano ng ruta mo para mas makatipid ka sa pamasahe. Kung may kakilala kang driver, pwede ka ring mag-carpool para mas makatipid ka sa gas at toll. Huwag kalimutan na mag-dala ng pocket change para sa pamasahe mo.",
-          "category": "transport",
-          "tags": [
-            "jeepney",
-            "tricycle",
-            "commmute"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-04T23:00:49.227Z",
-          "publishedAt": "2026-07-04T23:00:49.227Z",
-          "isPublished": true,
-          "isFeatured": false
-        },
-        {
-          "id": "loc-06-3",
-          "title": "Kuryente sa Tipid",
-          "body": "Magpatayo ng mga energy-efficient na appliances sa bahay mo, gaya ng LED bulbs na ₱50 lang ang presyo. Mag-turn off ng mga appliances na hindi ginagamit, tulad ng TV at computer, para mas makatipid ka sa kuryente. Mag-plano ng oras mo para mas makatipid ka sa kuryente, halimbawa sa gabi na mas mababa ang temperatura.",
-          "category": "electricity",
-          "tags": [
-            "kuryente",
-            "energy-efficient",
-            "LED"
-          ],
-          "sourceTrigger": "ai-location",
-          "targetCostLevels": [
-            "medium",
-            "high",
-            "low"
-          ],
-          "createdAt": "2026-07-04T23:00:49.227Z",
-          "publishedAt": "2026-07-04T23:00:49.227Z",
+          "createdAt": "2026-07-05T23:05:57.425Z",
+          "publishedAt": "2026-07-05T23:05:57.425Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-4",
-          "title": "Payday na Sulit",
-          "body": "Kung payday, mag-budget ka na agad para sa mga gastusin mo sa linggo, gaya ng ₱1,500 para sa renta at ₱500 para sa pagkain. Mag-plano ng mga priorities mo, tulad ng pagbayad ng mga bills at pag-iipon ng pera para sa emergency fund. Huwag kalimutan na mag-dala ng atm card mo para mas makatipid ka sa transaksiyon.",
-          "category": "payday",
+          "title": "La Paz Batchoy na Sulit",
+          "body": "Kung gusto mo ng masarap na La Paz Batchoy, mag-punta ka sa mga stall sa La Paz Market sa Iloilo, kung saan mas mura ang presyo, ₱50-₱70 lang. Huwag mag-order sa mga restaurant, dahil mas mahal ito, ₱100-₱150. Mag-avail ka ng mga promo at discount sa mga food stall, tulad ng 'buy one take one' o '10% off'. Mag-budget ka ng ₱100-₱200 para sa isang meal.",
+          "category": "food",
           "tags": [
-            "payday",
-            "budget",
-            "priorities"
+            "La Paz Batchoy",
+            "mura",
+            "promo"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -514,20 +514,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-04T23:00:49.227Z",
-          "publishedAt": "2026-07-04T23:00:49.227Z",
+          "createdAt": "2026-07-05T23:05:57.425Z",
+          "publishedAt": "2026-07-05T23:05:57.425Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-5",
-          "title": "Emergency Fund",
-          "body": "Mag-iipon ka ng pera para sa emergency fund, halimbawa ₱1,000 kada buwan, para sa mga di-inaasahang gastusin, tulad ng pagpapagamot o pagpapalit ng cellphone. Mag-plano ng mga paraan para makatipid ka, tulad ng pag-cutback sa mga unnecessary expenses. Huwag kalimutan na mag-dala ng pera para sa mga di-inaasahang gastusin.",
+          "title": "Emergency Fund sa Western Visayas",
+          "body": "Mag-save ka ng 10%-20% ng iyong sweldo para sa emergency fund, tulad ng ₱2000-₱5000. Mag-avail ka ng mga savings account sa mga banko sa Iloilo o Bacolod, kung saan may mas mahabang term at mas mataas na interest rate. Huwag gumamit ng credit card kung hindi kinakailangan, dahil may 30%-50% na interest rate ito. Mag-budget ka ng ₱1000-₱3000 para sa isang buwan ng emergency fund.",
           "category": "emergency",
           "tags": [
             "emergency fund",
-            "ipon",
-            "gastusin"
+            "savings account",
+            "credit card"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -535,8 +535,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-04T23:00:49.227Z",
-          "publishedAt": "2026-07-04T23:00:49.227Z",
+          "createdAt": "2026-07-05T23:05:57.425Z",
+          "publishedAt": "2026-07-05T23:05:57.425Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -653,17 +653,17 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-07-04T23:01:07.877Z",
+      "generatedAt": "2026-07-05T23:06:13.267Z",
       "tips": [
         {
           "id": "loc-00-1",
-          "title": "Savvy Shopper",
-          "body": "Kung weekend ngayon, mag-plan ng grocery shopping sa merkado o palengke para makatipid ng hanggang 30% sa presyo ng gulay at prutas. Sa halagang ₱50, makakabili ka na ng isang kilo ng kanin at ₱20 lang ang presyo ng isang kilo ng galunggong. Magdagdag ka rin ng mga murang pagkain sa iyong listahan tulad ng monggo o tinola. Iwasan ang mga overpriced na restaurant at fastfood chains.",
+          "title": "Sulit na Grocery",
+          "body": "Kapag Sunday, mag-grocery shopping ka na may listahan para hindi ka lumampas sa budget. Pumili ng mga produkto na may discount, tulad ng ₱50 off sa isang kilo ng bigas. Magbayad ng cash para makatipid sa interest ng credit card.",
           "category": "food",
           "tags": [
             "grocery",
-            "palengke",
-            "sunday market"
+            "sunday",
+            "discount"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -671,20 +671,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-04T23:01:07.877Z",
-          "publishedAt": "2026-07-04T23:01:07.877Z",
+          "createdAt": "2026-07-05T23:06:13.267Z",
+          "publishedAt": "2026-07-05T23:06:13.267Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-00-2",
-          "title": "Fuel Efficiency",
-          "body": "Upang makatipid sa gasolina, mag-plano ng ruta bago mag-maneho at iwasan ang mga trapiko. Sa Pilipinas, ang average na presyo ng gasolina ay ₱60 per liter, kaya magkano ang makakatiis sa iyong gas tank? Magdagdag ka rin ng mga fuel-efficient driving tips tulad ng pagpapalit ng gear sa tamang oras at pag-iwas sa mga biglaang pag-accellerate.",
-          "category": "fuel",
+          "title": "Tipid sa Kuryente",
+          "body": "Magpatay ng mga appliance na hindi ginagamit, tulad ng TV at computer, para makatipid ng ₱15 lang sa kuryente. Pumili ng mga energy-efficient na bulb na may presyo na ₱100-₱150. Mag-aircon na may inverter technology para makatipid ng hanggang 30% sa kuryente.",
+          "category": "electricity",
           "tags": [
-            "gasolina",
-            "fuel efficiency",
-            "driving tips"
+            "kuryente",
+            "appliance",
+            "energy-efficient"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -692,20 +692,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-04T23:01:07.877Z",
-          "publishedAt": "2026-07-04T23:01:07.877Z",
+          "createdAt": "2026-07-05T23:06:13.267Z",
+          "publishedAt": "2026-07-05T23:06:13.267Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-3",
-          "title": "Payday Budget",
-          "body": "Kapag payday, mag-plan ng budget para sa buong linggo. Alisin ang 20% ng iyong sahod para sa pag-iipon at 30% para sa mga gastusin sa bahay. Magdagdag ka rin ng 10% para sa mga leisure activities tulad ng pag-sali sa mga outdoor activities o pag-kain sa mga murang restaurant. Huwag kalimutan ang mga bill payments tulad ng kuryente at tubig.",
-          "category": "payday",
+          "title": "Savvy sa Transport",
+          "body": "Kapag commmute, pumili ng mga jeepney o bus na may presyo na ₱20-₱50. Mag-walk o mag-bike kapag malapit lang ang destination mo. Mag-share ng ride sa mga kaibigan o kakilala para makatipid sa gas at toll.",
+          "category": "transport",
           "tags": [
-            "budget",
-            "payday",
-            "savings"
+            "commute",
+            "jeepney",
+            "bike"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -713,20 +713,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-04T23:01:07.877Z",
-          "publishedAt": "2026-07-04T23:01:07.877Z",
+          "createdAt": "2026-07-05T23:06:13.267Z",
+          "publishedAt": "2026-07-05T23:06:13.267Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-4",
-          "title": "Electricity Savings",
-          "body": "Upang makatipid sa kuryente, mag-turn off ng mga appliances na hindi ginagamit tulad ng TV at computer. Sa Pilipinas, ang average na presyo ng kuryente ay ₱10 per kilowatt-hour, kaya magkano ang makakatiis sa iyong monthly bill? Magdagdag ka rin ng mga energy-efficient tips tulad ng paggamit ng LED bulbs at pag-iwas sa mga standby modes.",
-          "category": "electricity",
+          "title": "Payday Goals",
+          "body": "Kapag payday, mag-allocate ng 20% sa savings at 10% sa emergency fund. Mag-invest sa mga stocks o mutual funds na may potential na kumita ng 5-10% interest. Mag-set ng financial goals, tulad ng pagbili ng bahay o kotse, para may motivation ka sa pagtitipid.",
+          "category": "payday",
           "tags": [
-            "kuryente",
-            "energy efficiency",
-            "savings"
+            "payday",
+            "savings",
+            "investment"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -734,20 +734,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-04T23:01:07.877Z",
-          "publishedAt": "2026-07-04T23:01:07.877Z",
+          "createdAt": "2026-07-05T23:06:13.267Z",
+          "publishedAt": "2026-07-05T23:06:13.267Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-5",
-          "title": "Weekend Leisure",
-          "body": "Kapag weekend, mag-plan ng mga murang leisure activities tulad ng pag-sali sa mga outdoor activities o pag-kain sa mga murang restaurant. Sa halagang ₱150, makakakain ka na ng isang masarap na lunch sa isang carinderia o food stall. Magdagdag ka rin ng mga tips tulad ng pag-iwas sa mga overpriced na tourist spots at pag-pili ng mga libreng mga aktibidad tulad ng pag-jog o pag-bisikleta.",
-          "category": "general",
+          "title": "Emergency Fund",
+          "body": "Mag-save ng ₱5,000-₱10,000 para sa emergency fund, para may pambayad ka sa mga unexpected expenses. Mag-set ng automatic transfer sa savings account para makatipid ng regular. Mag-review ng budget at mag-adjust ng mga unnecessary expenses para makatipid ng más.",
+          "category": "emergency",
           "tags": [
-            "leisure",
-            "weekend",
-            "savings"
+            "emergency",
+            "savings",
+            "budget"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -755,8 +755,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-04T23:01:07.877Z",
-          "publishedAt": "2026-07-04T23:01:07.877Z",
+          "createdAt": "2026-07-05T23:06:13.267Z",
+          "publishedAt": "2026-07-05T23:06:13.267Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -873,105 +873,105 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-07-03T23:09:35.676Z",
+      "generatedAt": "2026-07-05T23:06:02.693Z",
       "tips": [
         {
           "id": "loc-05-1",
-          "title": "Sulit na Jeepney Ride",
-          "body": "Sa Naga, Legazpi, at Sorsogon, ang pamasahe sa jeepney ay ₱8 lang, kaya mas makamura ito kaysa magtricycle na ₱20-₱50. Gumamit ng jeepney para sa mga malalayong biyahe at iwan ang tricycle para sa mga maikling lakad. Sa ganitong paraan, makatitipid ka ng ₱10-₱30 araw-araw. Pumili ng mga ruta na may mga jeepney upang makamura.",
-          "category": "transport",
+          "title": "Sulit na Grocery",
+          "body": "Kung weekend ngayon, mag-grocery shopping ka na sa palengke ng Naga o Legazpi. Mura lang ang mga bilihin dito, ₱50 lang ang isang kilo ng kanin at ₱20 ang isang kilo ng talong. Mag-plan ng isang linggong pagkain para mas makatipid.",
+          "category": "food",
           "tags": [
-            "jeepney",
-            "tricycle",
-            "pamasahe"
+            "grocery",
+            "palengke",
+            "Naga"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-03T23:09:35.676Z",
-          "publishedAt": "2026-07-03T23:09:35.676Z",
+          "createdAt": "2026-07-05T23:06:02.693Z",
+          "publishedAt": "2026-07-05T23:06:02.693Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-05-2",
-          "title": "Mura na Kuryente",
-          "body": "Sa Bicol Region, ang average na bayad sa kuryente ay ₱2.50 per kilowatt-hour. Upang makatipid, gumamit ng mga energy-efficient na appliance at ilaw, tulad ng LED bulb na ₱50-₱100 lang. Iwasan din ang overcharging ng mga gadget at ilagay sa power strip para maiwasan ang standby power consumption.",
-          "category": "electricity",
+          "title": "Fuel Efficiency",
+          "body": "Kung magje-jeepney ka papuntang Sorsogon, magbayad lang ng ₱30 para sa pamasahe. Para makatipid sa fuel, mag-plano ng ruta at mag-jeepney na may aircon para mas komportable at mas matipid sa gas.",
+          "category": "fuel",
           "tags": [
-            "kuryente",
-            "energy-efficient",
-            "LED bulb"
+            "jeepney",
+            "Sorsogon",
+            "fuel efficiency"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-03T23:09:35.676Z",
-          "publishedAt": "2026-07-03T23:09:35.676Z",
+          "createdAt": "2026-07-05T23:06:02.693Z",
+          "publishedAt": "2026-07-05T23:06:02.693Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-3",
-          "title": "Sarap na Laing",
-          "body": "Ang laing ay isang sikat na ulam sa Bicol Region, at ang presyo ng gabi ay ₱20-₱30 per kilo. Gumamit ng mga lokal na ingredient at lutuin ang laing sa bahay upang makatipid ng ₱50-₱100 kada linggo. Pumili ng mga murang alternative sa karne, tulad ng tilapia o galunggong, na ₱100-₱150 per kilo.",
-          "category": "food",
+          "title": "Affordable Rent",
+          "body": "Kung ikaw ay isang student o worker sa Bicol Region, mag-rent ka ng isang apartment sa Naga o Legazpi. Mura lang ang renta dito, ₱4,000 lang ang isang buwan para sa isang malaking kuwarto. Mag-hanap ng mga ka-roommate para mas makatipid.",
+          "category": "general",
           "tags": [
-            "laing",
-            "gabi",
-            "lokals na ingredient"
+            "rent",
+            "apartment",
+            "Naga"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-03T23:09:35.676Z",
-          "publishedAt": "2026-07-03T23:09:35.676Z",
+          "createdAt": "2026-07-05T23:06:02.693Z",
+          "publishedAt": "2026-07-05T23:06:02.693Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-4",
-          "title": "Payday Tips",
-          "body": "Tuwing payday, gumamit ng 50/30/20 rule: 50% para sa mga pangunahing gastusin, 30% para sa mga luho, at 20% para sa pag-iipon. Ilagay ang 20% sa isang savings account na may interes na 2-3% per annum, tulad ng mga alok ng mga bangko sa Naga at Legazpi. Sa ganitong paraan, makatitipid ka ng ₱1,000-₱2,000 kada buwan.",
-          "category": "payday",
+          "title": "Laing na Sulit",
+          "body": "Kung gusto mo ng masarap na laing, mag-luto ka na lang ng sarili mo. Mura lang ang mga ingredients, ₱15 lang ang isang bundle ng pechay at ₱20 ang isang kilo ng bawang. Mag-luto ng isang linggong supply para mas makatipid.",
+          "category": "food",
           "tags": [
-            "payday",
-            "50/30/20 rule",
-            "savings account"
+            "laing",
+            "Bicol",
+            "luto"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-03T23:09:35.676Z",
-          "publishedAt": "2026-07-03T23:09:35.676Z",
+          "createdAt": "2026-07-05T23:06:02.693Z",
+          "publishedAt": "2026-07-05T23:06:02.693Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-5",
-          "title": "Emergency Fund",
-          "body": "Sa Sorsogon, ang average na sweldo ay ₱15,000-₱20,000 per month. Gumawa ng isang emergency fund na katumbas ng 3-6 na buwan ng sweldo, o ₱45,000-₱120,000. Ilagay ito sa isang savings account na may interes at iwasan ang paggamit nito para sa mga hindi pangunahing gastusin. Sa ganitong paraan, makakapaghanda ka sa mga di inaasahang gastusin at mga sakuna.",
-          "category": "emergency",
+          "title": "Sunday Leisure",
+          "body": "Kung Sunday ngayon, mag-plano ng isang araw na leisure sa dagat. Mag-punta ka sa beach sa Sorsogon o sa Mayon Volcano sa Legazpi. Mura lang ang pamasahe, ₱50 lang ang isang tricycle ride. Mag-dala ng sariling picnic para mas makatipid.",
+          "category": "leisure",
           "tags": [
-            "emergency fund",
-            "savings account",
-            "sweldo"
+            "Sunday",
+            "leisure",
+            "beach"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-03T23:09:35.676Z",
-          "publishedAt": "2026-07-03T23:09:35.676Z",
+          "createdAt": "2026-07-05T23:06:02.693Z",
+          "publishedAt": "2026-07-05T23:06:02.693Z",
           "isPublished": true,
           "isFeatured": false
         }
