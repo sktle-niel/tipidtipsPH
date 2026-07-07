@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-06",
+  "generatedDate": "2026-07-07",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -434,17 +434,18 @@
       ]
     },
     "06": {
-      "generatedAt": "2026-07-05T23:05:57.425Z",
+      "generatedAt": "2026-07-07T23:05:34.258Z",
       "tips": [
         {
           "id": "loc-06-1",
-          "title": "Sulit na Pamiliya",
-          "body": "Kung weekend, mag-grocery ka na sa mga palengke sa Iloilo o Bacolod, kung saan mas mura ang presyo ng pagkain at seafood, tulad ng ₱50/kg na isda. Mag-avail ka ng mga Murang Gulay at Prutas na nagkakahalaga lang ng ₱10-₱20. Huwag kalimutang magdala ng bayong o reusable bag para iwas sa ₱2-₱5 na pang-extra sa plastic bag. Mag-budget ka ng ₱500-₱1000 para sa isang linggong pagkain.",
+          "title": "Sulit na Pagkain",
+          "body": "Kung gusto mo ng masarap at mura na pagkain, try mo ang La Paz Batchoy sa Iloilo na ₱50 lang. Pwede mo rin itry ang Chicken Inasal sa Bacolod na ₱80 lang. Magplano ka ng pagkain mo sa isang linggo at gumawa ng listahan ng mga gusto mo bilhin sa palengke. Sa ganitong paraan, makakamura ka ng ₱500 sa isang linggo.",
           "category": "food",
           "tags": [
-            "grocery",
-            "palengke",
-            "mura"
+            "Iloilo",
+            "Bacolod",
+            "La Paz Batchoy",
+            "Chicken Inasal"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -452,20 +453,21 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-05T23:05:57.425Z",
-          "publishedAt": "2026-07-05T23:05:57.425Z",
+          "createdAt": "2026-07-07T23:05:34.258Z",
+          "publishedAt": "2026-07-07T23:05:34.258Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-06-2",
           "title": "Tipid sa Transport",
-          "body": "Sa Iloilo at Bacolod, mas murang mag-commute gamit ang jeepney na nagkakahalaga lang ng ₱8-₱10. Kung mag-iisa ka lang, mag-tricycle ka na lang para mas tipid, ₱15 lang ang minimum fare. Huwag mag-taksi kung hindi kinakailangan, dahil mas mahal ito, ₱40 ang flagdown rate. Mag-plano ka ng ruta bago umalis ng bahay para iwas sa traffic at mas tipid sa gas.",
+          "body": "Kung nakatira ka sa Iloilo o Bacolod, mag-jeepney ka na ₱15 lang ang pamasahe. Pwede mo rin mag-tricycle na ₱20 lang. Magplano ka ng ruta mo sa isang araw at gumawa ng schedule ng pag-commute mo. Sa ganitong paraan, makakamura ka ng ₱100 sa isang linggo.",
           "category": "transport",
           "tags": [
+            "Iloilo",
+            "Bacolod",
             "jeepney",
-            "tricycle",
-            "commute"
+            "tricycle"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -473,19 +475,19 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-05T23:05:57.425Z",
-          "publishedAt": "2026-07-05T23:05:57.425Z",
+          "createdAt": "2026-07-07T23:05:34.258Z",
+          "publishedAt": "2026-07-07T23:05:34.258Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-3",
           "title": "Kuryente sa Bahay",
-          "body": "Magpatayo ka ng mga solar panel sa bahay para makatipid sa kuryente, lalo na sa mga buwan na mainit. Mag-avail ka ng mga appliance na energy-efficient, tulad ng LED TV at Refrigerator. Huwag kalimutang patayin ang mga ilaw at appliance pag hindi ginagamit, para makaiwas sa ₱500-₱1000 na dagdag sa kuryente. Mag-budget ka ng ₱1500-₱3000 para sa isang buwan ng kuryente.",
+          "body": "Kung gusto mo ng mas mababang bill sa kuryente, magpatayo ka ng mga solar panel sa bahay mo. May mga programa ang mga kompanya ng kuryente sa Western Visayas na nag-ooffer ng ₱10,000 discount sa mga gustong magpatayo ng solar panel. Mag-research ka ng mga kompanya na nag-ooffer nito at mag-apply ka ng loan sa bangko.",
           "category": "electricity",
           "tags": [
+            "Western Visayas",
             "solar panel",
-            "energy-efficient",
             "kuryente"
           ],
           "sourceTrigger": "ai-location",
@@ -494,20 +496,21 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-05T23:05:57.425Z",
-          "publishedAt": "2026-07-05T23:05:57.425Z",
+          "createdAt": "2026-07-07T23:05:34.258Z",
+          "publishedAt": "2026-07-07T23:05:34.258Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-4",
-          "title": "La Paz Batchoy na Sulit",
-          "body": "Kung gusto mo ng masarap na La Paz Batchoy, mag-punta ka sa mga stall sa La Paz Market sa Iloilo, kung saan mas mura ang presyo, ₱50-₱70 lang. Huwag mag-order sa mga restaurant, dahil mas mahal ito, ₱100-₱150. Mag-avail ka ng mga promo at discount sa mga food stall, tulad ng 'buy one take one' o '10% off'. Mag-budget ka ng ₱100-₱200 para sa isang meal.",
-          "category": "food",
+          "title": "Pag-iipon sa Sweldo",
+          "body": "Kung gusto mo ng mas malaking ipon sa sweldo mo, mag-open ka ng savings account sa bangko na may 2% interest per annum. Pwede mo ring mag-invest sa mga stocks o mutual funds na may 5% return per annum. Magplano ka ng budget mo sa isang buwan at gumawa ng listahan ng mga gusto mo bilhin. Sa ganitong paraan, makakamura ka ng ₱2,000 sa isang buwan.",
+          "category": "payday",
           "tags": [
-            "La Paz Batchoy",
-            "mura",
-            "promo"
+            "savings account",
+            "stocks",
+            "mutual funds",
+            "budget"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -515,20 +518,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-05T23:05:57.425Z",
-          "publishedAt": "2026-07-05T23:05:57.425Z",
+          "createdAt": "2026-07-07T23:05:34.258Z",
+          "publishedAt": "2026-07-07T23:05:34.258Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-06-5",
-          "title": "Emergency Fund sa Western Visayas",
-          "body": "Mag-save ka ng 10%-20% ng iyong sweldo para sa emergency fund, tulad ng ₱2000-₱5000. Mag-avail ka ng mga savings account sa mga banko sa Iloilo o Bacolod, kung saan may mas mahabang term at mas mataas na interest rate. Huwag gumamit ng credit card kung hindi kinakailangan, dahil may 30%-50% na interest rate ito. Mag-budget ka ng ₱1000-₱3000 para sa isang buwan ng emergency fund.",
+          "title": "Emergency Fund",
+          "body": "Kung gusto mo ng mas ligtas na emergency fund, mag-open ka ng separate savings account na may ₱10,000 initial deposit. Pwede mo ring mag-set aside ng ₱1,000 per month para sa emergency fund mo. Magplano ka ng budget mo sa isang buwan at gumawa ng listahan ng mga gusto mo bilhin. Sa ganitong paraan, makakamura ka ng ₱5,000 sa isang taon.",
           "category": "emergency",
           "tags": [
             "emergency fund",
             "savings account",
-            "credit card"
+            "initial deposit"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -536,8 +539,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-05T23:05:57.425Z",
-          "publishedAt": "2026-07-05T23:05:57.425Z",
+          "createdAt": "2026-07-07T23:05:34.258Z",
+          "publishedAt": "2026-07-07T23:05:34.258Z",
           "isPublished": true,
           "isFeatured": false
         }

@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-06",
+  "generatedDate": "2026-07-07",
   "regions": {
     "10": {
       "generatedAt": "2026-07-06T23:12:06.356Z",
@@ -226,98 +226,98 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-07-04T23:00:55.982Z",
+      "generatedAt": "2026-07-07T23:05:37.578Z",
       "predictions": [
         {
           "id": "pred-05-1",
           "type": "weather",
-          "summary": "Uulan sa Linggo",
-          "detail": "May tsansa ng ulan sa buong Bicol Region, lalo na sa Naga at Legazpi, dahil sa hanging habagat. Inaasahan ang 2-3 inches ng ulan sa loob ng 2 araw, kaya maghanda ng mga gamit pang-ulan. Magdadala ng payong o raincoat kapag lumabas.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-07-06T23:00:55.982Z",
-          "createdAt": "2026-07-04T23:00:55.982Z"
+          "summary": "Ulan sa Sorsogon",
+          "detail": "Inaasahan ang ulan sa Sorsogon sa mga susunod na araw dahil sa habagat, kaya't mainam na magdala ng payong o raincoat paglabas. Ang mga residente sa Naga at Legazpi ay dapat na maghanda rin para sa posibleng baha. Magtatagal ito ng 2-3 araw.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-07-10T23:05:37.578Z",
+          "createdAt": "2026-07-07T23:05:37.578Z"
         },
         {
           "id": "pred-05-2",
           "type": "food",
-          "summary": "Mura ang laing",
-          "detail": "Ang presyo ng laing sa palengke ng Sorsogon ay umabot sa P20-P30 bawat kilo, kaya ito ay isang magandang pagkakataon para bumili at mag-stock. Maghanda ng P100-P150 para sa isang linggong supply ng laing. Pwedeng gumawa ng Bicol Express na may laing at pork para sa isang masarap na hapunan.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-07-06T23:00:55.982Z",
-          "createdAt": "2026-07-04T23:00:55.982Z"
+          "summary": "Tataas presyo ng laing",
+          "detail": "Dahil sa inaasahang ulan, posibleng tumaas ang presyo ng laing sa mga palengke sa Bicol Region, partikular sa Naga at Legazpi. Mainam na bumili ng laing ngayon pa lang bago umabot sa P50 ang presyo kada kilo. Ito ay magpapabilis sa mga susunod na linggo.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-07-14T23:05:37.578Z",
+          "createdAt": "2026-07-07T23:05:37.578Z"
         },
         {
           "id": "pred-05-3",
           "type": "transport",
-          "summary": "Tipid sa gas",
-          "detail": "Kapag nagjeepney o tricycle, maghanda ng P50-P100 para sa isang linggong pamasahe. Kung may plano mag-road trip sa Mayon Volcano, maghanda ng P200-P300 para sa gas at toll. Mag-plano ng itinerary para makatipid sa gas at oras.",
+          "summary": "Trafiko sa Legazpi",
+          "detail": "Inaasahan ang trabaho sa kalsada sa Legazpi, kaya't posibleng magka-traffic sa mga susunod na araw. Mainam na magplano ng maaga ang biyahe at gumamit ng tricycle o maglakad kung posible. Ang mga jeepney ay posibleng magkaroon ng 30-minutong delay.",
           "confidenceLevel": "low",
-          "validUntil": "2026-07-06T23:00:55.982Z",
-          "createdAt": "2026-07-04T23:00:55.982Z"
+          "validUntil": "2026-07-09T23:05:37.578Z",
+          "createdAt": "2026-07-07T23:05:37.578Z"
         }
       ]
     },
     "01": {
-      "generatedAt": "2026-07-05T23:06:09.274Z",
+      "generatedAt": "2026-07-07T23:05:41.003Z",
       "predictions": [
         {
           "id": "pred-01-1",
-          "type": "food",
-          "summary": "Mura bagnet",
-          "detail": "Sa darating na linggo, inaasahang lalo pang bababa ang presyo ng bagnet sa Ilocos Region, partikular sa Ilocos Norte, dahil sa abundansya ng supply. Magandang pagkakataon ito para mag-stock at mag-save ng hanggang 10% sa grocery bill. Ito ay dahil sa mura na presyo ng bilihin sa lugar, na umaabot lamang ng PHP 150-200 kada kilo.",
+          "type": "weather",
+          "summary": "Ulan sa Ilocos",
+          "detail": "Magkakaroon ng ulan sa mga susunod na araw sa Ilocos Region, lalo na sa Ilocos Norte at Ilocos Sur, dahil sa habagat. Inaasahang aabot ang 2-3 inches ng ulan sa loob ng 2 araw, kaya mainam na magdala ng payong o raincoat. Ang mga magsasaka sa Pangasinan ay dapat maghanda para sa posibleng baha sa kanilang mga palayan.",
           "confidenceLevel": "high",
-          "validUntil": "2026-07-12T23:06:09.274Z",
-          "createdAt": "2026-07-05T23:06:09.274Z"
+          "validUntil": "2026-07-09T23:05:41.003Z",
+          "createdAt": "2026-07-07T23:05:41.003Z"
         },
         {
           "id": "pred-01-2",
-          "type": "weather",
-          "summary": "Ulan sa Pangasinan",
-          "detail": "Sa mga susunod na 2 araw, inaasahang mararanasan ng Pangasinan ang ulan dulot ng habagat, na makakaapekto sa mga palayan sa lugar. Mainam na maghanda ang mga magsasaka at mga residente sa mga flood-prone areas, at mag-stock ng mga necessity gaya ng bigas at tubig. Ang ulan ay inaasahang magdudulot ng 2-3 araw na pagkakansela ng klase at trabaho.",
+          "type": "food",
+          "summary": "Mura ang bagnet",
+          "detail": "Dahil sa maraming supply ng baboy sa Ilocos Region, inaasahang mapapababa ang presyo ng bagnet sa mga susunod na linggo. Ang presyo ng bagnet sa mga palengke sa La Union at Pangasinan ay posibleng bumaba sa P150-P200 kada kilo, kaya mainam na bumili ngayon. Ang mga taga-Ilocos ay dapat magtanim ng mga gulay na mapapakinabangan sa pagluto ng bagnet.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-07T23:06:09.274Z",
-          "createdAt": "2026-07-05T23:06:09.274Z"
+          "validUntil": "2026-07-09T23:05:41.003Z",
+          "createdAt": "2026-07-07T23:05:41.003Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Jeepney fare rollback",
-          "detail": "Sa darating na buwan, inaasahang magkakaroon ng rollback sa pamasahe ng jeepney sa La Union, dahil sa pagbaba ng presyo ng krudo. Ito ay magandang balita para sa mga commuter, na makakamura ng hanggang PHP 5 sa kanilang araw-araw na pamasahe. Mainam na mag-plano ang mga ruta at oras ng biyahe para makamura sa transportasyon.",
+          "summary": "Tumaas ang pasahe",
+          "detail": "Dahil sa pagtaas ng presyo ng krudo, inaasahang tataas ang pasahe ng tricycle at jeepney sa Ilocos Region sa loob ng 1 linggo. Ang pasahe ng tricycle sa Laoag, Ilocos Norte ay posibleng tumaas sa P20-P30, habang ang pasahe ng jeepney sa Dagupan, Pangasinan ay posibleng tumaas sa P30-P50. Ang mga komuter ay dapat maghanda para sa posibleng pagtaas ng gastos sa transportasyon.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-04T23:06:09.274Z",
-          "createdAt": "2026-07-05T23:06:09.274Z"
+          "validUntil": "2026-07-09T23:05:41.003Z",
+          "createdAt": "2026-07-07T23:05:41.003Z"
         }
       ]
     },
     "00": {
-      "generatedAt": "2026-07-05T23:06:16.485Z",
+      "generatedAt": "2026-07-07T23:05:44.395Z",
       "predictions": [
         {
           "id": "pred-00-1",
           "type": "fuel",
-          "summary": "Bumaba presyo",
-          "detail": "Sa susunod na 2 linggo, asahan natin na bababa ang presyo ng gasolina sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ito ay makakatulong sa ating mga drayber at commuter na makatipid sa gastos sa pamamagitan ng pag-plano ng mga biyahe. Magandang oras ito para mag-save sa fuel ngayong weekend.",
+          "summary": "Bumaba gas price",
+          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasolina ay posibleng bumaba ng P2-P3 kada litro, kaya magandang oras para mag-stock up ng gas para sa mga biyahe. Ito ay magkakaroon ng malaking epekto sa mga nagtatrabaho sa mga industriya ng transportasyon.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-07T23:06:16.485Z",
-          "createdAt": "2026-07-05T23:06:16.485Z"
+          "validUntil": "2026-07-21T23:05:44.395Z",
+          "createdAt": "2026-07-07T23:05:44.395Z"
         },
         {
           "id": "pred-00-2",
           "type": "weather",
           "summary": "Ulan sa Agosto",
-          "detail": "Sa mga susunod na linggo, asahan natin ang pagdagdag ng ulan sa buong Pilipinas dahil sa pagpasok ng panahon ng tag-ulan. Ito ay magiging isang hamon sa ating mga komunidad, kaya't mahalaga na maghanda at mag-save sa mga pangangailangan sa panahon ng ulan, tulad ng mga gamit sa bahay at mga pagkain. Magandang oras ito para mag-stock ng mga essentials ngayong weekend.",
+          "detail": "Sa mga susunod na buwan, asahan ang pagbabalik ng mga ulan sa Pilipinas, lalo na sa mga lugar na malapit sa bundok. Ang mga ulan ay posibleng magdala ng baha at landslide, kaya mainam na maghanda ang mga residente sa mga lugar na ito sa pamamagitan ng pagkuha ng mga gamit pang-emergency at pagtatrabaho ng mga evacuation plan. Ito ay magkakaroon ng malaking epekto sa mga nagtatrabaho sa mga industriya ng agrikultura.",
           "confidenceLevel": "high",
-          "validUntil": "2026-07-07T23:06:16.485Z",
-          "createdAt": "2026-07-05T23:06:16.485Z"
+          "validUntil": "2026-08-06T23:05:44.395Z",
+          "createdAt": "2026-07-07T23:05:44.395Z"
         },
         {
           "id": "pred-00-3",
-          "type": "food",
-          "summary": "Tumaas presyo ng bigas",
-          "detail": "Sa mga susunod na buwan, asahan natin ang pagtaas ng presyo ng bigas sa Pilipinas dahil sa mga problema sa supply chain at klima. Ito ay magiging isang hamon sa ating mga pamilya, kaya't mahalaga na maghanda at mag-save sa mga pangangailangan sa pagkain, tulad ng mga stock ng bigas at iba pang staples. Magandang oras ito para mag-plano ng mga menu at mag-save sa grocery ngayong weekend.",
+          "type": "electricity",
+          "summary": "Tataas kuryente",
+          "detail": "Sa mga susunod na buwan, asahan ang pagtaas ng presyo ng kuryente sa Pilipinas dahil sa pagtaas ng demand sa mga industriya ng komersiyo at residensyal. Ang presyo ng kuryente ay posibleng tumaas ng P1-P2 kada kilowatt-oras, kaya mainam na maghanda ang mga residente sa pamamagitan ng paggamit ng mga energy-efficient na appliances at pagpapalit ng mga ilaw sa LED. Ito ay magkakaroon ng malaking epekto sa mga nagtatrabaho sa mga industriya ng manufacturing.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-07T23:06:16.485Z",
-          "createdAt": "2026-07-05T23:06:16.485Z"
+          "validUntil": "2026-09-05T23:05:44.395Z",
+          "createdAt": "2026-07-07T23:05:44.395Z"
         }
       ]
     }
