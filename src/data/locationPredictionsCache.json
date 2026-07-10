@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-09",
+  "generatedDate": "2026-07-10",
   "regions": {
     "10": {
       "generatedAt": "2026-07-09T23:15:16.808Z",
@@ -162,34 +162,34 @@
       ]
     },
     "07": {
-      "generatedAt": "2026-07-08T23:12:18.240Z",
+      "generatedAt": "2026-07-10T23:01:20.941Z",
       "predictions": [
         {
           "id": "pred-07-1",
           "type": "weather",
           "summary": "Ulan sa July",
-          "detail": "Inaasahan ang pag-ulan sa mga susunod na araw sa Cebu City, Lapu-Lapu, at Mandaue, dahil sa habagat. Magdala ng payong o raincoat kapag lumalabas, at asahan ang baha sa mga low-lying area. Mag-umpisa ito sa July 10 at magtatagal hanggang July 15.",
+          "detail": "Inaasahan ang mga malakas na ulan sa Cebu City, Lapu-Lapu, at Mandaue sa mga susunod na linggo ng July 2026, lalo na sa mga gabi at umaga. Maghanda sa mga baha at trapiko sa mga lugar tulad ng Carbon Market at mga kalsadang malapit sa dagat. Iwasan ang pagbiyahe sa mga ganitong oras at magdala ng mga gamit pang-ulan.",
           "confidenceLevel": "high",
-          "validUntil": "2026-07-15T23:12:18.240Z",
-          "createdAt": "2026-07-08T23:12:18.240Z"
+          "validUntil": "2026-07-12T23:01:20.941Z",
+          "createdAt": "2026-07-10T23:01:20.941Z"
         },
         {
           "id": "pred-07-2",
           "type": "food",
           "summary": "Mura na isda",
-          "detail": "Ang presyo ng fresh fish sa Carbon Market ay inaasahang magiging mas mura sa mga susunod na linggo, dahil sa abundance ng supply. Mag-aabot ito ng P150-P200 kada kilo, kaya't magandang pagkakataon ito para mag-stock ng isda para sa linggong ito. Asahan ito sa July 12-18.",
+          "detail": "Dahil sa mainit na panahon, asahan ang mababang presyo ng mga isda sa mga palengke tulad ng Carbon Market sa Cebu City. Ang presyo ng galunggong at tilapia ay posibleng bumaba sa P150-P200 kada kilo sa loob ng 2 linggo. Mag-stock ng mga isda sa inyong mga refrigerator para sa mga susunod na linggo.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-14T23:12:18.240Z",
-          "createdAt": "2026-07-08T23:12:18.240Z"
+          "validUntil": "2026-07-12T23:01:20.941Z",
+          "createdAt": "2026-07-10T23:01:20.941Z"
         },
         {
           "id": "pred-07-3",
           "type": "transport",
-          "summary": "V-hire fare increase",
-          "detail": "Inaasahan ang pagtaas ng fare ng V-hire sa Cebu City, Lapu-Lapu, at Mandaue, dahil sa pagtaas ng presyo ng gasoline. Magiging P15-P20 ang dagdag sa fare, kaya't magandang mag-plano ng maaga para sa mga biyahe. Asahan ito sa July 15-22.",
+          "summary": "Trapiko sa V-hire",
+          "detail": "Inaasahan ang mga trapiko sa mga ruta ng V-hire at jeepney sa Cebu City, Lapu-Lapu, at Mandaue dahil sa pagdagsa ng mga turista at lokal na mga residente. Mag-alis ng maaga para sa inyong mga destinasyon at asahan ang mga delay ng hanggang 30 minuto. Mag-plano ng mga alternatibong ruta para sa inyong mga biyahe.",
           "confidenceLevel": "low",
-          "validUntil": "2026-07-15T23:12:18.240Z",
-          "createdAt": "2026-07-08T23:12:18.240Z"
+          "validUntil": "2026-07-12T23:01:20.941Z",
+          "createdAt": "2026-07-10T23:01:20.941Z"
         }
       ]
     },
@@ -290,34 +290,34 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-07-07T23:05:44.395Z",
+      "generatedAt": "2026-07-10T23:01:36.624Z",
       "predictions": [
         {
           "id": "pred-00-1",
-          "type": "fuel",
-          "summary": "Bumaba gas price",
-          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasolina ay posibleng bumaba ng P2-P3 kada litro, kaya magandang oras para mag-stock up ng gas para sa mga biyahe. Ito ay magkakaroon ng malaking epekto sa mga nagtatrabaho sa mga industriya ng transportasyon.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-07-21T23:05:44.395Z",
-          "createdAt": "2026-07-07T23:05:44.395Z"
+          "type": "weather",
+          "summary": "Uulan sa Agosto",
+          "detail": "Inaasahan ang mga malakas na ulan sa buong Pilipinas sa mga susunod na linggo, lalo na sa mga probinsya sa Luzon at Visayas. Maghanda sa mga pagbaha at landslides sa mga lugar na prone sa mga ito, at asahan ang mga temperature na nasa 25-30 degrees Celsius. Magdala ng payong o raincoat paglabas ng bahay",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-09T23:01:36.624Z",
+          "createdAt": "2026-07-10T23:01:36.624Z"
         },
         {
           "id": "pred-00-2",
-          "type": "weather",
-          "summary": "Ulan sa Agosto",
-          "detail": "Sa mga susunod na buwan, asahan ang pagbabalik ng mga ulan sa Pilipinas, lalo na sa mga lugar na malapit sa bundok. Ang mga ulan ay posibleng magdala ng baha at landslide, kaya mainam na maghanda ang mga residente sa mga lugar na ito sa pamamagitan ng pagkuha ng mga gamit pang-emergency at pagtatrabaho ng mga evacuation plan. Ito ay magkakaroon ng malaking epekto sa mga nagtatrabaho sa mga industriya ng agrikultura.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-06T23:05:44.395Z",
-          "createdAt": "2026-07-07T23:05:44.395Z"
+          "type": "food",
+          "summary": "Tataas ang presyo ng bigas",
+          "detail": "Inaasahan ang pagtaas ng presyo ng bigas sa mga susunod na buwan dahil sa mga problema sa pag-anod at produksyon. Ang presyo ng bigas ay inaasahang tataas ng 5-10% sa mga susunod na 3 buwan, at magiging mas mahal sa mga lungsod kaysa sa mga probinsya. Mag-stock ng bigas at mga iba pang pagkain sa bahay",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-10-08T23:01:36.624Z",
+          "createdAt": "2026-07-10T23:01:36.624Z"
         },
         {
           "id": "pred-00-3",
           "type": "electricity",
-          "summary": "Tataas kuryente",
-          "detail": "Sa mga susunod na buwan, asahan ang pagtaas ng presyo ng kuryente sa Pilipinas dahil sa pagtaas ng demand sa mga industriya ng komersiyo at residensyal. Ang presyo ng kuryente ay posibleng tumaas ng P1-P2 kada kilowatt-oras, kaya mainam na maghanda ang mga residente sa pamamagitan ng paggamit ng mga energy-efficient na appliances at pagpapalit ng mga ilaw sa LED. Ito ay magkakaroon ng malaking epekto sa mga nagtatrabaho sa mga industriya ng manufacturing.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-09-05T23:05:44.395Z",
-          "createdAt": "2026-07-07T23:05:44.395Z"
+          "summary": "Tataas ang singil sa kuryente",
+          "detail": "Inaasahan ang pagtaas ng singil sa kuryente sa mga susunod na buwan dahil sa mga problema sa supply at demand. Ang singil sa kuryente ay inaasahang tataas ng 10-15% sa mga susunod na 6 buwan, at magiging mas mahal sa mga lungsod kaysa sa mga probinsya. Magtipid sa paggamit ng kuryente sa bahay at gumamit ng mga energy-efficient na appliances",
+          "confidenceLevel": "high",
+          "validUntil": "2027-01-06T23:01:36.624Z",
+          "createdAt": "2026-07-10T23:01:36.624Z"
         }
       ]
     }
