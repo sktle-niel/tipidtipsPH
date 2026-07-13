@@ -1,99 +1,99 @@
 {
-  "generatedDate": "2026-07-12",
+  "generatedDate": "2026-07-13",
   "regions": {
     "10": {
-      "generatedAt": "2026-07-12T22:54:37.412Z",
+      "generatedAt": "2026-07-13T22:58:19.684Z",
       "predictions": [
         {
           "id": "pred-10-1",
           "type": "weather",
-          "summary": "Ulan sa Lunes",
-          "detail": "Inaasahan ang ulan sa Cagayan de Oro at Iligan sa susunod na Lunes, dahil sa low pressure area na nasa dagat. Magdala ng payong o raincoat pagpunta sa labas. Ang ulan ay inaasahang magtatagal ng 2-3 araw.",
+          "summary": "Ulan sa CDO",
+          "detail": "May posibilidad ng ulan sa Cagayan de Oro sa mga susunod na araw dahil sa habagat, kaya magdala ng payong o raincoat. Ang ulan ay inaasahang magtatagal ng 2-3 araw, at may epekto ito sa trapiko sa ilang lugar. Maghanda sa mga posibleng baha sa mga low-lying area.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-14T22:54:37.411Z",
-          "createdAt": "2026-07-12T22:54:37.412Z"
+          "validUntil": "2026-07-16T22:58:19.684Z",
+          "createdAt": "2026-07-13T22:58:19.684Z"
         },
         {
           "id": "pred-10-2",
           "type": "food",
-          "summary": "Mura na Sinuglaw",
-          "detail": "Ang presyo ng sinuglaw sa mga palengke ng Cagayan de Oro ay bumaba sa P120 kada kilo, dahil sa abot-kaya na presyo ng isda sa dagat. Mag-avail ng promosyon sa mga supermarket sa Butuan at Iligan para sa mga seafood products. Mag-stock ng mga ito para sa linggong ito.",
+          "summary": "Mura na seafood",
+          "detail": "Ang presyo ng seafood sa mga palengke sa Butuan ay inaasahang magiging mas mura sa mga susunod na linggo dahil sa pagdating ng mga fresong huli mula sa dagat. Ang presyo ng isda ay posibleng magbaba ng 10-15% sa loob ng 2 linggo, kaya magandang bumili ng mga seafood para sa mga darating na handaan.",
           "confidenceLevel": "high",
-          "validUntil": "2026-07-14T22:54:37.412Z",
-          "createdAt": "2026-07-12T22:54:37.412Z"
+          "validUntil": "2026-07-27T22:58:19.684Z",
+          "createdAt": "2026-07-13T22:58:19.684Z"
         },
         {
           "id": "pred-10-3",
           "type": "transport",
-          "summary": "Jeepney Fare Increase",
-          "detail": "Inaasahan ang pagtaas ng pamasahe sa mga jeepney sa Cagayan de Oro at Iligan sa susunod na linggo, dahil sa pagtaas ng presyo ng krudo. Mag-ipon ng P10-P20 para sa dagdag na pamasahe. Mag-plan ng maigi sa mga biyahe para sa linggong ito at mag-consider ng mga alternatibong mode ng transportasyon.",
+          "summary": "Traffic sa Iligan",
+          "detail": "May posibilidad ng trapiko sa Iligan dahil sa pagdadalaw ng mga turista sa mga tourist spot sa lugar, kaya maghanda ng maaga at magplano ng ruta. Ang trapiko ay inaasahang magtatagal ng 1-2 oras sa mga peak hour, at may epekto ito sa mga komuter na gagamit ng jeepney at trisikad.",
           "confidenceLevel": "low",
-          "validUntil": "2026-07-14T22:54:37.412Z",
-          "createdAt": "2026-07-12T22:54:37.412Z"
+          "validUntil": "2026-07-14T22:58:19.684Z",
+          "createdAt": "2026-07-13T22:58:19.684Z"
         }
       ]
     },
     "11": {
-      "generatedAt": "2026-07-12T22:54:45.204Z",
+      "generatedAt": "2026-07-13T22:58:27.470Z",
       "predictions": [
         {
           "id": "pred-11-1",
-          "type": "fuel",
-          "summary": "Bumaba gas price",
-          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Davao City, posibleng makarating sa P50-P55 kada litro. Ito ay dahil sa pagbaba ng presyo ng langis sa mundo. Magandang pagkakataon para mag-save sa gasolina, lalo na kung may plano kang mag-travel sa Tagum o Digos.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-07-19T22:54:45.204Z",
-          "createdAt": "2026-07-12T22:54:45.204Z"
+          "type": "weather",
+          "summary": "Uulan sa Davao",
+          "detail": "Magkakaroon ng malakas na ulan sa Davao City at mga kalapit na lugar sa loob ng 2 araw, kaya't mainam na magdala ng payong o raincoat. Ang mga residente sa Tagum at Digos ay inaasahang makakaranas din ng pag-ulan, na may posibilidad ng baha sa mga mababang lugar. Inaasahan ang ulan na magtatagal hanggang sa Miyerkules, July 15, 2026.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-07-15T22:58:27.470Z",
+          "createdAt": "2026-07-13T22:58:27.470Z"
         },
         {
           "id": "pred-11-2",
-          "type": "weather",
-          "summary": "Ulan sa weekend",
-          "detail": "Sa mga susunod na araw, asahan ang ulan sa Davao Region, lalo na sa mga gabi at umaga. Magdala ng payong o raincoat kung magpupunta sa Roxas Night Market sa gabi para sa seafood shopping. Mainit pa rin sa umaga, pero maganda ang pagkakataon para mag-plant ng mga gulay sa hardin.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-07-15T22:54:45.204Z",
-          "createdAt": "2026-07-12T22:54:45.204Z"
+          "type": "food",
+          "summary": "Murang durian",
+          "detail": "Ang presyo ng durian sa Davao City ay inaasahang bababa sa P50-P70 kada kilo sa loob ng linggong ito, dahil sa mainam na panahon at pag-anib ng mga lokal na magsasaka. Ang mga mamimili ay mainam na bumisita sa Roxas Night Market o sa mga lokal na palengke sa Tagum at Digos upang makakuha ng murang presyo. Inaasahan ang murang presyo ng durian na magtatagal hanggang sa katapusan ng buwan.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-07-15T22:58:27.470Z",
+          "createdAt": "2026-07-13T22:58:27.470Z"
         },
         {
           "id": "pred-11-3",
-          "type": "food",
-          "summary": "Murang dragon fruit",
-          "detail": "Sa mga susunod na linggo, asahan ang pagtaas ng supply ng dragon fruit sa Davao City, at posibleng bumaba ang presyo sa P20-P25 kada kilo. Magandang pagkakataon para mag-stock ng dragon fruit para sa mga smoothie at salad. Pwede ring mag-try ng mga murang seafood sa Roxas Night Market, tulad ng fishball at squid ball, na nagkakahalaga ng P50-P100 kada pack.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-07-22T22:54:45.204Z",
-          "createdAt": "2026-07-12T22:54:45.204Z"
+          "type": "transport",
+          "summary": "Habal-habal fare increase",
+          "detail": "Ang mga drayber ng habal-habal sa Davao City ay inaasahang tataas ng P5-P10 ang kanilang pamasahe sa loob ng 2 linggo, dahil sa pagtaas ng presyo ng gasolina. Ang mga pasahero ay mainam na magplano ng kanilang ruta at oras ng pagbiyahe upang maiwasan ang mga agarang pagtaas ng pamasahe. Inaasahan ang pagtaas ng pamasahe na magtatagal hanggang sa katapusan ng buwan ng Hulyo.",
+          "confidenceLevel": "low",
+          "validUntil": "2026-07-15T22:58:27.470Z",
+          "createdAt": "2026-07-13T22:58:27.470Z"
         }
       ]
     },
     "13": {
-      "generatedAt": "2026-07-12T22:54:53.073Z",
+      "generatedAt": "2026-07-13T22:58:35.104Z",
       "predictions": [
         {
           "id": "pred-13-1",
-          "type": "transport",
-          "summary": "Mabigat na traffic",
-          "detail": "Sa mga susunod na araw, inaasahang lalo pang magiging mabigat ang traffic sa EDSA at mga pangunahing kalsada sa Metro Manila, dahil sa mga ongoing road repair at construction. Ito ay makakaapekto sa mga commuter na gumagamit ng MRT/LRT at Grab, kaya't mainam na mag-leave ng maaga at mag-plan ng ruta. Inaasahan ang travel time na aabot ng 2-3 oras sa mga peak hours.",
+          "type": "fuel",
+          "summary": "Taas presyo",
+          "detail": "Sa susunod na linggo, asahan ang taas ng presyo ng gasoline sa Metro Manila, partikular sa mga gas station sa EDSA at C5, na posibleng umabot sa P70-P75 kada litro. Ito ay dahil sa pagtaas ng global demand at mga isyu sa supply chain. Mag-ipon ng budget para sa mga biyahe at i-konsidera ang paggamit ng mga public transport tulad ng MRT/LRT.",
           "confidenceLevel": "high",
-          "validUntil": "2026-07-14T22:54:53.073Z",
-          "createdAt": "2026-07-12T22:54:53.073Z"
+          "validUntil": "2026-07-20T22:58:35.104Z",
+          "createdAt": "2026-07-13T22:58:35.104Z"
         },
         {
           "id": "pred-13-2",
-          "type": "food",
-          "summary": "Tataas ang presyo ng pagkain",
-          "detail": "Sa mga susunod na linggo, inaasahang tataas ang presyo ng mga pangunahing pagkain sa Metro Manila, tulad ng bigas, gulay, at karne, dahil sa epekto ng inflation. Ito ay makakaapekto sa mga pamilyang may limited na budget, kaya't mainam na mag-plan ng mga pagkain at mag-stock ng mga essential na pagkain. Inaasahan ang pagtaas ng presyo ng 5-10% sa mga susunod na buwan.",
+          "type": "weather",
+          "summary": "Ulan magtatagal",
+          "detail": "Sa mga susunod na araw, asahan ang mga pag-ulan sa Metro Manila, partikular sa mga lugar tulad ng Taguig at Pasig, na posibleng magdala ng trapik at baha. Maghanda ng mga gamit na panlaban sa ulan tulad ng payong at boots, at i-avoid ang mga lugar na madalas na binabaha. Inaasahang ang ulan ay magtatagal hanggang sa katapusan ng linggo.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-14T22:54:53.073Z",
-          "createdAt": "2026-07-12T22:54:53.073Z"
+          "validUntil": "2026-07-18T22:58:35.104Z",
+          "createdAt": "2026-07-13T22:58:35.104Z"
         },
         {
           "id": "pred-13-3",
-          "type": "weather",
-          "summary": "Ulan sa weekend",
-          "detail": "Sa mga susunod na weekend, inaasahang may ulan sa Metro Manila, dahil sa mga low-pressure area na nasa kalapit ng lugar. Ito ay makakaapekto sa mga plano ng mga tao para sa mga outdoor activities, kaya't mainam na mag-dala ng payong o raincoat. Inaasahan ang ulan na aabot ng 2-3 araw, at may posibilidad ng flood sa mga bahaang lugar.",
-          "confidenceLevel": "low",
-          "validUntil": "2026-07-14T22:54:53.073Z",
-          "createdAt": "2026-07-12T22:54:53.073Z"
+          "type": "transport",
+          "summary": "Trapik sa EDSA",
+          "detail": "Sa mga susunod na araw, asahan ang mga trapik sa EDSA, partikular sa mga oras ng rush hour, na posibleng umabot sa 2-3 oras na biyahe mula Quezon City patungo sa Makati. Maghanda ng mga alternatibong ruta tulad ng Commonwealth Avenue o mga side street, at i-konsidera ang paggamit ng mga public transport tulad ng MRT/LRT o Grab.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-07-16T22:58:35.104Z",
+          "createdAt": "2026-07-13T22:58:35.104Z"
         }
       ]
     },
@@ -194,34 +194,34 @@
       ]
     },
     "06": {
-      "generatedAt": "2026-07-09T23:15:56.770Z",
+      "generatedAt": "2026-07-13T22:58:49.211Z",
       "predictions": [
         {
           "id": "pred-06-1",
           "type": "weather",
           "summary": "Uulan sa Iloilo",
-          "detail": "Sa susunod na 2 araw, asahan ang malakas na ulan sa Iloilo dahil sa low pressure area. Magdala ng payong o jacket kapag lumalabas at iwasan ang mga lugar na madaling baha. Ang ulan ay inaasahang tumatagal hanggang Sabado, July 11, 2026.",
+          "detail": "Sa susunod na linggo, inaasahan ang pag-ulan sa Iloilo at Bacolod dahil sa habagat. Magdadala ng 2-3 araw na malakas na ulan, na may posibilidad ng baha sa mga mababang lugar. Maghanda ng mga residente sa Iloilo at Bacolod sa posibleng pagkansela ng mga klase at trabaho.",
           "confidenceLevel": "high",
-          "validUntil": "2026-07-11T23:15:56.770Z",
-          "createdAt": "2026-07-09T23:15:56.770Z"
+          "validUntil": "2026-07-20T22:58:49.211Z",
+          "createdAt": "2026-07-13T22:58:49.211Z"
         },
         {
           "id": "pred-06-2",
           "type": "food",
-          "summary": "P10 pagtaas ng La Paz Batchoy",
-          "detail": "Sa mga susunod na linggo, asahan ang P10 pagtaas ng presyo ng La Paz Batchoy sa mga lokal na restawran sa Iloilo at Bacolod. Ito ay dahil sa pagtaas ng presyo ng mga sangkap tulad ng karne at gulay. Mag-ipon ng konting pera o maghanap ng mga murang alternatibong pagkain.",
+          "summary": "Tumaas presyo ng isda",
+          "detail": "Sa dahilang sa mga bagyo sa ibang lugar ng Pilipinas, inaasahan ang pagtaas ng presyo ng isda sa mga merkado ng Iloilo at Capiz. Ang presyo ng isda ay posibleng tumaas ng 10-15% sa loob ng 2-3 linggo. Maghanda ang mga mamimili sa pagbabayad ng mas mataas na presyo para sa mga seafood.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-11T23:15:56.770Z",
-          "createdAt": "2026-07-09T23:15:56.770Z"
+          "validUntil": "2026-07-27T22:58:49.211Z",
+          "createdAt": "2026-07-13T22:58:49.211Z"
         },
         {
           "id": "pred-06-3",
           "type": "transport",
-          "summary": "P1 pagtaas ng jeepney fare",
-          "detail": "Sa July 15, 2026, asahan ang P1 pagtaas ng pamasahe sa mga jeepney sa Iloilo at Bacolod. Ito ay dahil sa pagtaas ng presyo ng krudo. Mag-plano ng mga ruta ng pag-commute at mag-ipon ng konting pera para sa pagtaas ng pamasahe.",
+          "summary": "Tumaas pamasahe ng jeepney",
+          "detail": "Sa dahilang sa pagtaas ng presyo ng krudo, inaasahan ang pagtaas ng pamasahe ng jeepney sa Iloilo at Bacolod. Ang pamasahe ay posibleng tumaas ng 1-2 piso sa loob ng 1-2 linggo. Maghanda ang mga commuter sa pagbabayad ng mas mataas na pamasahe para sa mga byahe.",
           "confidenceLevel": "low",
-          "validUntil": "2026-07-11T23:15:56.770Z",
-          "createdAt": "2026-07-09T23:15:56.770Z"
+          "validUntil": "2026-07-20T22:58:49.211Z",
+          "createdAt": "2026-07-13T22:58:49.211Z"
         }
       ]
     },
