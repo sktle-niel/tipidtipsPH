@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-24",
+  "generatedDate": "2026-07-25",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -876,105 +876,105 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-07-22T23:09:31.509Z",
+      "generatedAt": "2026-07-25T22:58:20.679Z",
       "tips": [
         {
           "id": "loc-05-1",
-          "title": "Sulit sa Jeepney",
-          "body": "Kung pupunta ka sa SM Naga o Legazpi, sakay ka na lang ng jeepney na ₱15 lang ang pamasahe. Hindi mo kailangang mag-gasolina ng ₱50 sa iyong sarili pang sasakyan. Makakatipid ka ng ₱35 kada byahe. Pwede mo ring i-walk o mag-bisikleta kung malapit lang ang destinasyon mo.",
-          "category": "transport",
+          "title": "Sulit na Grocery",
+          "body": "Kumpleto na ang weekend kung may mga sulit na grocery items. Pumunta sa Naga City Public Market at Legazpi City Public Market para bumili ng mga murang gulay at prutas, tulad ng ₱20 na kilo ng kamote at ₱30 na kilo ng mango. Iwasan ang mga overpriced na item sa mga mall at supermarket. Mag-budget ng ₱500 para sa isang linggong grocery.",
+          "category": "food",
           "tags": [
-            "jeepney",
-            "Naga",
-            "Legazpi"
+            "grocery",
+            "sulit",
+            "Naga City"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-22T23:09:31.509Z",
-          "publishedAt": "2026-07-22T23:09:31.509Z",
+          "createdAt": "2026-07-25T22:58:20.679Z",
+          "publishedAt": "2026-07-25T22:58:20.679Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-05-2",
-          "title": "Mura sa Palengke",
-          "body": "Bumili ka ng mga gulay sa palengke ng Naga o Sorsogon na ₱20-₱50 lang ang presyo. Mas mura kaysa sa mga supermarket. Pwede mo ring bumili ng isda sa mga mangingisda sa dagat ng Sorsogon na ₱100-₱150 lang ang kilo.",
-          "category": "food",
+          "title": "Fuel Efficiency",
+          "body": "Kung ikaw ay may sariling sasakyan, mag-plano ng ruta para makaiwas sa traffic sa kahabaan ng Rizal St. sa Legazpi City. Mag-tank ng ₱500 na gasolina para sa isang linggong byahe. Mag-average ng 20 km/l para makatipid sa fuel consumption. Iwasan ang mga matraffic na lugar para hindi mag-waste ng gas.",
+          "category": "fuel",
           "tags": [
-            "palengke",
-            "Sorsogon",
-            "mura"
+            "fuel efficiency",
+            "traffic",
+            "Legazpi City"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-22T23:09:31.509Z",
-          "publishedAt": "2026-07-22T23:09:31.509Z",
+          "createdAt": "2026-07-25T22:58:20.679Z",
+          "publishedAt": "2026-07-25T22:58:20.679Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-3",
-          "title": "Tipid sa Kuryente",
-          "body": "Kung wala kang ginagawa sa bahay, patayin mo ang mga ilaw at appliances mo. Makakatipid ka ng 10-20% sa iyong bill ng kuryente. Pwede mo ring mag-switch sa mga LED bulbs na ₱50-₱100 lang ang presyo.",
-          "category": "electricity",
+          "title": "Sorsogon Weekend",
+          "body": "Pumunta sa Sorsogon para gumastos ng ₱1,000 para sa isang weekend getaway. Mag-stay sa isang murang hotel na ₱800 per night at kain sa isang karinderya na ₱50 per meal. Mag-tour sa mga scenic spots tulad ng Bulusan Lake at Matnog Beach.",
+          "category": "leisure",
           "tags": [
-            "kuryente",
-            "tipid",
-            "LED"
+            "Sorsogon",
+            "weekend getaway",
+            "murang hotel"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-22T23:09:31.509Z",
-          "publishedAt": "2026-07-22T23:09:31.509Z",
+          "createdAt": "2026-07-25T22:58:20.679Z",
+          "publishedAt": "2026-07-25T22:58:20.679Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-4",
-          "title": "Pambili ng Bigas",
-          "body": "Kung may ₱500 ka na pang-gastos sa isang linggo, gumamit ka ng ₱150 para sa bigas na ₱25 ang kilo. May matitira ka pang ₱350 para sa ibang gastusin mo. Pwede mo ring bumili ng mga murang ulam sa palengke.",
-          "category": "food",
+          "title": "Kuryente na Tipid",
+          "body": "Mag-pause ng mga electronic devices na hindi ginagamit para makatipid sa kuryente. Mag-unplug ng mga charger at appliances na hindi ginagamit. Mag-average ng ₱1,500 per month sa kuryente bill. Iwasan ang mga energy-intensive na appliances tulad ng aircon at refrigerator.",
+          "category": "electricity",
           "tags": [
-            "bigas",
-            "palengke",
-            "mura"
+            "kuryente",
+            "tipid",
+            "energy-efficient"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-22T23:09:31.509Z",
-          "publishedAt": "2026-07-22T23:09:31.509Z",
+          "createdAt": "2026-07-25T22:58:20.679Z",
+          "publishedAt": "2026-07-25T22:58:20.679Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-5",
-          "title": "Emergency Fund",
-          "body": "Itabi mo ang 10-20% ng iyong sahod sa isang savings account para sa mga emergency cases. Pwede mo ring mag-open ng isang time deposit account na may 2-3% na interest rate. May ₱1,000-₱5,000 ka na matatago para sa mga di inaasahang gastusin.",
-          "category": "emergency",
+          "title": "Jeepney Transportation",
+          "body": "Kung ikaw ay walang sariling sasakyan, mag-jeepney na lang para gumastos ng ₱15 lang per ride. Mag-plano ng ruta para makaiwas sa traffic at mag-average ng 30 minutes per ride. Iwasan ang mga overpriced na transportation tulad ng taxi at Grab.",
+          "category": "transport",
           "tags": [
-            "emergency fund",
-            "savings",
-            "time deposit"
+            "jeepney",
+            "transportation",
+            "murang fare"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-22T23:09:31.509Z",
-          "publishedAt": "2026-07-22T23:09:31.509Z",
+          "createdAt": "2026-07-25T22:58:20.679Z",
+          "publishedAt": "2026-07-25T22:58:20.679Z",
           "isPublished": true,
           "isFeatured": false
         }

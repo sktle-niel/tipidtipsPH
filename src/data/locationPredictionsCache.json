@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-24",
+  "generatedDate": "2026-07-25",
   "regions": {
     "10": {
       "generatedAt": "2026-07-24T23:04:25.232Z",
@@ -258,66 +258,66 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-07-22T23:09:42.550Z",
+      "generatedAt": "2026-07-25T22:58:24.221Z",
       "predictions": [
         {
           "id": "pred-01-1",
           "type": "weather",
-          "summary": "Uulan sa Lunes",
-          "detail": "Inaasahan ang mga pag-ulan sa Ilocos Sur at La Union sa susunod na linggo, lalo na sa mga bayan ng Tagudin at Sto. Tomas, kaya't mainam na magdala ng payong o raincoat. Ang mga magsasaka sa Pangasinan ay inaasahang mag-iingat sa kanilang mga pananim dahil sa posibleng baha. Sa mga susunod na 3 araw, asahan ang 2-3 ulan sa isang araw.",
+          "summary": "Maulan sa Lunes",
+          "detail": "Inaasahan ang mga pag-ulan sa Ilocos Norte at Ilocos Sur sa susunod na Lunes, kaya maghanda ng mga raincoat at rain boots. Ang mga tricycle at jeepney ay baka mahirapan sa mga kalsada, kaya mag-plano ng maaga. Magdadala ng lamang loob ng 2 araw, hanggang Martes.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-27T23:09:42.550Z",
-          "createdAt": "2026-07-22T23:09:42.550Z"
+          "validUntil": "2026-07-27T22:58:24.221Z",
+          "createdAt": "2026-07-25T22:58:24.221Z"
         },
         {
           "id": "pred-01-2",
           "type": "food",
-          "summary": "Bumaba presyo ng bagnet",
-          "detail": "Dahil sa pagdami ng supply ng baboy sa Ilocos Norte, asahan ang pagbaba ng presyo ng bagnet sa mga susunod na linggo. Ang mga nagtitinda sa mga palengke sa Laoag at Vigan ay inaasahang mag-alok ng mas mababang presyo, mula sa P250 hanggang P180 kada kilo. Mainam na bumili ng bagnet sa mga susunod na 2 linggo para sa mas murang presyo.",
+          "summary": "Mura na bagnet",
+          "detail": "Ang presyo ng bagnet sa mga palengke ng Pangasinan ay bumaba sa P150 kada kilo, kaya ito ay magandang pagkakataon para bumili at mag-stock para sa linggong ito. Maghanda rin ng mga gulay na mura, tulad ng kamote at pechay, para sa isang masustansyang pagkain. Pwede ring mag-impake ng empanada para sa isang masarap na merienda.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-05T23:09:42.550Z",
-          "createdAt": "2026-07-22T23:09:42.550Z"
+          "validUntil": "2026-07-27T22:58:24.221Z",
+          "createdAt": "2026-07-25T22:58:24.221Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Tataas ang pasahe ng jeep",
-          "detail": "Dahil sa pagtaas ng presyo ng krudo, asahan ang pagtaas ng pasahe ng jeepney sa Ilocos Region, lalo na sa mga rutang pangunahin tulad ng Laoag-Pagudpud at Vigan-San Fernando. Ang mga operator ng jeepney ay inaasahang magpetisyon para sa pagtaas ng pasahe, na maaaring umabot sa P10 hanggang P15. Mainam na magplano ng maaga at mag-allocate ng dagdag na pondo para sa mga byahe sa mga susunod na 3 buwan.",
+          "summary": "Sakit ng tricycle",
+          "detail": "Inaasahan ang mga tricycle na magkaroon ng mga problema sa engine sa susunod na linggo, kaya maghanda ng mga alternatibong transportasyon, tulad ng mga jeepney o pamamaneho ng sariling sasakyan. Mag-plano rin ng maaga para sa mga biyahe, lalo na kung magtatrabaho o mag-aaral sa La Union. Magdagdag ng P20 sa budget para sa mga pamasahe.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-21T23:09:42.550Z",
-          "createdAt": "2026-07-22T23:09:42.550Z"
+          "validUntil": "2026-07-27T22:58:24.221Z",
+          "createdAt": "2026-07-25T22:58:24.221Z"
         }
       ]
     },
     "00": {
-      "generatedAt": "2026-07-22T23:09:50.446Z",
+      "generatedAt": "2026-07-25T22:58:27.484Z",
       "predictions": [
         {
           "id": "pred-00-1",
           "type": "fuel",
           "summary": "Bumaba presyo",
-          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasoline sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasoline ay maaaring bumaba ng Php 2-3 kada litro. Ito ay magandang pagkakataon upang mag-fill up ng gasolina sa mga susunod na araw.",
+          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng krudo sa Pilipinas dahil sa pagbaba ng demand sa mga pangunahing bansa. Ang presyo ng gasolina ay posible bumaba ng P1-P2 kada litro, samantalang ang diesel ay bumaba ng P0.50-P1 kada litro. Ito ay magandang pagkakataon para mag-stock up ng gasolina para sa mga byahe sa weekend.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-29T23:09:50.446Z",
-          "createdAt": "2026-07-22T23:09:50.446Z"
+          "validUntil": "2026-07-27T22:58:27.484Z",
+          "createdAt": "2026-07-25T22:58:27.484Z"
         },
         {
           "id": "pred-00-2",
           "type": "weather",
-          "summary": "Ulan sa Agosto",
-          "detail": "Sa buwan ng Agosto, asahan ang pagtaas ng ulan sa mga probinsya sa Luzon at Visayas. Ang mga residente ay inaanyayahan na maghanda sa mga pagbabaha at pagguho ng lupa. Magdala ng payong at boots sa mga susunod na linggo upang makaiwas sa mga epekto ng ulan.",
+          "summary": "Ulan sa weekend",
+          "detail": "Ayon sa mga ulat ng Pagasa, may tsansa ng ulan sa mga susunod na araw dahil sa low pressure area na nasa hilagang Luzon. Inaasahan ang 2-3 ulan sa mga probinsya sa rehiyon ng Ilocos at Cagayan Valley. Maghanda ng mga gamit pang-ulan at mag-plano ng mga indoor activities para sa weekend.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-21T23:09:50.446Z",
-          "createdAt": "2026-07-22T23:09:50.446Z"
+          "validUntil": "2026-07-27T22:58:27.484Z",
+          "createdAt": "2026-07-25T22:58:27.484Z"
         },
         {
           "id": "pred-00-3",
           "type": "food",
-          "summary": "Tumaas presyo ng bigas",
-          "detail": "Sa mga susunod na buwan, asahan ang pagtaas ng presyo ng bigas sa Pilipinas dahil sa kakulangan ng supply. Ang presyo ng bigas ay maaaring tumaas ng Php 5-10 kada kilo. Ito ay magandang pagkakataon upang mag-stock ng bigas at ibang pangunahing pagkain sa mga susunod na linggo.",
+          "summary": "Sulit na grocery",
+          "detail": "Sa mga weekend market, asahan ang mga murang presyo ng mga gulay at prutas. Ang mga presyo ng mga gulay ay posible bumaba ng 10-20% dahil sa oversupply. Mag-plano ng mga menu na may mga gulay at prutas para sa linggong ito at mag-stock up ng mga essential na grocery items para sa linggong darating.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-09-20T23:09:50.446Z",
-          "createdAt": "2026-07-22T23:09:50.446Z"
+          "validUntil": "2026-07-27T22:58:27.484Z",
+          "createdAt": "2026-07-25T22:58:27.484Z"
         }
       ]
     }
