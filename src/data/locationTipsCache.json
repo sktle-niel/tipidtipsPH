@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-27",
+  "generatedDate": "2026-07-28",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -657,17 +657,17 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-07-26T23:02:48.582Z",
+      "generatedAt": "2026-07-28T23:03:31.488Z",
       "tips": [
         {
           "id": "loc-00-1",
-          "title": "Sulit na Groceries",
-          "body": "Tuwing weekend, bumili ng mga essential goods sa palengke o merkado para makatipid ng hanggang 30% sa presyo. Sa halagang ₱500, makakuha ka na ng isang linggong supply ng bigas, gulay, at prutas. Iwasan ang mga overpriced na supermarket at magtanong sa mga lokal na vendor para sa mga murang option. Pwede ring mag-avail ng cashback o rewards sa mga online grocery platforms.",
+          "title": "Sulit na Baon",
+          "body": "Magdala ng baon sa trabaho o paaralan para makatipid ng ₱50-₱100 sa mga overpriced na kainan. Iwasan ang mga fast food na nagkakahalaga ng ₱150-₱200. Pwedeng magluto ng adobong manok o sinangag na may itlog para sa isang linggong almusal. Magdala rin ng refillable water bottle para hindi bumili ng ₱20-₱30 na tubig.",
           "category": "food",
           "tags": [
-            "groceries",
-            "palengke",
-            "sulit"
+            "baon",
+            "kainan",
+            "fast food"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -675,20 +675,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-26T23:02:48.582Z",
-          "publishedAt": "2026-07-26T23:02:48.582Z",
+          "createdAt": "2026-07-28T23:03:31.488Z",
+          "publishedAt": "2026-07-28T23:03:31.488Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-00-2",
           "title": "Tipid sa Kuryente",
-          "body": "Kapag mainit ang panahon, gumamit ng mga alternatibong ilaw tulad ng LED bulbs na mas matipid sa kuryente. Sa halagang ₱50, makakabili ka na ng isang LED bulb na pwedeng maglast ng hanggang 5 taon. Iwasan rin ang mga appliance na hindi mo ginagamit at patayin ang mga ilaw at electronics kapag hindi mo ginagamit.",
+          "body": "Kung hindi mo ginagamit ang mga appliance, patayin mo para makatipid ng 10-20% sa iyong electric bill. Magpalit ng LED bulbs na nagkakahalaga ng ₱50-₱100 kada piraso para makatipid ng 30-50% sa ilaw. Iwasan ang mga gadget na nagpapatakbo ng 24/7 para hindi umabot ang iyong bill sa ₱2,000-₱3,000.",
           "category": "electricity",
           "tags": [
             "kuryente",
-            "tipid",
-            "LED"
+            "electric bill",
+            "LED bulbs"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -696,20 +696,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-26T23:02:48.582Z",
-          "publishedAt": "2026-07-26T23:02:48.582Z",
+          "createdAt": "2026-07-28T23:03:31.488Z",
+          "publishedAt": "2026-07-28T23:03:31.488Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-3",
-          "title": "Savvy sa Transport",
-          "body": "Kapag commute, gumamit ng mga public transportation tulad ng jeepney o bus na mas murang ₱15 lang kumpara sa ₱50 ng taxi. Pwede ring mag-walk o mag-bike sa mga malapit na destinasyon para makatipid ng fuel at exercise pa. Mag-plano rin ng ruta mo para makaiwas sa traffic at makatipid ng oras.",
-          "category": "transport",
+          "title": "Savvy sa Petrol",
+          "body": "Pumunta sa mga gas station na may promo o discount para makatipid ng ₱5-₱10 sa bawat litro ng gasolina. Gamitin ang iyong loyalty card para makakuha ng points o rewards. Iwasan ang mga traffic jam para hindi magastos sa gasolina at makatipid ng oras.",
+          "category": "fuel",
           "tags": [
-            "transport",
-            "commute",
-            "sulit"
+            "petrol",
+            "gas station",
+            "loyalty card"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -717,20 +717,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-26T23:02:48.582Z",
-          "publishedAt": "2026-07-26T23:02:48.582Z",
+          "createdAt": "2026-07-28T23:03:31.488Z",
+          "publishedAt": "2026-07-28T23:03:31.488Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-4",
-          "title": "Payday Savings",
-          "body": "Tuwing payday, alisin ang 10% to 20% ng sweldo mo at ilagay sa isang separate savings account. Sa halagang ₱5,000 na sweldo, makakakuha ka na ng ₱500 to ₱1,000 na pwedeng magamit sa mga emergency o long-term goals. Pwede ring mag-set up ng automatic transfer para mas madali ang pag-save.",
+          "title": "Payday Goals",
+          "body": "Mag-budget ka ng ₱10,000-₱20,000 sa iyong sweldo para makatipid ng 20-30% sa iyong income. Gawin ito sa unang araw ng payday mo para hindi maubos ang iyong pera. Mag-alok din ng 10-20% sa iyong mga utang para makabayad ng maaga.",
           "category": "payday",
           "tags": [
             "payday",
-            "savings",
-            "emergency"
+            "budget",
+            "sweldo"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -738,20 +738,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-26T23:02:48.582Z",
-          "publishedAt": "2026-07-26T23:02:48.582Z",
+          "createdAt": "2026-07-28T23:03:31.488Z",
+          "publishedAt": "2026-07-28T23:03:31.488Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-00-5",
-          "title": "Weekend Leisure",
-          "body": "Kapag weekend, gumamit ng mga free o affordable leisure activities tulad ng pag-walk sa park o pag-attend ng mga free events. Sa halagang ₱200, makakakuha ka na ng isang mahusay na brunch sa isang lokal na restaurant. Pwede ring mag-picnic o mag-outing sa mga malapit na beaches o mountains para makatipid ng pera at mag-enjoy ng kalikasan.",
-          "category": "general",
+          "title": "Emergency Fund",
+          "body": "Mag-ipon ka ng ₱5,000-₱10,000 para sa iyong emergency fund para makatipid ng pera sa mga di-inaasahang gastos. Gawin ito sa isang separate na account para hindi maubos ang iyong pera. Mag-ipon din ng 3-6 na buwan na panggastos para sa mga di-inaasahang pangyayari.",
+          "category": "emergency",
           "tags": [
-            "weekend",
-            "leisure",
-            "sulit"
+            "emergency fund",
+            "ipon",
+            "gastos"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -759,8 +759,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-07-26T23:02:48.582Z",
-          "publishedAt": "2026-07-26T23:02:48.582Z",
+          "createdAt": "2026-07-28T23:03:31.488Z",
+          "publishedAt": "2026-07-28T23:03:31.488Z",
           "isPublished": true,
           "isFeatured": false
         }
@@ -877,105 +877,105 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-07-26T23:02:36.548Z",
+      "generatedAt": "2026-07-28T23:03:19.853Z",
       "tips": [
         {
           "id": "loc-05-1",
-          "title": "Sundays sa Naga",
-          "body": "Kung Sunday ngayon, mag-plan ng weekend grocery shopping sa Naga Public Market, kung saan mabibili ang mga fresh na isda at gulay sa mura na presyo, halimbawa ₱50 lang ang isang kilo ng tilapia. Ito ay makatitipid sa iyong lingguhang budget. Pumunta sa market sa umaga para mas maraming pagpipilian. Mag-walk o sakay ng ₱10 tricycle papunta sa market.",
-          "category": "food",
+          "title": "Sulit na Jeepney",
+          "body": "Sa Naga, mas mura ang pamasahe sa jeepney, ₱8 lang ang minimum fare. Kapag pupunta ka sa Legazpi, mag-jeepney ka mula Naga, mas makakatipid ka ng ₱50 kaysa sa mag-commute ng tricycle. Pwede kang sumakay sa mga jeepney na dumadaan sa Rizal St. at Elias Angeles St.",
+          "category": "transport",
           "tags": [
-            "grocery",
+            "jeepney",
             "Naga",
-            "sunday"
+            "Legazpi"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-26T23:02:36.548Z",
-          "publishedAt": "2026-07-26T23:02:36.548Z",
+          "createdAt": "2026-07-28T23:03:19.853Z",
+          "publishedAt": "2026-07-28T23:03:19.853Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-05-2",
-          "title": "Fuel Efficiency",
-          "body": "Kapag nag-co-commute sa Legazpi, sakay ng jeepney na may fare na ₱15 lang. Ito ay mas makatitipid kaysa mag-drive ng sariling sasakyan at mag-gasolina na aabot sa ₱50. Mag-plano rin ng ruta para iwas sa traffic at makatitipid sa fuel consumption.",
-          "category": "transport",
+          "title": "Mura na Kainan",
+          "body": "Sa Sorsogon, mura ang mga pagkain, ₱50 lang ang isang malaking serving ng laing. Pwede kang kain sa mga carinderia sa may bayan, mas masarap at mas mura kaysa sa mga restaurant. Maghanda ka ng baon na pagkain para sa araw, para makatipid ka ng ₱100.",
+          "category": "food",
           "tags": [
-            "jeepney",
-            "Legazpi",
-            "fuel"
+            "laing",
+            "Sorsogon",
+            "carinderia"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-26T23:02:36.548Z",
-          "publishedAt": "2026-07-26T23:02:36.548Z",
+          "createdAt": "2026-07-28T23:03:19.853Z",
+          "publishedAt": "2026-07-28T23:03:19.853Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-3",
-          "title": "Laing na Savings",
-          "body": "Ang laing ay isang sikat na ulam sa Bicol Region, at maaari itong gawin sa bahay para makatitipid. Sa halagang ₱20, maaari ng bumili ng mga sangkap para sa laing na puedeng kainin ng 3-4 na tao. Ito ay mas makatitipid kaysa kain sa labas na aabot sa ₱50-₱100 per meal.",
-          "category": "food",
+          "title": "Kuryente sa Renta",
+          "body": "Sa Legazpi, mas mura ang renta ng bahay, ₱4,000 lang ang isang buwan. Kapag ikaw ay nakikitira, mag-usap ka sa may-ari ng bahay para sa kuryente, pwede kang makakuha ng mas mababang presyo, ₱1,500 lang ang isang buwan. Maghanda ka ng mga energy-saving na gadget para makatipid ka pa.",
+          "category": "electricity",
           "tags": [
-            "laing",
-            "Bicol",
-            "savings"
+            "renta",
+            "kuryente",
+            "Legazpi"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-26T23:02:36.548Z",
-          "publishedAt": "2026-07-26T23:02:36.548Z",
+          "createdAt": "2026-07-28T23:03:19.853Z",
+          "publishedAt": "2026-07-28T23:03:19.853Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-4",
-          "title": "Kuryente sa Sorsogon",
-          "body": "Upang makatitipid sa kuryente sa Sorsogon, gumamit ng mga energy-efficient na appliance at ilaw. Halimbawa, ang LED bulb ay mas matipid sa kuryente kaysa sa tradisyonal na bulb. Ito ay makatitipid sa iyong monthly electricity bill na aabot sa 30%.",
-          "category": "electricity",
+          "title": "Fuel Sa Bukid",
+          "body": "Sa may bundok ng Bicol, mas mahirap ang pag-commute. Kapag ikaw ay may sariling sasakyan, mag-tank ka ng fuel sa mga gas station sa may bayan, mas mura ang presyo, ₱45 lang ang isang litro. Maghanda ka ng mga emergency kit para sa araw, para makatipid ka ng ₱200.",
+          "category": "fuel",
           "tags": [
-            "Sorsogon",
-            "kuryente",
-            "energy-efficient"
+            "bundok",
+            "fuel",
+            "gas station"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-26T23:02:36.548Z",
-          "publishedAt": "2026-07-26T23:02:36.548Z",
+          "createdAt": "2026-07-28T23:03:19.853Z",
+          "publishedAt": "2026-07-28T23:03:19.853Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-5",
-          "title": "Payday sa Naga",
-          "body": "Kapag payday, mag-budget agad para sa mga importante na gastos, tulad ng renta na aabot sa ₱5,000-₱8,000 sa isang buwan. Mag-alok din ng 10-20% ng iyong sahod para sa savings at emergency fund. Ito ay makatitipid sa iyong future at mag-protektahan ka sa mga di inaasahang gastos.",
+          "title": "Payday Sulit",
+          "body": "Sa Naga, mas maraming mga tao ang nagtatrabaho sa mga opisina, at sa payday, mas maraming mga tao ang nangangailangan ng pera. Kapag ikaw ay may extra na pera, mag-invest ka sa mga savings account, mas makakatipid ka ng 5% interest. Maghanda ka ng mga financial goal para sa buwan, para makatipid ka ng ₱1,000.",
           "category": "payday",
           "tags": [
             "payday",
-            "Naga",
-            "budgeting"
+            "savings",
+            "Naga"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-07-26T23:02:36.548Z",
-          "publishedAt": "2026-07-26T23:02:36.548Z",
+          "createdAt": "2026-07-28T23:03:19.853Z",
+          "publishedAt": "2026-07-28T23:03:19.853Z",
           "isPublished": true,
           "isFeatured": false
         }
