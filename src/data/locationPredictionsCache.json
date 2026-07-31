@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-07-30",
+  "generatedDate": "2026-07-31",
   "regions": {
     "10": {
       "generatedAt": "2026-07-30T23:11:17.932Z",
@@ -194,98 +194,98 @@
       ]
     },
     "06": {
-      "generatedAt": "2026-07-27T23:07:14.363Z",
+      "generatedAt": "2026-07-31T23:05:04.053Z",
       "predictions": [
         {
           "id": "pred-06-1",
-          "type": "weather",
-          "summary": "Ulan sa Agosto",
-          "detail": "Inaasahan ang mga pag-ulan sa mga susunod na linggo sa Iloilo at Bacolod, kaya't mainam na magdala ng payong o raincoat kapag lumalabas. Ang ulan ay posible na magdala ng baha sa mga mababang lugar, tulad ng sa La Paz, Iloilo. Maghanda na rin sa posibleng pagkatalo ng kuryente sa ilang lugar.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-10T23:07:14.363Z",
-          "createdAt": "2026-07-27T23:07:14.363Z"
+          "type": "transport",
+          "summary": "Jeepney fare tataas",
+          "detail": "Sa susunod na linggo, asahan ang pagtaas ng jeepney fare sa Iloilo at Bacolod dahil sa pagtaas ng fuel price. Ito ay makakaapekto sa commuting budget ng mga estudyante at empleyado, kaya dapat mag-plano ng maigi ang budget. Ang pagtaas ng fare ay inaasahang magiging PHP 0.50 hanggang PHP 1.00.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-07T23:05:04.053Z",
+          "createdAt": "2026-07-31T23:05:04.053Z"
         },
         {
           "id": "pred-06-2",
           "type": "food",
-          "summary": "Tumaas ang presyo ng isda",
-          "detail": "Dahil sa mga pagbabago sa klima, inaasahan ang pagtaas ng presyo ng mga isda sa mga palengke sa Capiz at Antique. Ang presyo ng galunggong ay posible na umabot sa P150-P200 kada kilo sa mga susunod na buwan. Mainam na mag-stock na ng mga isda sa mga susunod na linggo bago tumipaas ang presyo.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-26T23:07:14.363Z",
-          "createdAt": "2026-07-27T23:07:14.363Z"
+          "summary": "Batchoy presyo stable",
+          "detail": "Sa kabila ng pagtaas ng presyo ng ilang pangunahing produkto, ang presyo ng La Paz Batchoy ay inaasahang mananatiling stable sa mga susunod na buwan. Ito ay dahil sa lokal na produksyon ng mga ingredient at ang kompetisyon sa mga carinderia sa Iloilo. Ang presyo ng isang bowl ng Batchoy ay nananatiling PHP 50-70.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-30T23:05:04.053Z",
+          "createdAt": "2026-07-31T23:05:04.053Z"
         },
         {
           "id": "pred-06-3",
-          "type": "transport",
-          "summary": "Tumaas ang pamasahe",
-          "detail": "Dahil sa pagtaas ng presyo ng krudo, inaasahan ang pagtaas ng pamasahe sa mga jeepney at tricycle sa Iloilo at Bacolod. Ang pamasahe ay posible na umabot sa P10-P15 sa mga susunod na linggo. Mainam na mag-plano na sa mga biyahe at mag-budget ng maayos para sa mga gastos sa transportasyon.",
+          "type": "fuel",
+          "summary": "Gasolina presyo bababa",
+          "detail": "Sa mga susunod na araw, asahan ang pagbaba ng presyo ng gasolina sa mga gas station sa Western Visayas. Ito ay dahil sa pagbaba ng presyo ng langis sa mundo at ang epekto nito sa lokal na merkado. Ang presyo ng gasolina ay inaasahang magiging PHP 50-55 kada litro. Payday budgeting tip: mag-plano ng maigi ang gas budget at i-prioritize ang mga biyahe.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-03T23:07:14.363Z",
-          "createdAt": "2026-07-27T23:07:14.363Z"
+          "validUntil": "2026-08-02T23:05:04.053Z",
+          "createdAt": "2026-07-31T23:05:04.053Z"
         }
       ]
     },
     "05": {
-      "generatedAt": "2026-07-28T23:03:23.402Z",
+      "generatedAt": "2026-07-31T23:05:07.146Z",
       "predictions": [
         {
           "id": "pred-05-1",
           "type": "weather",
           "summary": "Ulan sa Sorsogon",
-          "detail": "Magkakaroon ng mga pag-ulan sa Sorsogon sa loob ng 2 araw dahil sa habagat, kaya't mainam na magdala ng payong o raincoat sa paglabas. Ang mga residente sa Naga at Legazpi ay inaasahang makakaranas ng mga pagkidlat at kulog. Inaasahan ang 2-3 inches ng ulan sa mga susunod na araw.",
+          "detail": "Magkakaroon ng malakas na ulan sa Sorsogon dahil sa mga bagyo na dumarating sa lugar. Inaasahan ang 2-3 araw na ulan sa loob ng linggong ito. Maghanda ng mga gamit panangga sa ulan tulad ng payong at raincoat.",
           "confidenceLevel": "high",
-          "validUntil": "2026-07-30T23:03:23.402Z",
-          "createdAt": "2026-07-28T23:03:23.402Z"
+          "validUntil": "2026-08-03T23:05:07.145Z",
+          "createdAt": "2026-07-31T23:05:07.145Z"
         },
         {
           "id": "pred-05-2",
           "type": "food",
-          "summary": "Tataas ang presyo ng laing",
-          "detail": "Dahil sa inaasahang ulan, posibleng tumaas ang presyo ng laing sa mga palengke sa Bicol Region, lalo na sa Sorsogon. Ang presyo ng laing ay inaasahang tataas ng 10-15% sa loob ng 1 linggo, kaya't mainam na bumili ng laing ngayon pa lang. Ang mga residente ay maari ring mag-imbak ng laing para sa mga susunod na araw.",
+          "summary": "Mura na laing",
+          "detail": "Dahil sa pagtatapos ng buwan, inaasahan ang mababang presyo ng laing at iba pang mga produkto sa mga palengke sa Naga at Legazpi. Magandang bumili ng mga ito ngayon at i-store para sa mga susunod na araw. Pwedeng makatipid ng hanggang 10% sa presyo.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-07-30T23:03:23.402Z",
-          "createdAt": "2026-07-28T23:03:23.402Z"
+          "validUntil": "2026-08-02T23:05:07.145Z",
+          "createdAt": "2026-07-31T23:05:07.145Z"
         },
         {
           "id": "pred-05-3",
           "type": "transport",
-          "summary": "Abala sa jeepney",
-          "detail": "Dahil sa inaasahang ulan, posibleng abala ang mga jeepney sa Bicol Region, lalo na sa mga ruta na dumaraan sa mga bundok. Ang mga passenger ay inaasahang makakaranas ng 30-minute na delay sa mga biyahe. Mainam na magplano ng maaga at magdala ng mga kagamitan sa paglabas, gaya ng payong o raincoat.",
+          "summary": "Jeepney fare up",
+          "detail": "Sa ngayong payday, inaasahan ang pagtaas ng pamasahe sa mga jeepney at tricycle sa Bicol Region. Maghanda ng karagdagang 5-10 pesos sa pamasahe. Pwedeng mag-budget ng 50-100 pesos para sa mga biyahe sa loob ng linggo.",
           "confidenceLevel": "low",
-          "validUntil": "2026-07-30T23:03:23.402Z",
-          "createdAt": "2026-07-28T23:03:23.402Z"
+          "validUntil": "2026-08-01T23:05:07.145Z",
+          "createdAt": "2026-07-31T23:05:07.146Z"
         }
       ]
     },
     "01": {
-      "generatedAt": "2026-07-28T23:03:26.844Z",
+      "generatedAt": "2026-07-31T23:05:10.816Z",
       "predictions": [
         {
           "id": "pred-01-1",
           "type": "weather",
-          "summary": "Ulan sa August",
-          "detail": "Inaasahan ang mga pag-ulan sa Ilocos Region sa mga susunod na linggo, partikular sa Ilocos Norte at Ilocos Sur, kung saan ang mga residente ay dapat maghanda sa mga posibleng baha at landslide. Ang mga tricycle at jeepney driver ay dapat mag-ingat sa mga slippery na kalsada. Sa loob ng 2-3 linggo, ang ulan ay inaasahan na magdudulot ng mga pagbaha sa mga low-lying area.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-11T23:03:26.844Z",
-          "createdAt": "2026-07-28T23:03:26.844Z"
+          "summary": "Ulan sa Lunes",
+          "detail": "Inaasahan ang ulan sa Ilocos Region sa darating na Lunes, August 2, 2026, dahil sa low pressure area na naroroon sa lugar. Magdala ng payong o raincoat sa paglabas. Ang ulan ay makakatulong sa mga palayan sa Pangasinan at magpapababa ng temperatura.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-02T23:05:10.816Z",
+          "createdAt": "2026-07-31T23:05:10.816Z"
         },
         {
           "id": "pred-01-2",
           "type": "food",
-          "summary": "Bumaba presyo ng bagnet",
-          "detail": "Dahil sa mga mabubuting ani ng mga gulay at prutas sa Ilocos Region, inaasahan ang pagbaba ng presyo ng bagnet at iba pang mga lokal na pagkain. Ang mga residente ng Pangasinan ay makakakuha ng mga murang bagnet sa mga palengke sa San Carlos at Dagupan. Sa loob ng 1-2 linggo, ang presyo ng bagnet ay inaasahan na magiging PHP 150-200 kada kilo.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-04T23:03:26.844Z",
-          "createdAt": "2026-07-28T23:03:26.844Z"
+          "summary": "Bumaba ang presyo ng bagnet",
+          "detail": "Dahil sa maraming supply ng baboy sa Ilocos Region, inaasahan ang pagbaba ng presyo ng bagnet sa mga merkado ng Ilocos Norte at Ilocos Sur. Ang presyo ng bagnet ay maaaring bumaba ng 10-15 pesos kada kilo. Pwedeng bumili ng bagnet sa mga lokal na merkado sa presyong 180-200 pesos kada kilo.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-02T23:05:10.816Z",
+          "createdAt": "2026-07-31T23:05:10.816Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Tumaas ang pasahe ng tricycle",
-          "detail": "Dahil sa pagtaas ng presyo ng gasolina, inaasahan ang pagtaas ng pasahe ng mga tricycle at jeepney sa Ilocos Region. Ang mga driver ay nakikipag-usap sa mga lokal na opisyal upang itaas ang mga pasahe. Sa loob ng 1-2 linggo, ang pasahe ng tricycle ay inaasahan na magiging PHP 20-30, samantalang ang pasahe ng jeepney ay magiging PHP 30-50.",
+          "summary": "Magandang payday budget tip",
+          "detail": "Sa payday ngayon, August 31, 2026, magandang mag-budget ng 10% ng sahod para sa pamasahe at gasolina. Dahil sa mababang presyo ng gasolina sa Ilocos Region, ang mga tricycle at jeepney ay makakatawid ng mas maraming pasahero. Magandang mag-plano ng biyahe sa mga susunod na araw at mag-allocate ng 500-1000 pesos para sa pamasahe at gasolina.",
           "confidenceLevel": "low",
-          "validUntil": "2026-07-31T23:03:26.844Z",
-          "createdAt": "2026-07-28T23:03:26.844Z"
+          "validUntil": "2026-08-02T23:05:10.816Z",
+          "createdAt": "2026-07-31T23:05:10.816Z"
         }
       ]
     },
