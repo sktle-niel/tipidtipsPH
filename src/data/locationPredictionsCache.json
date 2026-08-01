@@ -1,195 +1,195 @@
 {
-  "generatedDate": "2026-07-31",
+  "generatedDate": "2026-08-01",
   "regions": {
     "10": {
-      "generatedAt": "2026-07-30T23:11:17.932Z",
+      "generatedAt": "2026-08-01T22:58:00.974Z",
       "predictions": [
         {
           "id": "pred-10-1",
           "type": "fuel",
           "summary": "Bumaba gas price",
-          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Cagayan de Oro at Iligan dahil sa pagtaas ng supply. Magandang pagkakataon ito para mag-stock up sa gas para sa mga biyahe sa mga susunod na buwan. Mag-budget ng P500-P1000 para sa gas allowance",
+          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Cagayan de Oro at Iligan ng PHP 2-3 per liter. Ito ay dahil sa pagbaba ng presyo ng crude oil sa mundo. Magandang oportunidad ito para punan ang tanke ng sasakyan at mag-save ng PHP 100-150 sa isang buwan.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:17.932Z",
-          "createdAt": "2026-07-30T23:11:17.932Z"
+          "validUntil": "2026-08-08T22:58:00.974Z",
+          "createdAt": "2026-08-01T22:58:00.974Z"
         },
         {
           "id": "pred-10-2",
           "type": "weather",
-          "summary": "Ulan sa Agosto",
-          "detail": "Sa mga susunod na linggo, asahan ang pag-ulan sa Butuan at mga kalapit na lugar. Maghanda ng mga rain gear at mag-plan ng mga indoor activities. Mag-budget ng P200-P500 para sa mga emergency fund",
+          "summary": "Ulan sa weekend",
+          "detail": "Sa mga susunod na araw, asahan ang pag-ulan sa Butuan at kalapit na lugar. Magdala ng payong o raincoat kapag lumalabas, at maghanda sa posibleng pagbaha sa mga lugar na malapit sa ilog. Mag-save ng PHP 50-100 sa mga gastos sa transportation sa pamamagitan ng paglakad o paggamit ng trisikad.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-01T23:11:17.932Z",
-          "createdAt": "2026-07-30T23:11:17.932Z"
+          "validUntil": "2026-08-03T22:58:00.974Z",
+          "createdAt": "2026-08-01T22:58:00.974Z"
         },
         {
           "id": "pred-10-3",
           "type": "food",
           "summary": "Mura na seafood",
-          "detail": "Sa ngayon, mura ang presyo ng seafood sa Cagayan de Oro dahil sa pagtaas ng supply mula sa mga lokal na fishermen. Magandang pagkakataon ito para bumili ng mga fresh na isda at seafood para sa mga susunod na linggo. Mag-budget ng P500-P1000 para sa seafood allowance at i-allocate ang 20% ng payday sa mga pangangailangan sa pagkain",
+          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng seafood sa Cagayan de Oro at Iligan ng PHP 20-50 per kilo. Ito ay dahil sa pagdami ng supply ng seafood sa lugar. Magandang oportunidad ito para bumili ng fresh na seafood at mag-save ng PHP 100-200 sa isang linggo. Mag-stock ng mga pangunahing gulay at prutas sa bahay para sa mga susunod na araw.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:17.932Z",
-          "createdAt": "2026-07-30T23:11:17.932Z"
+          "validUntil": "2026-08-08T22:58:00.974Z",
+          "createdAt": "2026-08-01T22:58:00.974Z"
         }
       ]
     },
     "11": {
-      "generatedAt": "2026-07-30T23:11:25.144Z",
+      "generatedAt": "2026-08-01T22:58:09.056Z",
       "predictions": [
         {
           "id": "pred-11-1",
-          "type": "fuel",
-          "summary": "Bumaba presyo",
-          "detail": "Sa susunod na linggo, asahan na bumaba ang presyo ng gasolina sa Davao City ng around 2-3 pesos per liter, dulot ng pagbaba ng presyo ng langis sa mundo. Ito ay magandang pagkakataon para punan ang tanke ng sasakyan mo. Mag-budget ka ng 500-700 pesos para sa isang buong linggong gastusin sa gasolina.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-06T23:11:25.144Z",
-          "createdAt": "2026-07-30T23:11:25.144Z"
+          "type": "weather",
+          "summary": "Ulan sa August",
+          "detail": "Inaasahan ang mga pag-ulan sa Davao Region sa buwan ng August, kaya't mainam na magdala ng payong o raincoat sa mga lakad. Ang mga ulan ay posibleng magdala ng baha sa mga mababang lugar, kaya't mag-ingat sa pagbiyahe. Ang temperatura ay inaasahang magiging mas malamig, na may average na 24 degrees Celsius.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-03T22:58:09.056Z",
+          "createdAt": "2026-08-01T22:58:09.056Z"
         },
         {
           "id": "pred-11-2",
           "type": "food",
-          "summary": "Mura na durian",
-          "detail": "Sa ngayon, mura na ang presyo ng durian sa Davao City, na nagkakahalaga ng around 50-70 pesos per kilo. Ito ay magandang pagkakataon para bumili at mag-stock ng durian para sa isang linggong supply. Mag-budget ka ng 200-300 pesos para sa isang kilo ng durian at iba pang prutas.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-02T23:11:25.144Z",
-          "createdAt": "2026-07-30T23:11:25.144Z"
+          "summary": "Mura na dragon fruit",
+          "detail": "Ang presyo ng dragon fruit sa Davao Region ay inaasahang magiging mas mura sa mga susunod na linggo, na may posibilidad na bumaba sa P20-P30 kada kilo. Mainam na bumili ng dragon fruit sa mga lokal na palengke o sa Roxas Night Market upang makatipid. Ito ay magandang pagkain para sa mga mahilig sa prutas at para sa mga naghihintay ng mas murang pagkain.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-03T22:58:09.056Z",
+          "createdAt": "2026-08-01T22:58:09.056Z"
         },
         {
           "id": "pred-11-3",
           "type": "transport",
-          "summary": "Habal-habal tipid",
-          "detail": "Para sa payday na ito, mag-budget ka ng 100-200 pesos para sa transpo sa isang araw, at gumamit ka ng habal-habal o jeepney para sa mas mura at mas tipid na pag-commute. Ito ay makatutulong sa iyo na maiwasan ang trapiko at mas maginhawa ang pagbiyahe mo sa Davao City.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:25.144Z",
-          "createdAt": "2026-07-30T23:11:25.144Z"
+          "summary": "Habal-habal na mas mura",
+          "detail": "Ang mga habal-habal sa Davao Region ay inaasahang mag-alok ng mas murang pamasahe sa mga susunod na linggo, na may posibilidad na bumaba sa P10-P20 kada biyahe. Mainam na mag-avail ng mga promo o discount sa mga habal-habal upang makatipid sa pamasahe. Ito ay magandang pagpipilian para sa mga komuter na naghahanap ng mas murang paraan ng transportasyon.",
+          "confidenceLevel": "low",
+          "validUntil": "2026-08-03T22:58:09.056Z",
+          "createdAt": "2026-08-01T22:58:09.056Z"
         }
       ]
     },
     "13": {
-      "generatedAt": "2026-07-30T23:11:33.326Z",
+      "generatedAt": "2026-08-01T22:58:16.564Z",
       "predictions": [
         {
           "id": "pred-13-1",
           "type": "transport",
           "summary": "Traffic sa EDSA",
-          "detail": "Maganda mag-leave ng maaga papuntang opisina dahil sa heavy traffic sa EDSA, lalo na sa mga oras ng rush hour. Inaasahan ang 2-3 hours na travel time mula Quezon City patungong Makati. Magandang mag-plano ng ruta at gumamit ng Waze o Google Maps para maiwasan ang traffic.",
+          "detail": "Mag-iwas sa EDSA sa pag-uwi ng Linggo dahil sa mga roadworks at mga taong nagbabalik sa trabaho. Inaasahang magiging mas mahabang ang traffic sa mga oras ng rush hour. I-recommend na gumamit ng MRT/LRT o umalis ng maaga bago mag-6 ng umaga.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-01T23:11:33.326Z",
-          "createdAt": "2026-07-30T23:11:33.326Z"
+          "validUntil": "2026-08-03T22:58:16.564Z",
+          "createdAt": "2026-08-01T22:58:16.564Z"
         },
         {
           "id": "pred-13-2",
           "type": "food",
-          "summary": "Tumaas ang presyo ng pagkain",
-          "detail": "Dahil sa inflation, inaasahan ang tumaas ng presyo ng pagkain sa mga restaurant at fast food chain sa Metro Manila. Magandang mag-budget ng P200-P300 per meal para sa mga manggagawa. Payday na ngayon, magandang mag-allocate ng 20% ng sweldo para sa mga gastusin sa pagkain.",
+          "summary": "Taus-puso sa weekend",
+          "detail": "Mag-stock ng mga pagkain sa bahay ngayong weekend dahil sa inaasahang pagtaas ng presyo ng mga bilihin. Pwedeng bumili ng mga non-perishable items tulad ng bigas, noodles, at canned goods. Iwasan ang mga mataas na presyo ng mga pagkain sa mga restaurant at fastfood chains.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:33.326Z",
-          "createdAt": "2026-07-30T23:11:33.326Z"
+          "validUntil": "2026-08-03T22:58:16.564Z",
+          "createdAt": "2026-08-01T22:58:16.564Z"
         },
         {
           "id": "pred-13-3",
           "type": "weather",
           "summary": "Ulan sa hapon",
-          "detail": "Inaasahan ang ulan sa hapon ng Huwebes at Biyernes, lalo na sa mga lugar na malapit sa mga ilog at baha. Magandang mag-dala ng payong o jacket para maiwasan ang pagkabasa. Magandang mag-check ng weather forecast bago lumabas ng bahay para mag-plano ng mga aktibidad.",
+          "detail": "Inaasahang magkakaroon ng ulan sa hapon ng Linggo, kaya magdala ng payong o raincoat pag lumabas. Pwedeng mag-plano ng mga indoor activities tulad ng pagbisita sa mga mall o museum. Mag-ingat sa mga flooded areas sa mga lugar tulad ng Quezon City at Manila.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-01T23:11:33.326Z",
-          "createdAt": "2026-07-30T23:11:33.326Z"
+          "validUntil": "2026-08-03T22:58:16.564Z",
+          "createdAt": "2026-08-01T22:58:16.564Z"
         }
       ]
     },
     "04": {
-      "generatedAt": "2026-07-30T23:11:41.451Z",
+      "generatedAt": "2026-08-01T22:58:24.339Z",
       "predictions": [
         {
           "id": "pred-04-1",
-          "type": "fuel",
-          "summary": "Bumaba gas price",
-          "detail": "Sa mga susunod na araw, asahan ang pagbaba ng presyo ng gasolina sa mga gas station sa CALABARZON, partikular sa Laguna at Cavite, dahil sa pagbaba ng presyo ng langis sa mundo. Mag-a-average ang presyo ng gasolina sa P50-P55 kada litro. Magandang pagkakataon ito para mag-refuel at mag-save sa mga susunod na biyahe.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:41.451Z",
-          "createdAt": "2026-07-30T23:11:41.451Z"
+          "type": "weather",
+          "summary": "Uulan sa Linggo",
+          "detail": "Inaasahan ang ulan sa mga susunod na araw sa CALABARZON, partikular sa mga lugar na malapit sa Laguna de Bay. Maghanda ng mga gamit sa panahon ng ulan at iwasan ang mga lugar na baha. Ang ulan ay inaasahang magtatagal hanggang sa Martes ng linggong ito.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-03T22:58:24.339Z",
+          "createdAt": "2026-08-01T22:58:24.339Z"
         },
         {
           "id": "pred-04-2",
-          "type": "transport",
-          "summary": "Jeepney at FX fare increase",
-          "detail": "Sa mga susunod na linggo, asahan ang pagtaas ng pamasahe sa mga jeepney at FX sa CALABARZON, partikular sa Batangas at Rizal, dahil sa pagtaas ng presyo ng gasolina at mga operasyon. Mag-a-average ang pamasahe sa P20-P25 kada biyahe. Magandang pagkakataon ito para mag-budget at mag-plano sa mga biyahe.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-01T23:11:41.451Z",
-          "createdAt": "2026-07-30T23:11:41.451Z"
+          "type": "food",
+          "summary": "Bumili ng Buko Pie",
+          "detail": "Sa darating na linggo, asahan ang pagtaas ng presyo ng buko pie sa mga palengke ng CALABARZON dahil sa inaasahang pagtaas ng demand. Bumili na ng buko pie ngayon sa presyong P150-P200 kada pie sa mga tindahan sa Laguna at Cavite. Ito ay magiging isang magandang regalo o pangmerienda sa darating na linggo.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-03T22:58:24.339Z",
+          "createdAt": "2026-08-01T22:58:24.339Z"
         },
         {
           "id": "pred-04-3",
-          "type": "food",
-          "summary": "Buko pie sale",
-          "detail": "Sa mga susunod na araw, asahan ang sale ng buko pie sa mga palengke at tindahan sa CALABARZON, partikular sa Quezon, dahil sa pagdiriwang ng Buwan ng Nutrisyon. Mag-a-average ang presyo ng buko pie sa P50-P75 kada pie. Magandang pagkakataon ito para mag-stock at mag-save sa mga susunod na linggo. Payday budgeting tip: mag-allocate ng 10% ng sweldo sa mga pang-unang gastusin tulad ng pagkain at transportation.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:41.451Z",
-          "createdAt": "2026-07-30T23:11:41.451Z"
+          "type": "transport",
+          "summary": "FX na lang",
+          "detail": "Sa mga susunod na linggo, asahan ang pagtaas ng presyo ng pamasahe sa mga jeepney na dumadaan sa EDSA sa Cavite at Rizal. Iwasan ang mga ito at pumili ng FX na may presyong P100-P150 kada biyahe. Maghanda rin ng mga oras ng pag-alis at pagdating upang maiwasan ang mga trapiko sa mga susunod na linggo.",
+          "confidenceLevel": "low",
+          "validUntil": "2026-08-03T22:58:24.339Z",
+          "createdAt": "2026-08-01T22:58:24.339Z"
         }
       ]
     },
     "03": {
-      "generatedAt": "2026-07-30T23:11:48.772Z",
+      "generatedAt": "2026-08-01T22:58:32.089Z",
       "predictions": [
         {
           "id": "pred-03-1",
-          "type": "food",
-          "summary": "Mura na lechon",
-          "detail": "Sa Pampanga, mas mura ang lechon dahil sa pagdiriwang ng mga selebrasyon. Pwedeng bumili ng isang kilo ng lechon sa presyo ng P800-P1000. Magandang mag-order ng lechon para sa mga handaan sa susunod na linggo.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-01T23:11:48.772Z",
-          "createdAt": "2026-07-30T23:11:48.772Z"
+          "type": "weather",
+          "summary": "Ulan sa Linggo",
+          "detail": "May tsansa ng ulan sa mga susunod na araw sa Central Luzon, lalo na sa Pampanga at Bulacan. Inaasahan ang 2-3 inches ng ulan sa loob ng 2 araw. Maghanda sa mga pagbabaha at magdala ng payong o raincoat.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-03T22:58:32.089Z",
+          "createdAt": "2026-08-01T22:58:32.089Z"
         },
         {
           "id": "pred-03-2",
-          "type": "transport",
-          "summary": "Traffic sa Clark",
-          "detail": "Dahil sa pagdami ng turista sa Clark, asahan ang traffic sa mga susunod na araw. Magandang gumamit ng tricycle o maglakad kung malapit lang ang destinasyon. Pwedeng mag-allocate ng P50-P100 para sa pamasahe.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:48.772Z",
-          "createdAt": "2026-07-30T23:11:48.772Z"
+          "type": "food",
+          "summary": "Mura na Lechon",
+          "detail": "Sa darating na Linggo, asahan ang mga murang presyo ng lechon sa Pampanga, na may kasamang 10-15% na discount. Magandang pagkakataon ito para sa mga nagpaplano ng handaan o celebration. Mag-budget ng P2,500-P3,000 para sa isang kilo ng lechon.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-03T22:58:32.089Z",
+          "createdAt": "2026-08-01T22:58:32.089Z"
         },
         {
           "id": "pred-03-3",
-          "type": "electricity",
-          "summary": "Bumili ng power saver",
-          "detail": "Sa Payday ngayon, magandang mag-invest sa isang power saver para sa mga appliance sa bahay. Pwedeng makatipid ng P100-P200 sa kuryente sa isang buwan. Magandang bumili ng power saver sa mga mall sa Pampanga o Bulacan.",
+          "type": "transport",
+          "summary": "Tipid sa Gas",
+          "detail": "Sa mga susunod na araw, asahan ang P1-P2 na pagbaba sa presyo ng gasolina sa mga gas station sa Central Luzon, lalo na sa mga bayan na malapit sa Clark at Subic. Magandang pagkakataon ito para mag-save sa gas. Mag-budget ng P500-P1,000 para sa isang linggong gasolina.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-01T23:11:48.772Z",
-          "createdAt": "2026-07-30T23:11:48.772Z"
+          "validUntil": "2026-08-03T22:58:32.089Z",
+          "createdAt": "2026-08-01T22:58:32.089Z"
         }
       ]
     },
     "07": {
-      "generatedAt": "2026-07-30T23:11:56.332Z",
+      "generatedAt": "2026-08-01T22:58:40.167Z",
       "predictions": [
         {
           "id": "pred-07-1",
-          "type": "transport",
-          "summary": "V-hire mahal",
-          "detail": "Dahil sa pagtaas ng demand sa biyahe, asahan ng taas-presyo sa v-hire at jeepney fares sa mga susunod na linggo, lalo na sa Cebu City, Lapu-Lapu, at Mandaue. Magplano ng maaga at mag-budget ng P50-P100 para sa transportation costs. Ito ay makakatipid sa iyo ng malaki sa mga susunod na linggo.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-01T23:11:56.332Z",
-          "createdAt": "2026-07-30T23:11:56.332Z"
+          "type": "weather",
+          "summary": "Ulan sa Aug 3",
+          "detail": "Inaasahan ng mga meteorologist na magkakaroon ng malakas na ulan sa Cebu City at mga karatig-lungsod sa August 3, dahil sa mga ulap na dala ng hanging habagat. Ang mga residente ay pinayuhang magdala ng payong o raincoat paglabas. Maghanda rin sa posibleng baha sa mga lugar na malapit sa dagat.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-03T22:58:40.167Z",
+          "createdAt": "2026-08-01T22:58:40.167Z"
         },
         {
           "id": "pred-07-2",
           "type": "food",
-          "summary": "Fresh fish mura",
-          "detail": "Sa Carbon Market, mabibili ang fresh fish sa presyong P150-P200 kada kilo. Mag-plano ng isang linggong menu na may fresh fish bilang pangunahing ulam, at mag-budget ng P500-P700 para sa isang linggong supply ng pagkain. Ito ay makakatipid sa iyo ng P200-P300 kada linggo.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-01T23:11:56.332Z",
-          "createdAt": "2026-07-30T23:11:56.332Z"
+          "summary": "Mura na isda",
+          "detail": "Dahil sa mga pagkakataon ng mangingisda sa mga baybayin ng Cebu, ang presyo ng fresh fish sa Carbon Market ay inaasahang magiging mas mura sa mga susunod na araw, na PHP 150-200 kada kilo. Mag-stock ng isda para sa linggong ito at i-freeze para sa future consumption. Mag-avail rin ng mga murang pagkain sa mga food stall sa Carbon Market.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-03T22:58:40.167Z",
+          "createdAt": "2026-08-01T22:58:40.167Z"
         },
         {
           "id": "pred-07-3",
-          "type": "fuel",
-          "summary": "Gasolina tataas",
-          "detail": "Sa susunod na linggo, asahan ng taas-presyo sa gasolina ng P2-P3 kada litro. Mag-plano ng maaga at mag-budget ng P500-P1000 para sa gasolina costs. Ito ay makakatipid sa iyo ng malaki sa mga susunod na linggo, lalo na kung may payday budgeting tip na mag-iipon ng 10-20% ng sweldo para sa mga gastusin sa susunod na buwan.",
+          "type": "transport",
+          "summary": "V-hire fare up",
+          "detail": "Dahil sa pagtaas ng presyo ng krudo, ang mga v-hire at jeepney driver sa Cebu ay nagplano na magtaas ng pamasahe, na inaasahang magiging PHP 10-15 ang minimum fare. Maghanda sa pagtaas ng pamasahe at magplan ng mga itinerary na may mga murang option para sa transportation, tulad ng paggamit ng mga siklistang ruta o paglakad.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-01T23:11:56.332Z",
-          "createdAt": "2026-07-30T23:11:56.332Z"
+          "validUntil": "2026-08-03T22:58:40.167Z",
+          "createdAt": "2026-08-01T22:58:40.167Z"
         }
       ]
     },
@@ -290,34 +290,34 @@
       ]
     },
     "00": {
-      "generatedAt": "2026-07-30T23:12:22.206Z",
+      "generatedAt": "2026-08-01T22:58:54.985Z",
       "predictions": [
         {
           "id": "pred-00-1",
-          "type": "electricity",
-          "summary": "Taas presyo ng kuryente",
-          "detail": "Sa susunod na dalawang linggo, asahan ang taas ng presyo ng kuryente dahil sa mga maintenance schedule ng mga power plant sa Luzon. Ito ay makakaapekto sa mga bahay at negosyo, kaya maghanda na sa pagtitipid ng enerhiya. Mag-invest sa mga energy-efficient na appliances at ilaw para makatipid ng hanggang 20% sa iyong bill.",
+          "type": "fuel",
+          "summary": "Bumaba gas price",
+          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa mga estasyon sa buong Pilipinas, posibleng magiging PHP 5-10 kada litro na pagbaba. Ito ay dahil sa pagbaba ng presyo ng langis sa mundo. Magandang oras para mag-stock ng gas para sa linggong ito.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-13T23:12:22.206Z",
-          "createdAt": "2026-07-30T23:12:22.206Z"
+          "validUntil": "2026-08-03T22:58:54.985Z",
+          "createdAt": "2026-08-01T22:58:54.985Z"
         },
         {
           "id": "pred-00-2",
-          "type": "fuel",
-          "summary": "Bumaba ang presyo ng gas",
-          "detail": "Sa ngayong linggo, asahan ang pagbaba ng presyo ng gasolina at diesel dahil sa pagbaba ng presyo ng langis sa mundo. Ito ay makatutulong sa mga driver at negosyo na magkaroon ng mas mababang gastos sa paggamit ng sasakyan. Mag-plano ng mga biyahe at mag-tank ng gas habang murang-mura pa.",
+          "type": "weather",
+          "summary": "Ulan sa weekend",
+          "detail": "Sa mga susunod na araw, asahan ang mga pag-ulan sa mga lugar sa Pilipinas, lalo na sa mga probinsya sa Visayas at Mindanao. Mainit na umaga pero malamig na gabi, kaya magdala ng jacket o sweater paglabas. Magandang oras para mag-stock ng mga pagkaing mainit at mga inuming mainit.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-06T23:12:22.206Z",
-          "createdAt": "2026-07-30T23:12:22.206Z"
+          "validUntil": "2026-08-03T22:58:54.985Z",
+          "createdAt": "2026-08-01T22:58:54.985Z"
         },
         {
           "id": "pred-00-3",
           "type": "food",
-          "summary": "Mag-budget sa payday",
-          "detail": "Ngayong payday, mag-budget ka ng maayos para sa mga gastusin mo sa buwan. Allokahin ang 50% ng iyong sahod para sa mga pangunahing gastusin tulad ng pagkain, upa, at kuryente. Mag-allocate din ng 20% para sa mga savings at emergency fund. Mag-invest sa mga nutritious na pagkain tulad ng gulay at prutas para makatipid ng hanggang 30% sa iyong budget sa pagkain.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-29T23:12:22.206Z",
-          "createdAt": "2026-07-30T23:12:22.206Z"
+          "summary": "Sulit na grocery",
+          "detail": "Sa mga weekend market, asahan ang mga murang presyo ng mga gulay at prutas, tulad ng PHP 20-50 kada kilo ng kamote at PHP 30-60 kada kilo ng mangga. Magandang oras para mag-stock ng mga pagkaing ito para sa linggong ito, at i-freeze para sa mga susunod na araw.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-03T22:58:54.985Z",
+          "createdAt": "2026-08-01T22:58:54.985Z"
         }
       ]
     }
