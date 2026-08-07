@@ -873,105 +873,105 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-08-04T23:06:44.005Z",
+      "generatedAt": "2026-08-07T22:39:49.796Z",
       "tips": [
         {
           "id": "loc-05-1",
-          "title": "Sulit na Grocery",
-          "body": "Kung ikaw ay namamalengke sa Naga o Legazpi, magplano ng pag-bili ng mga bilihin sa mga palengke na may murang presyo, tulad ng ₱50 lang ang isang kilo ng kanin. Pumili ng mga lokal na produkto tulad ng laing at gulay na mura at masustansya. Mag-stock din ng mga non-perishable items para makatipid sa mga darating na linggo.",
-          "category": "food",
+          "title": "Sulit na Transport",
+          "body": "Sa Naga, Legazpi, at Sorsogon, mas mura ang pamasahe sa jeepney at tricycle, na ₱10 to ₱20 lang. Mag-plano ng ruta at umangkas sa mga jeepney na may fixed route para mas makatipid. Mag-walk o mag-bike kung malapit lang ang destination mo.",
+          "category": "transport",
           "tags": [
-            "grocery",
-            "palengke",
-            "laing"
+            "jeepney",
+            "tricycle",
+            "Naga"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-08-04T23:06:44.005Z",
-          "publishedAt": "2026-08-04T23:06:44.005Z",
+          "createdAt": "2026-08-07T22:39:49.796Z",
+          "publishedAt": "2026-08-07T22:39:49.796Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-05-2",
-          "title": "Jeepney sa Umaga",
-          "body": "Kung ikaw ay nakatira sa Sorsogon at kumukuha ng jeepney papuntang trabaho, pumili ng mas maagang biyahe para makaiwas sa traffic at makatipid sa ₱15 lang na pamasahe. Magplano rin ng ruta para makaiwas sa mga congested na lugar at makarating ka sa iyong destinasyon nang maaga.",
-          "category": "transport",
+          "title": "Mura na Kainan",
+          "body": "Sa Bicol Region, mura ang mga pagkain sa mga carinderia at food stall. Pwedeng kumain ng laing at Bicol Express sa ₱50 lang. Mag-try rin ng mga local na prutas tulad ng sili at kamoteng kahoy na ₱5 to ₱10 lang.",
+          "category": "food",
           "tags": [
-            "jeepney",
-            "umaga",
-            "sorsogon"
+            "laing",
+            "Bicol Express",
+            "carinderia"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-08-04T23:06:44.005Z",
-          "publishedAt": "2026-08-04T23:06:44.005Z",
+          "createdAt": "2026-08-07T22:39:49.796Z",
+          "publishedAt": "2026-08-07T22:39:49.796Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-3",
-          "title": "Kuryente sa Gabi",
-          "body": "Kung ikaw ay may sariling bahay sa Bicol Region, magpatayo ng mga energy-efficient na ilaw at appliance para makatipid sa ₱500 linggong gastusin sa kuryente. Iwasan din ang paggamit ng mga appliance sa peak hours para makaiwas sa mataas na singil sa kuryente.",
+          "title": "Kuryente sa Tipid",
+          "body": "Sa mga lugar na malapit sa dagat at bundok, mas mainam magamit ang mga renewable energy source tulad ng solar power. Mag-invest sa mga solar panel na may presyo na ₱15,000 to ₱30,000 para makatipid sa kuryente.",
           "category": "electricity",
           "tags": [
-            "kuryente",
-            "gabi",
-            "energy-efficient"
+            "solar power",
+            "renewable energy",
+            "dagat"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-08-04T23:06:44.005Z",
-          "publishedAt": "2026-08-04T23:06:44.005Z",
+          "createdAt": "2026-08-07T22:39:49.796Z",
+          "publishedAt": "2026-08-07T22:39:49.796Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-4",
-          "title": "Payday Budget",
-          "body": "Kung ikaw ay may sweldo na ₱15,000 kada buwan, magplano ng budget para sa mga gastusin mo sa buwan, tulad ng ₱3,000 para sa renta, ₱2,000 para sa pagkain, at ₱1,000 para sa transpo. Mag-iwan din ng konting pondo para sa mga emergency at savings.",
+          "title": "Payday Sulit",
+          "body": "Tuwing payday, mag-budget ng maayos para sa mga gastusin sa buwan. Mag-alok ng 30% ng sweldo para sa mga savings at emergency fund. Mag-invest rin sa mga mga investment na may mataas na return tulad ng time deposit na may interes na 2% to 5% per annum.",
           "category": "payday",
           "tags": [
-            "payday",
             "budget",
-            "sweldo"
+            "savings",
+            "investment"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-08-04T23:06:44.005Z",
-          "publishedAt": "2026-08-04T23:06:44.005Z",
+          "createdAt": "2026-08-07T22:39:49.796Z",
+          "publishedAt": "2026-08-07T22:39:49.796Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-05-5",
-          "title": "Ulan sa Bicol",
-          "body": "Kung ikaw ay nakatira sa Bicol Region, maghanda sa mga bagyo at ulan na karaniwang dumadalaw sa lugar. Mag-stock ng mga emergency supplies tulad ng flashlights, batteries, at first aid kits. Magpatayo rin ng mga flood-proof na gusali at magplano ng evacuation plan para sa mga pamilya.",
-          "category": "weather",
+          "title": "Emergency Fund",
+          "body": "Sa mga lugar na prone sa bagyo at baha tulad ng Bicol Region, importante magkaroon ng emergency fund. Mag-ipon ng ₱5,000 to ₱10,000 para sa mga unexpected expenses. Mag-open rin ng mga savings account na may libreng insurance para sa mga emergency cases.",
+          "category": "emergency",
           "tags": [
-            "ulan",
+            "emergency fund",
             "bagyo",
-            "flood"
+            "baha"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
             "low",
             "medium"
           ],
-          "createdAt": "2026-08-04T23:06:44.005Z",
-          "publishedAt": "2026-08-04T23:06:44.005Z",
+          "createdAt": "2026-08-07T22:39:49.796Z",
+          "publishedAt": "2026-08-07T22:39:49.796Z",
           "isPublished": true,
           "isFeatured": false
         }

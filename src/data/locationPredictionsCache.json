@@ -258,66 +258,66 @@
       ]
     },
     "01": {
-      "generatedAt": "2026-08-05T23:03:55.328Z",
+      "generatedAt": "2026-08-07T22:39:53.308Z",
       "predictions": [
         {
           "id": "pred-01-1",
           "type": "weather",
-          "summary": "Uulan sa Lunes",
-          "detail": "Inaasahan ang malakas na ulan sa Ilocos Sur at La Union sa susunod na Lunes, dahil sa habagat. Magdadala ng mga gamit pananggalang sa ulan at maghanda para sa posibleng baha. Ang mga tricycle at jeepney driver ay inaasahang magkaroon ng kaunti ng pasahero dahil sa ulan.",
-          "confidenceLevel": "high",
-          "validUntil": "2026-08-10T23:03:55.328Z",
-          "createdAt": "2026-08-05T23:03:55.328Z"
+          "summary": "Ulan sa Lunes",
+          "detail": "Inaasahan ang ulan sa Ilocos Sur at La Union sa susunod na Lunes, dahil sa low pressure area na napapunta sa lugar. Magdala ng payong o raincoat pag lumabas. Pwedeng umabot ng 2 inches ang ulan sa loob ng 2 oras.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-08-10T22:39:53.308Z",
+          "createdAt": "2026-08-07T22:39:53.308Z"
         },
         {
           "id": "pred-01-2",
           "type": "food",
           "summary": "Bumaba presyo ng bagnet",
-          "detail": "Dahil sa maraming supply ng baboy sa Pangasinan, inaasahan ang pagbaba ng presyo ng bagnet sa mga susunod na linggo. Ang mga taga-Ilocos Norte ay magkakaroon ng pagkakataon na bumili ng mas murang bagnet sa mga palengke. Mag-aangat ng 10-15% ang supply ng bagnet sa mga susunod na 2 linggo.",
-          "confidenceLevel": "medium",
-          "validUntil": "2026-08-19T23:03:55.328Z",
-          "createdAt": "2026-08-05T23:03:55.328Z"
+          "detail": "Dahil sa maraming supply ng baboy sa Pangasinan, inaasahan ang pagbaba ng presyo ng bagnet sa mga merkado sa Ilocos Region. Pwedeng bumaba ng P10-P20 ang presyo ng isang kilo ng bagnet sa loob ng isang linggo. Magandang bumili ng bagnet para sa mga handaan sa darating na linggo.",
+          "confidenceLevel": "high",
+          "validUntil": "2026-08-14T22:39:53.308Z",
+          "createdAt": "2026-08-07T22:39:53.308Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Tataas ang pamasahe",
-          "detail": "Dahil sa pagtaas ng presyo ng krudo, inaasahan ang pagtaas ng pamasahe sa mga tricycle at jeepney sa Ilocos Region. Ang mga driver ay magkakaroon ng pagkakataon na magpetisyon para sa pagtaas ng pamasahe sa mga susunod na linggo. Mag-aangat ng 5-10% ang pamasahe sa mga susunod na 3 linggo.",
+          "summary": "Tataas pamasahe ng tricycle",
+          "detail": "Dahil sa pagtaas ng presyo ng gasolina, inaasahan ang pagtaas ng pamasahe ng tricycle sa Ilocos Norte sa loob ng 2 linggo. Pwedeng tumaas ng P5 ang pamasahe sa isang byahe. Magandang mag-plano ng ruta at mag-ikot ng maaga para maiwasan ang trapiko at matipid sa pamasahe.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-26T23:03:55.328Z",
-          "createdAt": "2026-08-05T23:03:55.328Z"
+          "validUntil": "2026-08-21T22:39:53.308Z",
+          "createdAt": "2026-08-07T22:39:53.308Z"
         }
       ]
     },
     "00": {
-      "generatedAt": "2026-08-04T23:06:58.667Z",
+      "generatedAt": "2026-08-07T22:39:56.694Z",
       "predictions": [
         {
           "id": "pred-00-1",
           "type": "fuel",
-          "summary": "Bumaba presyo",
-          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng krudo sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ito ay makakaapekto sa mga nagmamaneho na makakamura ng Php 5-10 sa bawat litro ng gasolina. Inaasahan itong mangyari sa loob ng 2-3 buwan.",
+          "summary": "Bumaba ang gas",
+          "detail": "Sa susunod na 2 linggo, asahan ang pagbaba ng presyo ng gasolina sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasolina sa mga petrol station sa Metro Manila at ibang lugar ay posible bumaba ng P2-P3 kada litro. Ito ay magandang pagkakataon para mag-full tank at magtipid sa susunod na linggo.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-09-03T23:06:58.667Z",
-          "createdAt": "2026-08-04T23:06:58.667Z"
+          "validUntil": "2026-08-21T22:39:56.694Z",
+          "createdAt": "2026-08-07T22:39:56.694Z"
         },
         {
           "id": "pred-00-2",
           "type": "weather",
-          "summary": "Ulan sa agosto",
-          "detail": "Sa mga susunod na araw, asahan ang pag-ulan sa mga lugar sa Pilipinas dahil sa habagat. Ito ay makakaapekto sa mga nagko-commute at mga nagtatrabaho sa labas, kaya't mainam na magdala ng payong o raincoat. Inaasahan itong mangyari sa loob ng 1-2 linggo.",
+          "summary": "Uulan sa Agosto",
+          "detail": "Sa mga susunod na araw, asahan ang mga pag-ulan sa buong Pilipinas dahil sa habagat. Ito ay magdudulot ng baha at trapik sa mga lugar tulad ng Metro Manila at ibang low-lying areas. Maghanda ng mga gamit pang-ulan tulad ng payong at boots, at magplano ng maigi ang mga lakad para maiwasan ang mga aberya.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-11T23:06:58.667Z",
-          "createdAt": "2026-08-04T23:06:58.667Z"
+          "validUntil": "2026-08-14T22:39:56.694Z",
+          "createdAt": "2026-08-07T22:39:56.694Z"
         },
         {
           "id": "pred-00-3",
           "type": "food",
-          "summary": "Tumaas presyo",
-          "detail": "Sa mga susunod na buwan, asahan ang pagtaas ng presyo ng mga pagkain sa Pilipinas dahil sa pagtaas ng presyo ng mga sangkap at mga gastusin sa produksyon. Ito ay makakaapekto sa mga pamilyang Pilipino na kailangang magtipid sa mga pagkain, partikular sa mga produktong may mataas na presyo tulad ng karne at isda. Inaasahan itong mangyari sa loob ng 3-6 buwan.",
-          "confidenceLevel": "low",
-          "validUntil": "2026-10-03T23:06:58.667Z",
-          "createdAt": "2026-08-04T23:06:58.667Z"
+          "summary": "Tumaas ang presyo ng bigas",
+          "detail": "Sa mga susunod na buwan, asahan ang pagtaas ng presyo ng bigas sa Pilipinas dahil sa mga problema sa pananalapi at klima. Ang presyo ng bigas sa mga palengke sa probinsya at lungsod ay posible tumaas ng P5-P10 kada kilo. Ito ay magandang pagkakataon para mag-stock ng bigas at magtipid sa mga pagkain sa bahay.",
+          "confidenceLevel": "medium",
+          "validUntil": "2026-09-06T22:39:56.694Z",
+          "createdAt": "2026-08-07T22:39:56.694Z"
         }
       ]
     }
