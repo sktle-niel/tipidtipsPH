@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-08-13",
+  "generatedDate": "2026-08-14",
   "regions": {
     "10": {
       "generatedAt": "2026-08-13T22:47:00.580Z",
@@ -226,98 +226,98 @@
       ]
     },
     "05": {
-      "generatedAt": "2026-08-11T22:48:45.874Z",
+      "generatedAt": "2026-08-14T22:27:23.037Z",
       "predictions": [
         {
           "id": "pred-05-1",
           "type": "weather",
           "summary": "Ulan sa Sorsogon",
-          "detail": "May posibilidad ng ulan sa Sorsogon dahil sa habagat, kaya magdala ng payong o raincoat. Inaasahan na aabot sa 2 inches ang ulan sa loob ng 2 araw. Maghanda sa mga landslide at baha sa mga bayan malapit sa bundok.",
+          "detail": "May posibilidad ng ulan sa Sorsogon sa loob ng 2 araw dahil sa low pressure area. Inaasahan ang 2-3 inches ng ulan, kaya dapat maghanda ang mga residente sa mga flood-prone area. Magdala ng payong o raincoat paglabas.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-13T22:48:45.874Z",
-          "createdAt": "2026-08-11T22:48:45.874Z"
+          "validUntil": "2026-08-16T22:27:23.037Z",
+          "createdAt": "2026-08-14T22:27:23.037Z"
         },
         {
           "id": "pred-05-2",
           "type": "food",
-          "summary": "P10 laing",
-          "detail": "Bumaba ang presyo ng laing sa Naga dahil sa oversupply, kaya mura na ang laing sa P10 bawat tasa. Magandang pagkakataon para mag-stock ng laing para sa mga susunod na araw. Inaasahan na manatili sa P10 ang presyo sa loob ng 1 linggo.",
+          "summary": "Tausog ng laing",
+          "detail": "Inaasahan ang tausog ng laing sa mga palengke sa Naga at Legazpi sa loob ng linggo dahil sa mainit na panahon. Ang presyo ng laing ay posibleng tumaas ng 5-10% dahil sa mataas na demand. Mag-stock ng laing ngayon pa para sa mga susunod na araw.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-13T22:48:45.874Z",
-          "createdAt": "2026-08-11T22:48:45.874Z"
+          "validUntil": "2026-08-16T22:27:23.037Z",
+          "createdAt": "2026-08-14T22:27:23.037Z"
         },
         {
           "id": "pred-05-3",
           "type": "transport",
-          "summary": "P5 jeepney",
-          "detail": "Magkakaroon ng promosyon sa mga jeepney sa Legazpi, kaya magiging P5 ang pamasahe sa loob ng 1 linggo. Magandang pagkakataon para magtipid sa pamasahe at magamit ang pera sa ibang bagay. Inaasahan na magpatuloy ang promosyon hanggang sa katapusan ng buwan.",
+          "summary": "Trafiko sa Naga",
+          "detail": "Inaasahan ang trabaho sa mga kalsada sa Naga sa loob ng 3 linggo, kaya posibleng magkaroon ng trapiko. Ang mga jeepney at tricycle ay posibleng magkaroon ng 10-15 minute na delay sa mga peak hours. Mag-alis ng maaga para sa mga appointment at mga lakad.",
           "confidenceLevel": "low",
-          "validUntil": "2026-08-13T22:48:45.874Z",
-          "createdAt": "2026-08-11T22:48:45.874Z"
+          "validUntil": "2026-08-16T22:27:23.037Z",
+          "createdAt": "2026-08-14T22:27:23.037Z"
         }
       ]
     },
     "01": {
-      "generatedAt": "2026-08-11T22:48:53.420Z",
+      "generatedAt": "2026-08-14T22:27:26.605Z",
       "predictions": [
         {
           "id": "pred-01-1",
           "type": "weather",
-          "summary": "Uulan sa Lunes",
-          "detail": "Inaasahan ang malakas na ulan sa Ilocos Norte at Ilocos Sur sa loob ng 2 araw, dahil sa low pressure area na nasa kanluran ng Pilipinas. Magdadala ito ng pagbaha sa mga mababang lugar, kaya't mainam na maghanda ng mga residente sa mga barangay na malapit sa ilog. Pwedeng umabot ng 50 mm ang pag-ulan sa loob ng 24 oras.",
+          "summary": "Ulan sa Lunes",
+          "detail": "May posibilidad ng ulan sa Ilocos Sur at La Union sa Lunes, agosto 17, dahil sa low pressure area. Inaasahan ang 2-3 oras na ulan, kaya magdala ng payong o raincoat. Presyo ng gulay at prutas sa palengke ay posibleng tumaas ng 5-10% dahil sa epekto ng ulan sa pag-anod.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-13T22:48:53.420Z",
-          "createdAt": "2026-08-11T22:48:53.420Z"
+          "validUntil": "2026-08-17T22:27:26.605Z",
+          "createdAt": "2026-08-14T22:27:26.605Z"
         },
         {
           "id": "pred-01-2",
           "type": "food",
           "summary": "Bumaba presyo ng bagnet",
-          "detail": "Dahil sa maraming supply ng baboy sa mga palayan ng Pangasinan, inaasahan ang pagbaba ng presyo ng bagnet sa mga merkado ng Ilocos Region. Magiging PHP 180 ang presyo ng isang kilo ng bagnet, mula sa dating PHP 200. Mainam na bumili ng bagnet sa mga susunod na linggo para sa mas murang presyo.",
+          "detail": "Sa susunod na linggo, asahan ang pagbaba ng presyo ng bagnet sa Ilocos Norte dahil sa pagdami ng supply. Ang presyo ng bagnet ay posibleng bumaba ng 10-15 pesos kada kilo, mula sa kasalukuyang 120 pesos. Magandang pagkakataon ito para mag-stock ng bagnet para sa mga darating na okasyon.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-13T22:48:53.420Z",
-          "createdAt": "2026-08-11T22:48:53.420Z"
+          "validUntil": "2026-08-21T22:27:26.605Z",
+          "createdAt": "2026-08-14T22:27:26.605Z"
         },
         {
           "id": "pred-01-3",
           "type": "transport",
-          "summary": "Tataas fare ng jeep",
-          "detail": "Dahil sa pagtaas ng presyo ng krudo, inaasahan ang pagtaas ng fare ng mga jeepney sa Ilocos Region. Magiging PHP 12 ang minimum fare, mula sa dating PHP 10. Mainam na magplano ng mga commuter sa mga susunod na linggo at maghanap ng mga alternatibong ruta para sa mas murang gastos sa transportasyon.",
+          "summary": "Tumaas presyo ng gas",
+          "detail": "Simula sa agosto 20, asahan ang pagtaas ng presyo ng gasolina sa Pangasinan ng 2-3 pesos kada litro, dahil sa pagtaas ng presyo ng langis sa mundo. Magandang mag-plano ng mga biyahe at mag-ipon ng gasolina bago ang pagtaas ng presyo. Ang presyo ng gasolina sa Pangasinan ay posibleng umabot ng 60-65 pesos kada litro.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-13T22:48:53.420Z",
-          "createdAt": "2026-08-11T22:48:53.420Z"
+          "validUntil": "2026-08-20T22:27:26.605Z",
+          "createdAt": "2026-08-14T22:27:26.605Z"
         }
       ]
     },
     "00": {
-      "generatedAt": "2026-08-11T22:49:01.124Z",
+      "generatedAt": "2026-08-14T22:27:29.915Z",
       "predictions": [
         {
           "id": "pred-00-1",
           "type": "fuel",
-          "summary": "Bumaba ang gas",
-          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasolina ay maaaring bumaba ng P1-P2 kada litro. Ito ay magandang pagkakataon para mag-stock up ng gas para sa mga susunod na byahe.",
+          "summary": "Bumaba gas price",
+          "detail": "Sa mga susunod na linggo, asahan ang pagbaba ng presyo ng gasolina sa Pilipinas dahil sa pagbaba ng presyo ng langis sa mundo. Ang presyo ng gasolina ay posibleng bumaba ng P2-P3 kada litro sa mga susunod na 2-3 linggo. Ito ay magandang pagkakataon para mag-stock up ng gas para sa mga biyahe sa mga darating na araw.",
           "confidenceLevel": "medium",
-          "validUntil": "2026-08-25T22:49:01.124Z",
-          "createdAt": "2026-08-11T22:49:01.124Z"
+          "validUntil": "2026-08-28T22:27:29.915Z",
+          "createdAt": "2026-08-14T22:27:29.915Z"
         },
         {
           "id": "pred-00-2",
           "type": "weather",
-          "summary": "Ulan sa darating na linggo",
-          "detail": "Ayôn sa mga ulat ng PAGASA, asahan ang pag-ulan sa mga susunod na linggo sa buong Pilipinas. Ang mga residente ay pinayuhang maghanda sa mga pag-ulan at baha, lalo na sa mga lugar na prone sa baha. Magdala ng payong at gumamit ng waterproof na mga bag at sapatos.",
+          "summary": "Ulan sa Setyembre",
+          "detail": "Sa mga susunod na buwan, asahan ang pagbalik ng ulan sa Pilipinas dahil sa pagtatapos ng tag-init. Ang mga ulan ay posibleng magdala ng baha at landslide sa mga lugar na prone sa mga ito, kaya't mahalaga na maghanda ang mga tao sa mga darating na araw. Ito ay magandang pagkakataon para mag-stock up ng pagkain at tubig para sa mga emergency situation.",
           "confidenceLevel": "high",
-          "validUntil": "2026-08-18T22:49:01.124Z",
-          "createdAt": "2026-08-11T22:49:01.124Z"
+          "validUntil": "2026-09-13T22:27:29.915Z",
+          "createdAt": "2026-08-14T22:27:29.915Z"
         },
         {
           "id": "pred-00-3",
           "type": "food",
-          "summary": "Tumaas ang presyo ng bigas",
-          "detail": "Dahil sa kakulangan ng supply ng bigas, asahan ang pagtaas ng presyo ng bigas sa mga susunod na linggo. Ang presyo ng bigas ay maaaring tumaas ng P5-P10 kada kilo. Ito ay magandang pagkakataon para mag-stock up ng bigas at gumamit ng mga alternatibong pagkain tulad ng kamote at ube.",
+          "summary": "Tumaas presyo ng bigas",
+          "detail": "Sa mga susunod na linggo, asahan ang pagtaas ng presyo ng bigas sa Pilipinas dahil sa kakulangan ng supply at pagtaas ng presyo ng mga sangkap. Ang presyo ng bigas ay posibleng tumaas ng P1-P2 kada kilo sa mga susunod na 2-3 linggo. Ito ay magandang pagkakataon para mag-stock up ng bigas para sa mga darating na araw at maghanap ng mga paraan para magtipid sa pagkain.",
           "confidenceLevel": "low",
-          "validUntil": "2026-09-10T22:49:01.124Z",
-          "createdAt": "2026-08-11T22:49:01.124Z"
+          "validUntil": "2026-08-21T22:27:29.915Z",
+          "createdAt": "2026-08-14T22:27:29.915Z"
         }
       ]
     }

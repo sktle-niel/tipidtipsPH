@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-08-13",
+  "generatedDate": "2026-08-14",
   "note": "Pre-populated. Run 'npm run generate-tips' with a valid AIzaSy... API key to regenerate with AI.",
   "regions": {
     "10": {
@@ -323,17 +323,17 @@
       ]
     },
     "07": {
-      "generatedAt": "2026-08-11T22:48:25.799Z",
+      "generatedAt": "2026-08-14T22:27:19.814Z",
       "tips": [
         {
           "id": "loc-07-1",
-          "title": "Sulit na Food Trip",
-          "body": "Mag-food trip ka sa Carbon Market sa Cebu City, kung saan makakakuha ka ng masarap na pagkain sa presyong ₱50-₱100 lang. Pwede ka ring bumili ng fresh fish sa ₱150-₱200 kada kilo. Magplano ng isang linggong menu at gumawa ng grocery list para maiwasan ang excess na gastos.",
+          "title": "Sulit na Lunch",
+          "body": "Pumunta sa Carbon Market sa Cebu City para sa murang pagkain, ₱50 lang ang isang masarap na lunch. Pwede ka ring bumili ng fresh fish sa ₱150 kada kilo at ipakulo sa bahay. Mag-walk o sumakay ng jeepney papuntang Carbon Market para iwasan ang traffic. Matatipid ka ng ₱20 sa transpo kada araw.",
           "category": "food",
           "tags": [
-            "food trip",
+            "Cebu City",
             "Carbon Market",
-            "Cebu City"
+            "murang pagkain"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -341,20 +341,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-08-11T22:48:25.799Z",
-          "publishedAt": "2026-08-11T22:48:25.799Z",
+          "createdAt": "2026-08-14T22:27:19.814Z",
+          "publishedAt": "2026-08-14T22:27:19.814Z",
           "isPublished": true,
           "isFeatured": true
         },
         {
           "id": "loc-07-2",
-          "title": "Tipid sa Transport",
-          "body": "Gamitin ang V-hire o jeepney sa halip ng taxi, na may presyong ₱15-₱30 lang. Magplano ng ruta at oras ng biyahe para maiwasan ang traffic at matipid sa pamasahe. Pwede ka ring mag-walk o mag-bike sa mga malapit na lugar.",
+          "title": "V-Hire na Transpo",
+          "body": "Sumakay ng V-hire sa halip ng taxi para sa mas murang transpo, ₱15 lang ang pamasahe. Pwede ka ring mag-share ng V-hire kasama ang mga kaibigan o kolega para mas makatipid. May mga V-hire na dumadaan sa mga pangunahing lugar sa Cebu City, Lapu-Lapu, at Mandaue.",
           "category": "transport",
           "tags": [
             "V-hire",
-            "jeepney",
-            "tipid"
+            "Cebu City",
+            "Lapu-Lapu"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -362,20 +362,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-08-11T22:48:25.799Z",
-          "publishedAt": "2026-08-11T22:48:25.799Z",
+          "createdAt": "2026-08-14T22:27:19.814Z",
+          "publishedAt": "2026-08-14T22:27:19.814Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-07-3",
-          "title": "Kuryente ng Tipid",
-          "body": "Magpatayo ng mga energy-efficient na appliance sa bahay, tulad ng LED TV at refrigerator, para makatipid ng 30% sa kuryente. Magturn-off ng mga appliance na hindi ginagamit at mag-use ng power strip para maiwasan ang standby power consumption.",
+          "title": "Kuryente sa Bahay",
+          "body": "Magpatubo ng mga halaman sa bahay para maiwasan ang init at matipid sa kuryente. Pwede ka ring gumamit ng electric fan sa halip ng aircon para sa mas murang konsumo ng kuryente, ₱5 lang kada oras. Iwasan ang paggamit ng mga appliance na may mataas na konsumo ng kuryente.",
           "category": "electricity",
           "tags": [
-            "energy-efficient",
             "kuryente",
-            "tipid"
+            "bahay",
+            "halaman"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -383,20 +383,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-08-11T22:48:25.799Z",
-          "publishedAt": "2026-08-11T22:48:25.799Z",
+          "createdAt": "2026-08-14T22:27:19.814Z",
+          "publishedAt": "2026-08-14T22:27:19.814Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-07-4",
-          "title": "Payday na Plano",
-          "body": "Gawin ang isang budget plan bago ang payday, kung saan nakalista ang lahat ng mga gastusin at prioritization ng mga pangangailangan. Mag-alok ng 10%-20% ng sweldo para sa savings at emergency fund. Pwede ka ring mag-automate ng mga bayarin sa mga bills at utang.",
-          "category": "payday",
+          "title": "Pag-ihaw sa Sabado",
+          "body": "Mag-ihaw ng mga seafood sa bahay sa halip na kumain sa labas, ₱200 lang ang isang kilo ng fresh fish. Pwede ka ring mag-invite ng mga kaibigan o pamilya para sa isang masaya na pag-ihaw. Iwasan ang paggamit ng mga produkto na may mga preservative para sa mas malusog na pagkain.",
+          "category": "food",
           "tags": [
-            "payday",
-            "budget plan",
-            "savings"
+            "seafood",
+            "ihaw",
+            "Sabado"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -404,20 +404,20 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-08-11T22:48:25.799Z",
-          "publishedAt": "2026-08-11T22:48:25.799Z",
+          "createdAt": "2026-08-14T22:27:19.814Z",
+          "publishedAt": "2026-08-14T22:27:19.814Z",
           "isPublished": true,
           "isFeatured": false
         },
         {
           "id": "loc-07-5",
           "title": "Emergency Fund",
-          "body": "Magbuo ng isang emergency fund na may halagang 3-6 na buwan ng mga gastusin, para makatulong sa mga di-inakalang gastos tulad ng medical emergency o pagkawala ng trabaho. Mag-open ng isang separate na savings account para dito at mag-deposit ng ₱1,000-₱2,000 kada buwan.",
+          "body": "Mag-save ng ₱1,000 kada buwan para sa emergency fund, para sa mga di inaasahang gastos. Pwede ka ring mag-open ng isang savings account sa bangko para sa mas malaking interes. Iwasan ang paggamit ng credit card para sa mga di kinakailangang gastusin.",
           "category": "emergency",
           "tags": [
             "emergency fund",
             "savings",
-            "tipid"
+            "bangko"
           ],
           "sourceTrigger": "ai-location",
           "targetCostLevels": [
@@ -425,8 +425,8 @@
             "high",
             "low"
           ],
-          "createdAt": "2026-08-11T22:48:25.799Z",
-          "publishedAt": "2026-08-11T22:48:25.799Z",
+          "createdAt": "2026-08-14T22:27:19.814Z",
+          "publishedAt": "2026-08-14T22:27:19.814Z",
           "isPublished": true,
           "isFeatured": false
         }
